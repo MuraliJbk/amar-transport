@@ -1,0 +1,1 @@
+console.log("am ready in javascript murali am possible")
