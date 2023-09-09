@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mod
   \***********************************/
 /***/ (() => {
 
-eval("jQuery(document).ready(function ($) {\n  console.log(\"am murali\");\n});\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/custom-gsap.js?");
+eval("jQuery(document).ready(function ($) {\n  console.log(\"am murali krishna Miriyala, Modugulapalem\");\n});\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/custom-gsap.js?");
 
 /***/ }),
 

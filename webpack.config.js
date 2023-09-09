@@ -1,21 +1,12 @@
 const path = require('path');
-const globEntry = require('webpack-glob-entry');
-
-// Generate entry points with distinct filenames
-const entries = globEntry('./js/index.js');
-const entryPoints = {};
-for (const entryName in entries) {
-  entryPoints[entryName] = entries[entryName];
-}
 
 module.exports = {
-    mode: 'development',
-    entry: entries,
-    output: {
+  mode: 'development',
+  entry: './js/index.js',
+  output: {
     filename: 'core.bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  
   module: {
     rules: [
       {
@@ -24,15 +15,8 @@ module.exports = {
         use: {
           loader: 'babel-loader',
         },
-      }
+      },
     ],
-    rules:[
-      {
-          test:/\.css$/,
-          exclude: /node_modules/,
-          use:['style-loader','css-loader']
-      }
- ]
   },
   devServer: {
     static: {
@@ -42,7 +26,5 @@ module.exports = {
   },
   watchOptions: {
     ignored: /node_modules/,
-  }
-
-
+  },
 };

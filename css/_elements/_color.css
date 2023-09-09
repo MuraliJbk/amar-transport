@@ -1,0 +1,25 @@
+:root {
+    --black: #000000;
+    --black-10: rgb(0 0 0 / 10%);
+    --black-20: rgb(0 0 0 / 20%);
+    --black-25: rgb(0 0 0 / 25%);
+    --black-50: rgb(0 0 0 / 50%);
+    --black-90: rgb(0 0 0 / 90%);
+    --white: #ffffff;
+    --white-20: rgb(255 255 255 / 20%);
+    --white-30: rgb(255 255 255 / 30%);
+    --white-40: rgb(255 255 255 / 40%);
+    --white-50: rgb(255 255 255 / 50%);
+    --white-70: rgb(255 255 255 / 70%);
+    --white-75: rgb(255 255 255 / 75%);
+    --white-80: rgb(255 255 255 / 80%);
+    --white-90: rgb(255 255 255 / 90%);
+    --error: #f00;
+    --blue: #0120ED;
+    --light-blue: #F2F8FF;
+    --text-color: #2B2C2D;
+    --heading-color: #25282a;
+    --light-gray: #d9d9d9;
+    --muted: rgba(0, 7, 51, 0.50);
+    --md-gray: #757575;
+}
