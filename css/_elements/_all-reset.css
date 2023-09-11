@@ -73,34 +73,14 @@ hr{margin: 2.125rem 0 2.438rem; display: block; border: none; width: 100%; heigh
 ::-moz-selection {background-color: var(--black); color: var(--white);}
 
 /* Buttons */
-button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-image: linear-gradient(to bottom, #55a1f0 0%, #4795d0 92%); border-radius: 0; box-shadow: none; color: var(--text-100); display: inline-block; font-size: 1rem; line-height: 1.5; letter-spacing: normal; padding: 16px 32px 16px; vertical-align: middle; cursor: pointer; border: none; position: relative; text-align: center; font-family: 'Instrument Sans', sans-serif; font-weight: 700; text-transform: none; overflow: hidden; transition-delay: 0s; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); z-index: 0;}
+button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background: linear-gradient(to bottom, #55a1f0 0%, #4795d0 92%); border-radius: 0; box-shadow: none; color: var(--text-100); display: inline-block; font-size: 1rem; line-height: 1.5; letter-spacing: normal; padding: 16px 32px 16px; vertical-align: middle; cursor: pointer; border-width: 2px; border-style: inherit; border-color: transparent; position: relative; text-align: center; font-family: 'Instrument Sans', sans-serif; font-weight: 700; text-transform: none; overflow: hidden; transition-delay: 0s; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); z-index: 0;}
 button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: transparent; border-color: var(--blue); color: var(--blue);}
 button span, .button span{font-size: 1rem; line-height: 1rem; right: 28px; top: 50%; transform: translateY(-50%); position: absolute; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 button:hover span, .button:hover span{right: 22px;}
 
-.button.btn-hover-white:hover{border-color: var(--white); color: var(--white);}
-.button.white{background-color: var(--white); border-color: var(--white); color: var(--blue);}
-.button.white:hover{background-color: transparent; color: var(--white);}
-.button.sm{font-size: 0.875rem; line-height: 1.25rem; padding: 9px 57px 8px 22px;}
-.button.sm span{right: 32px;}
-button.sm:hover span, .button.sm:hover span{right: 28px;}
+.btn-transparent{ padding: 14px 30px; border-style: solid; border-image-source: linear-gradient(to bottom, #88d2f2 0%, #4895d0 100%); border-image-slice: 1; background: none; }
+.btn-transparent.white{color: var(--white);}
 
-.button.btn-reverse{padding: 15px 28px 15px 60px;}
-.button.btn-reverse span{left: 28px; right: auto; top: calc(50% + 1px);}
-.button.btn-reverse:hover span{left: 22px;}
-
-.btn-link{ font-size: 0.875rem; line-height: 1.25rem; font-weight: 600; color: var(--blue); font-family: "Instrument Sans", sans-serif; position: relative; display: inline-block; text-transform: capitalize;}
-.btn-link > *{transition: 0.45s ease-out;}
-.btn-link:hover{color: var(--blue);}
-.btn-link:not(.btn-arrow):hover .btn-label{padding-right: 38px;}
-.btn-link.no-arrow:hover{color: var(--black);}
-.btn-link.no-arrow:hover .btn-label{padding-right: 0;}
-.btn-label{padding-right: 31px;}
-.btn-arrow{max-width: 20px; white-space: nowrap; transition: 0.45s ease-out;}
-.btn-arrow:hover{max-width: 100%;}
-.btn-arrow .btn-label{opacity: 0;}
-.btn-arrow:hover .btn-label{opacity: 1;}
-.btn-arrow-icon{ right: 0; top: 50%; transform: translateY(-50%); content: ""; display: block; font-size: 20px; position: absolute; }
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
