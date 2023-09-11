@@ -26,12 +26,29 @@ module.exports = function(grunt) {
           livereload: true
         },
       },
+      imagemin: {
+        dynamic: {
+          options: {
+            optimizationLevel: 3,
+          },
+          files: [
+            {
+              expand: true,
+              cwd: 'images/',
+              src: ['**/*.{png,jpg,gif,svg}'],
+              dest: 'images/',
+            },
+          ],
+        },
+      },
+
     });
   
     // Load the plugin that provides the "uglify" task.
+    grunt.loadNpmTasks('grunt-w3c-html-validation')
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
-    grunt.registerTask('default', ['cssmin', 'watch']);
+    grunt.registerTask('default', ['cssmin', 'watch', 'validation']);
   };
