@@ -23,12 +23,12 @@
     "grunt-contrib-cssmin": "^5.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "gsap": "^3.12.2",
+    "is-in-viewport": "^3.0.4",
     "isinviewport": "^1.0.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.22.15",
     "grunt-contrib-imagemin": "^4.0.0",
-    "grunt-w3c-html-validation": "^0.0.3",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",

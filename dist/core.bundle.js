@@ -16,17 +16,17 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/script */ \"./js/modules/script.js\");\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_script__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_custom_animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/custom-animation */ \"./js/modules/custom-animation.js\");\n/* harmony import */ var _modules_custom_animation__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_custom_animation__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/custom-gsap */ \"./js/modules/custom-gsap.js\");\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n//# sourceURL=webpack://amar-transport-html/./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/script */ \"./js/modules/script.js\");\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_script__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/animation */ \"./js/modules/animation.js\");\n/* harmony import */ var _modules_animation__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_animation__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/custom-gsap */ \"./js/modules/custom-gsap.js\");\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2__);\n// import './isInViewport';\n\n\n\n\n\n//# sourceURL=webpack://amar-transport-html/./js/index.js?");
 
 /***/ }),
 
-/***/ "./js/modules/custom-animation.js":
-/*!****************************************!*\
-  !*** ./js/modules/custom-animation.js ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+/***/ "./js/modules/animation.js":
+/*!*********************************!*\
+  !*** ./js/modules/animation.js ***!
+  \*********************************/
+/***/ (() => {
 
-eval("var isInViewport = __webpack_require__(/*! ../../node_modules/isinviewport/isInViewport */ \"./node_modules/isinviewport/isInViewport.js\");\nwindow.onscroll = function () {\n  isInViewport.inView(document.querySelectorAll('.banner-section'), function (el) {\n    $(el).addClass('zoomIn');\n  });\n};\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/custom-animation.js?");
+eval("// import isInViewport from 'is-in-viewport';\nvar $animation_elements = jQuery('[data-animation]');\nvar $window = jQuery(window);\nfunction check_if_in_view() {\n  $animation_elements.each(function () {\n    const $self = jQuery(this);\n    const animation = $self.data('animation');\n    const animateType = $self.data('animate');\n    const delay = Number($self.data('animation-delay') || 0);\n    const timeline = $self[0].tl;\n    const counter = $self[0].counter;\n    if ($self.is(':in-viewport')) {\n      setTimeout(() => {\n        if (animateType) _.animateRun($self, animateType);else $self.addClass('visible ' + animation);\n        if (timeline) {\n          timeline.play();\n        }\n      }, delay);\n    } else {\n      if (timeline && timeline.progress() > 0) {\n        timeline.progress(0);\n      }\n      if (counter) {\n        counter.reset();\n      }\n    }\n  });\n}\n$window.on('scroll resize load', check_if_in_view);\n$window.trigger('scroll resize load', check_if_in_view);\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/animation.js?");
 
 /***/ }),
 
@@ -47,17 +47,6 @@ eval("jQuery(document).ready(function ($) {});\n\n//# sourceURL=webpack://amar-t
 /***/ (() => {
 
 eval("jQuery(document).ready(function ($) {\n  let lastScrollTop = 0;\n  $(window).on(\"scroll load\", function () {\n    let scroll = $(this).scrollTop();\n    scroll > lastScrollTop ? $(\"#header\").addClass(\"scroll-nav-down\").removeClass(\"scroll-nav-up\") : $(\"#header\").addClass(\"scroll-nav-up\").removeClass(\"scroll-nav-down\");\n    lastScrollTop = scroll;\n  });\n});\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/script.js?");
-
-/***/ }),
-
-/***/ "./node_modules/isinviewport/isInViewport.js":
-/*!***************************************************!*\
-  !*** ./node_modules/isinviewport/isInViewport.js ***!
-  \***************************************************/
-/***/ ((module) => {
-
-"use strict";
-eval("\n\n\nfunction isInViewport() {\n\n  function __inView(el) {\n    var bounds = el.getBoundingClientRect();\n    return bounds.top < window.innerHeight && bounds.bottom > 0;\n  }\n\n  var self = {\n    inView: function(el, cb) {\n      for (var i=0; i<el.length; i++) {\n        if (__inView(el[i])) {\n          return cb(el);\n        }\n      }\n    },\n    isInView: function(el) {\n      for (var i=0; i<el.length; i++) {\n        return __inView(el[i]);\n      };\n\n    },\n  };\n  return self;\n}\n\nmodule.exports = isInViewport();\n\n\n//# sourceURL=webpack://amar-transport-html/./node_modules/isinviewport/isInViewport.js?");
 
 /***/ })
 

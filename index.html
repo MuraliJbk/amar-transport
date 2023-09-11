@@ -51,7 +51,7 @@
     </div>
 </div>
 </header>
-<section class="banner-section home-banner reverse relative">
+<section class="banner-section home-banner relative">
     <div class="banner-bg background-bg"><!-- if no banner-main add this class no_banner_text -->
         <picture class="object-fit">
             <source srcset="images/home-banner@2x.jpg" media="(min-width: 768px)">
@@ -59,7 +59,7 @@
         </picture><!-- if no picture add this class no_banner_img -->
     </div>
     <div class="container md banner-main flex">
-        <div class="banner-text fs-20 inverted">
+        <div class="banner-text fs-20 inverted" data-animation>
             <div class="b-ellipse background-bg"></div>
             <h1>Primary Heading and Introduction</h1>
             <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. <span>Sit risus eget interdum dictum sed odio.</span></p>
@@ -73,6 +73,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"></script>
+<script src="js/isInViewport.js"></script>
 <script src="./dist/core.bundle.js"></script>
 </body>
 </html>
