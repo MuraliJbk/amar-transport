@@ -1,64 +1,27 @@
 
 .banner-text p span{color: var(--amar-blue-2);}
 .banner-btns{gap: 24px;}
-.category-name{color: var(--md-gray); margin-bottom: 1rem; display: block; font-size: 0.563rem; line-height: 1.5; letter-spacing: 2.7px; font-weight: 600; font-family: 'Montserrat', sans-serif; text-transform: uppercase;}
-.category-name a{margin-bottom: 10px; color: var(--md-gray); display: inline-block;}
-.category-name a:hover{color: var(--blue);}
-.category-name.white-50{color: var(--white-50);}
+
 .no_banner_img{background-color: var(--light-gray);}
 .no_banner_text{position: relative;}
 .banner-bg::after { width: 100%; height: 100%; bottom: 0; content: ""; background-color: var(--black); -webkit-mask-image: linear-gradient(to right,#d9d9d9 0,rgba(217,217,217,0) 75%);  mask-size: cover; position: absolute; }
-.b-ellipse{ left: auto; width: 753px; height: 671px; opacity: 0.3; border-radius: 753px; background-image: radial-gradient(circle at 50% 50%, #0120ed, rgba(1, 32, 237, 0) 62%); }
-.home-banner .b-ellipse{display: none;}
+
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .banner-section{min-height: 40rem;}
     .home-banner .banner-main{min-height: 901px; padding-bottom: 60px;}
     .home-banner .banner-text{max-width: 575px;}
-    .items-end .banner-text{max-width: 1125px; padding-bottom: 90px;}
-    .page-template-treatments .banner-main{min-height: 733px;}
-    .right .b-ellipse{left: 50px; right: auto;}
-    .right .banner-main{min-height:  733px;}
-    .right .banner-text{margin-left: auto;}
 }
 @media only screen and (min-width: 768px){
-    .items-end.banner-main{align-items: flex-end; min-height: 733px;}
-    .banner-main{height: 100%; min-height: 653px; padding-top: 126px;}
-    .banner-text{max-width: 540px; padding-top: 11px;}
-    .page-template-about-locations .banner-text{padding-top: 0; padding-bottom: 6px;}
-    .page-template-default .banner-text{padding-top: 0; padding-bottom: 9px;}
-    body.single-post .banner-text{padding-bottom: 70px;}
-    .home-banner .banner-bg::after{display: none;}
-    .home-banner .banner-text p{max-width: 540px; margin-bottom: 1.9rem;}
-    .right .banner-bg::before{width: 100%; height: 100%; top: 0; left: 0; opacity: 0.15; content: ""; display: block; background-color: var(--black); position: absolute;}
-    .right .banner-bg::after{-webkit-mask: linear-gradient(to left,#d9d9d9 0,rgba(217,217,217,0) 75%);}
+ 
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .home-banner .banner-text{max-width: 475px;}
+
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .banner-section{background-color: var(--black); overflow: hidden;}
-    .banner-bg{position: relative; z-index: -1;}
-    .banner-bg::after{-webkit-mask-image: linear-gradient(to top,#d9d9d9 0,rgba(217,217,217,0) 75%);}
-    .b-ellipse { top: 29px; left: calc(50% - 30px); transform: translateX(-50%); width: 603px; height: 653px; border-radius: 656.661px; background-image: radial-gradient(50% 50.00% at 50% 50.00%, #0120ED 0%, rgba(1, 32, 237, 0.00) 100%); }
-    .banner-main{display: block; margin-top: -50px;}
-    .banner-text{padding: 0 0 2.813rem;}
-    .page-template-about-locations .banner-text{padding-bottom: 4.375rem;}
-    .page-template-default .banner-text{padding-bottom: 4.3rem;}
-    .banner-text span.optional-text{margin-bottom: 1rem;}
-    .banner-text p{margin-bottom: 1.25rem;}
-    .banner-section.reverse{display: flex; flex-direction: column-reverse;}
-    .reverse .banner-main{margin-top: 0;}
-    .reverse .banner-text{padding: 152px 0 0;}
-    .reverse .banner-bg{margin-top: -26px;}
-    .reverse .banner-bg::after { background-color: #000; -webkit-mask-image: linear-gradient(to bottom,#d9d9d9 0,rgba(217,217,217,0) 60%); }
-    .reverse .b-ellipse { top: 38px; left: 101px; width: 753px; height: 753px; z-index: 0; }
-    .home-banner{background-color: #ccddef;}
-    .home-banner .banner-bg{margin-top: -43px;}
-    .home-banner .banner-bg::after{bottom: auto; top: -230px; background-color: #ccddef; -webkit-mask-image: linear-gradient(to bottom,#D9D9D9 74.24%,rgba(217,217,217,0.00) 100%);}
-    .home-banner .banner-text h1{max-width: 345px;}
+    
 }
 @media only screen and (max-width: 380px) and (min-width: 200px){
-    .home-banner .banner-text h1{max-width: 300px;}
+
 }

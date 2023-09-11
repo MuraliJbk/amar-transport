@@ -16,7 +16,17 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/script */ \"./js/modules/script.js\");\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_script__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/custom-gsap */ \"./js/modules/custom-gsap.js\");\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_custom_gsap__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack://amar-transport-html/./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/script */ \"./js/modules/script.js\");\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_script__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_custom_animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/custom-animation */ \"./js/modules/custom-animation.js\");\n/* harmony import */ var _modules_custom_animation__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_custom_animation__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/custom-gsap */ \"./js/modules/custom-gsap.js\");\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n//# sourceURL=webpack://amar-transport-html/./js/index.js?");
+
+/***/ }),
+
+/***/ "./js/modules/custom-animation.js":
+/*!****************************************!*\
+  !*** ./js/modules/custom-animation.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var isInViewport = __webpack_require__(/*! ../../node_modules/isinviewport/isInViewport */ \"./node_modules/isinviewport/isInViewport.js\");\nwindow.onscroll = function () {\n  isInViewport.inView(document.querySelectorAll('.banner-section'), function (el) {\n    $(el).addClass('zoomIn');\n  });\n};\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/custom-animation.js?");
 
 /***/ }),
 
@@ -26,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mod
   \***********************************/
 /***/ (() => {
 
-eval("jQuery(document).ready(function ($) {\n  console.log(\"am murali krishna Miriyala, Modugulapalem\");\n});\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/custom-gsap.js?");
+eval("jQuery(document).ready(function ($) {});\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/custom-gsap.js?");
 
 /***/ }),
 
@@ -37,6 +47,17 @@ eval("jQuery(document).ready(function ($) {\n  console.log(\"am murali krishna M
 /***/ (() => {
 
 eval("jQuery(document).ready(function ($) {\n  let lastScrollTop = 0;\n  $(window).on(\"scroll load\", function () {\n    let scroll = $(this).scrollTop();\n    scroll > lastScrollTop ? $(\"#header\").addClass(\"scroll-nav-down\").removeClass(\"scroll-nav-up\") : $(\"#header\").addClass(\"scroll-nav-up\").removeClass(\"scroll-nav-down\");\n    lastScrollTop = scroll;\n  });\n});\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/script.js?");
+
+/***/ }),
+
+/***/ "./node_modules/isinviewport/isInViewport.js":
+/*!***************************************************!*\
+  !*** ./node_modules/isinviewport/isInViewport.js ***!
+  \***************************************************/
+/***/ ((module) => {
+
+"use strict";
+eval("\n\n\nfunction isInViewport() {\n\n  function __inView(el) {\n    var bounds = el.getBoundingClientRect();\n    return bounds.top < window.innerHeight && bounds.bottom > 0;\n  }\n\n  var self = {\n    inView: function(el, cb) {\n      for (var i=0; i<el.length; i++) {\n        if (__inView(el[i])) {\n          return cb(el);\n        }\n      }\n    },\n    isInView: function(el) {\n      for (var i=0; i<el.length; i++) {\n        return __inView(el[i]);\n      };\n\n    },\n  };\n  return self;\n}\n\nmodule.exports = isInViewport();\n\n\n//# sourceURL=webpack://amar-transport-html/./node_modules/isinviewport/isInViewport.js?");
 
 /***/ })
 
