@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/script */ \"./js/modules/script.js\");\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_script__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/animation */ \"./js/modules/animation.js\");\n/* harmony import */ var _modules_animation__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_animation__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/custom-gsap */ \"./js/modules/custom-gsap.js\");\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2__);\n// import './isInViewport';\n\n\n\n\n\n//# sourceURL=webpack://amar-transport-html/./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/script */ \"./js/modules/script.js\");\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_script__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/animation */ \"./js/modules/animation.js\");\n/* harmony import */ var _modules_animation__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_animation__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/custom-gsap */ \"./js/modules/custom-gsap.js\");\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_modules_custom_gsap__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _modules_custom_slick__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/custom-slick */ \"./js/modules/custom-slick.js\");\n/* harmony import */ var _modules_custom_slick__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_modules_custom_slick__WEBPACK_IMPORTED_MODULE_3__);\n// import './isInViewport';\n\n\n\n\n\n\n//# sourceURL=webpack://amar-transport-html/./js/index.js?");
 
 /***/ }),
 
@@ -37,6 +37,16 @@ eval("// import isInViewport from 'is-in-viewport';\nvar $animation_elements = j
 /***/ (() => {
 
 eval("jQuery(document).ready(function ($) {});\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/custom-gsap.js?");
+
+/***/ }),
+
+/***/ "./js/modules/custom-slick.js":
+/*!************************************!*\
+  !*** ./js/modules/custom-slick.js ***!
+  \************************************/
+/***/ (() => {
+
+eval("jQuery(document).ready(function ($) {\n  if ($(window).width() <= 1023) {\n    $(\".short-intro-row\").slick({\n      slideToShow: 1,\n      slideToScroll: 1,\n      variableWidth: true,\n      dots: true,\n      arrows: false\n    });\n  }\n});\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/custom-slick.js?");
 
 /***/ }),
 

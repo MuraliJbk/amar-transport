@@ -1,0 +1,8 @@
+
+.footer-section{background-image: linear-gradient(to bottom, #151c39 0%, #060a1c 100%), linear-gradient(to bottom, #151c39, #151c39); padding: 80px 0; margin-top: 200px;}
+
+
+@media screen and (min-width: 1024px) {
+    .footer-top-lt{flex: 0 0 308px; margin-right: 72px;}
+    .footer-top-rt{flex: 0 0 calc(100% - 380px);}
+}

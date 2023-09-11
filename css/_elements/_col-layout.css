@@ -2,7 +2,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .row.gutter-14{--ps-gutter-x: 13.875rem;}
+    .row.gutter-24{--ps-gutter-x: 1.5rem;}
     .row.gutter-13{--ps-gutter-x: 13rem;}
     .row.gutter-7{--ps-gutter-x: 7.5rem;}
     .row.gutter-6{--ps-gutter-x: 6.5rem;}
