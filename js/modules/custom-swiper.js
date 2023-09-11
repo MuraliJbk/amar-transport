@@ -4,27 +4,26 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-
-const swiper = new Swiper('.swiper', {
-    modules: [Navigation, Pagination],
-    // Optional parameters
+const introSwiper = new Swiper('.short-intro-swiper', {
+  modules: [Navigation, Pagination],
     direction: 'horizontal',
-    loop: true,
-  
-    // If we need pagination
+    slidesPerView: 'auto',
+    effect: 'slide',
+		speed: 1500,
     pagination: {
-      el: '.swiper-pagination',
+      el: '.intro-pagination',
+      clickable: true,
     },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
-  
+});
+
+var $window = jQuery(window);
+function toggleSwiper() {
+  if(jQuery(window).width() >= 1024){
+    introSwiper.destroy();
+  }
+  else{
+    introSwiper.enable();
+  }
+}
+$window.on('resize load', toggleSwiper);
+$window.trigger('resize load', toggleSwiper);

@@ -28,6 +28,10 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.css$/, // This rule matches .css files
+        use: ['style-loader', 'css-loader'],
+      },
     ],
   },
   devServer: {

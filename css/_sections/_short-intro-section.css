@@ -26,12 +26,13 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .short-intro-main{padding: 20px 0;}
     .short-intro-row{display: block;}
-    .short-intro-row.slick-slider{width: 100vw;}
     .short-intro-title h2{font-size: 1.5rem; line-height: 1.2; margin-bottom: 15px; letter-spacing: normal;}
     .short-intro-head{margin-bottom: 32px;}
     .short-intro-desc{margin-bottom: 16px;}
-    .short-intro-list{width: 245px; margin-right: 32px;}
     .short-intro-pos{padding: 19px 15px 15px;}
     .counter{font-size: 40px; margin-bottom: 21px;}
     .short-intro-list h3{font-size: 1.25rem; line-height: 1.4;}
+    
+    .short-intro-swiper .swiper-wrapper{flex-wrap: nowrap;}
+    .short-intro-swiper .short-intro-list{width: 245px; margin-right: 32px;}
 }
