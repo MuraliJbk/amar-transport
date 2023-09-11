@@ -8,7 +8,7 @@ a{color: var(--blue);text-decoration: none; transition-duration: .75s; transitio
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--black);}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--heading-color); font-weight: 400; font-family: 'Montserrat', sans-serif; text-transform: none;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--heading-color); font-weight: 400; font-family: 'Instrument Sans', sans-serif; text-transform: none;}
 h1, .h1{font-size: 4.25rem; line-height: 5.375rem; margin-bottom: 0.875rem; font-weight: 300; letter-spacing: -3.4px;}
 h2, .h2{font-size: 3.125rem; line-height: 3.625rem; margin-bottom: 1.25rem; font-weight: 300; letter-spacing: -1.5px;}
 h3, .h3{font-size: 2rem; line-height: 2.5rem; letter-spacing: -1.6px; margin-bottom: 1.125rem;}
@@ -38,7 +38,7 @@ big {font-size: 125%;}
 sup, sub {font-size: 0.625rem; letter-spacing: -0.18px; height: 0; line-height: 0; position: relative; vertical-align: baseline;}
 sup {bottom: 1ex;}
 sub {top: 0;}
-dl{margin-bottom: 24px; font-size: 1rem; line-height: 1.75rem; letter-spacing: -0.8px; font-weight: 600; font-family: "Montserrat", sans-serif;}
+dl{margin-bottom: 24px; font-size: 1rem; line-height: 1.75rem; letter-spacing: -0.8px; font-weight: 600; font-family: "Instrument Sans", sans-serif;}
 dl:last-child{margin-bottom: 0;}
 dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: var(--text-color); content: ""; display: inline-block; vertical-align: middle;}
 blockquote dl dt::before{background-color: var(--white);}
@@ -59,7 +59,7 @@ legend {white-space: normal;}
 table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
 table {border-collapse: separate; border-spacing: 0; border-width: 1px; margin: 0 0 30px; max-width: 100%; width: 100%;}
 table tr td:first-child {text-align: left;}
-th {font-family: "Montserrat", sans-serif; font-weight: 500; border-width: 0; padding: 14px 15px 13px; background-color: var(--black); color: var(--white); border-radius: 0;}
+th {font-family: "Instrument Sans", sans-serif; font-weight: 500; border-width: 0; padding: 14px 15px 13px; background-color: var(--black); color: var(--white); border-radius: 0;}
 th span.icon{font-size: 0.875rem; margin-left: 4px; top: 0px; position: relative; }
 td {border-width: 0; padding: 13px 15px 11px; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1.05rem; line-height: 1.5rem;}
 table tr:nth-child(even) td{background-color: rgba(0,0,0, 0.02);}
@@ -73,7 +73,7 @@ hr{margin: 2.125rem 0 2.438rem; display: block; border: none; width: 100%; heigh
 ::-moz-selection {background-color: var(--black); color: var(--white);}
 
 /* Buttons */
-button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-color: var(--blue); border-radius: 90px; box-shadow: none; color: var(--white); display: inline-block; font-size: 0.938rem; line-height: 1.25rem; letter-spacing: normal; padding: 15px 60px 15px 28px; vertical-align: middle; cursor: pointer; border: 2px solid var(--blue); position: relative; text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 600; text-transform: none; overflow: hidden; transition-delay: 0s; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); z-index: 0;}
+button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-color: var(--blue); border-radius: 90px; box-shadow: none; color: var(--white); display: inline-block; font-size: 0.938rem; line-height: 1.25rem; letter-spacing: normal; padding: 15px 60px 15px 28px; vertical-align: middle; cursor: pointer; border: 2px solid var(--blue); position: relative; text-align: center; font-family: 'Instrument Sans', sans-serif; font-weight: 600; text-transform: none; overflow: hidden; transition-delay: 0s; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); z-index: 0;}
 button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: transparent; border-color: var(--blue); color: var(--blue);}
 button span, .button span{font-size: 1rem; line-height: 1rem; right: 28px; top: 50%; transform: translateY(-50%); position: absolute; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 button:hover span, .button:hover span{right: 22px;}
@@ -89,7 +89,7 @@ button.sm:hover span, .button.sm:hover span{right: 28px;}
 .button.btn-reverse span{left: 28px; right: auto; top: calc(50% + 1px);}
 .button.btn-reverse:hover span{left: 22px;}
 
-.btn-link{ font-size: 0.875rem; line-height: 1.25rem; font-weight: 600; color: var(--blue); font-family: "Montserrat", sans-serif; position: relative; display: inline-block; text-transform: capitalize;}
+.btn-link{ font-size: 0.875rem; line-height: 1.25rem; font-weight: 600; color: var(--blue); font-family: "Instrument Sans", sans-serif; position: relative; display: inline-block; text-transform: capitalize;}
 .btn-link > *{transition: 0.45s ease-out;}
 .btn-link:hover{color: var(--blue);}
 .btn-link:not(.btn-arrow):hover .btn-label{padding-right: 38px;}
@@ -133,7 +133,7 @@ img.aligncenter{margin: 25px auto;}
 /*-- custom css starts here --*/
 body{font-size: 1.125rem; line-height: 1.5rem; letter-spacing: -0.18px; font-weight: 300; font-family: "source-sans-pro", sans-serif; overflow-x: hidden; position: relative; color: var(--text-color); background-color: transparent;}
 .d-block{display: block;}
-span.optional-text{margin-bottom: 1.313rem; font-size: 0.625rem; font-weight: 600; line-height: 0.95rem; letter-spacing: 8px; background-image: linear-gradient(to right, #0753f4 0%, #61abf0 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; display: block; text-transform: uppercase; font-family: "Montserrat", sans-serif;}
+span.optional-text{margin-bottom: 1.313rem; font-size: 0.625rem; font-weight: 600; line-height: 0.95rem; letter-spacing: 8px; background-image: linear-gradient(to right, #0753f4 0%, #61abf0 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; display: block; text-transform: uppercase; font-family: "Instrument Sans", sans-serif;}
 span.optional-text.lg{margin-bottom: 2.08rem;}
 span.optional-text.muted{margin-bottom: 9px; color: var(--muted); -webkit-text-fill-color: var(--muted); background-image: none;}
 span.optional-text.white{color: var(--white-50); -webkit-text-fill-color: var(--white-50); background-image: none;}
@@ -142,10 +142,10 @@ span.optional-text.white{color: var(--white-50); -webkit-text-fill-color: var(--
 .font-medium{font-weight: 500;}
 .font-bold{font-weight: 700;}
 .fs-0{font-size: 0; line-height: 0;}
-.fs-9{font-size: 9px; line-height: 10px; letter-spacing: 3.15px; font-weight: 600; font-family: "Montserrat", sans-serif;}
+.fs-9{font-size: 9px; line-height: 10px; letter-spacing: 3.15px; font-weight: 600; font-family: "Instrument Sans", sans-serif;}
 .fs-10{font-size: 0.625rem; line-height: 0.875rem;}
 .fs-16{font-size: 1rem; line-height: 1.5rem; letter-spacing: -0.16px;}
-.fs-17{font-size: 1.063rem; line-height: 1.75rem; letter-spacing: -0.85px; font-family: "Montserrat", sans-serif;}
+.fs-17{font-size: 1.063rem; line-height: 1.75rem; letter-spacing: -0.85px; font-family: "Instrument Sans", sans-serif;}
 .fs-20{font-size: 1.25rem; line-height: 1.875rem; letter-spacing: normal;}
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}
 .fs-26{font-size: 1.625rem; line-height: 2.125rem; margin-bottom: 1.75rem;}
