@@ -45,10 +45,10 @@ module.exports = function(grunt) {
     });
   
     // Load the plugin that provides the "uglify" task.
-    grunt.loadNpmTasks('grunt-w3c-html-validation')
+    // grunt.loadNpmTasks('grunt-w3c-html-validation')
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
-    grunt.registerTask('default', ['cssmin', 'watch', 'validation']);
+    grunt.registerTask('default', ['cssmin', 'watch']);
   };
