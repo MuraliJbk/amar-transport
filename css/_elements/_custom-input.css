@@ -10,22 +10,22 @@ body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 15px; position: 
 body .frm_forms .frm_error_style{display: none;}
 body .frm_forms .frm_required{display: none;}
 body .frm_forms .frm_form_fields .frm_fields_container{display: block;}
-body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 0.875rem; line-height: 1.5rem; font-weight: 600; font-family: "Montserrat", sans-serif; color: var(--black); text-transform: none; padding: 0 0 1px;}
+body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 0.875rem; line-height: 1.5rem; font-weight: 600; font-family: "Instrument Sans", sans-serif; color: var(--black); text-transform: none; padding: 0 0 1px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info{font-size: 0.8rem; font-weight: 400; gap: 4px; display: flex; flex: 1; float: right; color: var(--black-50); font-size: .813rem; font-weight: 500; align-items: center; margin-left: auto; letter-spacing: -0.56px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
-input, select, textarea, body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, body .frm_forms .selectBox-dropdown{outline: 0; width: 100%; font-size: 1rem; line-height: 1.5; letter-spacing: -0.64px; background: transparent; box-shadow: none; padding: 16px 40px 15px 16px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--black-20); border-radius: 5px; font-family: "Montserrat", sans-serif; -webkit-appearance: none;}
+input, select, textarea, body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, body .frm_forms .selectBox-dropdown{outline: 0; width: 100%; font-size: 1rem; line-height: 1.5; letter-spacing: -0.64px; background: transparent; box-shadow: none; padding: 16px 40px 15px 16px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--black-20); border-radius: 5px; font-family: "Instrument Sans", sans-serif; -webkit-appearance: none;}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 160px;}
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus{background-color: transparent; box-shadow: none; border-color: var(--black-50); color: var(--black);}
 body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--black); background-color: transparent; border-color: var(--black);}
-body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--black); font-family: 'Montserrat', sans-serif;}
-body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--black); font-family: 'Montserrat', sans-serif; opacity: 1;}
-body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--black); font-family: 'Montserrat', sans-serif; opacity: 1;}
-body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-ms-input-placeholder {color: var(--black); font-family: 'Montserrat', sans-serif;}
+body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--black); font-family: 'Instrument Sans', sans-serif;}
+body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--black); font-family: 'Instrument Sans', sans-serif; opacity: 1;}
+body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--black); font-family: 'Instrument Sans', sans-serif; opacity: 1;}
+body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-ms-input-placeholder {color: var(--black); font-family: 'Instrument Sans', sans-serif;}
 .vertical_radio .frm_opt_container{margin-top: 7px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{margin-bottom: 8px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 30px; cursor: pointer; display: block; font-size: 0.938rem; line-height: 1.5rem; letter-spacing: -0.6px; text-indent: 0; color: var(--black); position: relative;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 20px; height: 20px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 2px 0 0; border: none;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{padding-left: 30px; margin: 0; text-indent: 0; font-size: 0.938rem; line-height: 1.5rem; letter-spacing: -0.6px; font-family: 'Montserrat', sans-serif; display: block; cursor: pointer; color: var(--black);}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{padding-left: 30px; margin: 0; text-indent: 0; font-size: 0.938rem; line-height: 1.5rem; letter-spacing: -0.6px; font-family: 'Instrument Sans', sans-serif; display: block; cursor: pointer; color: var(--black);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{margin: 0; top: 2px; border-radius: 5px; border: 1px solid var(--black-20); background-color: transparent; background-image: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{border: 1px solid var(--black-20); border-radius: 5px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 3px 0 0 3px; box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);}
@@ -52,10 +52,10 @@ body .frm_forms .frm_form_fields .frm_form_field.client-info{padding-top: 38px; 
 body .frm_forms .frm_form_fields .frm_form_field.client-info .contact-head{margin-bottom: 7px;}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
-::-webkit-input-placeholder {color: var(--black); font-family: 'Montserrat', sans-serif;}
-:-moz-placeholder {color: var(--black); font-family: 'Montserrat', sans-serif; opacity: 1; }
-::-moz-placeholder {color: var(--black); font-family: 'Montserrat', sans-serif; opacity: 1;}
-:-ms-input-placeholder {color: var(--black); font-family: 'Montserrat', sans-serif; opacity: 1;}
+::-webkit-input-placeholder {color: var(--black); font-family: 'Instrument Sans', sans-serif;}
+:-moz-placeholder {color: var(--black); font-family: 'Instrument Sans', sans-serif; opacity: 1; }
+::-moz-placeholder {color: var(--black); font-family: 'Instrument Sans', sans-serif; opacity: 1;}
+:-ms-input-placeholder {color: var(--black); font-family: 'Instrument Sans', sans-serif; opacity: 1;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
