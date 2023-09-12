@@ -9,7 +9,7 @@ const introSwiper = new Swiper('.short-intro-swiper', {
     direction: 'horizontal',
     slidesPerView: 'auto',
     effect: 'slide',
-		speed: 1500,
+		speed: 1000,
     pagination: {
       el: '.intro-pagination',
       clickable: true,

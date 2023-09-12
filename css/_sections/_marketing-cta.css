@@ -1,0 +1,22 @@
+
+.marketing-cta-text{padding: 3.5rem 5rem; background-color: var(--white); box-shadow: 0px 24px 24px 0px rgba(110, 148, 206, 0.24);}
+.marketing-cta-text h2{margin-bottom: 1.5rem;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .marketing-cta-section{padding-bottom: 4.875rem;}
+    .marketing-cta-img{flex: 0 0 720px;}
+    .marketing-cta-text{flex: 1; transform: translateX(-120px);}
+}
+@media only screen and (min-width: 1300px){
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+
+}
+@media only screen and (max-width: 380px) and (min-width: 200px){
+
+}

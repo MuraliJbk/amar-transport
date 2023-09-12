@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/script */ \"./js/modules/script.js\");\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_script__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/custom-gsap */ \"./js/modules/custom-gsap.js\");\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_custom_gsap__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _modules_custom_slick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/custom-slick */ \"./js/modules/custom-slick.js\");\n/* harmony import */ var _modules_custom_slick__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_modules_custom_slick__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _modules_custom_swiper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/custom-swiper */ \"./js/modules/custom-swiper.js\");\n// import './isInViewport';\n\n\n// import './modules/animation';\n\n\n\n\n//# sourceURL=webpack://amar-transport-html/./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/script */ \"./js/modules/script.js\");\n/* harmony import */ var _modules_script__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_script__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/custom-gsap */ \"./js/modules/custom-gsap.js\");\n/* harmony import */ var _modules_custom_gsap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_custom_gsap__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _modules_swiper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/swiper */ \"./js/modules/swiper.js\");\n// import './isInViewport';\n\n\n// import './modules/animation';\n\n\n\n//# sourceURL=webpack://amar-transport-html/./js/index.js?");
 
 /***/ }),
 
@@ -30,27 +30,6 @@ eval("jQuery(document).ready(function ($) {});\n\n//# sourceURL=webpack://amar-t
 
 /***/ }),
 
-/***/ "./js/modules/custom-slick.js":
-/*!************************************!*\
-  !*** ./js/modules/custom-slick.js ***!
-  \************************************/
-/***/ (() => {
-
-eval("jQuery(document).ready(function ($) {\n  if ($(window).width() <= 1023) {\n    $(\".short-intro-row\").slick({\n      slideToShow: 1,\n      slideToScroll: 1,\n      variableWidth: true,\n      dots: true,\n      arrows: false\n    });\n  }\n});\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/custom-slick.js?");
-
-/***/ }),
-
-/***/ "./js/modules/custom-swiper.js":
-/*!*************************************!*\
-  !*** ./js/modules/custom-swiper.js ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ \"./node_modules/swiper/swiper.mjs\");\n/* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper/modules */ \"./node_modules/swiper/modules/index.mjs\");\n/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper/css */ \"./node_modules/swiper/swiper.css\");\n/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper/css/navigation */ \"./node_modules/swiper/modules/navigation.css\");\n/* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! swiper/css/pagination */ \"./node_modules/swiper/modules/pagination.css\");\n\n\n\n\n\nconst introSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.short-intro-swiper', {\n  modules: [swiper_modules__WEBPACK_IMPORTED_MODULE_1__.Navigation, swiper_modules__WEBPACK_IMPORTED_MODULE_1__.Pagination],\n  direction: 'horizontal',\n  slidesPerView: 'auto',\n  effect: 'slide',\n  speed: 1500,\n  pagination: {\n    el: '.intro-pagination',\n    clickable: true\n  }\n});\nvar $window = jQuery(window);\nfunction toggleSwiper() {\n  if (jQuery(window).width() >= 1024) {\n    introSwiper.destroy();\n  } else {\n    introSwiper.enable();\n  }\n}\n$window.on('resize load', toggleSwiper);\n$window.trigger('resize load', toggleSwiper);\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/custom-swiper.js?");
-
-/***/ }),
-
 /***/ "./js/modules/script.js":
 /*!******************************!*\
   !*** ./js/modules/script.js ***!
@@ -58,6 +37,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var swip
 /***/ (() => {
 
 eval("jQuery(document).ready(function ($) {\n  let lastScrollTop = 0;\n  $(window).on(\"scroll load\", function () {\n    let scroll = $(this).scrollTop();\n    scroll > lastScrollTop ? $(\"#header\").addClass(\"scroll-nav-down\").removeClass(\"scroll-nav-up\") : $(\"#header\").addClass(\"scroll-nav-up\").removeClass(\"scroll-nav-down\");\n    lastScrollTop = scroll;\n  });\n});\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/script.js?");
+
+/***/ }),
+
+/***/ "./js/modules/swiper.js":
+/*!******************************!*\
+  !*** ./js/modules/swiper.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ \"./node_modules/swiper/swiper.mjs\");\n/* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper/modules */ \"./node_modules/swiper/modules/index.mjs\");\n/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper/css */ \"./node_modules/swiper/swiper.css\");\n/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper/css/navigation */ \"./node_modules/swiper/modules/navigation.css\");\n/* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! swiper/css/pagination */ \"./node_modules/swiper/modules/pagination.css\");\n\n\n\n\n\nconst introSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.short-intro-swiper', {\n  modules: [swiper_modules__WEBPACK_IMPORTED_MODULE_1__.Navigation, swiper_modules__WEBPACK_IMPORTED_MODULE_1__.Pagination],\n  direction: 'horizontal',\n  slidesPerView: 'auto',\n  effect: 'slide',\n  speed: 1000,\n  pagination: {\n    el: '.intro-pagination',\n    clickable: true\n  }\n});\nvar $window = jQuery(window);\nfunction toggleSwiper() {\n  if (jQuery(window).width() >= 1024) {\n    introSwiper.destroy();\n  } else {\n    introSwiper.enable();\n  }\n}\n$window.on('resize load', toggleSwiper);\n$window.trigger('resize load', toggleSwiper);\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/swiper.js?");
 
 /***/ }),
 

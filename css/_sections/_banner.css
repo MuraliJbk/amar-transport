@@ -10,7 +10,7 @@
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .banner-section{min-height: 40rem;}
-    .home-banner .banner-main{min-height: 901px; padding-bottom: 60px;}
+    .home-banner .banner-main{min-height: 40rem; padding-top: 15rem;}
     .home-banner .banner-text{max-width: 575px;}
 }
 @media only screen and (min-width: 768px){
