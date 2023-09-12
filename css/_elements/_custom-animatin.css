@@ -53,16 +53,7 @@
 @keyframes top-0-to-100{ 0%{height: 0;} 50%{height: 50%;} 100%{height: 100%;} }
 
 /* UI Animations */
-.ui { 
-    user-select: none;
-  }
-  .ui[data-animation] {
-    visibility: hidden;
-    transition: none !important;
-  }
-  .ui[data-animation] *[data-ui-el] {
-    transition: none !important;
-  }
-  .ui[data-animation].visible {
-    visibility: visible;
-  }
+.ui {user-select: none;}
+.ui[data-animation] { visibility: hidden; transition: none; }
+.ui[data-animation] *[data-ui-el] { transition: none; }
+.ui[data-animation].visible { visibility: visible; }

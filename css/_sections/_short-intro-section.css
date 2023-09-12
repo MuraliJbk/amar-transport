@@ -16,6 +16,7 @@
     .short-intro-list:hover .short-intro-pos{border-color: transparent;}
     .short-intro-list:hover .short-intro-pos::after{opacity: 1; height: 7px;}
     .short-intro-swiper .swiper-wrapper{width: auto;}
+    .scroller_icon{top: -25px; left: 0; position: absolute;}
 }
 @media only screen and (max-width: 1229px) and (min-width: 1024px){
     .short-intro-pos{padding: 20px;}

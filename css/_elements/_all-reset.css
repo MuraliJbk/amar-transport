@@ -82,7 +82,7 @@ button:hover span, .button:hover span{right: 22px;}
 .btn-transparent.white{color: var(--white);}
 
 .btn-link{color: var(--text-100); display: inline-block; vertical-align: middle; font-size: 1rem; line-height: 1.5rem; font-weight: 700;}
-.btn-link svg{margin-right: 13px; top: -1px; width: 41px; height: 8px; position: relative;}
+.btn-link svg{margin-right: 13px; top: -1px; width: 41px; height: 8px; position: relative; overflow: hidden;}
 .btn-link:hover{color: var(--amar-orange);}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
