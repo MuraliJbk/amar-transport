@@ -2,7 +2,7 @@
 
 .swiper-pagination-bullets{margin: 23px 0 0; padding: 0; gap: 6px; display: flex; flex-wrap: wrap; justify-content: center;}
 .swiper-pagination-bullets .swiper-pagination-bullet{margin: 0; background: var(--amar-light-blue); border-radius: 8px; font-size: 0; line-height: 0; width: 29px; height: 3px; padding: 0; margin: 0; opacity: 1;}
-.swiper-pagination-bullets .swiper-pagination-bullet-active{background: var(--orange-color);}
+.swiper-pagination-bullets .swiper-pagination-bullet-active{background: var(--amar-orange);}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){

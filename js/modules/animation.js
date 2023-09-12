@@ -1,6 +1,3 @@
-
-import * as isInViewport from 'is-in-viewport';
-console.log(isInViewport)
 var $animation_elements = jQuery('[data-animation]');
 var $window = jQuery(window);
 
@@ -12,7 +9,7 @@ function check_if_in_view() {
     const delay = Number($self.data('animation-delay') || 0);
     const timeline = $self[0].tl
     const counter = $self[0].counter
-    if (isInViewport($self[0])) {
+    if($self.is(':in-viewport')) {
       setTimeout(() => {
         if (animateType) _.animateRun($self, animateType);
         else $self.addClass('visible ' + animation);

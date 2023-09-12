@@ -1,8 +1,8 @@
 
 // import './isInViewport';
 
+import './modules/animation';
 import './modules/script';
-// import './modules/animation';
-import './modules/custom-gsap';
+import './modules/gsap';
 import './modules/swiper';
 
