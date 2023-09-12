@@ -22,11 +22,20 @@ btnSvg.each(function(){
     const _path = _self.find('svg path');
     const start = "M41 3L36 0.113249V5.88675L41 3ZM0 3.5H36.5V2.5H0V3.5Z";
     const end = "M41 3L26 0.113249V5.88675L41 3ZM0 3.5H36.5V2.5H0V3.5Z";
-    gsap.timeline({ 
+    var btnAnimation = gsap.timeline({ 
         repeat: -1,
         repeatDelay: 1,
     }).fromTo(_path[0], { x: -100, attr: { d1: start }}, { x: 0, attr: { d1: end }, duration: 1, ease: 'power1.out'})
+    _self.on("mouseenter", function(){
+        btnAnimation.reverse(0);
+        btnAnimation.pause();
+    });
+    _self.on("mouseleave", function(){
+        btnAnimation.restart();
+        btnAnimation.play();
+    });
 });
+
 
 // data-animation
 var gsap_elements = jQuery('[data-animation]');
