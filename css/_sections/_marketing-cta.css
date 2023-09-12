@@ -4,9 +4,9 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .marketing-cta-section{padding-bottom: 4.875rem;}
-    .marketing-cta-img{flex: 0 0 720px;}
-    .marketing-cta-text{flex: 1; transform: translateX(-120px);}
+    .marketing-cta-main{flex-wrap: nowrap;}
+    .marketing-cta-img{flex: 1; min-width: 720px;}
+    .marketing-cta-text{flex: 0 0 792px; transform: translateX(-120px);}
 }
 @media only screen and (min-width: 1300px){
 
