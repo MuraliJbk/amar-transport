@@ -1,6 +1,6 @@
 
 .banner-text p span{color: var(--amar-blue-2);}
-.banner-btns{gap: 24px;}
+.banner-btns{gap: 24px; margin-top: 48px;}
 
 .no_banner_img{background-color: var(--light-gray);}
 .no_banner_text{position: relative;}
@@ -9,9 +9,9 @@
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
-    .banner-section{min-height: 40rem;}
-    .home-banner .banner-main{min-height: 40rem; padding-top: 15rem;}
-    .home-banner .banner-text{max-width: 575px;}
+    .home-banner .banner-main{min-height: 1008px;}
+    .home-banner .banner-text{max-width: 575px; padding: 274px 0 403px;}
+    .home-banner .banner-text h1{margin-bottom: 1.5rem;}
 }
 @media only screen and (min-width: 768px){
  

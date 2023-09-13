@@ -3,10 +3,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .row.gutter-24{--ps-gutter-x: 1.5rem;}
-    .row.gutter-13{--ps-gutter-x: 13rem;}
-    .row.gutter-7{--ps-gutter-x: 7.5rem;}
-    .row.gutter-6{--ps-gutter-x: 6.5rem;}
-    .row{--ps-gutter-x: 3.125rem; margin-right: calc(-.5 * var(--ps-gutter-x)); margin-left: calc(-.5 * var(--ps-gutter-x)); display: flex; flex-wrap: wrap;}
+    .row{--ps-gutter-x: 2rem; margin-right: calc(-.5 * var(--ps-gutter-x)); margin-left: calc(-.5 * var(--ps-gutter-x)); display: flex; flex-wrap: wrap;}
     .row > *{padding-right: calc(var(--ps-gutter-x) * .5); padding-left: calc(var(--ps-gutter-x) * .5); flex-grow: 0; flex-shrink: 0;}
     .col-md-2{flex-basis: 50%;}
     .col-md-3{flex-basis: 33.3333%;}
@@ -26,8 +23,6 @@
     .col-lg-10{flex-basis: 100%;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .row.gutter-14{--ps-gutter-x: 6.875rem;}
-    .row.gutter-7{--ps-gutter-x: 2.375rem;}
     .row{--ps-gutter-x: 1.375rem; --ps-gutter-y: 1.375rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
