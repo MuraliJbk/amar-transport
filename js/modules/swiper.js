@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+var $window = jQuery(window);
 const introSwiper = new Swiper('.short-intro-swiper', {
   modules: [Navigation, Pagination],
     direction: 'horizontal',
@@ -15,12 +16,28 @@ const introSwiper = new Swiper('.short-intro-swiper', {
       clickable: true,
     },
 });
-
-var $window = jQuery(window);
-function toggleSwiper() {
-  // if(jQuery(window).width() >= 1024){ introSwiper.destroy(); }
-  // else{ introSwiper.enable(); }
-  jQuery(window).width() >= 1024 ? introSwiper.destroy() : introSwiper.enable();
-}
+const toggleSwiper = () => { jQuery(window).width() >= 1024 ? introSwiper.destroy() : introSwiper.enable(); }
 $window.on('resize load', toggleSwiper);
 $window.trigger('resize load', toggleSwiper);
+
+const newsSwiperFor = new Swiper(".news-swiper-for", {
+  direction: 'horizontal',
+  slidesPerView: 1,
+  effect: 'slide',
+  speed: 1000,
+  
+});
+const newsSwiperNav = new Swiper(".news-swiper-nav", {
+  direction: 'vertical',
+  slidesPerView: 3,
+  effect: 'slide',
+  speed: 1000,
+  pagination: {
+    el: '.news-swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
