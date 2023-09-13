@@ -1,3 +1,6 @@
+
+import 'is-in-viewport';
+import jQuery from 'jquery';
 var $animation_elements = jQuery('[data-animation]');
 var $window = jQuery(window);
 

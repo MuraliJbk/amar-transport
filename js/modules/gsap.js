@@ -1,6 +1,8 @@
 import { gsap } from "gsap";
-import { CSSPlugin } from "gsap/CSSPlugin";
-gsap.registerPlugin(CSSPlugin);
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { CSSPlugin } from "gsap/CSSPlugin";
+
+gsap.registerPlugin(ScrollTrigger);
 
 // scroller polygon icon
 let scroller = jQuery(".scroller_icon");

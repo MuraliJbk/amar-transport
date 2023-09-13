@@ -32,7 +32,7 @@ function check_if_view() {
           },
           {
             duration: countDuration,
-            easing: "easein",
+            // easing: "easein",
             step: function() {
               $this.text(Math.floor(this.counter));
             },
