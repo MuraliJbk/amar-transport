@@ -111,6 +111,7 @@ img.aligncenter{margin: 25px auto;}
 .flex-center{-webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; -ms-justify-content: center; -moz-justify-content: center; -webkit-justify-content: center; justify-content: center; }
 .flex-nowrap{flex-wrap: nowrap; }
 .flex-end{align-items: flex-end;}
+.flex-start{align-items: flex-start;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
@@ -129,7 +130,7 @@ span.optional-text.white{color: var(--white-50); -webkit-text-fill-color: var(--
 .fs-10{font-size: 0.625rem; line-height: 0.875rem;}
 .fs-16{font-size: 1rem; line-height: 1.5rem;}
 .fs-17{font-size: 1.063rem; line-height: 1.75rem; letter-spacing: -0.85px; font-family: "Instrument Sans", sans-serif;}
-.fs-20{font-size: 1.25rem; line-height: 1.875rem; letter-spacing: normal;}
+.fs-20{font-size: 1.25rem; line-height: 1.75rem; letter-spacing: normal;}
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}
 .fs-26{font-size: 1.625rem; line-height: 2.125rem; margin-bottom: 1.75rem;}
 .radius-10, .radius-img-10 img{border-radius: 10px;}
@@ -196,7 +197,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .inverted{color: var(--white);}
 .inverted h1, .inverted h2, .inverted h3, .inverted h4{color: var(--white);}
 .inverted h1 a, .inverted h2 a, .inverted h3 a, .inverted h4 a{color: var(--white);}
-.inverted h1 a:hover, .inverted h2 a:hover, .inverted h3 a:hover, .inverted h4 a:hover{color: var(--blue);}
+.inverted h1 a:hover, .inverted h2 a:hover, .inverted h3 a:hover, .inverted h4 a:hover{color: var(--amar-orange);}
 .inverted dl dt::before{background-color: var(--white);}
 
 .dark-text{color: var(--text-color);}

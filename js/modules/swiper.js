@@ -18,12 +18,9 @@ const introSwiper = new Swiper('.short-intro-swiper', {
 
 var $window = jQuery(window);
 function toggleSwiper() {
-  if(jQuery(window).width() >= 1024){
-    introSwiper.destroy();
-  }
-  else{
-    introSwiper.enable();
-  }
+  // if(jQuery(window).width() >= 1024){ introSwiper.destroy(); }
+  // else{ introSwiper.enable(); }
+  jQuery(window).width() >= 1024 ? introSwiper.destroy() : introSwiper.enable();
 }
 $window.on('resize load', toggleSwiper);
 $window.trigger('resize load', toggleSwiper);
