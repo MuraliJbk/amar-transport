@@ -1,9 +1,4 @@
-// import lerp from 'lerp';
-// import 'lerp';
-import $ from 'jquery';
-
-var lerp = require('../../node_modules/lerp/index')
-
+import lerp from 'lerp';
 
 class MouseParallax {
   constructor(el) {
