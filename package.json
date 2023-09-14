@@ -23,6 +23,8 @@
     "grunt-contrib-watch": "^1.1.0",
     "gsap": "^3.12.2",
     "is-in-viewport": "^3.0.4",
+    "lerp": "^1.0.3",
+    "mouse-parallax": "^1.0.0",
     "swiper": "^10.2.0"
   },
   "devDependencies": {

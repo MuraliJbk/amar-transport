@@ -13,5 +13,7 @@
 @media only screen and (min-width: 1024px){
     .cta-panel-main{gap: 49px;}
     .cta-panel-text{flex: 0 0 483px;}
-    .cta-panel-image{flex: 1;}
+    .cta-panel-image{flex: 1; gap: 20px;}
+    picture.cta-thumb{flex: 1;}
+    picture.cta-thumb-sm{flex: 0 0 260px; height: auto;}
 }

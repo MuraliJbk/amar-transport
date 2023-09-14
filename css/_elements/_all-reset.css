@@ -203,6 +203,10 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .dark-text p a{color: var(--text-color);}
 .dark-text p a:hover{color: var(--blue);}
 
+.line-clamp{  display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
+.clamp-3{ -webkit-line-clamp: 3; }
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container{width: 100%; margin: 0 auto;}

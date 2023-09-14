@@ -13,8 +13,8 @@ scroller.each(function(){
     const end = "M41 53.5L10 3.5L72 4.5L41 53.5Z";
     gsap.timeline({ 
         repeat: -1,
-        repeatDelay: 1,
-    }).fromTo(_path[0], { y: -8, attr: { d: start }}, { y: 8, attr: { d: end }, duration: 2, ease: 'bounce.out'})
+        repeatDelay: 0.5,
+    }).fromTo(_path[0], { y: -25, attr: { d: end }}, { y: 0, attr: { d: start }, duration: 2, ease: 'bounce.out'})
 });
 
 // scroller polygon icon
@@ -55,4 +55,5 @@ gsap_elements.each(function() {
         _gself[0].tl = tl
     }
 });
+
 

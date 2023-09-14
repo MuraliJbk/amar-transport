@@ -3,9 +3,13 @@
 .news-swiper-for{overflow: hidden;}
 .news-update-image::before{width: 100%; height: 100%; top: 0; left: 0; opacity: 0.5; background-color: var(--black); content: ""; display: block; position: absolute;}
 .news-update-text{padding: 4rem; top: 50%; transform: translateY(-50%); position: absolute;} 
-ul.categorys{margin: 0; gap: 10px;}
+.news-update-text h2{margin-bottom: 1.5rem;}
+.news-update-text p{color: var(--white-80);}
+.news-update-text ul.categorys{margin-bottom: 1.5rem;}
+ul.categorys{margin: 0; gap: 10px; margin-bottom: 8px;}
 ul.categorys > li::before{display: none;}
-ul.categorys > li > a{padding: 0.3125rem 0.5rem 0.4375rem 0.5rem; border-radius: 0.25rem; background: rgba(239, 99, 47, 0.20); color: var(--amar-orange); font-size: 0.75rem; font-weight: 700; line-height: 0.75rem;}
+ul.categorys > li{margin: 0; display: inline-block;}
+ul.categorys > li > a{padding: 0.3125rem 0.5rem 0.5rem 0.5rem; display: block; border-radius: 0.25rem; background: rgba(239, 99, 47, 0.20); color: var(--amar-orange); font-size: 0.75rem; font-weight: 700; line-height: 0.75rem;}
 
 
 /* media css starts here */
@@ -14,11 +18,13 @@ ul.categorys > li > a{padding: 0.3125rem 0.5rem 0.4375rem 0.5rem; border-radius:
     .news-update-text{max-width: 700px;}
 }
 @media only screen and (min-width: 1024px){
-    .news-update-title{max-width: 895px;}
+    .news-update-head{gap: 20px;}
+    .news-update-title{flex: 1;}
+    .news-update-btn{flex: 0 0 480px;}
     .news-update-swiper{gap: 40px;}
     .news-swiper-for{width: calc(100% - 460px);}
     .news-swiper-nav{width: 420px; height: 432px; position: relative; overflow: hidden;}
-    .news-swiper-nav .small-post-list{gap: 20px; margin-bottom: 40px; display: flex; align-items: flex-start; flex-wrap: wrap;}
+    .news-swiper-nav .small-post-list{gap: 0 20px; display: flex; align-items: flex-start; flex-wrap: wrap;}
     .news-small-thumb{flex: 0 0 104px;}
     .news-small-text{flex: 1;}
 }
