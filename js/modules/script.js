@@ -6,6 +6,18 @@ jQuery(document).ready(function($){
         lastScrollTop = scroll;
     });
 
+    if(jQuery(window).width() >= 768){
+        jQuery(".leadership-list").each(function() {
+            let $this = jQuery(this).children('.leadership-text');
+            let descItem = $this.find(".leadership-desc");
+            $this.mouseenter(function() {
+                descItem.stop(true, false).slideDown(1000);
+            }).mouseleave(function() {
+                descItem.stop(true, false).slideUp(1000);
+            });
+        });
+    }
+
     if($(window).width() <= 767){
         $(".footer-list span").on("click", function(e){
             e.preventDefault();
