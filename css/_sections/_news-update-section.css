@@ -28,7 +28,7 @@ ul.categorys > li > a{padding: 0.3125rem 0.5rem 0.5rem 0.5rem; display: block; b
     .news-small-thumb{flex: 0 0 104px;}
     .news-small-text{flex: 1;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 200px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .news-update-section{display: none;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){

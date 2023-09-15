@@ -90,6 +90,25 @@
 </div>
 </header>
 
+<section class="banner-section home-banner relative">
+    <div class="banner-bg background-bg"><!-- if no banner-main add this class no_banner_text -->
+        <picture class="object-fit">
+            <source srcset="images/home-banner@2x.jpg" media="(min-width: 768px)">
+            <img src="images/home-banner-mobile@2x.jpg" alt="home-banner-mobile">
+        </picture><!-- if no picture add this class no_banner_img -->
+    </div>
+    <div class="container md banner-main flex flex-vcenter">
+        <div class="banner-text fs-20 inverted" data-animation="gsap-left">
+            <h1>Primary Heading and Introduction</h1>
+            <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. <span>Sit risus eget interdum dictum sed odio.</span></p>
+            <div class="banner-btns flex">
+                <a href="#" class="button bg"><span>Primary CTA</span></a>
+                <a href="#" class="button btn-transparent white"><span>Secondary CTA</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <footer id="footer">
     <div class="container">
         <div class="footer-main flex">
