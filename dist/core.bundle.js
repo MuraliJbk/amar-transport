@@ -80,7 +80,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \******************************/
 /***/ (() => {
 
-eval("jQuery(document).ready(function ($) {\n  let lastScrollTop = 0;\n  $(window).on(\"scroll load\", function () {\n    let scroll = $(this).scrollTop();\n    scroll > lastScrollTop ? $(\"#header\").addClass(\"scroll-nav-down\").removeClass(\"scroll-nav-up\") : $(\"#header\").addClass(\"scroll-nav-up\").removeClass(\"scroll-nav-down\");\n    lastScrollTop = scroll;\n  });\n});\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/script.js?");
+eval("jQuery(document).ready(function ($) {\n  let lastScrollTop = 0;\n  $(window).on(\"scroll load\", function () {\n    let scroll = $(this).scrollTop();\n    scroll > lastScrollTop ? $(\"#header\").addClass(\"scroll-nav-down\").removeClass(\"scroll-nav-up\") : $(\"#header\").addClass(\"scroll-nav-up\").removeClass(\"scroll-nav-down\");\n    lastScrollTop = scroll;\n  });\n  if ($(window).width() <= 767) {\n    $(\".footer-list span\").on(\"click\", function (e) {\n      e.preventDefault();\n      $(this).toggleClass(\"active\");\n      $(this).parent().siblings(\".footer-list\").find(\"ul.footer-links\").slideUp(1000);\n      $(this).siblings(\"ul.footer-links\").slideToggle(1000);\n    });\n  }\n});\n\n//# sourceURL=webpack://amar-transport-html/./js/modules/script.js?");
 
 /***/ }),
 
