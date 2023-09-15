@@ -1,14 +1,14 @@
 
 .paths-wrap{padding: 5.875rem 0 6.25rem;}
 body.page-template-default .paths-wrap{border-bottom: 1px solid var(--black-10);}
-.paths-intro{margin-bottom: 5.625rem;}
+.paths-intro{margin-bottom: 4rem;}
 .paths-text p{margin-bottom: 1rem;}
 .paths-text ul{margin-bottom: 0.813rem;}
 .paths-list .fit-img{margin-bottom: 2.438rem;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .paths-intro{align-items: flex-end;}
+    .paths-intro{align-items: center;}
     .paths-intro h2{margin-bottom: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
