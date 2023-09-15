@@ -10,6 +10,10 @@
 .nav-user-svg svg{height: 17px;}
 .nav-user{color: var(--white); font-size: 0.875rem;}
 
+.languages{background-color: var(--light-gray); width: 65px;}
+.languages a{color: var(--amar-blue);}
+.languages span{padding: 0 9px 0 7px;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .logo{flex: 0 0 200px; padding: 24px 0 0 39px;}
