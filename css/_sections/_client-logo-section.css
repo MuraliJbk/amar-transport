@@ -1,0 +1,7 @@
+
+
+
+@media screen and (min-width: 1024px) {
+    .client-logo-row{gap: 40px; justify-content: center;}
+    .client-logo-thumb img{min-height: 48px; max-height: 48px; opacity: 0.4;}
+}
