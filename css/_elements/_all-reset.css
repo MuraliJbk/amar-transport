@@ -86,9 +86,23 @@ hr{margin: 2.125rem 0 2.438rem; display: block; border: none; width: 100%; heigh
 .button.white{color: var(--white);}
 
 
-.btn-link{color: var(--text-100); display: inline-block; vertical-align: middle; font-size: 1rem; line-height: 1.5rem; font-weight: 700;}
-.btn-link svg{margin-right: 13px; top: -1px; width: 41px; height: 8px; position: relative; overflow: hidden;}
-.btn-link:hover{color: var(--amar-orange);}
+.text-link{color: var(--text-100); display: inline-block; vertical-align: middle; font-size: 1rem; line-height: 1.5rem; font-weight: 700;}
+.text-link svg{margin-right: 13px; top: -1px; width: 41px; height: 8px; position: relative; overflow: hidden;}
+.text-link:hover{color: var(--amar-orange);}
+
+.btn-link{color: var(--blue); position: relative; display: inline-block; text-transform: capitalize;}
+.btn-link > *{transition: 0.45s ease-out;}
+.btn-link:hover{color: var(--blue);}
+.btn-link:not(.btn-arrow):hover .btn-label{padding-right: 38px;}
+.btn-link.no-arrow:hover{color: var(--black);}
+.btn-link.no-arrow:hover .btn-label{padding-right: 0;}
+.btn-label{padding-right: 21px;}
+.btn-arrow{max-width: 20px; white-space: nowrap; transition: 0.45s ease-out;}
+.btn-arrow:hover{max-width: 100%;}
+.btn-arrow .btn-label{opacity: 0;}
+.btn-arrow:hover .btn-label{opacity: 1;}
+.btn-arrow-icon{ right: 0; top: 50%; transform: translateY(-50%); content: ""; display: block; position: absolute; }
+
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
@@ -124,7 +138,7 @@ body{font-size: 1.125rem; line-height: 1.625rem; letter-spacing: normal; font-we
 .d-block{display: block;}
 span.optional-text{margin-bottom: 1.313rem; font-size: 1rem; font-weight: 700; line-height: 1.25rem; display: block; text-transform: capitalize; font-family: "Instrument Sans", sans-serif;}
 span.optional-text.lg{margin-bottom: 2.08rem;}
-span.optional-text.muted{margin-bottom: 9px; color: var(--muted); -webkit-text-fill-color: var(--muted); background-image: none;}
+span.optional-text.muted{color: var(--amar-blue-2);}
 .font-light{font-weight: 300;}
 .font-regular{font-weight: 400;}
 .font-medium{font-weight: 500;}

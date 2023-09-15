@@ -4,7 +4,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .marketing-cta-main{flex-wrap: nowrap;}
+    .marketing-cta-main{flex-wrap: nowrap; padding: 0 0 80px;}
     .marketing-cta-img{flex: 1; min-width: 720px;}
     .marketing-cta-text{flex: 0 0 792px; transform: translateX(-120px);}
 }
