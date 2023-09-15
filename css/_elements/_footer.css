@@ -54,7 +54,7 @@ ul.footer-links > li::before{display: none;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .footer-main{display: block; margin-bottom: 20px;}
-    .footer-lt{margin-bottom: 20px;}
+    .footer-lt{margin-bottom: 40px;}
     .footer-logo{width: 117px; margin-bottom: 17px;}
     .footer-lt p{font-weight: normal; margin-bottom: 0;}
     .footer-rt{display: block;}
@@ -75,6 +75,7 @@ ul.footer-links > li::before{display: none;}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    #footer{padding: 38px 0 42px;}
     .footer-main{display: block; margin-bottom: 20px;}
     .footer-lt{margin-bottom: 20px;}
     .footer-logo{width: 117px; margin-bottom: 17px;}
@@ -92,7 +93,7 @@ ul.footer-links > li::before{display: none;}
     .footer-list span{position: relative; margin-bottom: 10px;}
     .footer-list span::after{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; right: 8px; font-size: 1.3rem; top: 2px; line-height: normal; color: var(--amar-orange); transition: all .5s ease;}
     .footer-list span.active::after{transform: rotate(180deg); line-height: normal;}
-    ul.social-icons{gap: 16px; justify-content: center;}
+    ul.social-icons{gap: 16px; justify-content: center; margin-bottom: 19px;}
     ul.social-icons > li{width: 48px; height: 48px;}
     ul.social-icons > li a span{font-size: 23px;}
     .footer-copyright{text-align: center;}
