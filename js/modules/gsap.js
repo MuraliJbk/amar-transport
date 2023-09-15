@@ -18,7 +18,7 @@ scroller.each(function(){
 });
 
 // scroller polygon icon
-let btnSvg = jQuery(".btn-link");
+let btnSvg = jQuery(".text-link");
 btnSvg.each(function(){
     const _self = jQuery(this);
     const _path = _self.find('svg path');
