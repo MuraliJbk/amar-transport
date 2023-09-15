@@ -1,12 +1,12 @@
 
-.confirmation-main{padding-bottom: 6.235rem; max-width: 30.25rem;}
+.confirmation-main{padding-bottom: 16.2rem; max-width: 30.25rem;}
 .confirmation-icon{width: 64px; margin-bottom: 18px;}
 .confirmation-icon svg{width: auto; height: 64px;}
 .confirmation-text p{color: var(--white-80);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .confirmation{padding-top: 15.5rem;}
+    .confirmation{padding-top: 15.25rem;}
     .confirmation-text h1{font-size: 3rem; line-height: 3.5rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
