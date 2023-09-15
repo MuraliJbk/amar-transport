@@ -90,7 +90,7 @@ hr{margin: 2.125rem 0 2.438rem; display: block; border: none; width: 100%; heigh
 .text-link svg{margin-right: 13px; top: -1px; width: 41px; height: 8px; position: relative; overflow: hidden;}
 .text-link:hover{color: var(--amar-orange);}
 
-.btn-link{color: var(--blue); position: relative; display: inline-block; text-transform: capitalize;}
+.btn-link{color: var(--text-100); position: relative; display: inline-block; text-transform: capitalize;}
 .btn-link > *{transition: 0.45s ease-out;}
 .btn-link:hover{color: var(--blue);}
 .btn-link:not(.btn-arrow):hover .btn-label{padding-right: 38px;}
