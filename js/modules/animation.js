@@ -22,7 +22,7 @@ function check_if_in_view() {
       }, delay);
     } else {
       if (timeline && timeline.progress() > 0) {
-        timeline.progress(0);
+        timeline.pause();
       }
       if (counter) {
         counter.reset();

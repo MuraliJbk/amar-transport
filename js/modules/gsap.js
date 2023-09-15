@@ -45,7 +45,7 @@ gsap_elements.each(function() {
     const _gself = jQuery(this);
     const _gclass = _gself.data('animation');
     if(_gclass === 'gsap-left') {
-        var tl = gsap.timeline({ paused: true })
+        var tl= gsap.timeline({ paused: true })
         tl.fromTo(_gself[0], { x: -50, transition: 'none'}, { x: 0, duration: 1.5, ease: 'power1.out'})
         _gself[0].tl = tl
     }
