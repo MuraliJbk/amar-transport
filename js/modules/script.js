@@ -10,8 +10,8 @@ jQuery(document).ready(function($){
         $(".footer-list span").on("click", function(e){
             e.preventDefault();
             $(this).toggleClass("active");
-            $(this).parent().siblings(".footer-list").find("ul.footer-links").slideUp(1000);
-            $(this).siblings("ul.footer-links").slideToggle(1000);
+            $(this).parent().siblings(".footer-list").find("ul.footer-links").slideUp(800);
+            $(this).siblings("ul.footer-links").slideToggle(800);
         });
     }
 
