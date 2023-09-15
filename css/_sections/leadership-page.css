@@ -4,10 +4,6 @@
 .leadership-repeater-list:last-child{padding-bottom: 0;}
 .leadership-head{margin-bottom: 51px;}
 .leadership-head h2{font-size: 2rem; line-height: 2.5rem; margin-bottom: 0;}
-ul.leadership-tags{margin: 0; top: 0; right: 0; gap: 10px; width: 100%; position: absolute; justify-content: flex-end;}
-ul.leadership-tags > li::before{display: none;}
-ul.leadership-tags > li{margin: 0;}
-ul.leadership-tags > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 0.75rem; line-height: 0.75rem; padding: 5px 8px 7px 8px; font-weight: 500; font-family: 'Gotham-Medium', sans-serif; text-transform: capitalize; color: #0a0a1e; display: inline-block; vertical-align: top;}
 
 .leadership-text {width: calc(100% - 64px); height: auto; bottom: 0; left: 0; right: 0; margin: 0 auto; padding: 22px 32px; max-height: calc(100% - 30px); background-color: var(--white-80); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-top: solid 1px var(--electric-color); position: absolute; z-index: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: all 0.45s ease-in-out; -ms-overflow-style: none; scrollbar-width: none;}
 .leadership-text::-webkit-scrollbar{width: 0; display: none;}
