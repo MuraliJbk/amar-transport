@@ -1,12 +1,12 @@
 
 #footer{padding: 80px 0; background-image: linear-gradient(to bottom, #151c39 0%, #060a1c 100%), linear-gradient(to bottom, #151c39, #151c39);}
 .footer-lt p{font-size: 1rem; line-height: 1.63; font-weight: bold; color: var(--white-70);}
-.social-icons{margin: 0; gap: 8px;}
-.social-icons > li{margin: 0; line-height: normal; width: 32px; height: 32px; background-color: var(--amar-blue);}
-.social-icons > li::before{display: none;}
-.social-icons > li a{height: 100%; color: var(--white);}
-.social-icons > li:hover a{color: var(--amar-orange);}
-.social-icons > li:hover{background-color: var(--white);}
+ul.social-icons{margin: 0; gap: 8px;}
+ul.social-icons > li{margin: 0; line-height: normal; width: 32px; height: 32px; background-color: var(--amar-blue);}
+ul.social-icons > li::before{display: none;}
+ul.social-icons > li a{height: 100%; color: var(--white);}
+ul.social-icons > li:hover a{color: var(--amar-orange);}
+ul.social-icons > li:hover{background-color: var(--white);}
 
 .footer-list span{font-size: 0.75rem; font-weight: bold; line-height: 1.83; letter-spacing: 1.2px; color: rgba(192, 222, 236, 0.7); display: block;}
 ul.footer-links{margin: 0;}
@@ -14,7 +14,7 @@ ul.footer-links > li{font-size: 1rem; font-weight: bold; line-height: 1.38;}
 ul.footer-links > li a{color: #f5f7fa;}
 ul.footer-links > li a:hover{color: var(--amar-orange);}
 ul.footer-links > li::before{display: none;}
-.call-user{font-size: 1.25rem; font-weight: bold; padding-left: 26px; margin-top: 25px;}
+.call-user{font-size: 1.25rem; font-weight: bold;}
 .call-user a{gap: 16px; color: var(--white);}
 .call-user a:hover{color: var(--amar-orange);}
 
@@ -27,11 +27,11 @@ ul.footer-links > li::before{display: none;}
 .footer-copyright ul > li a{color: var(--white);}
 .footer-copyright ul > li a:hover{color: var(--amar-orange);}
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px){
     .footer{margin-bottom: 14px;}
     .footer-lt{flex: 0 0 380px; margin-right: 72px;}
     .footer-logo{width: 138px; margin-bottom: 56px;}
-    .social-icons{margin-top: 57px;}
+    ul.social-icons{margin-top: 57px;}
 
     .footer-rt{flex: 0 0 calc(100% - 452px); flex-direction: row-reverse;}
     .footer-lists{flex: 1;}
@@ -39,31 +39,37 @@ ul.footer-links > li::before{display: none;}
     .footer-list span{margin-bottom: 19px;}
     ul.footer-links > li{margin-bottom: 19px;}
 
-    .footer-login{flex: 0 0 240px;}
+    .footer-login{flex: 0 0 240px; order: 3;}
+    .call-user{padding-left: 26px; margin-top: 25px;}
 }
-
+@media screen and (min-width: 1300px){
+    .footer-wrap{max-width: 1280px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .footer-main{gap: 20px;}
+    .footer-lt{margin: 0; flex: 0 0 315px;}
+    .footer-lists{flex: 1; gap: 20px;}
+    .footer-list{flex: 1;}
+    .footer-list:last-child{flex: 0 0 150px;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .footer-main{display: block; margin-bottom: 20px;}
     .footer-lt{margin-bottom: 20px;}
     .footer-logo{width: 117px; margin-bottom: 17px;}
     .footer-lt p{font-weight: normal; margin-bottom: 0;}
     .footer-rt{display: block;}
-    ul.footer-links{display: none;}
-    .footer-login{margin-bottom: 20px;}
-    .footer-login .nav-users{max-width: 100%;}
-    .footer-login .nav-user-login{flex: 1; min-height: 45px; padding: 0; flex-direction: row; justify-content: center; align-items: center; gap: 8px;}
-    .footer-login .nav-user-svg{height: 21px; margin-bottom: 0;}
-    .call-user{padding-left: 0; margin-top: 27px;}
+    .footer-login{margin-bottom: 40px; gap: 20px; align-items: center; display: flex; flex-wrap: wrap;}
+    .f-nav-users{flex: 1;}
+    .f-nav-users .nav-user-login{flex: 1; min-height: 45px; padding: 0; flex-direction: row; justify-content: center; align-items: center; gap: 8px;}
+    .f-nav-users .nav-user-svg{height: 21px; margin-bottom: 0;}
+    .call-user{flex: 1;}
     .call-user a{gap: 14px; justify-content: center;}
-    .footer-lists{display: block; margin-bottom: 18px;}
-    .footer-list{margin-bottom: 25px;}
-    .footer-list:last-child{margin-bottom: 0;}
-    .footer-list span{position: relative; margin-bottom: 10px;}
-    .footer-list span::after{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; right: 8px; font-size: 1.3rem; top: 2px; line-height: normal; color: var(--amar-orange); transition: all .5s ease;}
-    .footer-list span.active::after{transform: rotate(180deg); line-height: normal;}
-    .social-icons{gap: 16px; justify-content: center;}
-    .social-icons > li{width: 48px; height: 48px;}
-    .social-icons > li a span{font-size: 23px;}
+    .footer-lists{margin-bottom: 40px; gap: 20px;}
+    .footer-list{flex: 1;}
+    .footer-list span{margin-bottom: 10px;}
+    ul.social-icons{gap: 16px; margin-bottom: 20px; justify-content: center;}
+    ul.social-icons > li{width: 48px; height: 48px;}
+    ul.social-icons > li a span{font-size: 23px;}
     .footer-copyright{text-align: center;}
     .footer-copyright ul{justify-content: center;}
 }
@@ -76,7 +82,6 @@ ul.footer-links > li::before{display: none;}
     .footer-rt{display: block;}
     ul.footer-links{display: none;}
     .footer-login{margin-bottom: 20px;}
-    .footer-login .nav-users{max-width: 100%;}
     .footer-login .nav-user-login{flex: 1; min-height: 45px; padding: 0; flex-direction: row; justify-content: center; align-items: center; gap: 8px;}
     .footer-login .nav-user-svg{height: 21px; margin-bottom: 0;}
     .call-user{padding-left: 0; margin-top: 27px;}
@@ -87,9 +92,9 @@ ul.footer-links > li::before{display: none;}
     .footer-list span{position: relative; margin-bottom: 10px;}
     .footer-list span::after{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; right: 8px; font-size: 1.3rem; top: 2px; line-height: normal; color: var(--amar-orange); transition: all .5s ease;}
     .footer-list span.active::after{transform: rotate(180deg); line-height: normal;}
-    .social-icons{gap: 16px; justify-content: center;}
-    .social-icons > li{width: 48px; height: 48px;}
-    .social-icons > li a span{font-size: 23px;}
+    ul.social-icons{gap: 16px; justify-content: center;}
+    ul.social-icons > li{width: 48px; height: 48px;}
+    ul.social-icons > li a span{font-size: 23px;}
     .footer-copyright{text-align: center;}
     .footer-copyright ul{justify-content: center;}
 }
