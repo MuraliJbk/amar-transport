@@ -11,8 +11,11 @@
 .nav-user{color: var(--white); font-size: 0.875rem;}
 
 .languages{background-color: var(--light-gray); width: 65px;}
-.languages a{color: var(--amar-blue);}
-.languages span{padding: 0 9px 0 7px;}
+.languages a{color: var(--amar-blue); opacity: 0.5;}
+.languages a.current{opacity: 1;}
+.languages span{padding: 3px 9px 3px 7px; line-height: normal;}
+.languages span:first-child::before{display: none;}
+.languages span::before{ width: 0.125rem; height: 0.62rem; top: 10px; left: -2px; opacity: 0.15; background-color: var(--amar-blue); content: ""; display: block; position: absolute; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
