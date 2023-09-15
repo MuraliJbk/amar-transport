@@ -230,6 +230,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container{width: 100%; margin: 0 auto;}
+    .container.x-md{max-width: 1280px;}
     .container.md{max-width: 1120px;}
     .container.sm{max-width: 896px;}
     .hide-desktop{display: none;}
