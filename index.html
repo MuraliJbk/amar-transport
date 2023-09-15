@@ -34,12 +34,24 @@
             </a>
         </div>
         <nav class="navigation flex flex-vcenter">
+            <div class="languages flex flex-center">
+                <span class="relative"><a href="#" class="current font-bold fs-12">EN</a></span>
+                <span class="relative"><a href="#" class="font-bold fs-12">FR</a></span>
+            </div>
             <ul class="nav-menu flex">
                 <li><a href="services.html">Services</a> </li>
-                <li><a href="conditions.html">Innovation</a></li>
-                <li><a href="resources.html">Company</a></li>
-                <li><a href="about.html">Careers</a> </li>
-                <li><a href="">Contact</a></li>
+                <li><a href="innovation.html">Innovation</a></li>
+                <li><a href="#">Company</a>
+                    <ul>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </li>
+                <li><a href="careers.html">Careers</a> </li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="nav-users flex">
                 <a class="nav-user-login flex" href="#" data-mp>
@@ -86,7 +98,7 @@
         </picture><!-- if no picture add this class no_banner_img -->
     </div>
     <div class="container md banner-main flex flex-vcenter">
-        <div class="banner-text fs-20 inverted" data-animation="fade-in-left">
+        <div class="banner-text fs-20 inverted" data-animation="gsap-left">
             <h1>Primary Heading and Introduction</h1>
             <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. <span>Sit risus eget interdum dictum sed odio.</span></p>
             <div class="banner-btns flex">
@@ -173,8 +185,8 @@
 <section class="marketing-cta-section">
 <div class="container lg">
     <div class="marketing-cta-main flex flex-vcenter relative">
-        <div class="marketing-cta-img gs_reveal">
-            <picture class="object-fit">
+        <div class="marketing-cta-img" data-mp="" data-animation="gsap-left">
+            <picture class="object-fit" data-mp-item="" data-mp-scale="1.005">
                 <source srcset="images/marketing-thumb@2x.jpg" media="(min-width: 768px)">
                 <img src="images/marketing-thumb@2x.jpg" alt="insurance">
             </picture>

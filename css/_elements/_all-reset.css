@@ -132,6 +132,7 @@ span.optional-text.muted{margin-bottom: 9px; color: var(--muted); -webkit-text-f
 .fs-0{font-size: 0; line-height: 0;}
 .fs-9{font-size: 9px; line-height: 10px; letter-spacing: 3.15px; font-weight: 600; font-family: "Instrument Sans", sans-serif;}
 .fs-10{font-size: 0.625rem; line-height: 0.875rem;}
+.fs-12{font-size: 12px; line-height: 22px;}
 .fs-16{font-size: 1rem; line-height: 1.5rem;}
 .fs-17{font-size: 1.063rem; line-height: 1.75rem; letter-spacing: -0.85px; font-family: "Instrument Sans", sans-serif;}
 .fs-20{font-size: 1.25rem; line-height: 1.75rem; letter-spacing: normal;}
