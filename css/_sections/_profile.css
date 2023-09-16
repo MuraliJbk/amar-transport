@@ -1,0 +1,9 @@
+
+.post-article .fs-24{color: var(--text-100);}
+
+
+
+@media screen and (min-width: 1024px) {
+    .post-article{flex: 0 0 900px; margin-right: 80px;}
+    .post-aside{flex: 0 0 calc(100% - 980px);}
+}
