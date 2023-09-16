@@ -1,0 +1,14 @@
+
+.browse-text{color: var(--text-100);}
+.browse-aside{background-color: var(--text-100);}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .browse-main{gap: 0 80px;}
+    .browse-article{flex: 1;}
+    .browse-aside{flex: 0 0 300px;}
+    .browse-list{gap: 20px; margin-bottom: 40px;}
+    .browse-image{flex: 0 0 328px;}
+    .browse-text{flex: 1;}
+}
