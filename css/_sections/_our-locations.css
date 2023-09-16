@@ -1,0 +1,9 @@
+
+
+.our-locations-main{padding: 80px 5rem 40px; margin-top: -80px;}
+.our-locations-map{width: 906px; height: 906px; top: 70px; right: 0; margin: 0 auto;}
+.our-locations-head{margin-bottom: 40px;}
+.our-locations-list{margin-bottom: 40px;}
+.our-locations-list > span{margin-bottom: 1rem; color: var(--amar-light-blue);}
+.our-location-links{flex-direction: column;}
+.our-location-links .text-link{margin-bottom: 10px;}
