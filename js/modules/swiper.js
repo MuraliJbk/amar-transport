@@ -47,3 +47,21 @@ var swiper2 = new Swiper(".news-swiper-for", {
       swiper: newsSwiperNav,
     },
 });
+
+const servicesSwiper = new Swiper('.other-services-swiper', {
+    modules: [Navigation, Pagination],
+    direction: 'horizontal',
+    slidesPerView: 4,
+    loop: true,
+    effect: 'slide',
+    speed: 1000,
+    pagination: {
+      el: '.services-pagination',
+      clickable: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  },
+});
+
