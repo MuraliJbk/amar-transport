@@ -5,6 +5,25 @@ jQuery(document).ready(function($){
         scroll > lastScrollTop ? $("#header").addClass("scroll-nav-down").removeClass("scroll-nav-up") : $("#header").addClass("scroll-nav-up").removeClass("scroll-nav-down");
         lastScrollTop = scroll;
     });
+    
+    $(".toggle-icon").on("click", function(event){
+        event.preventDefault();
+        $(this).toggleClass("open");
+        $("html, body").toggleClass("nav-overlay-open");
+        $(".main-header").removeClass("fixed-header");
+        $(".navigation").toggleClass("open");
+    });
+
+    if($(window).width() <= 1023){
+        let level1 = $("ul.nav-menu > li.menu-item-has-children > a");
+        level1.on("click", function(e){
+            e.preventDefault();
+            $(this).parent("li").siblings().children("a").removeClass("active");
+            $(this).toggleClass("active");
+            $(this).parent("li").siblings().children("ul").slideUp(900);
+            $(this).siblings("ul").slideToggle(900);
+        });
+    }
 
     $('.accordion-header').on('click', function(e){
         e.preventDefault();

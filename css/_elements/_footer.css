@@ -83,8 +83,6 @@ ul.footer-links > li::before{display: none;}
     .footer-rt{display: block;}
     ul.footer-links{display: none;}
     .footer-login{margin-bottom: 20px;}
-    .footer-login .nav-user-login{flex: 1; min-height: 45px; padding: 0; flex-direction: row; justify-content: center; align-items: center; gap: 8px;}
-    .footer-login .nav-user-svg{height: 21px; margin-bottom: 0;}
     .call-user{padding-left: 0; margin-top: 27px;}
     .call-user a{gap: 14px; justify-content: center;}
     .footer-lists{display: block; margin-bottom: 18px;}
