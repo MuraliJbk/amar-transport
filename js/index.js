@@ -7,3 +7,4 @@ import './modules/effects';
 import './modules/swiper';
 import './lib/jquery.selectBox';
 import './modules/selectBox';
+import './modules/magnific-popup';

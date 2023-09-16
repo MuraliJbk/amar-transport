@@ -24,6 +24,7 @@
     "gsap": "^3.12.2",
     "is-in-viewport": "^3.0.4",
     "lerp": "^1.0.3",
+    "magnific-popup": "^1.1.0",
     "mouse-parallax": "^1.0.0",
     "swiper": "^10.2.0"
   },
@@ -31,7 +32,7 @@
     "@babel/preset-env": "^7.22.15",
     "css-loader": "^6.8.1",
     "file-loader": "^6.2.0",
-    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-imagemin": "^4.0.0",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
