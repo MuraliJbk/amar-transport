@@ -1,16 +1,19 @@
 
 .accordion-list.white{background-color: var(--white);}
-.accordion-list{margin-bottom: 10px; background-color: var(--light-blue);}
+.accordion-list{margin-bottom: 10px; border: solid 1px #d6dae5; background-color: rgba(140,203,255,.15);}
 .accordion-list:last-child{margin-bottom: 0;}
-.accordion-header{padding: 25px 25px 24px 87px; color: var(--heading-color); font-size: 1.125rem; line-height: 1.625rem; letter-spacing: -0.9px; cursor: pointer; position: relative; font-weight: 400; font-family: "Montserrat", sans-serif;}
-.accordion-header span.fa-circle-plus{left: 25px; top: 50%; transform: translateY(-50%); position: absolute; transition: all 0.5s ease; font-size: 2rem; line-height: 2rem; color: var(--blue);}
+.accordion-header{padding: 32px 66px 32px 22px; color: var(--text-100); font-size: 1.125rem; line-height: 1.22; letter-spacing: normal; cursor: pointer; position: relative; font-weight: bold; font-family: "Instrument Sans", sans-serif;}
+.accordion-header span.fa-circle-plus{right: 25px; top: 50%; transform: translateY(-50%); position: absolute; transition: all 0.5s ease; font-size: 1.3rem; line-height: 1.3rem; color: var(--amar-light-blue);}
 .accordion-header.open span.fa-circle-plus::before{content: "\f056";}
 .accordion-content{display: none; padding: 2px 25px 20px;}
 .accordion-content p a{font-weight: 500;}
 
+.accordion-list.active{background-color: var(--white);}
+.accordion-header.open span.fa-circle-plus{color: var(--amar-orange);}
+
 /* media css starts here */
 @media only screen and (min-width: 1024px){
-    .accordion-main{padding: 1.313rem 0 6.688rem;}
+    .accordion-main{padding: 1.7rem 0 2.85rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .accordion-main{padding: 1.313rem 0 2.688rem;}

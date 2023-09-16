@@ -30,7 +30,9 @@ p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 blockquote, q {-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none; }
-blockquote{padding: 99px 120px 71px 117px; margin: 3.75rem 0 3.75rem; font-size: 2.75rem; line-height: 3rem; font-weight: 200; font-style: normal; position: relative; letter-spacing: normal;}
+blockquote{padding: 32px; margin: 3rem 0 2.9rem; font-size: 1.5rem; line-height: 1.42; font-weight: 200; font-style: normal; position: relative; letter-spacing: normal; background-color: var(--text-100); color: var(--white);}
+blockquote::after{content: ""; position: absolute; top: 32px; right: 42px; background-image: url("./images/quote-icon.svg"); width: 69px; height: 56px;}
+blockquote p span{color: var(--amar-blue-2); font-weight: bold;}
 blockquote cite, blockquote small {font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
 small {font-size: 0.875rem; line-height: 1.25rem;}
