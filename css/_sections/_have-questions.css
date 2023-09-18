@@ -1,5 +1,8 @@
 
-
+.have-questions-main{padding: 0 0 89px;}
+.have-questions-head{padding-bottom: 2rem;}
+.have-questions-desc{padding: 1.5rem;}
+.have-questions-desc .button{width: 100%;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
