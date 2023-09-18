@@ -1,11 +1,12 @@
 
+.optional-cta-main{padding: 0 0 76px;}
 .optional-cta-text h2{margin-bottom: 1.5rem;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .optional-cta-main{gap: 0 80px;}
-    .optional-cta-main:not(:last-child){margin-bottom: 100px;}
-    .optional-cta-main:nth-child(even){flex-direction: row-reverse;}
+    .optional-cta-list{gap: 0 80px;}
+    .optional-cta-list:not(:last-child){margin-bottom: 98px;}
+    .optional-cta-list:nth-child(even){flex-direction: row-reverse;}
     .optional-cta-img{flex: 0 0 600px;}
     .optional-cta-text{flex: 1;}
     .optional-cta-btns{gap: 20px;}
