@@ -7,13 +7,16 @@
 .accordion-header.open span.fa-circle-plus::before{content: "\f056";}
 .accordion-content{display: none; padding: 2px 25px 20px;}
 .accordion-content p a{font-weight: 500;}
-
 .accordion-list.active{background-color: var(--white);}
 .accordion-header.open span.fa-circle-plus{color: var(--amar-orange);}
+
+.have-questions-faq .accordion-list{border-color: transparent;}
+.have-questions-faq .accordion-list.active{border-color: #d6dae5;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .accordion-main{padding: 1.7rem 0 2.85rem;}
+    .have-questions-faq .accordion-main{padding: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .accordion-main{padding: 1.313rem 0 2.688rem;}
