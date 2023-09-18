@@ -25,7 +25,7 @@ address{font-size: 1.125rem; line-height: 1.5rem; margin-bottom: 24px;}
 abbr[title] {border-bottom: 1px dotted var(--heading-color); cursor: help;}
 b, strong {font-weight: normal;}
 cite, dfn, em, i {font-style: italic;}
-p {margin-bottom: 1.5rem;}
+p {margin-bottom: 1.625rem;}
 p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
@@ -35,7 +35,7 @@ blockquote::after{content: ""; position: absolute; top: 32px; right: 42px; backg
 blockquote p span{color: var(--amar-blue-2); font-weight: bold;}
 blockquote cite, blockquote small {font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
-small {font-size: 0.875rem; line-height: 1.25rem;}
+small {font-size: 0.875rem; line-height: 1.375rem;}
 big {font-size: 125%;}
 sup, sub {font-size: 0.625rem; letter-spacing: -0.18px; height: 0; line-height: 0; position: relative; vertical-align: baseline;}
 sup {bottom: 1ex;}
@@ -253,6 +253,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .container{padding: 0 22px;}
+    .ipad-0{padding-left: 0; padding-right: 0;}
     .hide-tablet{display: none;}
     .h1, h1 { font-size: 3.25rem; line-height: 4.375rem; }
     h1 span{padding: 0 1.75rem;}
@@ -261,7 +262,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .container{padding: 0 16px;}
-    .container.p-0{padding: 0;}
+    .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;}
     h1{font-size: 2.75rem; line-height: 3.25rem; letter-spacing: -2.2px;}
     h2, .h2{font-size: 2.313rem; line-height: 2.688rem; letter-spacing: -1.11px;}

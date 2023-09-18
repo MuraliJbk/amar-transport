@@ -16,14 +16,14 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .logo{flex: 0 0 200px; padding: 24px 0 0 39px;}
+    .logo{flex: 0 0 165px; padding: 24px 0 0 39px;}
     .logo a{width: 100%; display: block;}
     .logo img{height: 38px;}
     .navigation{flex: 1; gap: 0 48px;}
     ul.nav-menu{margin: 0; gap: 0 48px; flex: 1; justify-content: flex-end;}
     ul.nav-menu > li{margin: 0;}
     ul.nav-menu > li:first-child::before{display: none;}
-    ul.nav-menu > li::before{width: 4px; height: 4px; top: 50%; left: -29px; opacity: 0.9; background: var(--light-gray);}
+    ul.nav-menu > li::before{display: none;}
     ul.nav-menu > li > a{padding: 28px 0; color: var(--black-90); display: block; font-size: 1.125rem; font-family: 'Instrument Sans', sans-serif; font-weight: 600;}
     ul.nav-menu > li.current_page_item > a, ul.nav-menu > li.current_page_ancestor > a, ul.nav-menu > li > a:hover{color: var(--amar-orange);}
     ul.nav-menu > li:hover > ul { opacity: 1; visibility: visible; top: 100%;}
@@ -39,7 +39,11 @@
     .nav-users{flex: 0 0 auto; max-width: 240px; height: 100%; justify-content: flex-end;}
 }
 @media only screen and (max-width: 1229px) and (min-width: 1024px){
-
+    .logo{padding-left: 20px;}
+    .header-main{gap: 0 20px;}
+    .navigation{gap: 0 24px;}
+    ul.nav-menu{gap: 0 20px;}
+    ul.nav-menu > li > a{font-size: 1rem;}
 }   
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .header-main{display: block; margin-top: 12px; padding: 14px 23px 12px; position: relative; } 
