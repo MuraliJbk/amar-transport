@@ -22,6 +22,7 @@
     .accordion-main{padding: 1.313rem 0 2.688rem;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .accordion-main{padding: 2.12rem 0 3.125rem;}
+    /* .accordion-main{padding: 2.12rem 0 3.125rem;} */
+    .accordion-main{padding: 0.2rem 0 1.35rem;}
     .accordion-header{padding: 21px 25px 21px 85px;}
 }

@@ -63,4 +63,6 @@
     .post-article .fs-24 p{font-size: 1rem; line-height: 1.5;}
     .post-article hr{margin: 0 0 20px;}
     .post-article h2{font-size: 1.25rem; line-height: 1.2;}
+    .post-article h3{font-size: 1.25rem; line-height: 1.2; letter-spacing: normal;}
+    
 }
