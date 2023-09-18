@@ -1,11 +1,16 @@
 
 .post-banner-section{background-image: linear-gradient(to bottom, #1998d5 0%, #0c609d 100%);}
 .post-banner-text h1{color: var(--white);}
-.post-banner-text span{color: var(--amar-blue-2); font-size: 1.25rem; line-height: 1.5;}
+ul.post-banner-links{margin: 0; gap: 0 36px;}
+ul.post-banner-links li:first-child:before{display: none;}
+ul.post-banner-links li:before{left: -18px; top: 14px; background-color: var(--amar-orange);}
+ul.post-banner-links li{color: var(--white); font-size: 1.25rem; line-height: 1.5;}
+ul.post-banner-links li a{color: var(--amar-blue-2);}
+ul.post-banner-links li a:hover{color: var(--white);}
 .post-banner-thumb::before{ width: 100%; height: 100%; top: 0; left: 0; opacity: 0.3; background-color: var(--md-gray); content: ""; position: absolute;}
 
 .post-article > p:nth-child(1){color: var(--text-100);}
-.post-aside h4{font-size: 1.25rem; margin-bottom: 22px;}
+.post-apply{padding: 1.5rem; margin-bottom: 2rem;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 768px) {
@@ -16,9 +21,9 @@
     .post-banner-text{flex: 0 0 561px;}
     .post-banner-image{flex: 0 0 calc(100% - 625px); min-width: 975px;}
     .post-banner-thumb img{min-height: 720px;}
-    .post-content{margin-top: -80px; padding: 5rem 5rem;}
-    .post-article{flex: 0 0 900px; margin-right: 80px;}
-    .post-aside{flex: 0 0 calc(100% - 980px);}
+    .post-content{margin-top: -80px; padding: 5rem 5rem; gap: 0 5rem;}
+    .post-article{flex: 1; }
+    .post-aside{flex: 0 0 335px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .post-banner-main{gap: 34px;}
