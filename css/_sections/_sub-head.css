@@ -1,5 +1,6 @@
 
 .fit-bg{opacity: 0; transition: opacity 0.5s ease;}
+.fit-icon{margin-bottom: 10px;}
 .sub-head-pos:hover .fit-bg{opacity: 1;}
 
 /*-- media css starts here --*/

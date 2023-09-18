@@ -151,8 +151,7 @@ span.optional-text.muted::before{display: none;}
 .fs-10{font-size: 0.625rem; line-height: 0.875rem;}
 .fs-12{font-size: 12px; line-height: 22px;}
 .fs-16{font-size: 1rem; line-height: 1.5rem;}
-.fs-17{font-size: 1.063rem; line-height: 1.75rem; letter-spacing: -0.85px; font-family: "Instrument Sans", sans-serif;}
-.fs-20{font-size: 1.25rem; line-height: 1.75rem; letter-spacing: normal;}
+.fs-20{font-size: 1.25rem; line-height: 1.75rem;}
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}
 .fs-26{font-size: 1.625rem; line-height: 2.125rem; margin-bottom: 1.75rem;}
 .radius-10, .radius-img-10 img{border-radius: 10px;}
