@@ -10,6 +10,7 @@ ul.post-banner-links li a:hover{color: var(--white);}
 .post-banner-thumb::before{ width: 100%; height: 100%; top: 0; left: 0; opacity: 0.3; background-color: var(--md-gray); content: ""; position: absolute;}
 
 .post-article > p:nth-child(1){color: var(--text-100);}
+.post-aside-icon{transform: rotate(-70deg); right: -52px; top: -24px;}
 .post-apply{padding: 1.5rem; margin-bottom: 2rem;}
 
 /*-- media css starts here --*/
@@ -24,6 +25,7 @@ ul.post-banner-links li a:hover{color: var(--white);}
     .post-content{margin-top: -80px; padding: 5rem 5rem; gap: 0 5rem;}
     .post-article{flex: 1; }
     .post-aside{flex: 0 0 335px;}
+    .post-apply-desc{max-width: 200px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .post-banner-main{gap: 34px;}
