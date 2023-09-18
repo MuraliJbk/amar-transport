@@ -35,6 +35,18 @@ jQuery(document).ready(function($){
         $(this).parent().siblings().find('.accordion-content').slideUp(500);
     });
     
+    $("ul.equipment-links > li > a:first").addClass("current");
+    $(".equipment-row[data-value='equipments-tab-1']").addClass("current");
+    $("ul.equipment-links > li > a").on("click", function(e){
+        e.preventDefault();
+        $(this).parent().siblings().find("a").removeClass("current");
+        $(this).addClass("current");
+        let attr = $(this).attr('data-name');
+        $(".equipment-row").hide();
+        $(".equipment-row[data-value="+ attr +"]").fadeIn('normal');
+    })
+
+
     if($(window).width() >= 768){
         $(".leadership-list").each(function() {
             let _this = $(this).children('.leadership-text');

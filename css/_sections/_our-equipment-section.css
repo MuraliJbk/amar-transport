@@ -1,5 +1,6 @@
 
-
+.our-equipment-wrap{padding: 53px 0 0;}
+.equipment-swoosh{top: 0; right: -94px; position: absolute; z-index: -1;} 
 .our-equipment-main{padding: 80px 5rem 81px; background: linear-gradient(180deg, #F5F7FA 59.03%, rgba(245, 247, 250, 0.00) 100%);}
 .our-equipment-title h2{font-size: 2.25rem; line-height: 2.5rem; margin-bottom: 1.5rem;}
 ul.equipment-links{margin: 0;}
@@ -12,6 +13,8 @@ ul.equipment-links li a.current::before{height: 100%;}
 .equipment-rows{padding: 5rem;}
 .equipment-number{color: var(--amar-orange);}
 .equipment-text h3{margin-bottom: 14px;}
+.equipment-row{display: none;}
+.equipment-row.current{display: block;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
