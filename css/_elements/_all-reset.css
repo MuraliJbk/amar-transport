@@ -186,7 +186,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .play-btn-bg > span.btn-circle{ background-color: var(--white); z-index: 1; }
 .play-btn-bg > span.btn-circle::after{ top: 50%; left: 50%; margin-left: 3px; transform: translate(-50%, -50%); font-size: 1.7rem; line-height: 1.688rem; color: var(--amar-blue); content: "\f04b"; font-weight: 900; font-family: "Font Awesome 6 Sharp"; display: block; position: absolute; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 .patients-swipe .play-btn-bg > span.btn-circle::after{font-size: 1.4rem;}
-.play-btn-bg > span.btn-circle:hover{background-color: var(--amar-blue);}
+.play-btn-bg > span.btn-circle:hover{background-color: var(--amar-orange);}
 .play-btn-bg > span.btn-circle:hover::after{color: var(--white);}
 .play-btn-bg > span {transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 50%; bottom: 0; content: " "; left: 0; position: absolute; right: 0; top: 0; }
 .play-btn-bg > span:not(:first-child) { animation: 6s playBtnZooming infinite linear; transform: scale(1); filter: opacity(0.25); -webkit-filter: opacity(0.25); background-color: var(--white); }
@@ -234,7 +234,9 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 
 .line-clamp{  display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
 .clamp-3{ -webkit-line-clamp: 3; }
-
+button.mfp-close, button.mfp-arrow, div.mfp-iframe-holder .mfp-close{width: 2rem; height: 2rem; padding: 0; opacity: 1; background-color: var(--amar-blue); display: flex; align-items: center; justify-content: center;}
+button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-holder .mfp-close:hover::after{width: 0;}
+/* button.mfp-close:hover, button.mfp-arrow:hover, div.mfp-iframe-holder .mfp-close:hover{background-color: var(--amar-orange);} */
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

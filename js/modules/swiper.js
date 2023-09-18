@@ -6,23 +6,29 @@ import 'swiper/css/pagination';
 import 'swiper/css/thumbs';
 Swiper.use([FreeMode, Navigation, Pagination, Thumbs]);
 
-var $window = $(window);
-const introSwiper = new Swiper('.short-intro-swiper', {
-    modules: [Navigation, Pagination],
-    direction: 'horizontal',
-    slidesPerView: 'auto',
-    effect: 'slide',
-    speed: 1000,
-    pagination: {
-    el: '.intro-pagination',
-    clickable: true,
-},
-});
-const toggleSwiper = () => { $(window).width() >= 1024 ? introSwiper.destroy() : introSwiper.enable(); }
-$window.on('resize load', toggleSwiper);
-$window.trigger('resize load', toggleSwiper);
+var $window = jQuery(window);
+const introSwiperEle = document.querySelector('.short-intro-swiper');
+if(introSwiperEle){
+ const introSwiper = new Swiper(introSwiperEle, {
+      modules: [Navigation, Pagination],
+      direction: 'horizontal',
+      slidesPerView: 'auto',
+      effect: 'slide',
+      speed: 1000,
+      pagination: {
+        el: '.intro-pagination',
+        clickable: true,
+      },
+  });
+  
+  const toggleSwiper = () => { $window.width() >= 1024 ? introSwiper.destroy() : introSwiper.enable(); }
+  $window.on('resize load', toggleSwiper);
+  $window.trigger('resize load', toggleSwiper);
+}
 
-var newsSwiperNav = new Swiper(".news-swiper-nav", {
+const newsSwiperNav = document.querySelector('.news-swiper-nav');
+if(newsSwiperNav){
+  new Swiper(newsSwiperNav, {
     direction: 'vertical',
     effect: "slide",
     loop: true,
@@ -30,8 +36,11 @@ var newsSwiperNav = new Swiper(".news-swiper-nav", {
     slidesPerView: 3,
     freeMode: true,
     watchSlidesProgress: true,
-});
-var swiper2 = new Swiper(".news-swiper-for", {
+  });
+}
+const swiper2 = document.querySelector('.news-swiper-for');
+if(swiper2){
+  new Swiper(swiper2, {
     slidesPerView: 1,
     effect: "slide",
     loop: true,
@@ -46,22 +55,26 @@ var swiper2 = new Swiper(".news-swiper-for", {
     thumbs: {
       swiper: newsSwiperNav,
     },
-});
+  });
+}
 
-const servicesSwiper = new Swiper('.other-services-swiper', {
-    modules: [Navigation, Pagination],
-    direction: 'horizontal',
-    slidesPerView: 4,
-    loop: true,
-    effect: 'slide',
-    speed: 1000,
-    pagination: {
-      el: '.services-pagination',
-      clickable: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+const servicesSwiper = document.querySelector('.other-services-swiper');
+if(servicesSwiper){
+  new Swiper(servicesSwiper, {
+      modules: [Navigation, Pagination],
+      direction: 'horizontal',
+      slidesPerView: 4,
+      loop: true,
+      effect: 'slide',
+      speed: 1000,
+      pagination: {
+        el: '.services-pagination',
+        clickable: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
     },
-  },
-});
+  });
+}
 
