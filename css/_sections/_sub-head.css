@@ -2,6 +2,7 @@
 .fit-bg{opacity: 0; transition: opacity 0.5s ease;}
 .fit-icon{margin-bottom: 10px;}
 .sub-head-pos:hover .fit-bg{opacity: 1;}
+.sub-intro-icon{right: -130px; top: -39px; width: 240px; opacity: 0.05;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
