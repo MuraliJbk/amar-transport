@@ -1,11 +1,18 @@
 
+.optional-cta-main{padding: 0 0 76px;}
 .optional-cta-text h2{margin-bottom: 1.5rem;}
+.optional-cta-img{ box-shadow: 0px 24px 24px 0px rgba(110, 148, 206, 0.24); }
+.optional-cta-swoosh{left: -45px; bottom: -45px;}
+.optional-cta-swoop{top: -308px; right: -240px; opacity: 0.2; z-index: -1;}
+.optional-cta-icon{z-index: -1; opacity: 0.05;}
+.optional-cta-icon.right{right: 0; top: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .optional-cta-main{gap: 0 80px;}
-    .optional-cta-main:not(:last-child){margin-bottom: 100px;}
-    .optional-cta-main:nth-child(even){flex-direction: row-reverse;}
+    body.page-template-innovation .optional-cta-main{margin-top: -80px; padding: 5rem 5rem 0;}
+    .optional-cta-list{gap: 0 80px;}
+    .optional-cta-list:not(:last-child){margin-bottom: 98px;}
+    .optional-cta-list:nth-child(even){flex-direction: row-reverse;}
     .optional-cta-img{flex: 0 0 600px;}
     .optional-cta-text{flex: 1;}
     .optional-cta-btns{gap: 20px;}
