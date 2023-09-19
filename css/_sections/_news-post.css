@@ -1,0 +1,53 @@
+
+
+.news-post-page{padding: 175px 0 0;}
+.news-banner-pos{width: 100%; height: 100%; bottom: 0; left: 0; align-items: flex-end;}
+.news-banner-overlay{width: 100%; min-height: 496px; height: auto; bottom: 0; left: 0; background: linear-gradient(0deg, rgba(8, 14, 38, 0.80) 18.66%, rgba(8, 14, 38, 0.00) 74.75%);}
+
+.news-post-content {padding: 84px 0 5.98rem;}
+ul.breadcrumbs{margin: 0 0 40px; gap: 0 38px;}
+ul.breadcrumbs li::before{display: none;}
+ul.breadcrumbs li{margin: 0;}
+ul.breadcrumbs li:last-child{font-weight: 700;}
+ul.breadcrumbs li:first-child a{color: var(--amar-blue);}
+ul.breadcrumbs li a{color: var(--text-color);}
+.news-post-article > p:nth-child(2){color: var(--text-100);}
+.figcaption-main{margin-bottom: 46px; background-color: var(--amar-sm-blue);}
+figcaption{padding: 1.5rem;}
+.short-cta-wrap{padding-bottom: 43px; margin-bottom: 40px; border-bottom: 1px solid #DADBDC;}
+.short-cta{padding: 1.5rem; color: var(--white-70);}
+.short-cta .button{width: 100%;}
+.related-news-list{gap: 20px; margin-bottom: 2.5rem;}
+.related-news-image{flex: 0 0 104px;}
+.related-news-image img{width: 100%; height: 104px; object-fit: cover;}
+.related-news-text{flex: 1;}
+
+.you-might-main{padding: 4rem 0;}
+.you-might-head{margin-bottom: 2.5rem;}
+.you-might-title h3{margin-bottom: 0;}
+.you-might-text{padding: 2rem; color: var(--text-100);}
+.you-might-pos{margin-bottom: 2.38rem; justify-content: space-between;}
+.dt-format{flex: 1; color: var(--text-color); font-size: 0.75rem; line-height: 1.25rem; }
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){
+    .news-post-content{ gap: 0 5rem;}
+    .news-post-article{flex: 1; }
+    .news-post-aside{flex: 0 0 300px;}
+    .you-might-title{flex: 1;}
+    .you-might-btn{flex: 0 0 200px;}
+}
+@media only screen and (min-width: 768px){
+    .news-banner-text{max-width: 780px; padding: 3.12rem 5rem 1.85rem;}
+    .news-banner-text h1{font-size: 3rem; line-height: 3rem;}
+    .news-post-article > p:nth-child(2){font-size: 1.5rem; line-height: 2rem; margin-bottom: 2.9rem;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    
+}
+@media only screen and (max-width: 380px) and (min-width: 200px){
+
+}

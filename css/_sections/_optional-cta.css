@@ -13,6 +13,7 @@
     .optional-cta-list{gap: 0 80px;}
     .optional-cta-list:not(:last-child){margin-bottom: 98px;}
     .optional-cta-list:nth-child(even){flex-direction: row-reverse;}
+    .optional-cta-list.reverse{flex-direction: row-reverse;}
     .optional-cta-img{flex: 0 0 600px;}
     .optional-cta-text{flex: 1;}
     .optional-cta-btns{gap: 20px;}

@@ -1,6 +1,9 @@
 
+.browse-news-wrap{padding: 5rem 0 4rem;}
+.browse-news-head{margin-bottom: 2.5rem;}
+.browse-news-form{margin-bottom: 2.5rem;}
 .browse-text{color: var(--text-100);}
-.browse-aside{background-color: var(--text-100);}
+.browse-aside{padding: 1.5rem;}
 
 
 /*-- media css starts here --*/

@@ -239,6 +239,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 button.mfp-close, button.mfp-arrow, div.mfp-iframe-holder .mfp-close{width: 2rem; height: 2rem; padding: 0; opacity: 1; background-color: var(--amar-blue); display: flex; align-items: center; justify-content: center;}
 button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-holder .mfp-close:hover::after{width: 0;}
 /* button.mfp-close:hover, button.mfp-arrow:hover, div.mfp-iframe-holder .mfp-close:hover{background-color: var(--amar-orange);} */
+.w-100{width: 100%;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

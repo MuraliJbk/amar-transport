@@ -2,3 +2,4 @@
 
 .gradients{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}
 .confirmation-g{background: linear-gradient(180deg, #1998D5 0%, #0C609D 100%);}
+.news-post-gradients{max-height: 27.6875rem; background: linear-gradient(180deg, #1998D5 0%, #0C609D 100%);}

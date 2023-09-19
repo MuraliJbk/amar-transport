@@ -3,6 +3,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .row.gutter-24{--ps-gutter-x: 1.5rem;}
+    .row.gutter-40{--ps-gutter-x: 2.5rem;}
     .row.gutter-80{--ps-gutter-x: 5rem;}
     .row{--ps-gutter-x: 2rem; margin-right: calc(-.5 * var(--ps-gutter-x)); margin-left: calc(-.5 * var(--ps-gutter-x)); display: flex; flex-wrap: wrap;}
     .row > *{padding-right: calc(var(--ps-gutter-x) * .5); padding-left: calc(var(--ps-gutter-x) * .5); flex-grow: 0; flex-shrink: 0;}
