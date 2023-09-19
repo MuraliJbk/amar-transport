@@ -1,0 +1,50 @@
+
+
+
+
+
+.open-positions-wrap{padding: 5rem; margin-top: -54px;}
+ul.positions-links{margin: 0 0 48px; gap: 8px; border-bottom: 1px solid rgba(94, 103, 131, 0.25);}
+ul.positions-links li::before{display: none;}
+ul.positions-links li{margin: 0;}
+ul.positions-links li a{padding: 0 1rem 14px; color: var(--amar-blue); display: block;}
+ul.positions-links li a::after{width: 0%; height: 4px; bottom: 0; left: 0; right: 0; margin: 0 auto; background-color: var(--amar-orange); content: ""; display: block; position: absolute; transition: all 0.45s ease;}
+ul.positions-links li a.current::after, ul.positions-links li a:hover::after{width: 100%;}
+.positions-tabs{padding: 1rem; margin-bottom: 1rem; background-color: var(--amar-sm-blue);}
+.positions-tabs:last-child{margin-bottom: 0;}
+.tabs-title h3{margin: 0;}
+.tabs-categorys{color: var(--text-color);}
+ul.tabs-category{margin: 0;}
+ul.tabs-category li::before{top: 11px; right: -16px; left: auto; background-color: var(--amar-orange);}
+ul.tabs-category li{margin: 0; font-weight: 600;}
+/* .open-positions-row{display: none;}
+.open-positions-row.current{display: block;} */
+
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){
+    .open-positions-main{gap: 0 80px; }
+    .open-positions-text{flex: 0 0 352px;}
+    .open-positions-tabs{flex: 1;}
+    .tabs-title{flex: 0 0 340px;}
+    .tabs-categorys{flex: 1;}
+    .tabs-btn{flex: 0 0 110px;}
+    .positions-tabs{gap: 0 43px;}
+    ul.tabs-category{gap: 0 28px; flex: 1;}
+    span.tabs-date{flex: 0 0 82px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

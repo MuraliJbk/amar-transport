@@ -4,10 +4,10 @@ html.js{margin-top: 0 !important;}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html { overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
-a{color: var(--blue);text-decoration: none; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
+a{color: var(--text-100);text-decoration: none; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
-a:hover{color: var(--black);}
+a:hover{color: var(--amar-orange);}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--text-100); font-weight: 700; font-family: 'Instrument Sans', sans-serif; text-transform: none;}
 .h1, h1{font-size: 4rem; line-height: 4.8rem; margin-bottom: 1.563rem;}
 .h2, h2{font-size: 2.5rem; line-height: 3rem; margin-bottom: 1.25rem;}
@@ -15,8 +15,8 @@ a:hover{color: var(--black);}
 .h4, h4{font-size: 1.5rem; line-height: 1.75rem; margin-bottom: 0.938rem;}
 .h5, h5{font-size: 1.25rem; line-height: 2rem; margin-bottom: 1.313rem;}
 .h6, h6{font-size: 1.125rem; line-height: 1.625rem; margin-bottom: 1.313rem;}
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--heading-color); font-family: inherit;}
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--blue);}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--text-100); font-family: inherit;}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--amar-orange);}
 h1 span{position: relative; z-index: 0; display: inline-block;}
 .h2 span, h2 span{position: relative; z-index: 0;}
 h1 span svg{left: 0; top: -11px; position: absolute;}
@@ -154,7 +154,9 @@ span.optional-text.no-line::before{display: none;}
 .fs-9{font-size: 9px; line-height: 10px; letter-spacing: 3.15px; font-weight: 600; font-family: "Instrument Sans", sans-serif;}
 .fs-10{font-size: 0.625rem; line-height: 0.875rem;}
 .fs-12{font-size: 12px; line-height: 22px;}
+.fs-14{font-size: 0.875rem; line-height: 1.375rem;}
 .fs-16{font-size: 1rem; line-height: 1.5rem;}
+.fs-18{font-size: 1.125rem; line-height: 1.5rem;}
 .fs-20{font-size: 1.25rem; line-height: 1.75rem;}
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}
 .fs-26{font-size: 1.625rem; line-height: 2.125rem; margin-bottom: 1.75rem;}

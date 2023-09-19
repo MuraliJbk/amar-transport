@@ -44,7 +44,22 @@ jQuery(document).ready(function($){
         let attr = $(this).attr('data-name');
         $(".equipment-row").hide();
         $(".equipment-row[data-value="+ attr +"]").fadeIn('normal');
-    })
+    });
+
+    $("ul.positions-links li a:first").addClass("current");
+    $(".open-positions-row[data-value='all']").addClass("current");
+
+    $("ul.positions-links li a").on("click", function(e){
+        e.preventDefault();
+        let _this = $(this).attr("data-name");
+        $(".open-positions-row").hide();
+        let _thisattr = $(".open-positions-row[data-value="+ _this +"]");
+       _thisattr.fadeIn('normal');
+        if(_this === "all"){
+            console.log("am murali")
+            $(".open-positions-row").fadeIn();
+        }
+    });
 
 
     if($(window).width() >= 768){

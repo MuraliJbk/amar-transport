@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/thumbs';
 Swiper.use([FreeMode, Navigation, Pagination, Thumbs]);
 
-var $window = jQuery(window);
+var _selfwindow = jQuery(window);
 const introSwiperEle = document.querySelector('.short-intro-swiper');
 if(introSwiperEle){
  const introSwiper = new Swiper(introSwiperEle, {
@@ -21,9 +21,9 @@ if(introSwiperEle){
       },
   });
   
-  const toggleSwiper = () => { $window.width() >= 1024 ? introSwiper.destroy() : introSwiper.enable(); }
-  $window.on('resize load', toggleSwiper);
-  $window.trigger('resize load', toggleSwiper);
+  const toggleSwiper = () => { _selfwindow.width() >= 1024 ? introSwiper.destroy() : introSwiper.enable(); }
+  _selfwindow.on('resize load', toggleSwiper);
+  _selfwindow.trigger('resize load', toggleSwiper);
 }
 
 const newsSwiperNav = document.querySelector('.news-swiper-nav');
