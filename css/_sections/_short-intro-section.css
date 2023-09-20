@@ -5,6 +5,12 @@
 .short-intro-pos::after{width: 100%; height: 0; bottom: 0; left: 0; opacity: 0; transition: all 0.5s ease; background-color: var(--amar-light-blue); content: ""; position: absolute;}
 .counter{font-size: 96px; font-weight: bold; line-height: 1; letter-spacing: normal; color: var(--amar-light-blue); display: block; margin-bottom: 15px;}
 .short-intro-list h3{font-size: 1.5rem; line-height: 1.17; margin-bottom: 1rem; font-weight: bold; letter-spacing: normal;}
+.amar-orange .counter{color: var(--amar-orange);}
+.amar-orange .short-intro-pos::after{background-color: var(--amar-orange);}
+.amar-green .counter{color: var(--green);}
+.amar-green .short-intro-pos{border-color: var(--green); background-color: rgba(0, 0, 0, 0.28);}
+/* .amar-green  .short-intro-list:hover .short-intro-pos{border-color: var(--green);} */
+.amar-green .short-intro-pos::after{background-color: var(--green); width: calc(100% + 2px); left: -1px;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
@@ -12,11 +18,12 @@
     .short-intro-main{padding: 80px 0 100px;}
     .short-intro-head{gap: 32px; margin-bottom: 64px;}
     .short-intro-title{flex: 0 0 449px;}
+    .stats-bg-dark .short-intro-title, .stats-bg-green .short-intro-title{flex: 0 0 609px;}
     .short-intro-text{flex: 1; gap: 32px;}
     .short-intro-desc{flex: 1;}
     .short-intro-list:hover .short-intro-pos{border-color: transparent;}
     .short-intro-list:hover .short-intro-pos::after{opacity: 1; height: 7px;}
-    .short-intro-swiper .swiper-wrapper{width: auto;}
+    .short-intro-swiper .swiper-wrapper{width: auto; justify-content: center;}
     .scroller_icon{top: -25px; left: 0; position: absolute;}
 }
 @media only screen and (max-width: 1229px) and (min-width: 1024px){
