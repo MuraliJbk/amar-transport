@@ -71,7 +71,7 @@ table tr:last-child td{border-bottom: none;}
 caption, th, td {text-align: left;}
 del {color: var(--black);}
 hr{margin: 0 0 24px; display: block; border: none; width: 40px; height: 2px; background-color: var(--amar-orange);}
-
+hr.line{height: 1px; width: 100%; background: rgba(94, 103, 131, 0.25);}
 ::selection {background-color: var(--black); color: var(--white);}
 ::-moz-selection {background-color: var(--black); color: var(--white);}
 

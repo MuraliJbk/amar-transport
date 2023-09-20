@@ -6,7 +6,15 @@
 .browse-news-form input, .browse-news-form .selectBox{padding: 18px 40px 18px 19px; font-size: 1rem; line-height: 1.5rem; border: 2px solid rgba(94, 103, 131, 0.25);}
 .browse-text{color: var(--text-100); }
 .browse-pos{margin-bottom: 37px;}
+.load-more-btn{gap: 8px;}
+.load-more-btn hr{margin: 0; flex: 1;}
+.load-more-btn .button{width: 100%; flex: 0 0 184px;}
+span.loader{position: absolute;}
 .browse-aside{padding: 1.5rem;}
+.browse-search-form input{font-size: 0.875rem; line-height: 1.125rem;}
+button.browse-search-btn{background: none; padding: 0; right: 16px; top: 13px; font-size: 1.125rem; color: var(--amar-blue);}
+button.browse-search-btn::after{background: none;}
+button.browse-search-btn:hover{color: var(--amar-orange);}
 
 
 /*-- media css starts here --*/
