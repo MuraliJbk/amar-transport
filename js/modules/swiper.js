@@ -1,5 +1,5 @@
 import Swiper from 'swiper';
-import {FreeMode, Navigation, Pagination, Thumbs} from 'swiper/modules';
+import {FreeMode, Navigation, Pagination, Thumbs, Autoplay} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -24,6 +24,23 @@ if(introSwiperEle){
   const toggleSwiper = () => { _selfwindow.width() >= 1024 ? introSwiper.destroy() : introSwiper.enable(); }
   _selfwindow.on('resize load', toggleSwiper);
   _selfwindow.trigger('resize load', toggleSwiper);
+}
+
+const swiperClients = document.querySelector(".swiper-clients");
+if(swiperClients){
+  const swiperClient = new Swiper(swiperClients, {
+       modules: [Navigation, Pagination, Autoplay],
+       direction: 'horizontal',
+       slidesPerView: 'auto',
+       slidesPerScroll: 9,
+       effect: 'slide',
+       speed: 1000,
+       autoplay: true,
+       pagination: {
+         el: '.intro-pagination',
+         clickable: true,
+       },
+   });
 }
 
 const newsSwiperNav = document.querySelector('.news-swiper-nav');
@@ -70,11 +87,11 @@ if(servicesSwiper){
       pagination: {
         el: '.services-pagination',
         clickable: true,
+      },
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
-    },
   });
 }
 
