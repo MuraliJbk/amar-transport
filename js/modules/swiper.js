@@ -26,22 +26,24 @@ if(introSwiperEle){
   _selfwindow.trigger('resize load', toggleSwiper);
 }
 
-const swiperClients = document.querySelector(".swiper-clients");
-if(swiperClients){
-  const swiperClient = new Swiper(swiperClients, {
-       modules: [Navigation, Pagination, Autoplay],
-       direction: 'horizontal',
-       slidesPerView: 'auto',
-       slidesPerScroll: 9,
-       effect: 'slide',
-       speed: 1000,
-       autoplay: true,
-       pagination: {
-         el: '.intro-pagination',
-         clickable: true,
-       },
-   });
-}
+const swiperClients = document.querySelectorAll(".swiper-clients");
+  swiperClients.forEach(function(element, index){
+    const _this = new Swiper(element, {
+      modules: [Navigation, Pagination, Autoplay],
+      direction: 'horizontal',
+      slidesPerView: 9,
+      slidesPerScroll: 9,
+      loop: true,
+      effect: 'slide',
+      speed: 1000,
+      autoplay: true,
+      pagination: {
+        el: '.intro-pagination',
+        clickable: true,
+      },
+  });
+})
+
 
 const newsSwiperNav = document.querySelector('.news-swiper-nav');
 if(newsSwiperNav){
