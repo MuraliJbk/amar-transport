@@ -28,6 +28,7 @@ figcaption{padding: 1.5rem;}
 .you-might-text{padding: 2rem; color: var(--text-100);}
 .you-might-pos{margin-bottom: 2.38rem; justify-content: space-between;}
 .dt-format{flex: 1; color: var(--text-color); font-size: 0.75rem; line-height: 1.25rem; }
+.browse-pos .dt-format{opacity: 0.5;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
