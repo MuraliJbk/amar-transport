@@ -25,8 +25,9 @@ ul.categorys > li > a{padding: 0.3125rem 0.5rem 0.5rem 0.5rem; display: block; b
     .news-update-btn{flex: 0 0 480px;}
     .news-update-swiper{gap: 40px;}
     .news-swiper-for{width: calc(100% - 460px);}
-    .news-swiper-nav{width: 420px; height: 432px; position: relative; overflow: hidden;}
-    .news-swiper-nav .small-post-list{gap: 0 20px; display: flex; align-items: flex-start; flex-wrap: wrap;}
+    .news-swiper-nav{width: 420px; height: 490px; padding-bottom: 80px; position: relative; overflow: hidden;}
+    .news-swiper-nav .small-post-list{gap: 0 20px; opacity: 0; display: flex; align-items: flex-start; flex-wrap: wrap;}
+    .news-swiper-nav .small-post-list.swiper-slide-visible{opacity: 1;}
     .news-small-thumb{flex: 0 0 104px;}
     .news-small-text{flex: 1;}
 }

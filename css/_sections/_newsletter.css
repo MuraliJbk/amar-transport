@@ -15,14 +15,14 @@ body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input.hide-pla
 .newsletter-form  .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder {color: var(--text-color); font-family: 'Instrument Sans', sans-serif; opacity: 1;}
 
 .newsletter-form .frm_forms .frm_form_fields .frm_submit{right: 0; top: 0; height: 100%; width: 98px; position: absolute;}
-.newsletter-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{height: 100%; padding: 0 1.25rem; font-size: 1rem; line-height: 1.5rem;}
+.newsletter-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{height: 100%; width: 100%; padding: 0 1.25rem; font-size: 1rem; line-height: 1.5rem;}
 .newsletter_disclaimer{margin-top: 19px; font-size: 0.875rem; line-height: 1.375rem; color: var(--white-90);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .newsletter-main{gap: 0 80px;}
     .newsletter-text{flex: 0 0 456px;}
-    .newsletter-form{flex: 1; max-width: 491px; margin-left: auto;}
+    .newsletter-form{flex: 1; max-width: 491px; margin-left: auto; padding-top: 70px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .newsletter-main {gap: 17px; padding: 60px 0 40px;}
