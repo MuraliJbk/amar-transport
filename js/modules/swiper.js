@@ -27,8 +27,8 @@ if(introSwiperEle){
 }
 
 const swiperClients = document.querySelectorAll(".swiper-clients");
-  swiperClients.forEach(function(element, index){
-    const _this = new Swiper(element, {
+  swiperClients.forEach(function(_swiperClient, index){
+    new Swiper(_swiperClient, {
       modules: [Navigation, Pagination, Autoplay],
       direction: 'horizontal',
       slidesPerView: 9,
