@@ -1,5 +1,9 @@
 
 
+
+.other-services-slider .slick-arrow{top: -131px; position: absolute; right: 0; width: 180px; height: 56px; display: flex; justify-content: center; align-items: center; gap: 16px;}
+.other-services-slider .slick-arrow.slick-prev{right: 190px;}
+
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
 
