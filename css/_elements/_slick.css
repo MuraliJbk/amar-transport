@@ -1,8 +1,14 @@
 
-
+ul.slick-dots{width: 100%; margin: 0; gap: 8px; display: flex; flex-wrap: wrap;}
+ul.slick-dots li::before{display: none;}
+ul.slick-dots li{ width: 14px; height: 14px; padding: 0; margin: 0; cursor: pointer; font-size: 0; line-height: 0; background: var(--amar-blue-2); border-radius: 50%; }
+ul.slick-dots li button{display: none;}
+ul.slick-dots li.slick-active{background-color: var(--amar-orange);}
 
 .other-services-slider .slick-arrow{top: -131px; position: absolute; right: 0; width: 180px; height: 56px; display: flex; justify-content: center; align-items: center; gap: 16px;}
 .other-services-slider .slick-arrow.slick-prev{right: 190px;}
+
+
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
