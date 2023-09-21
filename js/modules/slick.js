@@ -4,14 +4,12 @@ import 'slick-carousel/slick/slick.css';
 
 
 (function($) {
-
-
     $('.other-services-slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: true,
-        prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',
-        nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
+        prevArrow: '<div class="slick-arrow slick-prev button btn-transparent"><span class="fa-sharp fa-solid fa-arrow-left"></span><span>Previous</span></div>',
+        nextArrow: '<div class="slick-arrow slick-next button btn-transparent"><span>Next</span><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
         dots: false,
         variableWidth: true,
       });
