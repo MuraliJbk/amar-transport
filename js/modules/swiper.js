@@ -96,4 +96,22 @@ if(servicesSwiper){
       },
   });
 }
+const timelineSwiper = document.querySelector(".timeline-swiper");
+if(timelineSwiper){
+  new Swiper(timelineSwiper, {
+    modules: [Navigation, Pagination],
+    direction: 'horizontal',
+    slidesPerView: 'auto',
 
+    effect: 'slide',
+    speed: 1000,
+    pagination: {
+      el: '.timeline-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  })
+}

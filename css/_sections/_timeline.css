@@ -1,4 +1,14 @@
 
 
-
+.timeline-main{padding: 75px 5rem 88px; margin-top: -130px;}
 .swiper-slide.timeline-swiper-slide{width: 322px; margin-right: 59px;}
+.timeline-slide-image{margin-bottom: 1rem;}
+
+.timeline-head{width: calc(100% - 370px); margin-bottom: 190px;}
+
+div.timeline-pagination.swiper-pagination-bullets{gap: 0 352px; left: 147px; top: -87px; bottom: auto; margin: 0; justify-content: flex-start; align-items: center;} 
+.timeline-pagination.swiper-pagination-bullets::before{width: 100vw; height: 3px; top: 15px; left: 0; background-color: var(--gray); content: ""; display: block; position: absolute; z-index: -1;}
+.timeline-pagination.swiper-pagination-bullets .swiper-pagination-bullet{width: 24px; height: 24px; background-color: #55A1F0; border-radius: 50%; position: relative;}
+.timeline-pagination.swiper-pagination-bullets .swiper-pagination-bullet::before{width: 8px; height: 8px; top: calc(50% - 0px); left: 50%; transform: translate(-50%, -50%); background-color: var(--white);  border-radius: 50%; content: ""; position: absolute; display: block;}
+.timeline-pagination.swiper-pagination-bullets .swiper-pagination-bullet-active{width: 32px; height: 32px; background-color: var(--amar-orange);}
+.timeline-pagination.swiper-pagination-bullets .swiper-pagination-bullet-active::before{width: 16px; height: 16px;}
