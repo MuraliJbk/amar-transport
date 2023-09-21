@@ -9,6 +9,9 @@
 .swiper-initialized .custom-swiper-button.swiper-button-prev{right: 70px; left: auto; opacity: 0.85;}
 .custom-swiper-button::after{display: none;}
 
+.swiper-button-next.button.btn-transparent{width: 180px; height: 56px; top: -139px; color: var(--text-100); gap: 17px;} 
+.swiper-button-next::after, .swiper-button-prev::after{font-size: 0 !important;}
+.swiper-button-prev.button.btn-transparent{width: 180px; height: 56px; top: -139px; right: 200px; left: auto; color: var(--text-100); gap: 17px;}
 
 
 /*-- media css starts here --*/
