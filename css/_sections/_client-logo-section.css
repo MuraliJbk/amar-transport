@@ -2,13 +2,12 @@
 .client-logos-wrap{padding: 3.5rem 3rem;}
 .client-logos-main{ position: relative; overflow: hidden;}
 .client-logos-row{justify-content: center;}
-.swiper-initialized .client-logos-row{justify-content: flex-start;}
 .client-logo-thumb img{min-height: 48px; max-height: 48px; width: auto; height: auto; opacity: 0.4; object-fit: contain; filter: grayscale(100%);}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px) {
     body.home .client-logos-wrap{margin-top: -75px;}
 
-    .swiper-slide.client-logo-list{width: 120px; margin: 0 20px;}
+    .client-logo-list{width: 120px; margin: 0 20px;}
  
 }

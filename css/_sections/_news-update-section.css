@@ -1,6 +1,6 @@
 
 .news-update-head{margin-bottom: 39px;}
-.news-swiper-for{overflow: hidden;}
+.news-slider-for{overflow: hidden;}
 .news-update-image::before{width: 100%; height: 100%; top: 0; left: 0; opacity: 0.5; background-color: var(--black); content: ""; display: block; position: absolute;}
 .news-update-text{padding: 4rem; top: 50%; transform: translateY(-50%); position: absolute;} 
 .news-update-text h2{margin-bottom: 1.5rem;}
@@ -15,7 +15,7 @@ ul.categorys.white > li > a:hover{background: var(--white); color: var(--amar-bl
 .you-might-pos ul.categorys{flex: 1; margin: 0;}
 .browse-pos ul.categorys{flex: 1; margin: 0;}
 
-.news-update-swiper{margin-bottom: 80px;}
+.news-update-slider{margin-bottom: 80px;}
 
 /* media css starts here */
 @media only screen and (min-width: 768px){
@@ -26,11 +26,10 @@ ul.categorys.white > li > a:hover{background: var(--white); color: var(--amar-bl
     .news-update-head{gap: 20px;}
     .news-update-title{flex: 1;}
     .news-update-btn{flex: 0 0 480px;}
-    .news-update-swiper{gap: 40px;}
-    .news-swiper-for{width: calc(100% - 460px);}
-    .news-swiper-nav{width: 420px; height: 490px; padding-bottom: 80px; position: relative; overflow: hidden;}
-    .news-swiper-nav .small-post-list{gap: 0 20px; opacity: 0; display: flex; align-items: flex-start; flex-wrap: wrap;}
-    .news-swiper-nav .small-post-list.swiper-slide-visible{opacity: 1;}
+    .news-update-slider{gap: 40px;}
+    .news-slider-for{width: calc(100% - 460px);}
+    .news-slider-nav{width: 420px; height: 490px; padding-bottom: 80px; position: relative; overflow: hidden;}
+    .news-slider-nav .small-post-list{gap: 0 20px; opacity: 0; display: flex; align-items: flex-start; flex-wrap: wrap;}
     .news-small-thumb{flex: 0 0 104px;}
     .news-small-text{flex: 1;}
 }
