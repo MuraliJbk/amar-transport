@@ -14,8 +14,9 @@
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
-    body.home .short-intro-main{margin-top: -160px;}
     .short-intro-main{padding: 80px 0 100px;}
+    body.home .short-intro-main{margin-top: -160px;}
+    body.page-template-about .short-intro-main{padding-bottom: 176px;}
     .short-intro-head{gap: 32px; margin-bottom: 64px;}
     .short-intro-title{flex: 0 0 449px;}
     .stats-bg-dark .short-intro-title, .stats-bg-green .short-intro-title{flex: 0 0 609px;}
