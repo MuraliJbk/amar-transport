@@ -15,10 +15,10 @@
 .service-btn{opacity: 0; overflow: hidden; transition: all 0.5s ease-in-out;}
 .service-text:hover .service-btn{height: auto; opacity: 1;}
 
-.other-services-swiper .service-img img{min-height: 348px;}
-.other-services-swiper .service-text h2{min-height: 56px; display: flex; flex-direction: column; justify-content: flex-end;}
-.other-services-swiper .service-text svg{margin-bottom: 26px;}
-.other-services-swiper .service-btn{margin-top: -20px;}
+.other-services-slider .service-img img{min-height: 348px;}
+.other-services-slider .service-text h2{min-height: 56px; display: flex; flex-direction: column; justify-content: flex-end;}
+.other-services-slider .service-text svg{margin-bottom: 26px;}
+.other-services-slider .service-btn{margin-top: -20px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

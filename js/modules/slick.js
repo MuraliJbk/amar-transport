@@ -4,6 +4,14 @@ import 'slick-carousel/slick/slick.css';
 
 
 (function($) {
+    $('.client-logos-slider').slick({
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        autoplay: true,
+      });
+
     $('.other-services-slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
