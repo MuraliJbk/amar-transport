@@ -73,6 +73,10 @@ jQuery(document).ready(function($){
             });
         });
     }
+    
+    if($(window).width() <= 1023){
+        $(".home-circular-wave").remove();
+    }
 
     if($(window).width() <= 767){
         $(".footer-list span").on("click", function(e){
