@@ -1,3 +1,4 @@
 
 
 .seaport-section{margin: -325px 0 -25px; position: relative; z-index: -1;}
+body.page-template-news .seaport-section{margin-top: -180px;}
