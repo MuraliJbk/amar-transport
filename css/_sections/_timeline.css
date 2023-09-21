@@ -1,6 +1,7 @@
 
 
 .timeline-main{padding: 75px 5rem 88px; margin-top: -130px;}
+.timeline-frame img{filter: grayscale(100%); min-height: 400px;}
 .swiper-slide.timeline-swiper-slide{width: 322px; margin-right: 59px;}
 .timeline-slide-image{margin-bottom: 1rem;}
 

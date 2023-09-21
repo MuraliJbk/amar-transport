@@ -1,0 +1,29 @@
+
+
+.team-our-text h2{font-size: 3rem; line-height: 3.5rem;}
+.team-our-btns{gap: 24px;}
+.team-our-thumb img{width: 100%; height: auto; object-fit: cover;}
+
+
+
+/*-- media css starts here --*/
+@media screen and (min-width: 1024px){
+    .team-our-main{gap: 0 183px;}
+    .team-our-text{flex: 0 0 579px;}
+    .team-our-images{flex: 1; gap: 38px;}
+    .team-our-thumb{flex: 0 calc(50% - 19px);}
+    .team-our-thumb:nth-child(even){margin-top: -88px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
