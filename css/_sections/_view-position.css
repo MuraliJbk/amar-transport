@@ -1,0 +1,30 @@
+
+
+
+
+
+
+.view-position-list{background: #EEF7FF;}
+
+
+
+
+
+
+
+/*-- media css starts here --*/
+@media screen and (min-width: 1024px){
+    .view-position-avatar{gap: 1rem;}
+    .view-position-image{flex: 0 0 64px;}
+    .view-position-desc{flex: 1;}
+}
+
+
+
+
+
+
+
+
+
+
