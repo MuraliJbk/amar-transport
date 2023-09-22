@@ -2,10 +2,10 @@
 .optional-cta-main{padding: 0 0 76px;}
 .optional-cta-text h2{margin-bottom: 1.5rem;}
 .optional-cta-img{ box-shadow: 0px 24px 24px 0px rgba(110, 148, 206, 0.24); }
-.optional-cta-swoosh{left: -45px; bottom: -45px;}
-.optional-cta-swoop{top: -308px; right: -240px; opacity: 0.2; z-index: -1;}
-.optional-cta-swoop2 { bottom: -60px; right: -40px; }
-.optional-cta-swoop3 { top: -174px; left: -271px; z-index: -1; }
+.optional-cta-swoosh0{left: -45px; bottom: -45px;}
+.optional-cta-swoosh1{top: -308px; right: -240px; opacity: 0.2; z-index: -1;}
+.optional-cta-swoosh2 { bottom: -60px; right: -40px; }
+.optional-cta-swoosh3 { top: -174px; left: -271px; z-index: -1; }
 .optional-cta-icon{z-index: -1; opacity: 0.05;}
 .optional-cta-icon.right{right: 0; top: 0;}
 
