@@ -1,9 +1,9 @@
 
 .contact-banner-section{background: linear-gradient(180deg, #1998D5 0%, #0C609D 100%);}
-.contact-gradient{right: -300px; top: -220px;}
-.contact-banner-main{padding: 200px 0;}
+.contact-gradient{right: -241px; top: -220px;}
+.contact-banner-main{padding: 224px 0;}
 .contact-banner-text p span{color: var(--amar-blue-2);}
-.contact-banner-globe{top: 0; right: 0; width: 784px;}
+.contact-banner-globe{top: 50px; right: -100px; width: 784px;}
 
 .contact-wrap{padding: 5rem 5rem; margin-top: -80px;}
 ul.inquiries{margin: 0; gap: 1rem 5.95rem;}
