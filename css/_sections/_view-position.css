@@ -4,7 +4,9 @@
 
 
 
-.view-position-list{background: #EEF7FF;}
+.view-position-list{background: #EEF7FF; padding: 32px 32px 40px;}
+.view-position-list svg{margin-bottom: 8px;}
+.view-position-desc .font-bold{margin-bottom: 6px; display: block;}
 
 
 
