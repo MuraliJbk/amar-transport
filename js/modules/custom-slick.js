@@ -70,13 +70,17 @@ jQuery(document).ready(function($){
   $('.timeline-slider-for').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: false,
+    arrows: true,
+    prevArrow: '<div class="slick-arrow slick-prev button btn-transparent"><span class="fa-sharp fa-solid fa-arrow-left"></span><span>Previous</span></div>',
+    nextArrow: '<div class="slick-arrow slick-next button btn-transparent"><span>Next</span><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
     dots: false,
+    variableWidth: true,
     asNavFor: '.timeline-slider-nav'
   });
   $('.timeline-slider-nav').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
+    variableWidth: true,
     asNavFor: '.timeline-slider-for',
     focusOnSelect: true,
     arrows: false,

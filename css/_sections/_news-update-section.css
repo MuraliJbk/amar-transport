@@ -18,6 +18,7 @@ ul.categorys.white > li > a:hover{background: var(--white); color: var(--amar-bl
 .news-update-slider{margin-bottom: 80px;}
 .news-update-slider::after{content: ""; display: block; clear: both;}
 .news-small-text p{display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;}
+.news-small-thumb img{min-height: 104px;}
 
 /* media css starts here */
 @media only screen and (min-width: 768px){

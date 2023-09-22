@@ -2,8 +2,10 @@
 
 .timeline-main{padding: 75px 5rem 88px; margin-top: -130px;}
 .timeline-frame img{filter: grayscale(100%); min-height: 400px;}
-.timeline-nav-slide{width: 322px; margin-right: 59px;}
-.timeline-for-slide{width: 322px; margin-right: 59px;}
+.timeline-slider-nav.slick-slider{width: 100vw;}
+.timeline-slider-nav .slick-slide{width: 322px; margin-right: 59px;}
+.timeline-slider-for.slick-slider{width: 100vw;}
+.timeline-slider-for .slick-slide{width: 322px; margin-right: 59px;}
 .timeline-slide-image{margin-bottom: 1rem;}
 
 .timeline-head{width: calc(100% - 370px); margin-bottom: 190px;}
