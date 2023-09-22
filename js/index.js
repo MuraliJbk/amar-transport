@@ -1,6 +1,5 @@
 
 import './lib/jquery.selectBox';
-// import './lib/slick.min';
 import './modules/animation';
 import './modules/counter';
 import './modules/script';

@@ -24,9 +24,11 @@
     "gsap": "^3.12.2",
     "is-in-viewport": "^3.0.4",
     "jquery": "^3.7.1",
+    "latest": "^0.2.0",
     "lerp": "^1.0.3",
     "magnific-popup": "^1.1.0",
-    "mouse-parallax": "^1.0.0"
+    "mouse-parallax": "^1.0.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.22.15",

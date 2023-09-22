@@ -1,3 +1,7 @@
+
+import jQuery from 'jquery';
+import 'slick-carousel';
+
 jQuery(document).ready(function($){
   var _windowWidth = $(window).width();
     $('.client-logos-slider').slick({
