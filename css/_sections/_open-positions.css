@@ -10,6 +10,10 @@ ul.positions-links li{margin: 0;}
 ul.positions-links li a{padding: 0 1rem 14px; color: var(--amar-blue); display: block;}
 ul.positions-links li a::after{width: 0%; height: 4px; bottom: 0; left: 0; right: 0; margin: 0 auto; background-color: var(--amar-orange); content: ""; display: block; position: absolute; transition: all 0.45s ease;}
 ul.positions-links li a.current::after, ul.positions-links li a:hover::after{width: 100%;}
+.open-positions-row{margin-bottom: 1rem;}
+
+
+.open-position-head h2{margin: 0;}
 .positions-tabs{padding: 1rem; margin-bottom: 1rem; background-color: var(--amar-sm-blue);}
 .positions-tabs:last-child{margin-bottom: 0;}
 .tabs-title h3{margin: 0;}
@@ -17,8 +21,6 @@ ul.positions-links li a.current::after, ul.positions-links li a:hover::after{wid
 ul.tabs-category{margin: 0;}
 ul.tabs-category li::before{top: 11px; right: -16px; left: auto; background-color: var(--amar-orange);}
 ul.tabs-category li{margin: 0; font-weight: 600;}
-/* .open-positions-row{display: none;}
-.open-positions-row.current{display: block;} */
 
 
 /* media css starts here */
