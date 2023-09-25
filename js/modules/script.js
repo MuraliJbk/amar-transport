@@ -87,7 +87,7 @@ jQuery(document).ready(function($){
         $(".our-locations-title").on("click", function(e){
             e.preventDefault();
             $(this).toggleClass("open");
-            $(".our-locations-desc").slideToggle("slow");
+            $(this).siblings(".our-locations-desc").slideToggle("slow");
         });
 
         /* Remove divs for mobile speed which is not used */
