@@ -4,11 +4,11 @@
 .footer-wave { right: -405px; top: -192px; }
 .footer-lt p{font-size: 1rem; line-height: 1.63; font-weight: bold; color: var(--white-70);}
 ul.social-icons{margin: 0; gap: 8px;}
-ul.social-icons > li{margin: 0; line-height: normal; width: 32px; height: 32px; background-color: var(--amar-blue);}
+ul.social-icons > li{margin: 0;}
 ul.social-icons > li::before{display: none;}
-ul.social-icons > li a{height: 100%; color: var(--white);}
-ul.social-icons > li:hover a{color: var(--amar-orange);}
-ul.social-icons > li:hover{background-color: var(--white);}
+ul.social-icons > li a{width: 32px; height: 32px; background-color: var(--amar-blue); color: var(--white);}
+ul.social-icons > li a:hover{background-color: var(--white); color: var(--amar-orange);}
+
 
 .footer-list span{font-size: 0.75rem; font-weight: bold; line-height: 1.83; letter-spacing: 1.2px; color: rgba(192, 222, 236, 0.7); display: block;}
 ul.footer-links{margin: 0;}
