@@ -87,6 +87,7 @@ jQuery(document).ready(function($){
         $(".our-locations-title").on("click", function(e){
             e.preventDefault();
             $(this).toggleClass("open");
+            $(this).parent().siblings(".our-locations-list").find(".our-locations-title").removeClass("open");
             $(this).parent().siblings(".our-locations-list").find(".our-locations-desc").slideUp("slow");
             $(this).siblings(".our-locations-desc").slideToggle("slow");
         });
