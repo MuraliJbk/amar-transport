@@ -18,3 +18,4 @@
     picture.cta-thumb{flex: 1; height: auto;}
     picture.cta-thumb-sm{flex: 0 0 260px; height: auto;}
 }
+picture.cta-thumb-sm{display: none;}
