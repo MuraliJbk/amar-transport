@@ -21,10 +21,33 @@ ul.location-address > li{margin-bottom: 22px;}
 .link-left span{font-size: 22.5px; color: var(--amar-light-blue); margin-right: 15px;}
 .link-left img{width: 24px; height: 24px; margin-right: 12px;}
 
+.fa-location-dot{line-height: 1.4; color: #1998d5; font-size: 20px;}
+
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .contact-banner-text{flex: 0 0 561px;}
     .contact-main{gap: 112px; padding: 0 0 4rem;}
     .contact-text{flex: 0 0 290px;}
     .contact-form{flex: 1;}
+    .our-locations-title{flex-direction: column;}
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .contact-wrap{padding: 20px 0 36px; margin-top: 0;}
+    .contact-main{margin-bottom: 40px;}
+    .contact-text{margin-bottom: 24px;}
+    .contact-text h2{font-size: 1.5rem; line-height: 1.2; margin-bottom: 16px; letter-spacing: normal;}
+    .location-link{justify-content: space-between;}
+    ul.location-address{margin: 20px 0 21px 0;}
+    ul.inquiries{gap: 2rem;}
+    ul.inquiries li{width: 100%;}
+    .our-locations-main{padding: 20px 0; margin-top: 0;}
+    .our-locations-head{margin-bottom: 45px;}
+    .our-locations-head h2{font-size: 1.5rem; line-height: 1.2;}
+    .our-locations-title{margin-bottom: 40px; line-height: 2; gap: 16px; cursor: pointer;}
+    .our-locations-title .h4{font-size: 1.25rem; margin-bottom: 0;}
+    .our-locations-list .our-locations-description{display: none;}
+    .our-locations-title::before{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; color: var(--amar-orange); font-size: 20px; font-weight: 600; right: 0; top: 4px; line-height: normal;}
+      
 }
