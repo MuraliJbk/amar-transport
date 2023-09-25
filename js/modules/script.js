@@ -60,8 +60,6 @@ jQuery(document).ready(function($){
             $(".open-positions-row").fadeIn();
         }
     });
-
-
     if($(window).width() >= 768){
         $(".leadership-list").each(function() {
             let _this = $(this).children('.leadership-text');
@@ -73,8 +71,9 @@ jQuery(document).ready(function($){
             });
         });
     }
-    
+   
     if($(window).width() <= 1023){
+        /* Remove divs for mobile speed which is not used */
         $(".home-circular-wave").remove();
     }
 
