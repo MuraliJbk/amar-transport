@@ -3,14 +3,19 @@ import jQuery from 'jquery';
 import 'slick-carousel';
 
 jQuery(document).ready(function($){
-  var _windowWidth = $(window).width();
-    $('.client-logos-slider').slick({
-    slidesToShow: 8,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: false,
-    autoplay: true,
-    });
+      var _windowWidth = $(window).width();
+      const clientsSlider = $('.client-logos-slider');
+      const clientsLength = clientsSlider.find(".client-logo-list").length;
+      if(clientsLength>=9){
+        clientsSlider.slick({
+          slidesToShow: 9,
+          slidesToScroll: 1,
+          arrows: false,
+          dots: false,
+          autoplay: true,
+        });
+      }
+      
 
   
       function toggleSlickSlider() {

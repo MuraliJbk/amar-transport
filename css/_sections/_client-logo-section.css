@@ -1,13 +1,14 @@
 
-.client-logos-wrap{padding: 3.5rem 3rem;}
 .client-logos-main{ position: relative; overflow: hidden;}
 .client-logos-row{justify-content: center;}
 .client-logo-thumb img{min-height: 48px; max-height: 48px; width: auto; height: auto; opacity: 0.4; object-fit: contain; filter: grayscale(100%);}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px) {
+    .client-logos-wrap{padding: 3.5rem 3rem;}
     body.home .client-logos-wrap{margin-top: -75px;}
-
     .client-logo-list{width: 120px; margin: 0 20px;}
- 
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+    .client-logo-list{width: 120px; margin: 0 20px;}
 }

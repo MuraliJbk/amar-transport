@@ -19,6 +19,7 @@ ul.categorys.white > li > a:hover{background: var(--white); color: var(--amar-bl
 .news-update-slider::after{content: ""; display: block; clear: both;}
 .news-small-text p{display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;}
 .news-slider-nav ul.slick-dots{margin-top: 21px;}
+.news-small-thumb img{min-height: 104px;}
 
 /* media css starts here */
 @media only screen and (min-width: 768px){
@@ -36,7 +37,7 @@ ul.categorys.white > li > a:hover{background: var(--white); color: var(--amar-bl
     .news-small-text{flex: 1;}
     .news-slider-nav .slick-arrow{bottom: 0; right: 0; width: 56px; height: 56px; padding: 0; position: absolute;}
     .news-slider-nav .slick-prev{right: 70px;}
-    .news-update-post img{min-height: 492px;}
+    .news-update-post img{min-height: 492px; max-height: 492px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .news-update-section{display: none;}

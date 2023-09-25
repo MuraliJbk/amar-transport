@@ -20,10 +20,10 @@ ul.footer-links > li::before{display: none;}
 .call-user a{gap: 16px; color: var(--white);}
 .call-user a:hover{color: var(--amar-orange);}
 
-.footer-copyright{font-size: 0.75rem; font-weight: bold; line-height: 1.67; color: var(--white-70);}
+.footer-copyright{font-size: 0.75rem; line-height: 1.67; color: var(--white-70);}
 .footer-copyright p{margin-bottom: 9px;}
 .footer-copyright ul{margin: 0; gap: 20px;}
-.footer-copyright ul > li{margin: 0;}
+.footer-copyright ul > li{margin: 0; font-size: 0.75rem; line-height: 1.67; }
 .footer-copyright ul > li::before{top: 50%; left: -12px; width: 4px; height: 4px; content: ""; position: absolute; background-color: var(--amar-orange); border-radius: 50%; transform: translateY(-50%);}
 .footer-copyright ul > li:first-child::before{display: none;}
 .footer-copyright ul > li a{color: var(--white);}
@@ -94,8 +94,7 @@ ul.footer-links > li::before{display: none;}
     .footer-list span::after{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; right: 8px; font-size: 1.3rem; top: 2px; line-height: normal; color: var(--amar-orange); transition: all .5s ease;}
     .footer-list span.active::after{transform: rotate(180deg); line-height: normal;}
     ul.social-icons{gap: 16px; justify-content: center; margin-bottom: 19px;}
-    ul.social-icons > li{width: 48px; height: 48px;}
-    ul.social-icons > li a span{font-size: 23px;}
+    ul.social-icons > li a{width: 48px; height: 48px; font-size: 23px;}
     .footer-copyright{text-align: center;}
     .footer-copyright ul{justify-content: center;}
 }
