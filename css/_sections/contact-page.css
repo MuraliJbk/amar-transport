@@ -45,9 +45,10 @@ ul.location-address > li{margin-bottom: 22px;}
     .our-locations-main{padding: 20px 0; margin-top: 0;}
     .our-locations-head{margin-bottom: 45px;}
     .our-locations-head h2{font-size: 1.5rem; line-height: 1.2;}
-    .our-locations-title{margin-bottom: 40px; line-height: 2; gap: 16px; cursor: pointer;}
+    .our-locations-list{margin-bottom: 28px;}
+    .our-locations-title{margin-bottom: 0; line-height: 2; gap: 16px; cursor: pointer;}
     .our-locations-title .h4{font-size: 1.25rem; margin-bottom: 0;}
-    .our-locations-list .our-locations-description{display: none;}
+    .our-locations-desc{display: none;}
     .our-locations-title::before{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; color: var(--amar-orange); font-size: 20px; font-weight: 600; right: 0; top: 4px; line-height: normal;}
       
 }
