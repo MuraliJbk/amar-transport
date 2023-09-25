@@ -84,6 +84,12 @@ jQuery(document).ready(function($){
             $(this).parent().siblings(".footer-list").find("ul.footer-links").slideUp(800);
             $(this).siblings("ul.footer-links").slideToggle(800);
         });
+        $(".our-locations-title").on("click", function(e){
+            e.preventDefault();
+            $(this).toggleClass("open");
+            $(".our-locations-desc").slideToggle("slow");
+        });
+
         /* Remove divs for mobile speed which is not used */
         $("picture.cta-thumb-sm").remove();
         
