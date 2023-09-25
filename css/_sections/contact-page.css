@@ -12,6 +12,11 @@ ul.inquiries li{display: inline-block; margin: 0;}
 ul.inquiries li a{color: var(--amar-light-blue); font-size: 1.25rem; gap: 1rem; align-items: center; display: flex; flex-wrap: wrap;}
 ul.inquiries li a span:not(:first-child){color: var(--text-100);}
 
+ul.location-address{margin: 0;}
+ul.location-address > li::before{display: none;}
+ul.location-address> li{margin-bottom: 22px;}
+.link-left{font-size: 16px; color: var(--text-color); font-weight: bold;}
+.link-left span{font-size: 22.5px; color: var(--amar-light-blue); margin-right: 15px;}
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .contact-banner-text{flex: 0 0 561px;}
