@@ -28,3 +28,16 @@ ul.location-address > li{margin-bottom: 22px;}
     .contact-text{flex: 0 0 290px;}
     .contact-form{flex: 1;}
 }
+
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .contact-wrap{padding: 20px 0 36px; margin-top: 0;}
+    .contact-main{margin-bottom: 40px;}
+    .contact-text{margin-bottom: 24px;}
+    .contact-text h2{font-size: 1.5rem; line-height: 1.2; margin-bottom: 16px; letter-spacing: normal;}
+    .location-link{justify-content: space-between;}
+    ul.location-address{margin: 20px 0 21px 0;}
+    ul.inquiries{gap: 2rem;}
+    ul.inquiries li{width: 100%;}
+      
+}
