@@ -22,15 +22,19 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-
-}
-@media only screen and (min-width: 768px){
     .home-service-head{gap: 80px; margin-bottom: 80px;}
     .home-service-title{flex: 0 0 400px;}
     .home-service-desc{flex: 1;}
+}
+@media only screen and (min-width: 768px){
     .home-service-desc p{margin-bottom: 1.75rem;}
     .services-row > *{margin-bottom: 2.5rem;}
 }
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .home-service-head{display: block;}
+    .home-service-title{margin-bottom: 2rem;}
+}
 @media only screen and (max-width: 767px) and (min-width: 200px){
-
+    .home-service-head{display: block;}
+    .services-row > *:not(:last-child){margin-bottom: 1rem;}
 }

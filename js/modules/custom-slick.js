@@ -1,6 +1,7 @@
 
 import jQuery from 'jquery';
 import 'slick-carousel';
+import 'slick-carousel/slick/slick.css';
 
 jQuery(document).ready(function($){
       var _windowWidth = $(window).width();
@@ -15,17 +16,17 @@ jQuery(document).ready(function($){
           autoplay: true,
         });
       }
-      
-
+    
   
       function toggleSlickSlider() {
-        if (_windowWidth <= 767) {
+        if (_windowWidth <= 1023) {
           $('.short-intro-slider').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
-            dots: false,
-            autoplay: true
+            dots: true,
+            autoplay: true,
+            variableWidth: true,
           });
         } else {
           if ($('.short-intro-slider').hasClass('slick-initialized')) {

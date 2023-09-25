@@ -40,7 +40,8 @@
     .short-intro-pos{padding: 19px 15px 15px;}
     .counter{font-size: 40px; margin-bottom: 21px;}
     .short-intro-list h3{font-size: 1.25rem; line-height: 1.4;}
-    .short-intro-slider .short-intro-list{width: 262px; margin-right: 32px;}
+    .short-intro-slider .slick-list{width: 100vw;}
+    .short-intro-slider .slick-slide{width: 262px; margin-right: 32px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .short-intro-main{padding: 20px 0;}
@@ -51,6 +52,7 @@
     .short-intro-pos{padding: 19px 15px 15px;}
     .counter{font-size: 40px; margin-bottom: 21px;}
     .short-intro-list h3{font-size: 1.25rem; line-height: 1.4;}
-
-    .short-intro-slider .short-intro-list{width: 245px; margin-right: 32px;}
+    
+    .short-intro-slider .slick-list{overflow: inherit;}
+    .short-intro-slider .slick-slide{width: 245px; margin-right: 32px;}
 }

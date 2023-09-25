@@ -1,5 +1,4 @@
 
-.marketing-cta-text{padding: 3.5rem 5rem;}
 .marketing-cta-text.shadow{box-shadow: 0px 24px 24px 0px rgba(110, 148, 206, 0.24);}
 .marketing-cta-text h2{margin-bottom: 1.5rem;}
 .marketing-cta-img iframe, .marketing-cta-img video{width: 100%; height: 100%; margin: 0; object-fit: cover;}
@@ -9,18 +8,14 @@
 @media only screen and (min-width: 1024px){
     .marketing-cta-main{flex-wrap: nowrap; padding: 0 0 80px;}
     .marketing-cta-img{flex: 1; min-width: 720px;}
-    .marketing-cta-text{flex: 0 0 792px; transform: translateX(-120px);}
+    .marketing-cta-text{flex: 0 0 792px; transform: translateX(-120px); padding: 3.5rem 5rem;}
     .marketing-cta-img iframe, .marketing-cta-img video{min-width: 720px; min-height: 560px;}
 }
-@media only screen and (min-width: 1300px){
-
-}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-
+    .marketing-cta-main{display: block;}
+    .marketing-cta-text{width: calc(100% - 32px); margin: -280px auto 0; padding: 32px 29px;}    
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-
-}
-@media only screen and (max-width: 380px) and (min-width: 200px){
-
+    .marketing-cta-main{display: block;}
+    .marketing-cta-text{width: calc(100% - 32px); margin: -280px auto 0; padding: 32px 29px;}
 }
