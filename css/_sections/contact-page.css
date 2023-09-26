@@ -5,6 +5,7 @@
 .contact-banner-text p span{color: var(--amar-blue-2);}
 .contact-banner-globe{top: 50px; right: -100px; width: 784px;}
 
+.our-locations-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; top:0; left: 0; background-color: rgba(5, 8, 22, 0.5);}
 .contact-wrap{padding: 5rem 5rem; margin-top: -80px;}
 ul.inquiries{margin: 0; gap: 1rem 5.95rem;}
 ul.inquiries li::before{display: none;}
@@ -32,14 +33,6 @@ ul.location-address > li{margin-bottom: 22px;}
     .our-locations-title{flex-direction: column;}
 }
 
-
-
-
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-    ul.inquiries{gap: 2rem 0;}
-    ul.inquiries li{width: 50%;}
-}
-
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .contact-gradient{right: -413px; top: 50px;}
     .contact-banner-main{padding: 200px 0 48px;}
@@ -65,4 +58,14 @@ ul.location-address > li{margin-bottom: 22px;}
     .our-locations-desc{display: none; margin-top: 15px;}
     .our-locations-title::before{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; color: var(--amar-orange); font-size: 20px; font-weight: 600; right: 0; top: 4px; line-height: normal; transition: all .5s ease;}
     .our-locations-title.open::before{transform: rotate(180deg);}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    ul.inquiries{gap: 2rem 0;}
+    ul.inquiries li{width: 33.33%;}
+    .our-locations-row{display: flex; flex-wrap: wrap; gap: 3rem 1.8rem;}
+    .our-locations-list{margin-bottom: 0; width: 48%;}
+    .our-locations-title{cursor: auto; flex-direction: column;}
+    .our-locations-title::before{display: none;}
+    .our-locations-desc{display: block;}
 }
