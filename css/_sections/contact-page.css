@@ -34,6 +34,14 @@ ul.location-address > li{margin-bottom: 22px;}
 
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
+    .contact-gradient{right: -413px; top: 50px;}
+    .contact-banner-main{padding: 200px 0 48px;}
+    .contact-banner-text h1{margin-bottom: 16px;}
+    .contact-banner-text p{font-size: 1rem; line-height: 1.5;}
+    .banner-btns{gap: 8px; margin-top: 26px;}
+    .contact-banner-globe{top: 400px; right: auto; width: 343px; left: 50%;
+        transform: translateX(-50%);}
+
     .contact-wrap{padding: 20px 0 36px; margin-top: 0;}
     .contact-main{margin-bottom: 40px;}
     .contact-text{margin-bottom: 24px;}
