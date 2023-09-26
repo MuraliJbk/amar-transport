@@ -26,22 +26,6 @@ module.exports = function(grunt) {
           livereload: true
         },
       },
-      imagemin: {
-        dynamic: {
-          options: {
-            optimizationLevel: 3,
-          },
-          files: [
-            {
-              expand: true,
-              cwd: 'images/',
-              src: ['**/*.{png,jpg,gif,svg}'],
-              dest: 'images/',
-            },
-          ],
-        },
-      },
-
     });
   
     // Load the plugin that provides the "uglify" task.
