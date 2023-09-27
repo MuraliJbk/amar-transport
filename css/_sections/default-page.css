@@ -1,0 +1,8 @@
+
+.default-long-svg{left: -17px; bottom: -8px;}
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){
+    .default-long-frame img{min-height: 464px;}
+    .default-long-content{margin-top: -212px; padding: 76px 5rem 59px;} 
+}
