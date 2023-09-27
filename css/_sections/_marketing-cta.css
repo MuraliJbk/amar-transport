@@ -1,4 +1,7 @@
 
+.marketing-cta-main.no_image{display: block;}
+.no_image .marketing-cta-text{transform: none;}
+.no_image .marketing-cta-text h2 br{display: none;}
 .marketing-cta-text.shadow{box-shadow: 0px 24px 24px 0px rgba(110, 148, 206, 0.24);}
 .marketing-cta-text h2{margin-bottom: 1.5rem;}
 .marketing-cta-img iframe, .marketing-cta-img video{width: 100%; height: 100%; margin: 0; object-fit: cover;}
