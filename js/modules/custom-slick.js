@@ -61,6 +61,14 @@ jQuery(document).ready(function($){
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev button flex flex-center"><span class="fa-sharp fa-solid fa-arrow-left"></span></div>',
         nextArrow: '<div class="slick-arrow slick-next button flex flex-center"><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
+        responsive: [
+          {
+            breakpoint: 1023,
+            settings: {
+              arrows: false,
+            }
+          }
+      ]
       });
       $('.news-slider-nav').on('setPosition', function(event, slick){
           $(".news-slider-nav .small-post-list").removeAttr("style");
