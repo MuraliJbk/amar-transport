@@ -20,7 +20,7 @@
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .short-intro-main{padding: 80px 0 100px;}
-    body.home .short-intro-main{margin-top: -160px; padding-left: 5rem; padding-right: 5rem;}
+    body.home .short-intro-main{margin-top: -160px; padding-left: 10rem; padding-right: 10rem;}
     body.page-template-about .short-intro-main{padding-bottom: 176px;}
     .short-intro-head{gap: 32px; margin-bottom: 64px;}
     .short-intro-title{flex: 0 0 449px;}
