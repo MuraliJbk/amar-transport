@@ -1,7 +1,6 @@
 
 .short-intro-swoop{right: -60px; top: -55px;}
 .short-intro-swoop svg{width: 672px;}
-.short-intro-head{position: relative; z-index: 1;}
 .short-intro-head.no_desc{display: block;}
 .short-intro-title h2{font-size: 3rem; line-height: 3rem; margin-bottom: 0;}
 
