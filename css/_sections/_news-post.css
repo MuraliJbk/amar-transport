@@ -29,6 +29,9 @@ figcaption{padding: 1.5rem;}
 .you-might-pos{margin-bottom: 2.38rem; justify-content: space-between;}
 .dt-format{flex: 1; color: var(--text-color); font-size: 0.75rem; line-height: 1.25rem; }
 .browse-pos .dt-format{opacity: 0.5;}
+.q-avatar-main{gap: 18px;}
+.q-avatar-img{width: 55px;}
+.q-avatar-text{flex: 1; color: var(--amar-blue-2);}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
@@ -37,6 +40,7 @@ figcaption{padding: 1.5rem;}
     .news-post-aside{flex: 0 0 300px;}
     .you-might-title{flex: 1;}
     .you-might-btn{flex: 0 0 200px;}
+    .news-post-article blockquote{padding: 33px 32px 38px;}
 }
 @media only screen and (min-width: 768px){
     .news-banner-text{max-width: 780px; padding: 3.12rem 5rem 1.85rem;}
