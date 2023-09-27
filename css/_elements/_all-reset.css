@@ -90,6 +90,8 @@ hr.line{height: 1px; width: 100%; background: rgba(94, 103, 131, 0.25);}
 .text-link{color: var(--text-100); display: inline-block; vertical-align: middle; font-size: 1rem; line-height: 1.5rem; font-weight: 700;}
 .text-link svg{margin-right: 13px; top: -1px; width: 41px; height: 8px; position: relative; overflow: hidden;}
 .text-link:hover{color: var(--amar-orange);}
+.text-link.white{color: var(--white);}
+.text-link.white:hover{color: var(--amar-orange);}
 
 .btn-link{color: var(--text-100); position: relative; display: inline-block; text-transform: capitalize;}
 .btn-link > *{transition: 0.45s ease-out;}
