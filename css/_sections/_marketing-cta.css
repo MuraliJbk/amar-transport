@@ -11,7 +11,7 @@
 @media only screen and (min-width: 1024px){
     .marketing-cta-main{flex-wrap: nowrap; padding: 0 0 80px;}
     .marketing-cta-img{flex: 1; min-width: 720px;}
-    .marketing-cta-text{flex: 0 0 792px; transform: translateX(-120px); padding: 3.5rem 5rem;}
+    .marketing-cta-text{flex: 0 0 792px; transform: translateX(-120px); padding: 3.9rem 5rem;}
     .marketing-cta-img iframe, .marketing-cta-img video{min-width: 720px; min-height: 560px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
