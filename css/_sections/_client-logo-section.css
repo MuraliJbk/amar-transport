@@ -10,6 +10,10 @@
     body.page-template-default .client-logos-wrap{margin-top: -60px;}
     .client-logo-list{width: 120px; margin: 0 20px;}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .client-logos-wrap{padding: 3.5rem 2rem;}
+    .client-logo-list{width: 94px; margin: 0 10px;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .client-logos-wrap{padding: 24px 0;}
     .client-logos-row{gap: 32px;}

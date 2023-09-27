@@ -31,6 +31,9 @@
     .home-service-desc p{margin-bottom: 1.75rem;}
     .services-row > *{margin-bottom: 2.5rem;}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .service-text h2{font-size: 1.5rem; line-height: 2rem;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .home-service-head{display: block;}
     .home-service-title{margin-bottom: 2rem;}
