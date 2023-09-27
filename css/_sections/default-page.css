@@ -1,4 +1,5 @@
 
+.default-long-frame::before{content: ""; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(5, 8, 22, 0.5);}
 .default-long-svg{left: -17px; bottom: -8px;}
 
 /* media css starts here */
