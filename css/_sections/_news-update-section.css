@@ -39,6 +39,9 @@ ul.categorys.white > li > a:hover{background: var(--white); color: var(--amar-bl
     .news-slider-nav .slick-prev{right: 70px;}
     .news-update-post img{min-height: 492px; max-height: 492px;}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .news-update-text{padding: 2rem;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .news-update-section{display: none;}
 }
