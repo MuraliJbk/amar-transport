@@ -1,6 +1,8 @@
 
 .short-intro-swoop{right: -60px; top: -55px;}
 .short-intro-swoop svg{width: 672px;}
+.short-intro-head{position: relative; z-index: 1;}
+.short-intro-head.no_desc{display: block;}
 .short-intro-title h2{font-size: 3rem; line-height: 3rem; margin-bottom: 0;}
 
 .short-intro-pos{width: 100%; height: 100%; padding: 32px 17px 31px 31px; border: 1px solid rgba(94, 103, 131, 0.25); transition: all 0.45s ease;}
@@ -18,7 +20,7 @@
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .short-intro-main{padding: 80px 0 100px;}
-    body.home .short-intro-main{margin-top: -160px;}
+    body.home .short-intro-main{margin-top: -160px; padding-left: 5rem; padding-right: 5rem;}
     body.page-template-about .short-intro-main{padding-bottom: 176px;}
     .short-intro-head{gap: 32px; margin-bottom: 64px;}
     .short-intro-title{flex: 0 0 449px;}
