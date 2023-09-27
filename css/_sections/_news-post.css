@@ -29,6 +29,8 @@ figcaption{padding: 1.5rem;}
 .you-might-pos{margin-bottom: 2.38rem; justify-content: space-between;}
 .dt-format{flex: 1; color: var(--text-color); font-size: 0.75rem; line-height: 1.25rem; }
 .browse-pos .dt-format{opacity: 0.5;}
+
+.q-avatar-svg{left: -250px; bottom: 12px; z-index: -1;}
 .q-avatar-main{gap: 18px;}
 .q-avatar-img{width: 55px;}
 .q-avatar-text{flex: 1; color: var(--amar-blue-2);}
