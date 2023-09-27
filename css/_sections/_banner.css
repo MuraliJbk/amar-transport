@@ -17,7 +17,7 @@
     .home-banner .banner-main{min-height: 1008px; align-items: flex-start;}
     .home-banner .banner-text{max-width: 575px; padding: 274px 0 243px;}
     .home-banner .banner-text h1{margin-bottom: 1.5rem;}
-    .banner-main{min-height: 720px;}
+    .banner-main{min-height: 720px; align-items: center;}
     .banner-text{max-width: 550px; padding: 225px 0 171px;}
 }
 @media only screen and (min-width: 768px){

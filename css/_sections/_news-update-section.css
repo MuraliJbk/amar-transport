@@ -32,7 +32,7 @@ ul.categorys.white > li > a:hover{background: var(--white); color: var(--amar-bl
     .news-update-btn{flex: 0 0 480px;}
     .news-update-slider .news-slider-for{width: calc(100% - 460px); margin-right: 40px; float: left;}
     .news-update-slider .news-slider-nav{width: 420px; height: 490px; padding-bottom: 80px; float: left;}
-    .news-slider-nav .small-post-list{gap: 0 20px; margin-bottom: 37px; display: flex; align-items: flex-start; flex-wrap: wrap;}
+    .news-slider-nav .small-post-list{gap: 0 20px; margin-bottom: 37px; display: flex !important; align-items: flex-start; flex-wrap: wrap;}
     .news-small-thumb{flex: 0 0 104px;}
     .news-small-text{flex: 1;}
     .news-slider-nav .slick-arrow{bottom: 0; right: 0; width: 56px; height: 56px; padding: 0; position: absolute;}
