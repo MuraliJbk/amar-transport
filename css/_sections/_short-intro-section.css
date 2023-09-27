@@ -29,6 +29,7 @@
     .short-intro-list:hover .short-intro-pos{border-color: transparent;}
     .short-intro-list:hover .short-intro-pos::after{opacity: 1; height: 7px;}
     .scroller_icon{top: -25px; left: 0; position: absolute;}
+
 }
 @media only screen and (max-width: 1229px) and (min-width: 1024px){
     .short-intro-pos{padding: 20px;}
@@ -47,7 +48,7 @@
     .short-intro-slider .slick-slide{width: 262px; margin-right: 32px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .short-intro-main{padding: 20px 0;}
+    .short-intro-main{padding: 20px 0 43px;}
     .short-intro-row{display: block;}
     .short-intro-title h2{font-size: 1.5rem; line-height: 1.2; margin-bottom: 15px; letter-spacing: normal;}
     .short-intro-head{margin-bottom: 32px;}
@@ -58,4 +59,5 @@
     
     .short-intro-slider .slick-list{overflow: inherit;}
     .short-intro-slider .slick-slide{width: 245px; margin-right: 32px;}
+   
 }
