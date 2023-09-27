@@ -4,11 +4,12 @@
 .default-banner-text h1{color: var(--white);}
 .default-banner-text p span{color: var(--amar-blue-2); font-size: 1.25rem; line-height: 1.5;}
 .default-banner-thumb::before{ width: 100%; height: 100%; top: 0; left: 0; opacity: 0.3; background-color: var(--md-gray); content: ""; position: absolute;}
-
+.page-template-default .default-banner-text{font-size: 1.25rem; line-height: 1.875rem;}
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px) {
-    .default-banner-main{gap: 64px; flex-wrap: nowrap;}
-    .default-banner-text{flex: 0 0 561px;}
+    .default-banner-main{gap: 70px; flex-wrap: nowrap;}
+    .default-banner-text{flex: 0 0 554px;}
+    .default-banner-text{margin-top: 15px;}
     .default-banner-image{flex: 0 0 calc(100% - 625px); min-width: 975px;}
     .default-banner-thumb img{min-height: 720px;}
 }
