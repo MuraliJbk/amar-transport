@@ -60,8 +60,6 @@ jQuery(document).ready(function($){
             $(".open-positions-row").fadeIn();
         }
     });
-
-
     if($(window).width() >= 768){
         $(".leadership-list").each(function() {
             let _this = $(this).children('.leadership-text');
@@ -73,8 +71,9 @@ jQuery(document).ready(function($){
             });
         });
     }
-    
+   
     if($(window).width() <= 1023){
+        /* Remove divs for mobile speed which is not used */
         $(".home-circular-wave").remove();
     }
 
@@ -85,6 +84,17 @@ jQuery(document).ready(function($){
             $(this).parent().siblings(".footer-list").find("ul.footer-links").slideUp(800);
             $(this).siblings("ul.footer-links").slideToggle(800);
         });
+        $(".our-locations-title").on("click", function(e){
+            e.preventDefault();
+            $(this).toggleClass("open");
+            $(this).parent().siblings(".our-locations-list").find(".our-locations-title").removeClass("open");
+            $(this).parent().siblings(".our-locations-list").find(".our-locations-desc").slideUp("slow");
+            $(this).siblings(".our-locations-desc").slideToggle("slow");
+        });
+
+        /* Remove divs for mobile speed which is not used */
+        $("picture.cta-thumb-sm").remove();
+        
     }
 
     

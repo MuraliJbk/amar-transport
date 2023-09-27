@@ -1,0 +1,29 @@
+
+
+.application-gradient{left: 0; top: 0;}
+.application-form-wrap{padding: 210px 0 0;}
+.application-form-main{padding: 90px 80px 5rem;}
+.application-form-text span.optional-text{margin-bottom: 30px;}
+.application-form-text h1{margin-bottom: 31px;}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .application-form-main{gap: 0 80px;}
+    .application-form-text{flex: 0 0 352px;}
+    .application-form-quote{flex: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

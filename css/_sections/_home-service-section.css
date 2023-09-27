@@ -3,16 +3,16 @@
 .home-service-title h2{margin-bottom: 2rem;}
 
 .service-text{bottom: 0; left: 0; width: 100%; height: 100%; padding: 2.5rem; position: absolute; z-index: 1; overflow: hidden;}
-.service-text::before, .service-text::after{width: 100%; height: 100%; left: 0; transition: top 0.5s ease-in-out; content: ""; position: absolute; z-index: -1;}
+.service-text::before, .service-text::after{width: 100%; height: 100%; left: 0; transition: top 0.45s ease-in-out; content: ""; position: absolute; z-index: -1;}
 .service-text::before{top: 0; background-image: linear-gradient(to bottom, #1998d5 0%, #0c609d 100%), linear-gradient(to bottom, #0c609d, #0c609d);}
 .service-text:hover::before{top: -100%;}
 .service-text::after{top: 100%; background-color: var(--black); opacity: 0.5;}
 .service-text:hover::after{top: 0; }
 .service-text h2{margin-bottom: 16px;}
 .service-text p{color: var(--white-70);}
-.service-desc{margin-top: auto; margin-bottom: -24px; transition: all 0.5s ease-in-out;}
+.service-desc{margin-top: auto; margin-bottom: -24px; transition: all 0.45s ease-in-out;}
 .service-text:hover .service-desc{margin-bottom: 0;}
-.service-btn{opacity: 0; overflow: hidden; transition: all 0.5s ease-in-out;}
+.service-btn{opacity: 0; overflow: hidden; transition: all 0.45s ease-in-out;}
 .service-text:hover .service-btn{height: auto; opacity: 1;}
 
 .other-services-slider .service-img img{min-height: 348px;}
@@ -22,15 +22,19 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-
-}
-@media only screen and (min-width: 768px){
     .home-service-head{gap: 80px; margin-bottom: 80px;}
     .home-service-title{flex: 0 0 400px;}
     .home-service-desc{flex: 1;}
+}
+@media only screen and (min-width: 768px){
     .home-service-desc p{margin-bottom: 1.75rem;}
     .services-row > *{margin-bottom: 2.5rem;}
 }
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .home-service-head{display: block;}
+    .home-service-title{margin-bottom: 2rem;}
+}
 @media only screen and (max-width: 767px) and (min-width: 200px){
-
+    .home-service-head{display: block;}
+    .services-row > *:not(:last-child){margin-bottom: 1rem;}
 }

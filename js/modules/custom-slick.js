@@ -1,26 +1,32 @@
 
 import jQuery from 'jquery';
 import 'slick-carousel';
+import 'slick-carousel/slick/slick.css';
 
 jQuery(document).ready(function($){
-  var _windowWidth = $(window).width();
-    $('.client-logos-slider').slick({
-    slidesToShow: 8,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: false,
-    autoplay: true,
-    });
-
+      var _windowWidth = $(window).width();
+      const clientsSlider = $('.client-logos-slider');
+      const clientsLength = clientsSlider.find(".client-logo-list").length;
+      if(clientsLength>=9){
+        clientsSlider.slick({
+          slidesToShow: 9,
+          slidesToScroll: 1,
+          arrows: false,
+          dots: false,
+          autoplay: true,
+        });
+      }
+    
   
       function toggleSlickSlider() {
-        if (_windowWidth <= 767) {
+        if (_windowWidth <= 1023) {
           $('.short-intro-slider').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
-            dots: false,
-            autoplay: true
+            dots: true,
+            autoplay: true,
+            variableWidth: true,
           });
         } else {
           if ($('.short-intro-slider').hasClass('slick-initialized')) {

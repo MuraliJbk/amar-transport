@@ -1,6 +1,7 @@
 
 
 .other-services-main{margin-top: -76px; padding: 80px 5rem 80px;}
+.page-template-default .other-services-main{margin-top: 0;}
 .other-services-head{max-width: 651px; margin-bottom: 73px;}
 .other-services-slider .slick-slide{width: 296px; margin-right: 32px;}
 .services-pagination{display: none;}

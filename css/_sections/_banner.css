@@ -1,4 +1,6 @@
 
+.home-banner{z-index: inherit;}
+.home-banner .banner-text{position: relative; z-index: 2;}
 .banner-text p span{color: var(--amar-blue-2);}
 .banner-btns{gap: 24px; margin-top: 48px;}
 .no_banner_img{background-color: var(--light-gray);}
@@ -21,9 +23,12 @@
  
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-
+    .home-banner .banner-main{min-height: 655px; align-items: flex-end;}
+    .home-banner .banner-text{max-width: 575px; padding: 274px 0 118px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .home-banner .banner-main{min-height: 655px; align-items: flex-end;}
+    .home-banner .banner-text{padding: 274px 0 118px;}
     
 }
 @media only screen and (max-width: 380px) and (min-width: 200px){

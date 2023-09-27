@@ -1,10 +1,10 @@
 
-import './lib/jquery.selectBox';
 import './modules/animation';
-import './modules/counter';
-import './modules/script';
 import './modules/gsap';
+import './modules/counter';
 import './modules/effects';
-import './modules/magnific-popup';
+import './modules/script';
+import './lib/jquery.selectBox';
 import './modules/selectBox';
+import './modules/magnific-popup';
 import './modules/custom-slick';
