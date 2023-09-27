@@ -13,8 +13,9 @@
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
+    .home-banner{min-height: 1008px;}
     .home-banner .banner-main{min-height: 1008px;}
-    .home-banner .banner-text{max-width: 575px; padding: 274px 0 403px;}
+    .home-banner .banner-text{max-width: 575px; padding: 274px 0 243px;}
     .home-banner .banner-text h1{margin-bottom: 1.5rem;}
     .banner-main{min-height: 720px;}
     .banner-text{max-width: 550px; padding: 225px 0 171px;}
