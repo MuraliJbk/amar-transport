@@ -1,7 +1,6 @@
 
 #footer{padding: 120px 0 80px; margin-top: -40px; overflow: hidden;}
 .footer-bg{height: calc(100% - 40px); top: auto; bottom: 0; background-image: linear-gradient(to bottom, #151c39 0%, #060a1c 100%), linear-gradient(to bottom, #151c39, #151c39);}
-.footer-wave { right: -405px; top: -192px; }
 .footer-lt p{font-size: 1rem; line-height: 1.63; font-weight: bold; color: var(--white-70);}
 ul.social-icons{margin: 0; gap: 8px;}
 ul.social-icons > li{margin: 0;}
@@ -29,7 +28,10 @@ ul.footer-links > li::before{display: none;}
 .footer-copyright ul > li a{color: var(--white);}
 .footer-copyright ul > li a:hover{color: var(--amar-orange);}
 
+/*-- media css starts here --*/
 @media screen and (min-width: 1024px){
+    .footer-wave { right: -405px; top: -192px; }
+    .footer-wave svg{width: 1410px;}
     .footer{margin-bottom: 14px;}
     .footer-lt{flex: 0 0 380px; margin-right: 72px;}
     .footer-logo{width: 138px; margin-bottom: 56px;}
@@ -56,6 +58,8 @@ ul.footer-links > li::before{display: none;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .footer-main{display: block; margin-bottom: 20px;}
+    .footer-wave { right: -360px; top: -192px; opacity: 0.5;}
+    .footer-wave svg{width: 750px;}
     .footer-lt{margin-bottom: 40px;}
     .footer-logo{width: 117px; margin-bottom: 17px;}
     .footer-lt p{font-weight: normal; margin-bottom: 0;}

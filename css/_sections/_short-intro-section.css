@@ -26,7 +26,7 @@
     .short-intro-desc{flex: 1;}
     .short-intro-list:hover .short-intro-pos{border-color: transparent;}
     .short-intro-list:hover .short-intro-pos::after{opacity: 1; height: 7px;}
-    .scroller_icon{top: -25px; left: 0; position: absolute;}
+    .scroller_icon{top: -25px; left: 0;}
 }
 @media screen and (min-width: 1300px){
     body.home .short-intro-main{margin-top: -160px; padding-left: 10rem; padding-right: 10rem;}
@@ -49,6 +49,7 @@
     .short-intro-list h3{font-size: 1.25rem; line-height: 1.4;}
     .short-intro-slider .slick-list{width: 100vw;}
     .short-intro-slider .slick-slide{width: 262px; margin-right: 32px;}
+    .scroller_icon{top: -25px; left: 0;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .short-intro-main{padding: 20px 0 43px;}
