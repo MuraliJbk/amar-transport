@@ -1,6 +1,8 @@
 
 
 
-.default-article{padding: 5rem 0 10rem;}
+.default-article{padding: 2rem 0 10rem;}
 .default-article hr{margin-top: 54px;}
 .default-article ul li{font-size: 1.125rem; line-height: 1.625rem;}
+.default-article-swoop { bottom: 200px; right: -255px; z-index: -1;}
+.default-article-swoop svg{width: 672px; height: auto;}
