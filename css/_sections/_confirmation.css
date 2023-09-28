@@ -29,28 +29,21 @@
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .amar-frame{bottom: 32px; right: 0;}
     .c-frame{max-width: 614px; width: 100%;}
-    .c-frame-logo {
-        right: 20px;
-        top: 70px;
-    }
-    .circular-wave {
-        right: -280px;
-        top: -288px;
-    }
+    .c-frame-logo { right: 20px; top: 70px; }
+    .circular-wave { right: -280px; top: -288px; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .confirmation-main{padding: 10.688rem 0 10rem;}
     .amar-frame{position: relative; margin-bottom: -44px; margin-left: auto; max-width: 614px;}
-    svg.c-frame{max-width: 614px; width: 100%;}
-    .circular-wave {
-        right: -100px;
-        top: -280px;
-        z-index: -1;
-    }
+    .c-frame{max-width: 614px; width: 100%;}
+    .circular-wave { right: -100px; top: -280px; z-index: -1; }
     .circular-wave svg{max-width: 350px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .confirmation{padding-top: 8.3rem;}
-    .confirmation-main{padding-bottom: 4.25rem; display: block; text-align: center;}
+    .confirmation-main{padding: 8.3rem 0 4.25rem; display: block;}
     .confirmation-text h1{margin-bottom: 1.25rem;}
+    .amar-frame{position: relative; margin-bottom: -44px; margin-left: auto; max-width: 614px;}
+    .c-frame{max-width: 614px; width: 100%;}
+    .circular-wave { right: -100px; top: -280px; z-index: -1; }
+    .circular-wave svg{max-width: 350px;}
 }
