@@ -38,11 +38,11 @@ ul.post-banner-links li a:hover{color: var(--white);}
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .post-banner .container{padding: 0;}
     .post-banner-main{position: relative;}
-    .post-banner-text{max-width: 279px; position: absolute; bottom: 0; left: 0; z-index: 2; padding: 48px 16px;}
+    .post-banner-text{max-width: 50%; position: absolute; bottom: 0; left: 0; z-index: 2; padding: 48px 16px;}
     .post-banner-text h1{font-size: 2rem; line-height: 1.2; letter-spacing: normal;}
     .post-banner-text span{font-size: 1.125rem;}
     .post-banner-image{width: 100%;}
-    .post-content{padding: 4rem 0; display: block;}
+    .post-content{padding: 3rem 2rem 1rem; display: block;}
     .post-article{margin-bottom: 43px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
