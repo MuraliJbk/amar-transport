@@ -30,6 +30,11 @@
     .home-service-head{gap: 80px; margin-bottom: 80px;}
     .home-service-title{flex: 0 0 400px;}
     .home-service-desc{flex: 1;}
+    .other-services-swoop {
+        right: -228px;
+        top: -363px;
+        z-index: -1;
+    }
 }
 @media only screen and (min-width: 768px){
     .home-service-desc p{margin-bottom: 1.75rem;}

@@ -1,7 +1,7 @@
 
 .home-banner{z-index: inherit;}
 .home-banner .banner-text{position: relative; z-index: 2;}
-.banner-text p span{color: var(--amar-blue-2);}
+.banner-text p span, .banner-text p em{color: var(--amar-blue-2); font-style: normal;}
 .banner-btns{gap: 24px; margin-top: 48px;}
 .no_banner_img{background-color: var(--light-gray);}
 .no_banner_text{position: relative;}

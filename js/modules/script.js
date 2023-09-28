@@ -75,6 +75,8 @@ jQuery(document).ready(function($){
     if($(window).width() <= 1023){
         /* Remove divs for mobile speed which is not used */
         $(".home-circular-wave").remove();
+        $(".other-services-swoop").remove();
+
     }
 
     if($(window).width() <= 767){
@@ -94,6 +96,7 @@ jQuery(document).ready(function($){
 
         /* Remove divs for mobile speed which is not used */
         $("picture.cta-thumb-sm").remove();
+        $(".other-services-swoop").remove();
         
     }
 
