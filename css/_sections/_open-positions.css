@@ -48,7 +48,11 @@ ul.tabs-category li{margin: 0; font-weight: 600;}
     .tabs-category{flex: 1; gap: 25px;}
     .positions-tabs{padding: 2rem;}
 }
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .open-positions-wrap{margin-top: 0;}
+    .open-position-section .object-fit img{min-height: 200px;}
 
+}
 
 
 

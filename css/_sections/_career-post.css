@@ -51,5 +51,9 @@ ul.post-banner-links li a:hover{color: var(--white);}
     .post-content{padding: 20px 0;}
     .post-article hr{margin: 0 0 20px;}
     .post-article h2{font-size: 1.25rem; line-height: 1.2;}
-    .post-article h3{font-size: 1.25rem; line-height: 1.2; letter-spacing: normal;}   
+    .post-article h3{font-size: 1.25rem; line-height: 1.2; letter-spacing: normal;} 
+    .post-apply{margin-bottom: 0;}
+    .post-apply .button{width: 100%; padding: 10px 30px 10px;}
+    .post-apply-desc p{font-size: 1.25rem;}
+
 }
