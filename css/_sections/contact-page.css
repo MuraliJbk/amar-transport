@@ -22,7 +22,7 @@ ul.location-address > li{margin-bottom: 22px;}
 .link-left span{font-size: 22.5px; color: var(--amar-light-blue); margin-right: 15px;}
 .link-left img{width: 24px; height: 24px; margin-right: 12px;}
 
-.fa-location-dot{line-height: 1.4; color: #1998d5; font-size: 20px;}
+.fa-location-dot{color: #1998d5; display: block;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
@@ -31,6 +31,7 @@ ul.location-address > li{margin-bottom: 22px;}
     .contact-text{flex: 0 0 290px;}
     .contact-form{flex: 1;}
     .our-locations-title{flex-direction: column;}
+    .fa-location-dot{margin-bottom: 22px;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 200px) {
