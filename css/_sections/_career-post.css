@@ -31,9 +31,9 @@ ul.post-banner-links li a:hover{color: var(--white);}
     .post-banner-main{gap: 34px;}
     .post-banner-text{flex: 0 0 380px;}
     .post-banner-image{flex: 0 0 calc(100% - 414px);}
-    .post-content{padding: 4rem 2.375rem;}
-    .post-article{flex: 0 0 568px; margin-right: 25px;}
-    .post-aside{flex: 0 0 calc(100% - 690px);}
+    .post-content{padding: 4rem 2rem; gap: 0 3rem;}
+    .post-article{flex: 0 0 568px;}
+    .post-aside{flex: 0 0 calc(100% - 616px);}
   
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {

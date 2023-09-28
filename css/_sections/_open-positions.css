@@ -35,6 +35,11 @@ ul.tabs-category li{margin: 0; font-weight: 600;}
     ul.tabs-category{gap: 0 28px; flex: 1;}
     span.tabs-date{flex: 0 0 82px;}
 }
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .open-positions-wrap{padding: 5rem 2rem;}
+    .open-positions-main{gap: 0 2rem;}
+    .tabs-title{flex: 0 0 100%;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .open-positions-wrap { padding: 3rem 2rem;}
     .open-positions-text{margin-bottom: 35px;}
