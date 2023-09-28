@@ -38,10 +38,11 @@ ul.tabs-category li{margin: 0; font-weight: 600;}
 
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+    .open-positions-wrap { padding: 3rem 2rem;}
     .open-positions-text{margin-bottom: 35px;}
     .tabs-title{margin-bottom: 20px;}
     .tabs-categorys{margin-bottom: 20px;}
-    .tabs-category{flex: 1; justify-content: space-evenly ;}
+    .tabs-category{flex: 1; gap: 25px;}
 }
 
 
