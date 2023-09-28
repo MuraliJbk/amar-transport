@@ -4,6 +4,18 @@
 .confirmation-icon svg{width: auto; height: 64px;}
 .confirmation-text p{color: var(--white-80);}
 
+
+.amar-frame{bottom: 71px; right: -98px; z-index: -1; animation: move 5s linear infinite;}
+@keyframes move{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-10px);
+    }
+}
+.amar-vector{bottom: 0; left: 0; right: 0; margin: 0 auto; opacity: 0.2; z-index: -1; width: 1920px; height: 522px; background-image: url("../../images/Vector.svg");}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .confirmation{padding-top: 15.25rem;}

@@ -1,5 +1,4 @@
 
-.paths-wrap{padding: 5.875rem 0 6.55rem;}
 .paths-intro{margin-bottom: 5.05rem;}
 .paths-text p{margin-bottom: 1rem;}
 .paths-text ul{margin-bottom: 1.9rem;}
@@ -9,6 +8,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .paths-wrap{margin-top: -78px; padding: 5.875rem 5rem 6.55rem;}
     .paths-intro{align-items: center;}
     .paths-intro h2{margin-bottom: 0;}
     .paths-text span.optional-text{margin-bottom: 1.65rem;}
