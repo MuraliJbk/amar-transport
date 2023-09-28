@@ -34,6 +34,7 @@ ul.tabs-category li{margin: 0; font-weight: 600;}
     .positions-tabs{gap: 0 43px;}
     ul.tabs-category{gap: 0 28px; flex: 1;}
     span.tabs-date{flex: 0 0 82px;}
+    .open-positions-thumb img{min-height: 372px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .open-positions-wrap{padding: 5rem 2rem;}
