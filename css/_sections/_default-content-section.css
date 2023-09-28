@@ -1,4 +1,6 @@
 
 
 
-.default-article{padding: 5rem 0;}
+.default-article{padding: 5rem 0 10rem;}
+.default-article hr{margin-top: 54px;}
+.default-article ul li{font-size: 1.125rem; line-height: 1.625rem;}
