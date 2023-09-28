@@ -6,9 +6,10 @@
 
 .news-post-content {padding: 84px 0 5.98rem;}
 ul.breadcrumbs{margin: 0 0 40px; gap: 0 38px;}
-ul.breadcrumbs li::before{display: none;}
+ul.breadcrumbs li::before{content: "\f061"; font-family: "Font Awesome 6 Pro"; font-weight: 500; position: absolute; right: -26px; color: var(--text-color);}
 ul.breadcrumbs li{margin: 0;}
 ul.breadcrumbs li:last-child{font-weight: 700;}
+ul.breadcrumbs li:last-child::before{display: none;}
 ul.breadcrumbs li:first-child a{color: var(--amar-blue);}
 ul.breadcrumbs li a{color: var(--text-color);}
 .news-post-article > p:nth-child(2){color: var(--text-100);}
