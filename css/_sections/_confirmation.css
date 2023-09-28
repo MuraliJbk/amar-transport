@@ -5,8 +5,11 @@
 .confirmation-text p{color: var(--white-80);}
 
 
-.amar-frame{bottom: 71px; right: -98px; z-index: -1; animation: move 5s linear infinite;}
-@keyframes move{
+.amar-frame{bottom: 71px; right: -98px; z-index: -1;}
+.c-frame{
+    animation: move 5s linear infinite;
+}
+@keyframes move1{
     0%{
         transform: translateX(0px);
     }
@@ -14,6 +17,8 @@
         transform: translateX(-10px);
     }
 }
+.c-frame-logo{right: 64px; top: 53px;}
+.circular-wave{right: -180px; top: -288px; z-index: -1;} 
 .amar-vector{bottom: 0; left: 0; right: 0; margin: 0 auto; opacity: 0.2; z-index: -1; width: 1920px; height: 522px; background-image: url("../../images/Vector.svg");}
 
 /*-- media css starts here --*/
