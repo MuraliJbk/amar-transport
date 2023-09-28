@@ -21,6 +21,10 @@
 .other-services-slider .service-text svg{margin-bottom: 26px;}
 .other-services-slider .service-btn{margin-top: -20px;}
 
+.service-pos{height: 100%;}
+.no_image .service-text{position: relative; min-height: 430px;}
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .home-service-head{gap: 80px; margin-bottom: 80px;}
