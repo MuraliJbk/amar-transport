@@ -1,12 +1,14 @@
 
-.confirmation-main{padding-bottom: 16.2rem; max-width: 30.25rem;}
 .confirmation-icon{width: 64px; margin-bottom: 18px;}
 .confirmation-icon svg{width: auto; height: 64px;}
 .confirmation-text p{color: var(--white-80);}
 
 
-.amar-frame{bottom: 71px; right: -98px; z-index: -1; animation: move 5s linear infinite;}
-@keyframes move{
+
+.c-frame{
+    animation: move 5s linear infinite;
+}
+@keyframes move1{
     0%{
         transform: translateX(0px);
     }
@@ -14,18 +16,34 @@
         transform: translateX(-10px);
     }
 }
+.c-frame-logo{right: 64px; top: 53px;}
+.circular-wave{right: -180px; top: -288px; z-index: -1;} 
 .amar-vector{bottom: 0; left: 0; right: 0; margin: 0 auto; opacity: 0.2; z-index: -1; width: 1920px; height: 522px; background-image: url("../../images/Vector.svg");}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .confirmation{padding-top: 15.25rem;}
+    .confirmation-main{padding: 15.25rem 0 16.2rem; max-width: 30.25rem;}
     .confirmation-text h1{font-size: 3rem; line-height: 3.5rem;}
+    .amar-frame{bottom: 71px; right: -98px; z-index: -1;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .amar-frame{bottom: 32px; right: 0;}
+    .c-frame{max-width: 614px; width: 100%;}
+    .c-frame-logo { right: 20px; top: 70px; }
+    .circular-wave { right: -280px; top: -288px; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .confirmation{padding-top: 10.688rem;}
+    .confirmation-main{padding: 10.688rem 0 10rem;}
+    .amar-frame{position: relative; margin-bottom: -44px; margin-left: auto; max-width: 614px;}
+    .c-frame{max-width: 614px; width: 100%;}
+    .circular-wave { right: -100px; top: -280px; z-index: -1; }
+    .circular-wave svg{max-width: 350px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .confirmation{padding-top: 8.3rem;}
-    .confirmation-main{padding-bottom: 4.25rem; display: block; text-align: center;}
+    .confirmation-main{padding: 8.3rem 0 4.25rem; display: block;}
     .confirmation-text h1{margin-bottom: 1.25rem;}
+    .amar-frame{position: relative; margin-bottom: -44px; margin-left: auto; max-width: 614px;}
+    .c-frame{max-width: 614px; width: 100%;}
+    .circular-wave { right: -100px; top: -280px; z-index: -1; }
+    .circular-wave svg{max-width: 350px;}
 }
