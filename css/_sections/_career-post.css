@@ -45,7 +45,7 @@ ul.post-banner-links li a:hover{color: var(--white);}
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .post-banner .container{padding: 0;}
     .post-banner-main{position: relative;}
-    .post-banner-text{max-width: 279px; position: absolute; bottom: 0; left: 0; z-index: 2; padding: 48px 16px;}
+    .post-banner-text{max-width: 288px; position: absolute; bottom: 0; left: 0; z-index: 2; padding: 48px 16px;}
     .post-banner-text h1{font-size: 2rem; line-height: 1.2; letter-spacing: normal;}
     .post-banner-text span{font-size: 1.125rem;}
     .post-banner-image{width: 100%;}
