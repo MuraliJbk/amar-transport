@@ -277,8 +277,9 @@ button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-hol
     .container{padding: 0 16px;}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;}
-    h1{font-size: 2rem; line-height: 2.4rem;}
-    h2, .h2{font-size: 1.5rem; line-height: 1.8rem;}
+    .h1, h1{font-size: 2rem; line-height: 2.4rem;}
+    .h2, h2{font-size: 1.5rem; line-height: 1.8rem;}
+    .h3, h3{font-size: 1.25rem; line-height: 2rem;}
 
     .button, button{padding: 16px 30px 16px;}
 

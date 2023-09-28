@@ -2,7 +2,6 @@
 .paths-intro{margin-bottom: 5.05rem;}
 .paths-text p{margin-bottom: 1rem;}
 .paths-text ul{margin-bottom: 1.9rem;}
-.paths-text h3{font-size: 2.5rem;}
 .paths-list .fit-img{margin-bottom: 2rem;}
 .paths-list-svg{top: -38px; right: -80px;}
 
@@ -13,7 +12,7 @@
     .paths-intro{align-items: center;}
     .paths-intro h2{margin-bottom: 0;}
     .paths-text span.optional-text{margin-bottom: 1.65rem;}
-    .paths-text h3{margin-bottom: 1.55rem;}
+    .paths-text h3{font-size: 2.5rem; margin-bottom: 1.55rem;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .paths-wrap{padding: 4.875rem 0 6.55rem;}
@@ -26,7 +25,7 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .paths-wrap{padding: 3.75rem 0 4.313rem;}
-    .page-template-confirmation .paths-wrap{padding: 3.75rem 22px 4.313rem;}
+    .page-template-confirmation .paths-wrap{padding: 3.75rem 0 4.313rem;}
     .paths-intro{margin-bottom: 3.125rem;}
     .paths-intro h2{margin-bottom: 1.8rem;}
     .paths-text h3{margin-bottom: 1.063rem;}
