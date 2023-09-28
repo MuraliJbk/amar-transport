@@ -23,11 +23,7 @@ ul.location-address > li{margin-bottom: 22px;}
 .link-left span{font-size: 22.5px; color: var(--amar-light-blue); margin-right: 15px;}
 .link-left img{width: 24px; height: 24px; margin-right: 12px;}
 
-<<<<<<< HEAD
-.fa-location-dot{color: #1998d5; display: block;}
-=======
-.fa-location-dot{line-height: 1.4; color: #1998d5; font-size: 20px; margin-bottom: 20px;}
->>>>>>> 0bb291f0bd81fea05a5dfc93eea685962d9d5ffd
+.fa-location-dot{color: #1998d5;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
