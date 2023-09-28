@@ -23,7 +23,7 @@ ul.location-address > li{margin-bottom: 22px;}
 .link-left span{font-size: 22.5px; color: var(--amar-light-blue); margin-right: 15px;}
 .link-left img{width: 24px; height: 24px; margin-right: 12px;}
 
-.fa-location-dot{color: #1998d5;}
+.fa-location-dot{color: #1998d5; position: relative;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
