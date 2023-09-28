@@ -262,7 +262,7 @@ button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-hol
     .container{max-width: 1354px;}
 }
 @media only screen and (max-width: 1379px) and (min-width: 1024px){
-    .container:not(.sm){padding: 0 22px;}
+    .container:not(.sm){padding: 0 2rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .container{padding: 0 22px;}

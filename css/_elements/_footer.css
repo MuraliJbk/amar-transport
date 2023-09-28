@@ -52,6 +52,7 @@ ul.footer-links > li::before{display: none;}
     .footer-wrap{max-width: 1280px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .footer-wave { right: -770px; top: -210px; }
     .footer-main{gap: 20px;}
     .footer-lt{margin: 0; flex: 0 0 315px;}
     .footer-lists{flex: 1; gap: 20px;}

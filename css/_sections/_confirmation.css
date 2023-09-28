@@ -1,11 +1,10 @@
 
-.confirmation-main{padding-bottom: 16.2rem; max-width: 30.25rem;}
 .confirmation-icon{width: 64px; margin-bottom: 18px;}
 .confirmation-icon svg{width: auto; height: 64px;}
 .confirmation-text p{color: var(--white-80);}
 
 
-.amar-frame{bottom: 71px; right: -98px; z-index: -1;}
+
 .c-frame{
     animation: move 5s linear infinite;
 }
@@ -23,11 +22,32 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .confirmation{padding-top: 15.25rem;}
+    .confirmation-main{padding: 15.25rem 0 16.2rem; max-width: 30.25rem;}
     .confirmation-text h1{font-size: 3rem; line-height: 3.5rem;}
+    .amar-frame{bottom: 71px; right: -98px; z-index: -1;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .amar-frame{bottom: 32px; right: 0;}
+    .c-frame{max-width: 614px; width: 100%;}
+    .c-frame-logo {
+        right: 20px;
+        top: 70px;
+    }
+    .circular-wave {
+        right: -280px;
+        top: -288px;
+    }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .confirmation{padding-top: 10.688rem;}
+    .confirmation-main{padding: 10.688rem 0 10rem;}
+    .amar-frame{position: relative; margin-bottom: -44px; margin-left: auto; max-width: 614px;}
+    svg.c-frame{max-width: 614px; width: 100%;}
+    .circular-wave {
+        right: -100px;
+        top: -280px;
+        z-index: -1;
+    }
+    .circular-wave svg{max-width: 350px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .confirmation{padding-top: 8.3rem;}
