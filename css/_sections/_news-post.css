@@ -53,6 +53,17 @@ figcaption{padding: 1.5rem;}
 
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .news-post-page{padding: 0;}
+    .news-banner-section .container{padding: 0;}
+    .news-banner-pos{align-items: center;}
+    .news-banner-text{padding: 0 16px;}
+    .news-banner-text h1{line-height: 1.5;}
+    .news-post-content{padding: 20px 0;}
+    .figcaption-main{margin-bottom: 22px;}
+    .news-post-article ul{margin: -7px 0 20px 24px;}
+    .news-post-article ul > li{color: var(--text-color);}
+    .news-post-article blockquote{font-size: 1.125rem; line-height: 1.89; margin: 1.5rem 0 1.4rem;}
+    .news-post-article blockquote p span{margin-right: 7px;}
     
 }
 @media only screen and (max-width: 380px) and (min-width: 200px){
