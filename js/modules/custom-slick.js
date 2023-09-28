@@ -16,7 +16,6 @@ jQuery(document).ready(function($){
           autoplay: true,
         });
       }
-    
   
       function toggleSlickSlider() {
         if (_windowWidth <= 1023) {

@@ -34,7 +34,6 @@ function check_if_in_view() {
     }
   });
 }
-
 $window.on("scroll", check_if_in_view);
 $window.trigger("scroll");
 $document.ready(function(){ 
