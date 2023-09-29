@@ -20,3 +20,7 @@
     .sub-intro-head{flex: 0 0 400px;}
     .sub-intro-desc{flex: 1; max-width: 41.625rem;}
 }
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .sub-intro-main{display: block;}
+    .sub-head-row {text-align: center;}
+}
