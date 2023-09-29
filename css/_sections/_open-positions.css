@@ -1,9 +1,7 @@
 
-
-
-
-
 .open-positions-wrap{padding: 5rem; margin-top: -54px;}
+.open-positions-thumb{position: relative;}
+.open-positions-thumb::before{width: 100%; height: 100%; top: 0; left: 0; opacity: 0.5; background-color: var(--text-100); position: absolute; content: ""; display: block;}
 ul.positions-links{margin: 0 0 48px; gap: 8px; border-bottom: 1px solid rgba(94, 103, 131, 0.25);}
 ul.positions-links li::before{display: none;}
 ul.positions-links li{margin: 0;}
@@ -11,7 +9,6 @@ ul.positions-links li a{padding: 0 1rem 14px; color: var(--amar-blue); display: 
 ul.positions-links li a::after{width: 0%; height: 4px; bottom: 0; left: 0; right: 0; margin: 0 auto; background-color: var(--amar-orange); content: ""; display: block; position: absolute; transition: all 0.45s ease;}
 ul.positions-links li a.current::after, ul.positions-links li a:hover::after{width: 100%;}
 .open-positions-row{margin-bottom: 1rem;}
-
 
 .open-position-head h2{margin: 0;}
 .positions-tabs{padding: 1rem; margin-bottom: 1rem; background-color: var(--amar-sm-blue);}
@@ -51,8 +48,9 @@ ul.tabs-category li{margin: 0; font-weight: 600;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .open-positions-wrap{margin-top: 0; padding: 1rem 0 0;}
+    .open-positions-main{display: block;}
     .open-positions-thumb img{min-height: 200px;}
-    .open-positions-text{margin-bottom: 1.5rem;}
+    .open-positions-text{margin-bottom: 2rem;}
     .tabs-title{margin-bottom: 16px;}
     .tabs-categorys{margin-bottom: 16px;}
     .tabs-category{flex: 1; gap: 45px;}

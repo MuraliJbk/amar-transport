@@ -97,6 +97,7 @@ jQuery(document).ready(function($){
         /* Remove divs for mobile speed which is not used */
         $("picture.cta-thumb-sm").remove();
         $(".other-services-swoop").remove();
+        $(".optional-cta-swoosh").remove();
         
     }
 

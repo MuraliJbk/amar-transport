@@ -53,11 +53,32 @@ jQuery(document).ready(function($){
       }
       introSlider();
 
+      function processSlider(){
+        if (_windowWidth <= 767) {
+          $('.process-row').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+            autoplay: true,
+            centerMode: true,
+            centerPadding: '0'
+          });
+        }
+        else{
+
+        }
+      }
+      processSlider();
+
       $(window).on('resize load', function() {
         var newScreenWidth = $(window).width();
         if (newScreenWidth !== _windowWidth) {
           _windowWidth = newScreenWidth;
           toggleSlickSlider();
+      introSlider();
+      processSlider();
+
         }
       });
 

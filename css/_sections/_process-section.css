@@ -1,9 +1,14 @@
 
-.process-main{padding: 5rem 5rem; margin-top: -178px;}
-.process-head h2{font-size: 2.25rem; line-height: 2.5rem;}
-
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .process-main{padding: 5rem 5rem; margin-top: -178px;}
     .process-head{max-width: 826px; margin-bottom: 3rem;}
+    .process-head h2{font-size: 2.25rem; line-height: 2.5rem;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .process-main{padding: 40px 0;}
+    .process-head{margin-bottom: 2rem; font-size: 1rem; line-height: 1.5rem;}
+    .process-row{display: block; text-align: center;}
+    .process-icon svg{width: 48px;}
 }

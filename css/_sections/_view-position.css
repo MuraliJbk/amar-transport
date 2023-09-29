@@ -9,6 +9,9 @@
 .view-position-desc .font-bold{margin-bottom: 6px; display: block; color: var(--text-100);}
 
 
+.view-position-avatar{gap: 1rem;}
+.view-position-image{flex: 0 0 64px;}
+.view-position-desc{flex: 1;}
 
 
 
@@ -16,12 +19,10 @@
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
-    .view-position-avatar{gap: 1rem;}
-    .view-position-image{flex: 0 0 64px;}
-    .view-position-desc{flex: 1;}
 }
-
-
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .view-position-row > *{margin-bottom: 1rem;}
+}
 
 
 
