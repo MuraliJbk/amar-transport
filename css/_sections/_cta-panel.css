@@ -27,4 +27,5 @@
     .cta-panel-main{padding: 1.5rem 0 1.25rem; display: block;}
     .cta-panel-image{display: block; margin-bottom: 1.5rem;}
     picture.cta-thumb-sm{display: none;}
+    .cta-btns{gap: 20px;}
 }
