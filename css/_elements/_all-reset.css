@@ -268,7 +268,7 @@ button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-hol
     .container:not(.sm){padding: 0 2rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .container{padding: 0 22px;}
+    .container{padding: 0 1.5rem;}
     .ipad-0{padding-left: 0; padding-right: 0;}
     .hide-tablet{display: none;}
     .h1, h1 { font-size: 3.25rem; line-height: 4.375rem; }
@@ -277,7 +277,7 @@ button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-hol
     blockquote{padding: 70px 60px 60px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .container{padding: 0 16px;}
+    .container{padding: 0 1rem;}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;}
     .h1, h1{font-size: 2rem; line-height: 2.4rem;}

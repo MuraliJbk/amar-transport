@@ -1,12 +1,14 @@
 
-.have-questions-main{padding: 0 0 89px;}
 .have-questions-head{padding-bottom: 2rem;}
 .have-questions-desc{padding: 1.5rem;}
-.have-questions-desc .button{width: 100%;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
-    .have-questions-main{gap: 0 80px;}
+    .have-questions-main{gap: 0 80px; padding: 0 0 89px;}
     .have-questions-text{flex: 0 0 300px;}
     .have-questions-faq{flex: 1;}
+    .have-questions-desc .button{width: 100%;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .have-questions-main{display: block; padding: 0 0 30px;}
 }

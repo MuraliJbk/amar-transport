@@ -82,20 +82,11 @@ jQuery(document).ready(function($){
         }
       });
 
-
-      $('.news-slider-for').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        dots: false,
-        asNavFor: '.news-slider-nav'
-      });
       $('.news-slider-nav').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         vertical: true,
         verticalSwiping: true,
-        asNavFor: '.news-slider-for',
         focusOnSelect: true,
         dots: true,
         arrows: true,
@@ -122,6 +113,15 @@ jQuery(document).ready(function($){
         nextArrow: '<div class="slick-arrow slick-next button btn-transparent"><span>Next</span><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
         dots: false,
         variableWidth: true,
+        responsive: [
+          {
+            breakpoint: 1023,
+            settings: {
+              arrows: false,
+              dots: true,
+            }
+          }
+      ]
       });
 
   $('.timeline-slider-for').slick({

@@ -1,7 +1,7 @@
 
 .our-equipment-wrap{padding: 53px 0 0;}
 .equipment-swoosh{top: 0; right: -94px; position: absolute; z-index: -1;} 
-.our-equipment-main{padding: 80px 5rem 81px; background: linear-gradient(180deg, #F5F7FA 59.03%, rgba(245, 247, 250, 0.00) 100%);}
+.our-equipment-main{background: linear-gradient(180deg, #F5F7FA 59.03%, rgba(245, 247, 250, 0.00) 100%);}
 .our-equipment-title h2{font-size: 2.25rem; line-height: 2.5rem; margin-bottom: 1.5rem;}
 ul.equipment-links{margin: 0;}
 ul.equipment-links li::before{display: none;}
@@ -17,23 +17,35 @@ ul.equipment-links li a.current::before{height: 100%;}
 .equipment-row.current{display: block;}
 
 /* media css starts here */
+@media only screen and (min-width: 768px){
+    .equipment-list{gap: 24px;}
+    .equipment-image{flex: 0 0 100px;}
+    .equipment-text{flex: 1;}
+}
 @media only screen and (min-width: 1024px){
+    .our-equipment-main{padding: 80px 5rem 81px;}
     .our-equipment-head{margin-bottom: 94px;}
     .our-equipment-title{flex: 0 0 639px;}
     .our-equipment-btn{flex: 1;}
-    ul.equipment-links{flex: 0 0 320px;}
     .equipment-rows{flex: 1;}
     .equipment-lists{gap: 32px;}
     .equipment-list{gap: 24px; flex: 0 0 calc(50% - 16px);}
-    .equipment-image{flex: 0 0 100px;}
-    .equipment-text{flex: 1;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .our-equipment-main { padding: 80px 2rem 40px;}
     .equipment-rows { padding: 3rem; }
     .equipment-lists{display: block;}
     .equipment-list {margin-bottom: 20px;}
-
-
 }
-    
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .our-equipment-main { padding: 80px 22px 40px;}
+    .our-equipment-head{display: block; margin-bottom: 3rem;}
+    .our-equipment-title{margin-bottom: 2rem;}
+    ul.equipment-links li:not(.equipment-active){display: none;}
+    ul.equipment-links.copy li:not(.equipment-active){display: block;}
+    .our-equipment-tabs{display: none;}
+    .equipment-rows{padding: 1.5rem;}
+    .equipment-lists{display: block;}
+    .equipment-lists{display: block;}
+    .equipment-list:not(:last-child){margin-bottom: 24px;}
+}

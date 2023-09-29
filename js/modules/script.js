@@ -37,6 +37,8 @@ jQuery(document).ready(function($){
     
     $("ul.equipment-links > li > a:first").addClass("current");
     $(".equipment-row[data-value='equipments-tab-1']").addClass("current");
+    // let eq_html = $("ul.equipment-links").clone().addClass("copy");
+    // $(".our-equipment-tabs").append(eq_html);
     $("ul.equipment-links > li > a").on("click", function(e){
         e.preventDefault();
         $(this).parent().siblings().find("a").removeClass("current");

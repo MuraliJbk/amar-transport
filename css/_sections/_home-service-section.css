@@ -16,7 +16,6 @@
 
 .other-services-slider .service-img img{min-height: 348px;}
 .other-services-slider .service-text h2{min-height: 56px; display: flex; flex-direction: column; justify-content: flex-end;}
-.other-services-slider .service-text svg{margin-bottom: 26px;}
 .other-services-slider .service-btn{margin-top: -20px;}
 
 .service-pos{height: 100%;}
@@ -42,6 +41,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .home-service-head{display: block;}
     .home-service-title{margin-bottom: 2rem;}
+    .service-text{padding: 1.5rem;}
     .service-text h2{font-size: 1.5rem; line-height: 2rem;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
