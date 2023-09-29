@@ -19,7 +19,7 @@ ul.positions-links li a.current::after, ul.positions-links li a:hover::after{wid
 .tabs-title h3{margin: 0;}
 .tabs-categorys{color: var(--text-color);}
 ul.tabs-category{margin: 0;}
-ul.tabs-category li::before{top: 11px; right: -16px; left: auto; background-color: var(--amar-orange);}
+ul.tabs-category > li::before{top: 11px; right: -16px; left: auto; background-color: var(--amar-orange);}
 ul.tabs-category li{margin: 0; font-weight: 600;}
 
 

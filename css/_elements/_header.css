@@ -7,7 +7,7 @@
 .nav-user-login:nth-last-child(1){background: linear-gradient(180deg, #203179 0%, #060A1C 100%), #05131D;}
 .nav-user{color: var(--white); font-size: 0.875rem;}
 
-.languages{background-color: var(--light-gray); width: 65px;}
+.languages{background-color: var(--light-gray); width: 65px; flex-wrap: nowrap;}
 .languages a{color: var(--amar-blue); opacity: 0.5;}
 .languages a.current{opacity: 1;}
 .languages a:hover{color: var(--amar-orange); opacity: 1;}
@@ -20,8 +20,8 @@
     .logo{flex: 0 0 165px; padding: 24px 0 0 39px;}
     .logo a{width: 100%; display: block;}
     .logo img{height: 38px;}
-    .navigation{flex: 1; gap: 0 48px;}
-    ul.nav-menu{margin: 0; gap: 0 48px; flex: 1; justify-content: flex-end;}
+    .navigation{flex: 1; gap: 0 48px; flex-wrap: nowrap;}
+    ul.nav-menu{margin: 0; gap: 0 48px; flex: 1; flex-wrap: nowrap; justify-content: flex-end;}
     ul.nav-menu > li{margin: 0;}
     ul.nav-menu > li:first-child::before{display: none;}
     ul.nav-menu > li::before{display: none;}
@@ -37,7 +37,7 @@
     ul.nav-menu > li > ul > li.current_page_item > a, ul.nav-menu > li > ul > li > a:hover{color: var(--amar-orange);}
     .toggle-icon{display: none;}
     .nav-user-login{flex: 0 0 80px; min-height: 80px; padding: 17px 0 0; text-align: center; flex-direction: column; }
-    .nav-users{flex: 0 0 auto; max-width: 240px; height: 100%; justify-content: flex-end;}
+    .nav-users{flex: 0 0 auto; max-width: 240px; height: 100%; flex-wrap: nowrap; justify-content: flex-end;}
 }
 @media only screen and (max-width: 1229px) and (min-width: 1024px){
     .logo{padding-left: 20px;}

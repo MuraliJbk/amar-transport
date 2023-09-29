@@ -15,13 +15,16 @@
 
 /* media  css starts here */
 @media only screen and (min-width: 1024px){
-    .leadership-main{padding: 30px 5rem 80px;}
     .leadership-head{gap: 20px;}
     .leadership-title{flex: 1;}
     .leadership-row{gap: 48px;}
     .leadership-list{flex: 0 0 calc(33.33% - 32px);}
 }
+@media only screen and (min-width: 1300px){
+    .leadership-main{padding: 30px 5rem 80px;}
+}
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .leadership-main{padding: 30px 0 80px;}
     .leadership-row{gap: 32px;}
     .leadership-list{flex: 0 0 calc(33.33333% - 22px);}
     .leadership-text{width: calc(100% - 40px); padding: 20px;}
