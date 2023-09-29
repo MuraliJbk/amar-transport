@@ -3,7 +3,7 @@
 .home-service-head.no_desc{display: block;}
 .home-service-title h2{margin-bottom: 2rem;}
 
-.service-text{bottom: 0; left: 0; width: 100%; height: 100%; padding: 2.5rem; position: absolute; z-index: 1; overflow: hidden;}
+.service-text{bottom: 0; left: 0; width: 100%; height: 100%; padding: 2.5rem; position: absolute; z-index: 1; overflow: hidden; transition: all 0.45s ease-in-out;}
 .service-text::before, .service-text::after{width: 100%; height: 100%; left: 0; transition: top 0.45s ease-in-out; content: ""; position: absolute; z-index: -1;}
 .service-text::before{top: 0; background-image: linear-gradient(to bottom, #1998d5 0%, #0c609d 100%), linear-gradient(to bottom, #0c609d, #0c609d);}
 .service-text:hover::before{top: -100%;}
@@ -11,8 +11,6 @@
 .service-text:hover::after{top: 0; }
 .service-text h2{margin-bottom: 16px;}
 .service-text p{color: var(--white-70);}
-.service-desc{margin-top: auto; margin-bottom: -24px; transition: all 0.45s ease-in-out;}
-.service-text:hover .service-desc{margin-bottom: 0;}
 .service-btn{opacity: 0; overflow: hidden; transition: all 0.45s ease-in-out;}
 .service-text:hover .service-btn{height: auto; opacity: 1;}
 
@@ -30,11 +28,9 @@
     .home-service-head{gap: 80px; margin-bottom: 80px;}
     .home-service-title{flex: 0 0 400px;}
     .home-service-desc{flex: 1;}
-    .other-services-swoop {
-        right: -228px;
-        top: -363px;
-        z-index: -1;
-    }
+    .other-services-swoop { right: -228px; top: -363px; z-index: -1; }
+    .service-desc{flex-direction: column;}
+    .service-desc svg{margin-bottom: auto;}
 }
 @media only screen and (min-width: 768px){
     .home-service-desc p{margin-bottom: 1.75rem;}
@@ -50,5 +46,10 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .home-service-head{display: block;}
+    .home-service-title{margin-bottom: 1.5rem;}
+    .home-service-desc{font-size: 1rem; line-height: 1.75rem; margin-bottom: 1.5rem;}
     .services-row > *:not(:last-child){margin-bottom: 1rem;}
+    .service-desc{gap: 24px; align-items: center;}
+    .service-desc svg{width: 32px;}
+    .service-desc h2{flex: 1; margin: 0; font-size: 1.3125rem;}
 }

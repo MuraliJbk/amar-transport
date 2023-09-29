@@ -34,6 +34,25 @@ jQuery(document).ready(function($){
         }
       }    
       toggleSlickSlider();
+
+      function introSlider(){
+        if (_windowWidth <= 767) {
+          $('.sub-head-row').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+            autoplay: true,
+            centerMode: true,
+            centerPadding: '20px'
+          });
+        }
+        else{
+
+        }
+      }
+      introSlider();
+
       $(window).on('resize load', function() {
         var newScreenWidth = $(window).width();
         if (newScreenWidth !== _windowWidth) {
@@ -41,6 +60,7 @@ jQuery(document).ready(function($){
           toggleSlickSlider();
         }
       });
+
 
       $('.news-slider-for').slick({
         slidesToShow: 1,
