@@ -1,5 +1,4 @@
 
-.leadership-main{padding: 30px 5rem 80px;}
 .leadership-repeater-list{padding-bottom: 108px;}
 .leadership-repeater-list:last-child{padding-bottom: 0;}
 .leadership-head{margin-bottom: 51px;}
@@ -16,6 +15,7 @@
 
 /* media  css starts here */
 @media only screen and (min-width: 1024px){
+    .leadership-main{padding: 30px 5rem 80px;}
     .leadership-head{gap: 20px;}
     .leadership-title{flex: 1;}
     .leadership-row{gap: 48px;}
@@ -28,7 +28,8 @@
     .leadership-pos span{font-size: 1.063rem; line-height: 1.375rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .leadership-row{gap: 48px;}
+    .leadership-main{padding: 30px 0 80px;}
+    .leadership-row{gap: 22px;}
     .leadership-list{flex: 0 0 calc(50% - 24px);}
     .leadership-head{gap: 60px;}
     .leadership-title h2{font-size: 1.875rem;}
@@ -40,10 +41,7 @@
     .leadership-head{margin-bottom: 40px; display: block;}
     .leadership-head h2{margin-bottom: 0;}
     .leadership-btn {margin-top: 40px;}
-    .leadership-list{margin-bottom: 47px;}
-    .leadership-text{width: calc(100% - 52px); max-height: 112px; overflow: hidden; cursor: pointer;}
+    .leadership-list{margin-bottom: 1rem;}
+    .leadership-text{width: 100%; max-height: 112px; overflow: hidden; cursor: pointer;}
     .leadership-text.expand{max-height: 320px; overflow-y: scroll; scrollbar-width: none; -ms-overflow-style: none; }
-}
-@media only screen and (max-width: 370px) and (min-width: 200px){
-    .leadership-text{width: calc(100% - 40px); padding: 20px 20px 10px;}
 }
