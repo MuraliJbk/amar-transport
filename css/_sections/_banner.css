@@ -19,6 +19,7 @@
     .home-banner .banner-text h1{margin-bottom: 1.5rem;}
     .banner-main{min-height: 720px; align-items: center;}
     .banner-text{max-width: 550px; padding: 225px 0 171px;}
+    /* .page-template-services .banner-text{padding: 190px 0 101px;} */
 }
 @media only screen and (min-width: 768px){
  
