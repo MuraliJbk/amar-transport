@@ -15,19 +15,17 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-<<<<<<< HEAD
-=======
-    .sub-head-main{padding: 7.5rem 5rem 5rem; margin-top: -80px;}
+    .sub-head-main{ margin-top: -80px;}
     .page-template-services  .sub-head-main {padding: 5rem 5rem 10.5rem;}
->>>>>>> 8507e0af6d29414ce1dadd721d54361087041b9b
     .sub-intro-main{gap: 20px 80px; padding-bottom: 5rem;}
     .sub-intro-head{flex: 0 0 400px;}
     .sub-intro-desc{flex: 1; max-width: 41.625rem;}
 }
 @media only screen and (min-width: 1300px){
-    .sub-head-main{padding: 7.5rem 5rem 5rem; margin-top: -80px;}
+    .sub-head-main{padding: 7.5rem 5rem 5rem;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .sub-head-main{padding: 5rem 2rem 5rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .sub-intro-main{display: block; padding: 4rem 0;}
