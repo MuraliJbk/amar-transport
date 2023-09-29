@@ -51,6 +51,8 @@ jQuery(document).ready(function($){
 
     $("ul.positions-links li a").on("click", function(e){
         e.preventDefault();
+        $(this).parent().siblings().find("a").removeClass("current");
+        $(this).addClass("current");
         let _this = $(this).attr("data-name");
         $(".open-positions-row").hide();
         let _thisattr = $(".open-positions-row[data-value="+ _this +"]");
