@@ -1,11 +1,22 @@
 
-
-.long-content-main{margin-top: -100px; padding: 76px 5rem 59px;}
+.long-frame{position: relative;}
 .long-content-main ul{margin-bottom: 55px;}
-
 .long-image{margin: 48px 0 54px;}
 .swoosh-small{bottom: -48px; right: -40px; position: absolute;}
 
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .long-content-section{padding-top: 320px;}
+    .long-frame img{min-height: 398px;}
+    .long-content-main{margin-top: -78px; padding: 76px 5rem 59px;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .long-content-main{padding: 60px 1.5rem 59px;}
+    .long-frame img{min-height: 300px; max-height: 300px;}
+    .long-content-main{margin-top: -78px; padding: 60px 1.5rem 59px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .long-content-section{padding-top: 98px;}
+    .long-frame{top: 0; left: 0; position: absolute;}
+    .long-content-main{padding: 26px 1rem 1rem;}
 }

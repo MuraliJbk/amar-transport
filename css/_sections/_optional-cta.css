@@ -26,15 +26,22 @@
     .optional-cta-btns{gap: 20px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .optional-cta-list{gap: 0 60px;}
-    .optional-cta-img {flex: 0 0 520px;}
+    .optional-cta-list{gap: 0 2rem;}
+    .optional-cta-img {flex: 0 0 50%;}
     .page-template-services .optional-cta-list:not(:last-child){margin-bottom: 80px;}
-
-
+    body.page-template-innovation .optional-cta-main{padding: 5rem 2rem 4rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-
+    body.page-template-innovation .optional-cta-main{padding: 4rem 0 4rem;}
+    .optional-cta-list{display: block;}
+    .optional-cta-list:not(:last-child){margin-bottom: 4rem;}
+    .optional-cta-img{margin-bottom: 3rem;}
+    .optional-cta-swoosh{display: none;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .optional-cta-swoosh{display: none;}
+    .optional-cta-list{display: block;}
+    .optional-cta-list:not(:last-child){margin-bottom: 4rem;}
+    .optional-cta-img{margin-bottom: 3rem;}
     .optional-cta-swoosh{display: none;}
 }
