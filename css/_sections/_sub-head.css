@@ -15,6 +15,11 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+<<<<<<< HEAD
+=======
+    .sub-head-main{padding: 7.5rem 5rem 5rem; margin-top: -80px;}
+    .page-template-services  .sub-head-main {padding: 5rem 5rem 10.5rem;}
+>>>>>>> 8507e0af6d29414ce1dadd721d54361087041b9b
     .sub-intro-main{gap: 20px 80px; padding-bottom: 5rem;}
     .sub-intro-head{flex: 0 0 400px;}
     .sub-intro-desc{flex: 1; max-width: 41.625rem;}
