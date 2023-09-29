@@ -14,6 +14,21 @@ jQuery(document).ready(function($){
           arrows: false,
           dots: false,
           autoplay: true,
+          responsive: [
+            {
+              breakpoint: 1023,
+              settings: {
+                slidesToShow: 4,
+                dots: true,
+              }
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                dots: true,
+              }
+            }
+        ]
         });
       }
   
