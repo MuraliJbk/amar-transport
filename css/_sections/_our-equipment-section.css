@@ -28,3 +28,12 @@ ul.equipment-links li a.current::before{height: 100%;}
     .equipment-image{flex: 0 0 100px;}
     .equipment-text{flex: 1;}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .our-equipment-main { padding: 80px 2rem 40px;}
+    .equipment-rows { padding: 3rem; }
+    .equipment-lists{display: block;}
+    .equipment-list {margin-bottom: 20px;}
+
+
+}
+    

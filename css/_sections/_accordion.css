@@ -11,7 +11,7 @@
 .accordion-list.active{background-color: var(--white);border-color: #d6dae5;}
 .accordion-header.open span.fa-circle-plus{color: var(--amar-orange);}
 
-.page-template-services .accordion-header{padding: 28px 66px 31px 20px;}
+.page-template-services .accordion-header{padding: 28px 66px 12px 20px;}
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .accordion-main{padding: 1.7rem 0 2.85rem;}
