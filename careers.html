@@ -41,6 +41,7 @@
             <ul class="nav-menu flex">
                 <li class="menu-item-has-children"><a href="services.html">Services</a>
                     <ul class="sub-menu">
+                        <li class="hide-nav-item"><a href="services.html">Overview</a></li>
                         <li><a href="#">Drayage / Transport</a></li>
                         <li><a href="#">Container Storage</a></li>
                         <li><a href="#">Intermodal Transport</a></li>
@@ -107,7 +108,7 @@
         </picture><!-- if no picture add this class no_banner_img -->
     </div>
     <div class="container md banner-main flex">
-        <div class="banner-text fs-20 inverted" data-animation="gsap-left">
+        <div class="banner-text fs-20 inverted" data-animation="gsap-up">
             <h1>Careers</h1>
             <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. Sit maecenas at risus eget interdum dictum sed odio.</p>
             <div class="banner-btns flex">
@@ -309,7 +310,7 @@
             <figure class="object-fit">
                 <img src="images/career-growth-thumb@2x.jpg" alt="career-growth-thumb">
             </figure>
-            <div class="optional-cta-swoosh0 absolute">
+            <div class="optional-cta-swoosh0 optional-cta-swoosh">
                 <svg width="296" height="282" viewBox="0 0 296 282" fill="none">
                     <path d="M243.045 239.458C183.665 275.257 116.445 262.264 83.2312 204.036C49.6154 145.103 62.0258 59.4531 109.363 0C43.1228 52.7726 14.406 148.734 45.2476 217.403C76.8658 287.801 159.106 302.857 228.936 251.031C233.833 247.397 238.538 243.531 243.045 239.458Z" fill="url(#paint0_linear_466_21475)"/>
                     <path d="M295.614 189.151C286.529 197.028 276.827 204.235 266.564 210.634C177.81 265.968 80.6867 239.919 49.6322 152.45C48.2949 148.684 47.1019 144.865 46.0504 141C45.8263 149.535 46.3613 158.021 47.7113 166.368C60.0318 242.551 135.573 278.379 216.438 246.393C247.306 234.183 274.487 213.856 295.614 189.151Z" fill="url(#paint1_linear_466_21475)"/>
@@ -351,9 +352,13 @@
 </div>
 </section>
 <section class="process-section">
-<picture class="object-fit">
-    <img src="images/process-frame@2x.jpg" alt="process-frame">
-</picture>
+<div class="relative">
+    <picture class="process-thumb object-fit">
+        <source srcset="images/process-frame@2x.jpg" media="(min-width: 768px)">
+        <img src="images/process-frame-mobile@2x.jpg" alt="process-frame">
+    </picture>
+    <div class="dark-overlay"></div>
+</div>
 <div class="container lg">
     <div class="process-main bg-white relative">
         <div class="process-head fs-20">
@@ -460,7 +465,7 @@
             <figure class="object-fit">
                 <img src="images/diversity-thumb@2x.jpg" alt="diversity-thumb">
             </figure>
-            <div class="optional-cta-swoosh0 absolute">
+            <div class="optional-cta-swoosh0 optional-cta-swoosh">
                 <svg width="296" height="282" viewBox="0 0 296 282" fill="none">
                     <path d="M243.045 239.458C183.665 275.257 116.445 262.264 83.2312 204.036C49.6154 145.103 62.0258 59.4531 109.363 0C43.1228 52.7726 14.406 148.734 45.2476 217.403C76.8658 287.801 159.106 302.857 228.936 251.031C233.833 247.397 238.538 243.531 243.045 239.458Z" fill="url(#paint0_linear_466_21475)"/>
                     <path d="M295.614 189.151C286.529 197.028 276.827 204.235 266.564 210.634C177.81 265.968 80.6867 239.919 49.6322 152.45C48.2949 148.684 47.1019 144.865 46.0504 141C45.8263 149.535 46.3613 158.021 47.7113 166.368C60.0318 242.551 135.573 278.379 216.438 246.393C247.306 234.183 274.487 213.856 295.614 189.151Z" fill="url(#paint1_linear_466_21475)"/>
@@ -509,7 +514,7 @@
             <h2 class="h3">We love working here</h2>
         </div>
         <div class="col-lg-5 text-md-right">
-            <a href="" class="button">View Open Positions</a>
+            <a href="" class="button"><span>View Open Positions</span></a>
         </div>
     </div>
     <div class="view-position-row row gutter-40">
@@ -1725,8 +1730,9 @@
 </div>
 </section>
 <section class="open-positions-section">
-    <picture class="object-fit">
-        <img src="images/open-positions@2x.jpg" alt="">
+    <picture class="open-positions-thumb object-fit">
+        <source srcset="images/open-positions@2x.jpg" media="(min-width: 768px)">
+        <img src="images/open-positions-mobile@2x.jpg" alt="">
     </picture>
     <div class="container lg">
     <div class="open-positions-wrap bg-white relative">

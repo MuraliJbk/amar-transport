@@ -2,6 +2,7 @@
 .optional-cta-main{padding: 0 0 76px;}
 .optional-cta-text h2{margin-bottom: 1.5rem;}
 .optional-cta-img{ box-shadow: 0px 24px 24px 0px rgba(110, 148, 206, 0.24); }
+.optional-cta-swoosh{position: absolute;}
 .optional-cta-swoosh0{left: -45px; bottom: -45px;}
 .optional-cta-swoosh1{top: -308px; right: -240px; opacity: 0.2; z-index: -1;}
 .optional-cta-swoosh2 { bottom: -60px; right: -40px; }
@@ -35,7 +36,5 @@
 
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-
-}
-@media only screen and (max-width: 380px) and (min-width: 200px){
+    .optional-cta-swoosh{display: none;}
 }
