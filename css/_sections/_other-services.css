@@ -1,22 +1,30 @@
 
 
-.other-services-head{max-width: 651px; margin-bottom: 73px;}
 .services-pagination{display: none;}
 
 /* media css starts here */
 @media only screen and (min-width: 768px){
-    .other-services-slider .slick-slide{width: 296px; margin-right: 32px;}
+    .other-services-head{max-width: 651px; margin-bottom: 73px;}
 }
 @media only screen and (min-width: 1024px){
     .other-services-main{margin-top: -76px; padding: 80px 5rem 80px;}
     .page-template-default .other-services-main{margin-top: 0;}
+    .other-services-slider .services-slide{gap: 32px; flex-wrap: nowrap;}
+    .other-services-slider .service-pos{flex: 0 0 calc(25% - 24px);}
     .other-services-slider .service-text svg{margin-bottom: 26px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .other-services-main{margin-top: -76px; padding: 40px 1.5rem 80px;}
-    .other-services-slider .slick-list{width: 100vw;}
+    .other-services-slider{padding-top: 60px;}
+    .other-services-slider .services-slide{gap: 1.5rem;}
+    .other-services-slider .service-pos{flex: 0 0 calc(50% - 12px);}
+    .other-services-slider ul.slick-dots { top: 0; margin: 0; position: absolute; }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .other-services-slider .slick-slide{width: 296px; margin-right: 32px;}
-    .other-services-slider .slick-list{width: 100vw;}
+    .other-services-main{padding: 26px 0 38px;}
+    .other-services-head{margin-bottom: 47px;}
+    .other-services-slider{padding-top: 46px;}
+    .other-services-slider .services-slide{display: block;}
+    .other-services-slider .service-pos{margin-bottom: 16px;}
+    .other-services-slider ul.slick-dots { top: 0; margin: 0; position: absolute; }
 }

@@ -1,153 +1,156 @@
-
 import jQuery from 'jquery';
 import 'slick-carousel';
 import 'slick-carousel/slick/slick.css';
 
-jQuery(document).ready(function($){
-      var _windowWidth = $(window).width();
-      const clientsSlider = $('.client-logos-slider');
-      const clientsLength = clientsSlider.find(".client-logo-list").length;
-      if(clientsLength>=9){
-        clientsSlider.slick({
-          slidesToShow: 9,
-          slidesToScroll: 1,
-          arrows: false,
-          dots: false,
-          autoplay: true,
-          responsive: [
-            {
-              breakpoint: 1023,
-              settings: {
-                slidesToShow: 4,
-                dots: true,
-              }
-            },
-            {
-              breakpoint: 767,
-              settings: {
-                dots: true,
-              }
-            }
-        ]
-        });
-      }
-  
-      function toggleSlickSlider() {
-        if (_windowWidth <= 1023) {
-          $('.short-intro-slider').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
+jQuery(document).ready(function ($) {
+  var _windowWidth = $(window).width();
+  const clientsSlider = $('.client-logos-slider');
+  const clientsLength = clientsSlider.find('.client-logo-list').length;
+  if (clientsLength >= 9) {
+    clientsSlider.slick({
+      slidesToShow: 9,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: false,
+      autoplay: true,
+      responsive: [
+        {
+          breakpoint: 1023,
+          settings: {
+            slidesToShow: 4,
             dots: true,
-            autoplay: true,
-            variableWidth: true,
-          });
-        } else {
-          if ($('.short-intro-slider').hasClass('slick-initialized')) {
-            $('.short-intro-slider').slick('unslick');
-          }
-        }
-      }    
-      toggleSlickSlider();
-
-      function introSlider(){
-        if (_windowWidth <= 767) {
-          $('.sub-head-row').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
             dots: true,
-            autoplay: true,
-            centerMode: true,
-            centerPadding: '20px'
-          });
-        }
-        else{
+          },
+        },
+      ],
+    });
+  }
 
-        }
-      }
-      introSlider();
-
-      function processSlider(){
-        if (_windowWidth <= 767) {
-          $('.process-row').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            dots: true,
-            autoplay: true,
-            centerMode: true,
-            centerPadding: '0'
-          });
-        }
-        else{
-
-        }
-      }
-      processSlider();
-
-      $(window).on('resize load', function() {
-        var newScreenWidth = $(window).width();
-        if (newScreenWidth !== _windowWidth) {
-          _windowWidth = newScreenWidth;
-          toggleSlickSlider();
-      introSlider();
-      processSlider();
-
-        }
-      });
-
-      $('.news-slider-nav').slick({
-        slidesToShow: 3,
+  function toggleSlickSlider() {
+    if (_windowWidth <= 1023) {
+      $('.short-intro-slider').slick({
+        slidesToShow: 1,
         slidesToScroll: 1,
-        vertical: true,
-        verticalSwiping: true,
-        focusOnSelect: true,
+        arrows: false,
         dots: true,
-        arrows: true,
-        prevArrow: '<div class="slick-arrow slick-prev button flex flex-center"><span class="fa-sharp fa-solid fa-arrow-left"></span></div>',
-        nextArrow: '<div class="slick-arrow slick-next button flex flex-center"><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
-        responsive: [
-          {
-            breakpoint: 1023,
-            settings: {
-              arrows: false,
-            }
-          }
-      ]
-      });
-      $('.news-slider-nav').on('setPosition', function(event, slick){
-          $(".news-slider-nav .small-post-list").removeAttr("style");
-      });
-
-    $('.other-services-slider').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        arrows: true,
-        prevArrow: '<div class="slick-arrow slick-prev button btn-transparent"><span class="fa-sharp fa-solid fa-arrow-left"></span><span>Previous</span></div>',
-        nextArrow: '<div class="slick-arrow slick-next button btn-transparent"><span>Next</span><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
-        dots: false,
+        autoplay: true,
         variableWidth: true,
-        responsive: [
-          {
-            breakpoint: 1023,
-            settings: {
-              arrows: false,
-              dots: true,
-            }
-          }
-      ]
       });
+    } else {
+      if ($('.short-intro-slider').hasClass('slick-initialized')) {
+        $('.short-intro-slider').slick('unslick');
+      }
+    }
+  }
+  toggleSlickSlider();
+
+  function introSlider() {
+    if (_windowWidth <= 767) {
+      $('.sub-head-row').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        centerMode: true,
+        centerPadding: '20px',
+      });
+    } else {
+    }
+  }
+  introSlider();
+
+  function processSlider() {
+    if (_windowWidth <= 767) {
+      $('.process-row').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        centerMode: true,
+        centerPadding: '0',
+      });
+    } else {
+    }
+  }
+  processSlider();
+
+  $(window).on('resize load', function () {
+    var newScreenWidth = $(window).width();
+    if (newScreenWidth !== _windowWidth) {
+      _windowWidth = newScreenWidth;
+      toggleSlickSlider();
+      introSlider();
+      processSlider();
+    }
+  });
+
+  $('.news-slider-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    vertical: true,
+    verticalSwiping: true,
+    focusOnSelect: true,
+    dots: true,
+    arrows: true,
+    prevArrow:
+      '<div class="slick-arrow slick-prev button flex flex-center"><span class="fa-sharp fa-solid fa-arrow-left"></span></div>',
+    nextArrow:
+      '<div class="slick-arrow slick-next button flex flex-center"><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
+  });
+  $('.news-slider-nav').on('setPosition', function (event, slick) {
+    $('.news-slider-nav .small-post-list').removeAttr('style');
+  });
+
+  $('.other-services-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    prevArrow:
+      '<div class="slick-arrow slick-prev button btn-transparent"><span class="fa-sharp fa-solid fa-arrow-left"></span><span>Previous</span></div>',
+    nextArrow:
+      '<div class="slick-arrow slick-next button btn-transparent"><span>Next</span><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
+    dots: false,
+    // variableWidth: true,
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          arrows: false,
+          dots: true,
+        },
+      },
+    ],
+  });
+  $('.other-services-slider').on('setPosition', function (event, slick) {
+    $('.other-services-slider .services-slide').removeAttr('style');
+  });
 
   $('.timeline-slider-for').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
-    prevArrow: '<div class="slick-arrow slick-prev button btn-transparent"><span class="fa-sharp fa-solid fa-arrow-left"></span><span>Previous</span></div>',
-    nextArrow: '<div class="slick-arrow slick-next button btn-transparent"><span>Next</span><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
+    prevArrow:
+      '<div class="slick-arrow slick-prev button btn-transparent"><span class="fa-sharp fa-solid fa-arrow-left"></span><span>Previous</span></div>',
+    nextArrow:
+      '<div class="slick-arrow slick-next button btn-transparent"><span>Next</span><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
     dots: false,
     variableWidth: true,
-    asNavFor: '.timeline-slider-nav'
+    asNavFor: '.timeline-slider-nav',
   });
   $('.timeline-slider-nav').slick({
     slidesToShow: 3,
@@ -158,15 +161,4 @@ jQuery(document).ready(function($){
     arrows: false,
     dots: false,
   });
- 
 });
- 
-
-
-
-
-
-
-
-
-

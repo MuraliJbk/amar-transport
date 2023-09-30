@@ -13,6 +13,7 @@ jQuery(document).ready(function($){
         $(".main-header").removeClass("fixed-header");
         $(".navigation").toggleClass("open");
     });
+    
 
     if($(window).width() <= 1023){
         let level1 = $("ul.nav-menu > li.menu-item-has-children > a");
@@ -24,6 +25,28 @@ jQuery(document).ready(function($){
             $(this).siblings("ul").slideToggle(900);
         });
     }
+    if($(window).width() >= 1024){
+        $("ul.equipment-links > li > a:first").addClass("current");
+        $(".equipment-row[data-value='equipments-tab-1']").addClass("current");
+        $(".equipment-link").on("click", function(e){
+            e.preventDefault();
+            $(this).parent().siblings().find("a").removeClass("current");
+            $(this).addClass("current");
+            let attr = $(this).attr('data-name');
+            $(".equipment-row").hide();
+            $(".equipment-row[data-value="+ attr +"]").fadeIn('normal');
+        });    
+    }
+    else{
+        $(".equipment-link").on("click", function(e){
+            e.preventDefault();
+            $(this).parent().siblings().find("a").removeClass("current");
+            $(this).addClass("current");
+            $(this).parent().siblings().find(".equipment-link").removeClass("current");
+            $(this).parent().siblings().find(".equipment-lists").slideUp("slow");
+            $(this).siblings(".equipment-lists").fadeIn("slow");
+        });
+    }
 
     $('.accordion-header').on('click', function(e){
         e.preventDefault();
@@ -33,19 +56,6 @@ jQuery(document).ready(function($){
         $(this).toggleClass("open");
         $(this).siblings('.accordion-content').slideToggle(500);
         $(this).parent().siblings().find('.accordion-content').slideUp(500);
-    });
-    
-    $("ul.equipment-links > li > a:first").addClass("current");
-    $(".equipment-row[data-value='equipments-tab-1']").addClass("current");
-    // let eq_html = $("ul.equipment-links").clone().addClass("copy");
-    // $(".our-equipment-tabs").append(eq_html);
-    $("ul.equipment-links > li > a").on("click", function(e){
-        e.preventDefault();
-        $(this).parent().siblings().find("a").removeClass("current");
-        $(this).addClass("current");
-        let attr = $(this).attr('data-name');
-        $(".equipment-row").hide();
-        $(".equipment-row[data-value="+ attr +"]").fadeIn('normal');
     });
 
     $("ul.positions-links li a:first").addClass("current");
@@ -102,6 +112,7 @@ jQuery(document).ready(function($){
         $("picture.cta-thumb-sm").remove();
         $(".other-services-swoop").remove();
         $(".optional-cta-swoosh").remove();
+        $(".equipment-swoosh").remove();
         
     }
 
