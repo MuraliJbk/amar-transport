@@ -41,10 +41,10 @@ jQuery(document).ready(function($){
         $(".equipment-link").on("click", function(e){
             e.preventDefault();
             $(this).parent().siblings().find("a").removeClass("current");
-            $(this).addClass("current");
+            $(this).toggleClass("current");
             $(this).parent().siblings().find(".equipment-link").removeClass("current");
             $(this).parent().siblings().find(".equipment-lists").slideUp("slow");
-            $(this).siblings(".equipment-lists").fadeIn("slow");
+            $(this).siblings(".equipment-lists").fadeToggle("slow").style("display:", "flex");
         });
     }
 
