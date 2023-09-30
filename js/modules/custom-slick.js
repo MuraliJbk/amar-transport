@@ -164,4 +164,10 @@ jQuery(document).ready(function ($) {
     arrows: false,
     dots: false,
   });
+  $('.timeline-slider-for').on('setPosition', function (event, slick) {
+    $('.timeline-for-slide').removeAttr('style');
+  });
+  $('.timeline-slider-nav').on('setPosition', function (event, slick) {
+    $('.timeline-nav-slide').removeAttr('style');
+  });
 });
