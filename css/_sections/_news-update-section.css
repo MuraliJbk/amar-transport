@@ -13,8 +13,6 @@ ul.categorys > li > a{padding: 0.3125rem 0.5rem 0.5rem 0.5rem; display: block; b
 ul.categorys > li > a:hover{background-color: var(--amar-blue); color: var(--white);}
 ul.categorys.white > li > a{color: var(--amar-white-blue); border-radius: 0.25rem; background: rgba(255, 255, 255, 0.10);}
 ul.categorys.white > li > a:hover{background: var(--white); color: var(--amar-blue);}
-.you-might-pos ul.categorys{flex: 1; margin: 0;}
-.browse-pos ul.categorys{flex: 1; margin: 0;}
 
 
 .news-update-slider::after{content: ""; display: block; clear: both;}
