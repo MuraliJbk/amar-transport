@@ -61,6 +61,9 @@ jQuery(document).ready(function ($) {
         centerPadding: '20px',
       });
     } else {
+      if ($('.sub-head-row').hasClass('slick-initialized')) {
+        $('.sub-head-row').slick('unslick');
+      }
     }
   }
   introSlider();

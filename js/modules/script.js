@@ -113,6 +113,7 @@ jQuery(document).ready(function($){
         $(".other-services-swoop").remove();
         $(".optional-cta-swoosh").remove();
         $(".equipment-swoosh").remove();
+        $(".leadership-desktop").remove();
         
     }
 

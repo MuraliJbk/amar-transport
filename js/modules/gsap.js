@@ -37,6 +37,12 @@ gsap_elements.each(function() {
         tl.fromTo(_gself[0], { y: 25, transition: 'none'}, { y: 0, duration: 1.5, ease: 'power1.out'})
         _gself[0].tl = tl
     }
+    if(_gclass === 'gsap-down') {
+        var tl = gsap.timeline({ paused: true })
+        tl.fromTo(_gself[0], { y: -25, transition: 'none'}, { y: 0, duration: 1.5, ease: 'power1.out'})
+        _gself[0].tl = tl
+    }
+
 });
 
 

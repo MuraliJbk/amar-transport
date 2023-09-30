@@ -7,7 +7,6 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .long-content-section{padding-top: 320px;}
     .long-frame img{min-height: 398px;}
     .long-content-main{margin-top: -78px; padding: 76px 5rem 59px;}
 }
