@@ -90,7 +90,7 @@ jQuery(document).ready(function($){
         /* Remove divs for mobile speed which is not used */
         $(".home-circular-wave").remove();
         $(".other-services-swoop").remove();
-
+        $(".banner-svg").remove();
     }
 
     if($(window).width() <= 767){

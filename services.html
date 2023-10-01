@@ -96,8 +96,36 @@
             <source srcset="images/service-banner@2x.jpg" media="(min-width: 768px)">
             <img src="images/home-banner-mobile@2x.jpg" alt="home-banner-mobile">
         </picture><!-- if no picture add this class no_banner_img -->
+        <div class="dark-overlay"></div>
+        <div class="dark-gradient"></div>
     </div>
-    <div class="container x-md banner-main flex flex-vcenter">
+    <div class="container x-md banner-main flex relative">
+        <div class="banner-svg absolute hide-mobile hide-tablet">
+            <svg width="672" height="491" viewBox="0 0 672 491" fill="none">
+                <path d="M2.12897 394.826C5.27561 414.916 13.5198 432.635 27.2175 446.334C66.0021 485.121 137.021 480.192 202.816 439.575C137.401 493.457 60.3235 507.572 22.353 469.598C4.39117 451.634 -1.91489 424.919 2.12897 394.826Z" fill="url(#paint0_linear_474_21242)"/>
+                <path d="M114.146 357.648C166.982 411.224 353.192 320.691 530.068 155.432C585.741 103.409 633.852 50.1923 672 7.21624e-05C631.09 72.558 555.415 161.719 458.113 246.293C279.684 401.374 96.106 482.295 48.076 427.026C12.7565 386.39 60.574 283.422 159.307 170.098C103.814 256.103 83.9841 327.05 114.146 357.64L114.146 357.648Z" fill="url(#paint1_linear_474_21242)"/>
+                <path d="M132.667 269.817C116.896 304.106 116.418 330.522 129.768 347.195C168.219 395.194 325.438 333.465 480.911 209.306C561.599 144.868 625.951 76.2893 663.826 18.5068C624.946 68.6694 567.894 123.314 498.809 173.516C341.482 287.863 157.943 370.922 132.657 269.827L132.667 269.817Z" fill="url(#paint2_linear_474_21242)"/>
+                <path d="M402.32 306.595C437.55 284.137 475.013 255.891 512.116 223.03C576.166 166.302 626.689 106.853 656.096 57.1888C655.315 58.2043 654.529 59.2211 653.74 60.2392C639.138 80.63 621.346 101.932 600.839 123.374C563.388 165.034 520.08 207.684 472.139 249.353C448.862 269.583 425.508 288.7 402.32 306.595Z" fill="url(#paint3_linear_474_21242)"/>
+                <defs>
+                <linearGradient id="paint0_linear_474_21242" x1="-82.0912" y1="491" x2="183.154" y2="448.499" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FFC643"/>
+                <stop offset="1" stop-color="#FFC643" stop-opacity="0"/>
+                </linearGradient>
+                <linearGradient id="paint1_linear_474_21242" x1="212.625" y1="551.492" x2="556.789" y2="25.4817" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0C609D"/>
+                <stop offset="1" stop-color="#0C609D" stop-opacity="0"/>
+                </linearGradient>
+                <linearGradient id="paint2_linear_474_21242" x1="187.695" y1="425.194" x2="650.242" y2="73.4293" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1998D5"/>
+                <stop offset="1" stop-color="#1998D5" stop-opacity="0"/>
+                </linearGradient>
+                <linearGradient id="paint3_linear_474_21242" x1="427.191" y1="306.254" x2="572.7" y2="148.904" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#F26322"/>
+                <stop offset="1" stop-color="#F26322" stop-opacity="0"/>
+                </linearGradient>
+                </defs>
+            </svg>            
+        </div><!-- only this page -->
         <div class="banner-text fs-20 inverted" data-animation="gsap-left">
             <h1>Service Heading</h1>
             <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. <span>Sit risus eget interdum dictum sed odio.</span></p>
