@@ -3,7 +3,7 @@
 .leadership-repeater-list:last-child{padding-bottom: 0;}
 .leadership-head{margin-bottom: 51px;}
 .leadership-lines{z-index: 0;}
-.leadership-text {width: calc(100% - 34px); height: auto; bottom: -1px; left: auto; right: 0; margin: 0 auto; padding: 22px 32px; max-height: calc(100% - 30px); background-color: var(--white); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-top: solid 1px var(--electric-color); position: absolute; z-index: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: all 0.45s ease-in-out; -ms-overflow-style: none; scrollbar-width: none;}
+.leadership-text {width: calc(100% - 34px); height: auto; bottom: -1px; left: auto; right: 0; margin: 0 auto; padding: 24px 32px 18px; max-height: calc(100% - 30px); background-color: var(--white); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-top: solid 1px var(--electric-color); position: absolute; z-index: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: all 0.45s ease-in-out; -ms-overflow-style: none; scrollbar-width: none;}
 .leadership-text::-webkit-scrollbar{width: 0; display: none;}
 .leadership-desc{display: none; font-size: 0.875rem; line-height: 1.375rem;}
 .leadership-description{padding-top: 21px;}
@@ -13,6 +13,9 @@
 
 /* media  css starts here */
 @media only screen and (min-width: 1024px){
+    .page-template-leadership .banner-text{padding: 220px 0 171px;}
+    .page-template-leadership .sub-intro-main{padding-bottom: 3.5rem;}
+    .page-template-leadership .sub-head-main{padding-bottom: 6.5rem;}
     .leadership-head{gap: 20px;}
     .leadership-title{flex: 1;}
     .leadership-row{gap: 48px;}
