@@ -91,6 +91,8 @@ jQuery(document).ready(function($){
         $(".home-circular-wave").remove();
         $(".other-services-swoop").remove();
         $(".banner-svg").remove();
+        $(".careers-svg").remove();
+        $(".default-banner-svg").remove();
     }
 
     if($(window).width() <= 767){
