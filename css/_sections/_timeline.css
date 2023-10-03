@@ -20,3 +20,12 @@
     .timeline-slider-for .slick-arrow{position: absolute; right: 600px; top: -241px; min-width: 180px;}
     .timeline-slider-for .slick-arrow.slick-prev{right: 790px;}
 }
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .timeline-main{padding: 20px 0; margin-top: 0;}
+    .timeline-head{width: 100%; margin-bottom: 40px;}
+    .timeline-slider-nav.slick-slider{margin-bottom: 40px;}
+    .timeline-slider-nav .slick-slide{width: 297px; margin-right: 16px;}
+    .timeline-slider-for .slick-slide{width: 297px; margin-right: 16px;}
+    .timeline-slider-for  ul.slick-dots{margin: 60px 0 0; }
+}
