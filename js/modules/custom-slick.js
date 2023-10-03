@@ -154,6 +154,15 @@ jQuery(document).ready(function ($) {
     dots: false,
     variableWidth: true,
     asNavFor: '.timeline-slider-nav',
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          arrows: false,
+          dots: true,
+        },
+      },
+    ],
   });
   $('.timeline-slider-nav').slick({
     slidesToShow: 3,
