@@ -42,7 +42,25 @@ gsap_elements.each(function() {
         tl.fromTo(_gself[0], { y: -25, transition: 'none'}, { y: 0, duration: 1.5, ease: 'power1.out'})
         _gself[0].tl = tl
     }
-
 });
 
+// var _call = jQuery(".call-user");
+// _call.each(function(){
+//     let _this = jQuery(this);
+//     let _svg =  _this.find("svg");
+//     let _path = _svg.find("path");
+//     var tl = gsap.timeline({ repeat: -1, repeatDelay: 0.25, })
+//     .fromTo(_path[2], { opacity: 1}, { opacity: 0, duration: 1, ease: 'bounce.out'}, )
+//     .fromTo(_path[1], { opacity: 1}, { opacity: 0, duration: 0.5, ease: 'bounce.out'} )
+// });
+document.addEventListener("DOMContentLoaded", function() {
+    var callElements = document.querySelectorAll(".call-user");
+    callElements.forEach((callElement) => {
+        var svgElement = callElement.querySelector("svg");
+        var pathElements = svgElement.querySelectorAll("path");
 
+        var tl = gsap.timeline({ repeat: -1, repeatDelay: 0.25 })
+            .fromTo(pathElements[2], { opacity: 1 }, { opacity: 0, duration: 1, ease: 'bounce.out' })
+            .fromTo(pathElements[1], { opacity: 1 }, { opacity: 0, duration: 0.5, ease: 'bounce.out' });
+    });
+});
