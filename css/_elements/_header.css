@@ -26,7 +26,7 @@
     ul.nav-menu > li:first-child::before{display: none;}
     ul.nav-menu > li::before{display: none;}
     ul.nav-menu > li > a{padding: 28px 0; color: var(--black-90); display: block; font-size: 1.125rem; font-family: 'Instrument Sans', sans-serif; font-weight: 600;}
-    ul.nav-menu > li.current_page_item > a, ul.nav-menu > li.current_page_ancestor > a, ul.nav-menu > li > a:hover{color: var(--amar-orange);}
+    ul.nav-menu > li.current-menu-parent > a, ul.nav-menu > li.current_page_item > a, ul.nav-menu > li.current_page_ancestor > a, ul.nav-menu > li > a:hover{color: var(--amar-orange);}
     ul.nav-menu > li:hover > ul { opacity: 1; visibility: visible; top: 100%;}
     ul.nav-menu > li > ul{margin: 0; padding: 25px 30px 15px; min-width: 267px; width: 100%; top: calc(100% + 6px); left: 50%; transform: translate(-50%, 0); position: absolute; background-color: var(--white); border-radius: 0 0 2px 2px; box-shadow: 0 4px 44px 0 rgba(1, 32, 237, 0.15); opacity: 0; visibility: hidden; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.175,.885,.32,1.275);}
     ul.nav-menu > li > ul::before { content: ""; width: 0; height: 0; bottom: 100%; left: 50%; transform: translateX(-50%); border-color: transparent transparent #fff; border-style: solid; border-width: 0 6px 8px; position: absolute; }
