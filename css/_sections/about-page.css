@@ -3,14 +3,16 @@
 .about-wrap-one{margin-top: -80px;}
 
 
-@media screen and (max-width: 767px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 200px) {
     .about-wrap-one{margin-top: 0px;}
 
     .team-our-main{padding: 20px 0;}
+    .team-our-text{margin-bottom: 20px;}
     .team-our-text span.optional-text{margin-bottom: 1rem;}
     .team-our-text h2{font-size: 1.5rem; line-height: 1.2;}
+    .team-our-btns{gap: 21px;}
     .team-our-gradient{display: none;}
-    .team-our-images{gap: 24px;}
+    .team-our-images{gap: 24px; margin-bottom: 20px;}
     .team-our-thumb{flex: 0 0 calc(50% - 12px);}
 
 }
