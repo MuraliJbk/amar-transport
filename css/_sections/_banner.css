@@ -20,9 +20,9 @@
     .banner-main{min-height: 720px; align-items: center;}
     .banner-text{max-width: 550px; padding: 225px 0 171px;}
     .banner-svg{bottom: -90px; right: -250px;}
-}
-@media only screen and (min-width: 768px){
-    
+    .page-template-careers .banner-main{position: relative;}
+    .careers-svg{right: -400px; bottom: -512px; z-index: -1; width: 811px;}
+    .default-banner-svg{right: 1px; bottom: -444px; z-index: 0; width: 811px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .home-banner .banner-main{min-height: 655px; align-items: flex-end;}
