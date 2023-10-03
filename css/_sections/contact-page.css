@@ -51,7 +51,7 @@ ul.location-address > li{margin-bottom: 22px;}
     .our-locations-main{padding: 40px 2rem 40px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-    .contact-wrap{padding: 3rem 2rem 4rem; margin-top: -80px;}
+    .contact-wrap{padding: 3rem 1.5rem 4rem; margin-top: -70px;}
     .contact-main{display: block;}
     .contact-text{margin-bottom: 4rem;}
     .contact-form{margin-bottom: 4rem;}

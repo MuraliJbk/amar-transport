@@ -65,8 +65,6 @@ input:-ms-input-placeholder {color: var(--text-color); font-family: 'Instrument 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
-    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
-    body .frm_forms .frm_form_fields .frm_submit{width: 146px;}
 }
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 12px); margin-left: 12px; margin-right: 12px; float: left; clear: none;}
@@ -76,8 +74,8 @@ input:-ms-input-placeholder {color: var(--text-color); font-family: 'Instrument 
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_last{margin-right: 0;}
 
-    body .frm_forms .frm_left{width: calc(50% - 15px); margin-right: 15px; float: left;}
-    body .frm_forms .frm_right{width: calc(50% - 15px); margin-left: 15px; float: right;}
+    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
+    body .frm_forms .frm_form_fields .frm_submit{width: 146px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 16px); margin-left: 16px; margin-right: 16px; float: left; clear: none;}
@@ -85,8 +83,7 @@ input:-ms-input-placeholder {color: var(--text-color); font-family: 'Instrument 
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half .frm_half{width: 100%; margin: 0 0 24px; float: none;}
 
-    body .frm_forms .frm_left{width: calc(50% - 15px); margin-right: 15px; float: left;}
-    body .frm_forms .frm_right{width: calc(50% - 15px); margin-left: 15px; float: right;}
+    .frm_form_field_wrapper{gap: 20px; justify-content: space-between;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .frm_form_field_wrapper{padding-top: 21px; float: none; display: block;}
