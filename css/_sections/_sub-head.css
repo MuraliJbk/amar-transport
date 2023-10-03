@@ -13,6 +13,7 @@
 .sub-head-pos:hover .fit-desc{display: none;}
 .sub-intro-icon{right: -130px; top: -39px; width: 240px; opacity: 0.05;}
 
+.page-template-carrer .sub-head-main.no-margin{margin-top: 21px;}
 .page-template-leadership .sub-head-main{position: relative; background: none;}
 .page-template-leadership .sub-head-main::before{ width: 100%; height: 100%; max-height: 50%; top: 0; left: 0; content: ""; display: block; background-color: var(--white); position: absolute; z-index: -1; }
 
@@ -22,10 +23,12 @@
     .sub-intro-main{gap: 20px 80px; padding-bottom: 5rem;}
     .sub-intro-head{flex: 0 0 400px;}
     .sub-intro-desc{flex: 1; max-width: 41.625rem;}
+    .page-template-carrer .sub-intro-main{padding-bottom: 3rem;}
 }
 @media only screen and (min-width: 1300px){
     .page-template-services  .sub-head-main {padding: 5rem 5rem 10.5rem;}
     .sub-head-main{padding: 7.5rem 5rem 5rem;}
+    .page-template-carrer .sub-head-main{padding: 5rem 5rem 5rem;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .sub-head-main{padding: 5rem 2rem 5rem;}
