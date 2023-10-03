@@ -94,7 +94,6 @@ jQuery(document).ready(function($){
         $(".careers-svg").remove();
         $(".default-banner-svg").remove();
     }
-
     if($(window).width() <= 767){
         $(".footer-list span").on("click", function(e){
             e.preventDefault();
@@ -116,8 +115,6 @@ jQuery(document).ready(function($){
         $(".optional-cta-swoosh").remove();
         $(".equipment-swoosh").remove();
         $(".leadership-desktop").remove();
-        
     }
-
-    
+   
 });

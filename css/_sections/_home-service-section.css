@@ -14,10 +14,6 @@
 .service-btn{opacity: 0; overflow: hidden; transition: all 0.45s ease-in-out;}
 .service-text:hover .service-btn{height: auto; opacity: 1;}
 
-.other-services-slider .service-img img{min-height: 348px;}
-.other-services-slider .service-text h2{min-height: 56px; display: flex; flex-direction: column; justify-content: flex-end;}
-.other-services-slider .service-btn{margin-top: -20px;}
-
 .service-pos{height: 100%;}
 .no_image .service-text{position: relative; min-height: 430px;}
 
