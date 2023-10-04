@@ -88,9 +88,10 @@ hr.line{height: 1px; width: 100%; background: rgba(94, 103, 131, 0.25);}
 .button.white{color: var(--white);}
 .btn-category{font-size: 0.75rem; line-height: 1; border-radius: 4px; padding: 4px 8px 5px; margin-left: 8px; background-color: rgba(239, 99, 47, 0.2); color: var(--amar-orange); top: -2px;}
 
-.text-link{color: var(--text-100); display: inline-block; vertical-align: middle; font-size: 1rem; line-height: 1.5rem; font-weight: 700;}
-.text-link svg{margin-right: 13px; top: -1px; width: 41px; height: 8px; position: relative; overflow: hidden;}
-.text-link:hover{color: var(--amar-orange);}
+.text-link{padding-left: 57px; color: var(--text-100); display: inline-block; vertical-align: middle; font-size: 1rem; line-height: 1.5rem; font-weight: 700; position: relative; overflow: hidden; transition: all 0.45s ease;}
+.text-link::before{width: 41px; height: 6px; left: 0; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; content: ""; background-image: url("./images/left-arrow.svg"); background-repeat: no-repeat; background-size: contain; background-position: center left; transition: all 0.45s ease;}
+.text-link:hover::before{transform: translateX(-10px) translateY(-50%);}
+.text-link:hover{color: var(--amar-orange); padding-left: 37px;}
 .text-link.white{color: var(--white);}
 .text-link.white:hover{color: var(--amar-orange);}
 
