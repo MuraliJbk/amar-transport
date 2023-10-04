@@ -27,5 +27,6 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .marketing-cta-main{display: block; padding: 0 0 17px;}
+    .marketing-cta-img img{min-height: 560px;}
     .marketing-cta-text{width: calc(100% - 32px); margin: -280px auto 0; padding: 32px 29px;}
 }

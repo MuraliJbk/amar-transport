@@ -47,7 +47,6 @@ jQuery(document).ready(function($){
             $(this).siblings(".equipment-lists").fadeToggle("slow").style("display:", "flex");
         });
     }
-
     $('.accordion-header').on('click', function(e){
         e.preventDefault();
         $(this).parent().toggleClass('active');
