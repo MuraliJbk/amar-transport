@@ -17,13 +17,15 @@ body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input.hide-pla
 .newsletter-form .frm_forms .frm_form_fields .frm_submit{right: 0; top: 0; height: 100%; width: 98px; position: absolute;}
 .newsletter-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{height: 100%; width: 100%; padding: 0 1.25rem; font-size: 1rem; line-height: 1.5rem;}
 .newsletter_disclaimer{margin-top: 19px; font-size: 0.875rem; line-height: 1.375rem; color: var(--white-90);}
-.newsletter-wave{right: -360px; top: -440px; width: 1410px; height: 1410px; z-index: -1;}
+.newsletter-wave{z-index: -1;}
+.newsletter-wave svg{width: 100%; height: 100%;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .newsletter-main{gap: 0 80px;}
     .newsletter-text{flex: 0 0 456px;}
     .newsletter-form{flex: 1; max-width: 491px; margin-left: auto; padding-top: 70px;}
+    .newsletter-wave{right: -360px; top: -440px; width: 1410px; height: 1410px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .newsletter-main {gap: 17px; padding: 60px 0 40px;}
@@ -35,6 +37,7 @@ body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input.hide-pla
     .newsletter-main {padding: 34px 16px 32px;}
     .newsletter-text{margin-bottom: 5px;}
     body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input {padding: 16px 110px 15px 48px;}
+    .newsletter-wave{right: 60px; top: -40px; width: 648px; height: 648px;}
 }
 @media only screen and (max-width: 370px) and (min-width: 200px){
     body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input{padding: 16px;}
