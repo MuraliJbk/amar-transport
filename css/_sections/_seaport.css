@@ -4,7 +4,7 @@
 @media screen and (min-width: 1024px){
     .seaport-section{margin: -325px 0 -25px; height: 650px; position: relative;}
     .seaport-section svg{z-index: -1; width: 1920px; bottom: 0; left: 0; right: 0; margin: 0 auto; position: absolute;}
-    .page-template-news .seaport-section{margin-top: -180px;}
+    body.category-news .seaport-section{margin-top: -180px;}
     .page-template-about .seaport-section{margin: -334px 0 72px;}
     .page-template-careers .seaport-section{margin-top: -100px;}
 }
