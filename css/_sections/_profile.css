@@ -24,8 +24,7 @@
     .profile-banner-image{flex: 0 0 calc(100% - 625px); min-width: 975px;}
     .profile-banner-thumb img{min-height: 720px; max-height: 720px;}
     .profile-content{margin-top: -80px; padding: 5rem 5rem;}
-    .profile-article{flex: 0 0 900px; margin-right: 80px;}
-    .profile-article ul{margin: 0 0 20px 23px;}
+    .profile-article{flex: 0 0 900px; margin-right: 80px;} 
     .profile-aside{flex: 0 0 calc(100% - 980px);}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
@@ -55,6 +54,7 @@
     .profile-banner-text span{font-size: 1.125rem;}
     .profile-banner-image{width: 100%;}
     .profile-content{padding: 20px 0;}
+    .profile-article{margin-bottom: 40px;}
     .profile-article hr{margin: 0 0 20px;}
     .profile-article h2{font-size: 1.25rem; line-height: 1.2;}
     .profile-article h3{font-size: 1.25rem; line-height: 1.2; letter-spacing: normal;}   

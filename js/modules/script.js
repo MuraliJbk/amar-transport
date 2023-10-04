@@ -74,15 +74,7 @@ jQuery(document).ready(function($){
         }
     });
     if($(window).width() >= 768){
-        $(".leadership-list").each(function() {
-            let _this = $(this).children('.leadership-text');
-            let descItem = _this.find(".leadership-desc");
-            _this.mouseenter(function() {
-                descItem.stop(true, false).slideDown(1000);
-            }).mouseleave(function() {
-                descItem.stop(true, false).slideUp(1000);
-            });
-        });
+
     }
    
     if($(window).width() <= 1023){
