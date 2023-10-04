@@ -7,3 +7,13 @@
     .default-long-frame img{min-height: 464px;}
     .default-long-content{margin-top: -212px; padding: 76px 5rem 59px;} 
 }
+
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .default-banner-text{max-width: 100%; font-size: 1rem; line-height: 1.5rem;}
+    .default-banner-text h1{margin-bottom: 13px;}
+    .default-banner-text p span{font-size: 1rem; line-height: 1.5;}
+    .default-banner-text span{font-size: 0.875rem;}
+    .default-banner-text .banner-btns{gap: 23px;}
+    .default-banner-text .banner-btns .button{min-width: 159px; max-width: 159px;}
+}
