@@ -1,12 +1,9 @@
 
 .news-landing-page{padding: 200px 0 0;}
-.browse-news-wrap{padding: 5rem 0 160px;}
-.browse-news-head{margin-bottom: 2.5rem;}
 .browse-news-form button{width: 100%; border: 2px solid var(--Stroke, rgba(94, 103, 131, 0.25)); background: none; text-align: left;}
 .browse-news-form button::after{display: none;}
 .browse-news-form input, .browse-news-form .selectBox{padding: 18px 40px 18px 19px; font-size: 1rem; line-height: 1.5rem; border: 2px solid rgba(94, 103, 131, 0.25);}
 .browse-text{color: var(--text-100); }
-.browse-pos{margin-bottom: 37px;}
 .load-more-btn{gap: 8px;}
 .load-more-btn hr{margin: 0; flex: 1;}
 .load-more-btn .button{width: 100%; flex: 0 0 184px;}
@@ -20,11 +17,29 @@ button.browse-search-btn:hover{color: var(--amar-orange);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .browse-news-wrap{padding: 5rem 0 160px;}
+    .browse-news-head{margin-bottom: 2.5rem;}
     .browse-news-form{margin-bottom: 2.5rem;}
     .browse-main{gap: 0 80px;}
+    .browse-pos{margin-bottom: 37px;}
     .browse-article{flex: 1;}
     .browse-aside{flex: 0 0 300px;}
     .browse-list{gap: 20px; margin-bottom: 40px;}
     .browse-image{flex: 0 0 328px;}
     .browse-text{flex: 1;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .browse-news-wrap{padding: 20px 0 20px;}
+    .browse-news-head{margin-bottom: 1.5rem;}
+    .browse-news-title h2{margin-bottom: 8px;}
+    .browse-news-form{margin-bottom: 12px;}
+    .browse-news-form > *{margin-bottom: 8px;}
+    .browse-main{display: block;}
+    .browse-article{margin-bottom: 25px;}
+    .browse-list{display: block; margin-bottom: 40px;}
+    .browse-list:last-child{margin-bottom: 0;}
+    .browse-image{margin-bottom: 1rem;}
+    .browse-pos{margin-bottom: 16px;}
+    .browse-pos ul.categorys{flex: 1; margin: 0;}
+    .browse-text{font-size: 1.25rem; line-height: 2rem;}
 }
