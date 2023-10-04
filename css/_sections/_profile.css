@@ -20,7 +20,7 @@
 }
 @media screen and (min-width: 1024px) {
     .profile-banner-main{gap: 64px; flex-wrap: nowrap;}
-    .profile-banner-text{flex: 0 0 561px; padding-top: 50px;}
+    .profile-banner-text{flex: 0 0 561px; padding-top: 52px;}
     .profile-banner-image{flex: 0 0 calc(100% - 625px); min-width: 975px;}
     .profile-banner-thumb img{min-height: 720px; max-height: 720px;}
     .profile-content{margin-top: -80px; padding: 5rem 5rem;}
