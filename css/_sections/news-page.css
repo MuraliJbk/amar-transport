@@ -29,6 +29,7 @@ button.browse-search-btn:hover{color: var(--amar-orange);}
     .browse-text{flex: 1;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .news-landing-page{padding: 100px 0 0;}
     .browse-news-wrap{padding: 20px 0 20px;}
     .browse-news-head{margin-bottom: 1.5rem;}
     .browse-news-title h2{margin-bottom: 8px;}
