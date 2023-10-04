@@ -17,8 +17,8 @@
     .timeline-slider-nav.slick-slider{margin-bottom: 59px; overflow: hidden;}
     .timeline-slider-for .slick-arrow{position: absolute; right: 0; top: -241px; min-width: 180px;}
     .timeline-slider-for .slick-arrow.slick-prev{right: 190px;}
-    .timeline-slider-for .slick-list::after{content: ""; position: absolute; width: 215px; height: 100%; z-index: 1; right: -60px; top: 0; background: linear-gradient(270deg, #FFF 26.98%, rgba(255, 255, 255, 0.00) 100%);}
-    .timeline-slider-nav .slick-list::after{content: ""; position: absolute; width: 215px; height: 100%; z-index: 1; right: -60px; top: 0; background: linear-gradient(270deg, #FFF 26.98%, rgba(255, 255, 255, 0.00) 100%);}
+    .timeline-slider-for .slick-list::after, .timeline-slider-nav .slick-list::after{content: ""; position: absolute; width: 215px; height: 100%; z-index: 1; right: -60px; top: 0; background: linear-gradient(270deg, #FFF 26.98%, rgba(255, 255, 255, 0.00) 100%);}
+
 }
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .timeline-main{padding: 20px 0; margin-top: 0;}
