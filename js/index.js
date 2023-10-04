@@ -1,7 +1,7 @@
 
 import './modules/animation';
 import './modules/gsap';
-import Illustrations from './modules/ui-fade'
+import Uifade from './modules/ui-fade'
 import './modules/counter';
 import './modules/effects';
 import './modules/script';
@@ -11,7 +11,7 @@ import './modules/magnific-popup';
 import './modules/custom-slick';
 
 
-
+/*-- init function --*/
 $(() => {
-Illustrations.init()
-})
+    Uifade.init()
+});

@@ -1,10 +1,7 @@
 
 
 import { gsap } from 'gsap';
-
-// gsap.registerPlugin(CSSRulePlugin)
-
-const Illustrations = {
+const Uifade = {
   $contact: null,
   init() {
     const _ = this
@@ -53,7 +50,6 @@ const Illustrations = {
     tl.to(images[1], { opacity: 0, duration: 0.2 }, '+=0.5')
   }
 }
-
-export default Illustrations;
+export default Uifade;
 
 
