@@ -9,11 +9,30 @@
 }
 
 
-@media screen and (max-width: 767px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 200px) {
     .default-banner-text{max-width: 100%; font-size: 1rem; line-height: 1.5rem;}
     .default-banner-text h1{margin-bottom: 13px;}
     .default-banner-text p span{font-size: 1rem; line-height: 1.5;}
     .default-banner-text span{font-size: 0.875rem;}
     .default-banner-text .banner-btns{gap: 23px;}
     .default-banner-text .banner-btns .button{min-width: 159px; max-width: 159px;}
+
+    .page-template-default .paths-wrap{padding: 1.3rem 0 4.313rem;}
+    .page-template-default .paths-intro{margin-bottom: 2.5rem;}
+    .page-template-default .paths-list .fit-img{margin-bottom: 2rem;}
+    .page-template-default .paths-text span.optional-text{margin-bottom: 1rem;}
+    .page-template-default .paths-list-svg{display: none;}
+    .page-template-default .paths-list:not(:last-child){margin-bottom: 1.7rem;}
+
+    .page-template-default .optional-cta-main{padding: 0 0 40px;}
+
+    .default-article-swoop{display: none;}
+
+    .default-article{padding: 2rem 0 3.4rem;}
+
+    .page-template-default .have-questions-desc span.optional-text{margin-bottom: 1rem;}
+    .page-template-default .have-questions-desc .h4{font-size: 1.25rem; margin-bottom: 24px;}
+
+    .page-template-default .accordion-main{padding: 1.3rem 0 2.5rem;}
+
 }
