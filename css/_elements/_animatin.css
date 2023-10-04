@@ -62,7 +62,7 @@
   100% { -webkit-transform: scale(1.2, 1.2); -moz-transform: scale(1.2, 1.2); -o-transform: scale(1.2, 1.2); -ms-transform: scale(1.2, 1.2); transform: scale(1.2, 1.2); opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); }
 }
 
-.tick-elem path:nth-child(2){ animation: tickZoom 2s ease-in-out infinite;}
+/* .tick-elem path:nth-child(2){ animation: tickZoom 2s ease-in-out infinite;}
 @keyframes tickZoom {
   0% {
     transform: translateX(-2px) scale(1.05);
@@ -76,7 +76,7 @@
     transform: translateX(-2px) scale(1.05);
     fill: #fff;
   }
-}
+} */
 
 /* UI Animations */
 /* .ui { user-select: none; }
