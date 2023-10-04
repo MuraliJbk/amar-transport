@@ -28,4 +28,5 @@
     .cta-panel-image{display: block; margin-bottom: 1.5rem;}
     picture.cta-thumb-sm{display: none;}
     .cta-btns{gap: 20px; justify-content: space-between;}
+    .cta-btns .button{width: calc(50% - 10px);}
 }
