@@ -14,8 +14,6 @@
     .default-banner-text h1{margin-bottom: 13px;}
     .default-banner-text p span{font-size: 1rem; line-height: 1.5;}
     .default-banner-text span{font-size: 0.875rem;}
-    .default-banner-text .banner-btns{gap: 23px;}
-    .default-banner-text .banner-btns .button{min-width: 159px; max-width: 159px;}
 
     .page-template-default .paths-wrap{padding: 1.3rem 0 4.313rem;}
     .page-template-default .paths-intro{margin-bottom: 2.5rem;}
@@ -26,8 +24,7 @@
 
     .page-template-default .optional-cta-main{padding: 0 0 40px;}
 
-    .swoosh-small{display: none;}
-    .default-article-swoop{display: none;}
+    .default-long-content{margin-bottom: 21px;}
 
     .default-article{padding: 2rem 0 3.4rem;}
 
