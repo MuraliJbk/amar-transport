@@ -45,8 +45,8 @@
     .optional-cta-img{margin-bottom: 3rem;}
     .optional-cta-swoosh{display: none;}
 
-    .optional-cta-main{padding: 0 0 20px;}
-    .optional-cta-list{flex-direction: column-reverse; display: flex;}
-    .optional-cta-text{margin-bottom: 20px;}
-    .optional-cta-img{margin-bottom: 0;}
+    body.category-news .optional-cta-main{padding: 0 0 20px;}
+    body.category-news .optional-cta-list{flex-direction: column-reverse; display: flex;}
+    body.category-news .optional-cta-text{margin-bottom: 20px;}
+    body.category-news .optional-cta-img{margin-bottom: 0;}
 }
