@@ -299,7 +299,7 @@ button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-hol
     .pt-2{padding-top: 1.5rem;}
 
     img.alignnone,img.alignleft,img.alignright,img.aligncenter{margin: 25px auto; display: block; float: none;}
-
+    blockquote{margin: 30px 0 22px;}
     blockquote::after{right: 32px;}
     .play-btn-main .play-btn{width: 60px; height: 60px;}
     .play-btn-bg > span.btn-circle::after{font-size: 1.5rem;}

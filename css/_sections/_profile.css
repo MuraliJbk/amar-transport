@@ -43,12 +43,13 @@
     .profile-banner-text h1{font-size: 2rem; line-height: 1.2; letter-spacing: normal;}
     .profile-banner-text span{font-size: 1.125rem;}
     .profile-banner-image{width: 100%;}
-    .profile-content{padding: 4rem 0; display: block;}
+    .profile-content{padding: 2.5rem 0; display: block;}
     .profile-article{margin-bottom: 43px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .profile-banner .container{padding: 0;}
     .profile-banner-main{position: relative;}
+    .profile-banner-thumb img{min-height: 490px;}
     .profile-banner-text{max-width: 279px; position: absolute; bottom: 0; left: 0; z-index: 2; padding: 48px 16px;}
     .profile-banner-text h1{font-size: 2rem; line-height: 1.2; letter-spacing: normal;}
     .profile-banner-text span{font-size: 1.125rem;}
