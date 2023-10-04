@@ -32,8 +32,8 @@ body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input.hide-pla
     .newsletter-text{margin-bottom: 40px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .newsletter-main {padding: 54px 0 40px;}
-    .newsletter-text{margin-bottom: 40px;}
+    .newsletter-main {padding: 34px 16px 32px;}
+    .newsletter-text{margin-bottom: 5px;}
     body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input {padding: 16px 110px 15px 48px;}
 }
 @media only screen and (max-width: 370px) and (min-width: 200px){
