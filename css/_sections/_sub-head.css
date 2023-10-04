@@ -1,16 +1,17 @@
-
+ 
 .home-circular-wave{top: -515px; right: -241px; z-index: -1;}
 .home-banner-thumb::before{width: 100%; height: 100%; top: 0; left: 0; content: ""; display: block; position: absolute; background-image: linear-gradient(0deg, rgba(5, 8, 22, 0.70) 0%, rgba(5, 8, 22, 0.70) 100%);}
 .fit-bg{opacity: 0; transition: opacity 0.3s ease;}
 .fit-bg::before{bottom: 0; left: 0; width: 100%; height: 100%; content: ""; background-image: linear-gradient(0deg, #000 -5%, rgba(0, 0, 0, 0.00) 65%); position: absolute;}
 .fit-icon{margin-bottom: 10px;}
+.fit-text{width: 100%; height: 100%; top: 0; left: 0; padding: 24px 24px 28px; position: absolute; display: flex; flex-direction: column;}
 .fit-text p{margin-bottom: 23px;}
-.sub-head-pos{padding: 24px 24px 48px; width: 100%; height: 100%; min-height: 340px; display: flex; flex-direction: column;} 
+.sub-head-pos{width: 100%; height: 100%; min-height: 340px;} 
 .sub-head-pos:hover .fit-bg{opacity: 1;}
 .sub-head-pos:hover h2{color: var(--white);}
-.sub-head-pos:hover .fit-text{margin-top: auto; margin-bottom: -39px;}
+.sub-head-pos:hover .fit-text{margin-top: auto; justify-content: flex-end;}
 .sub-head-pos:hover svg path{fill: var(--white);}
-.sub-head-pos:hover .fit-desc{display: none;}
+.sub-head-pos:hover .fit-desc{height: 0; margin-top: -19px; overflow: hidden;}
 .sub-intro-icon{right: -130px; top: -39px; width: 240px; opacity: 0.05;}
 
 .page-template-carrer .sub-head-main.no-margin{margin-top: 21px;}
@@ -26,12 +27,14 @@
     .page-template-carrer .sub-intro-main{padding-bottom: 3rem;}
 }
 @media only screen and (min-width: 1300px){
-    .page-template-services  .sub-head-main {padding: 5rem 5rem 10.5rem;}
+    .page-template-services  .sub-head-main {padding: 5rem 5rem 10rem;}
     .sub-head-main{padding: 7.5rem 5rem 5rem;}
     .page-template-carrer .sub-head-main{padding: 5rem 5rem 5rem;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .sub-head-main{padding: 5rem 2rem 5rem;}
+    .sub-head-row{justify-content: center;}
+    .sub-head-row > *{flex-basis: 33.3333%;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .sub-head-main{padding: 5rem 1.5rem 2rem; margin-top: -80px;}

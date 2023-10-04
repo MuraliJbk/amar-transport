@@ -57,18 +57,3 @@ _ui.each(function(){
  })
  _self[0].tl = tl
 });
-
-/*-- footer call icon --*/
-document.addEventListener("DOMContentLoaded", function() {
-    var callElements = document.querySelectorAll(".call-user");
-    callElements.forEach((callElement) => {
-        var svgElement = callElement.querySelector("svg");
-        var pathElements = svgElement.querySelectorAll("path");
-
-        var tl = gsap.timeline({ repeat: -1, repeatDelay: 0.25 })
-            .fromTo(pathElements[2], { opacity: 1 }, { opacity: 0, duration: 1, ease: 'bounce.out' })
-            .fromTo(pathElements[1], { opacity: 1 }, { opacity: 0, duration: 0.5, ease: 'bounce.out' });
-    });
-});
-
-console.log("test12")
