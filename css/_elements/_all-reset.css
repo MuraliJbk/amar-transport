@@ -303,6 +303,7 @@ button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-hol
     blockquote::after{right: 32px;}
     .play-btn-main .play-btn{width: 60px; height: 60px;}
     .play-btn-bg > span.btn-circle::after{font-size: 1.5rem;}
+    .button, button, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{font-size: 0.875rem;}
 }
 @media only screen and (max-width: 380px) and (min-width: 200px){
 
