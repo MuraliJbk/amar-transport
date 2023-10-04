@@ -291,6 +291,7 @@ button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-hol
     .h1, h1{font-size: 2rem; line-height: 2.4rem;}
     .h2, h2{font-size: 1.5rem; line-height: 1.8rem;}
     .h3, h3{font-size: 1.25rem; line-height: 2rem;}
+    .h4, h4{font-size: 1.125rem; line-height: 1.75rem;}
 
     .button, button{padding: 10px 27px 10px;}
 

@@ -43,7 +43,7 @@ gsap_elements.each(function() {
         _gself[0].tl = tl
     }
 });
-const _ui = $(".ui-ele");
+const _ui = jQuery(".ui-ele");
 _ui.each(function(){
  const _self = jQuery(this);
  const _paths = _self.find("path");
