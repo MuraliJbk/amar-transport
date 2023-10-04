@@ -24,7 +24,8 @@
 
     .page-template-default .optional-cta-main{padding: 0 0 40px;}
 
-    .default-long-content{margin-bottom: 21px;}
+    .default-long-frame img{min-height: 398px;}
+    .default-long-content{margin: -300px 0 21px; padding: 20px;}
 
     .default-article{padding: 2rem 0 3.4rem;}
 
