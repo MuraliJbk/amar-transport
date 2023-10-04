@@ -46,11 +46,15 @@ gsap_elements.each(function() {
 const _ui = $(".ui-ele");
 _ui.each(function(){
  const _self = jQuery(this);
- const _path = _self.find("path");
+ const _paths = _self.find("path");
+ var isAsync = _self.attr('data-animation-async')
+ var isLong = _self.attr('data-animation-long')
  var tl = gsap.timeline({
     paused: true,
  })
- tl.fromTo(_path[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: 1.5, ease: 'power1.out'})
+ _paths.each(function(i){
+    tl.fromTo(jQuery(this)[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: isLong ? 2 : 1, ease: 'power1.out' }, i === 0 ? '<' : isAsync ? '>-0.5' : '>-0.75')
+ })
  _self[0].tl = tl
 });
 
