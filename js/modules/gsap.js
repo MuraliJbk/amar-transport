@@ -1,8 +1,8 @@
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-// import { CSSPlugin } from "gsap/CSSPlugin";
 
-gsap.registerPlugin(ScrollTrigger);
+var DrawSVGPlugin = DrawSVGPlugin || window.DrawSVGPlugin 
+var CountUp = CountUp || window.CountUp 
+gsap.registerPlugin(DrawSVGPlugin)
 
 // scroller polygon icon
 let scroller = jQuery(".scroller_icon");
@@ -43,16 +43,22 @@ gsap_elements.each(function() {
         _gself[0].tl = tl
     }
 });
+const _ui = $(".ui-ele");
+_ui.each(function(){
+ const _self = jQuery(this);
+ const _paths = _self.find("path");
+ var isAsync = _self.attr('data-animation-async')
+ var isLong = _self.attr('data-animation-long')
+ var tl = gsap.timeline({
+    paused: true,
+ })
+ _paths.each(function(i){
+    tl.fromTo(jQuery(this)[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: isLong ? 2 : 1, ease: 'power1.out' }, i === 0 ? '<' : isAsync ? '>-0.5' : '>-0.75')
+ })
+ _self[0].tl = tl
+});
 
-// var _call = jQuery(".call-user");
-// _call.each(function(){
-//     let _this = jQuery(this);
-//     let _svg =  _this.find("svg");
-//     let _path = _svg.find("path");
-//     var tl = gsap.timeline({ repeat: -1, repeatDelay: 0.25, })
-//     .fromTo(_path[2], { opacity: 1}, { opacity: 0, duration: 1, ease: 'bounce.out'}, )
-//     .fromTo(_path[1], { opacity: 1}, { opacity: 0, duration: 0.5, ease: 'bounce.out'} )
-// });
+/*-- footer call icon --*/
 document.addEventListener("DOMContentLoaded", function() {
     var callElements = document.querySelectorAll(".call-user");
     callElements.forEach((callElement) => {
@@ -64,3 +70,5 @@ document.addEventListener("DOMContentLoaded", function() {
             .fromTo(pathElements[1], { opacity: 1 }, { opacity: 0, duration: 0.5, ease: 'bounce.out' });
     });
 });
+
+console.log("test1")
