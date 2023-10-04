@@ -3,6 +3,8 @@
 .browse-news-wrap{padding: 5rem 0 160px;}
 .browse-news-head{margin-bottom: 2.5rem;}
 .browse-news-form{margin-bottom: 2.5rem;}
+.browse-news-form button{width: 100%; border: 2px solid var(--Stroke, rgba(94, 103, 131, 0.25)); background: none; text-align: left;}
+.browse-news-form button::after{display: none;}
 .browse-news-form input, .browse-news-form .selectBox{padding: 18px 40px 18px 19px; font-size: 1rem; line-height: 1.5rem; border: 2px solid rgba(94, 103, 131, 0.25);}
 .browse-text{color: var(--text-100); }
 .browse-pos{margin-bottom: 37px;}
