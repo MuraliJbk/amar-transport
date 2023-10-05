@@ -25,6 +25,8 @@
     .sub-intro-head{flex: 0 0 400px;}
     .sub-intro-desc{flex: 1; max-width: 41.625rem;}
     .page-template-carrer .sub-intro-main{padding-bottom: 3rem;}
+    .page-template-leadership .sub-intro-main{padding-bottom: 3.5rem;}
+    .page-template-leadership .sub-head-main{padding-bottom: 6.5rem;}
 }
 @media only screen and (min-width: 1300px){
     .page-template-services  .sub-head-main {padding: 5rem 5rem 10rem;}
@@ -43,8 +45,10 @@
     .sub-intro-main{display: block; padding-bottom: 2rem;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .page-template-leadership .sub-intro-main{padding: 1.5rem 0 0;}
     .sub-intro-main{display: block; padding: 1.5rem 0;}
     .sub-head-row {text-align: center;}
+    .sub-head-pos h2{font-size: 1.25rem;}
     .sub-intro-head{margin-bottom: 1rem;}
     .sub-intro-desc{font-size: 1rem; line-height: 1.75rem;}
 }
