@@ -53,6 +53,9 @@ ul.location-address > li{margin-bottom: 18px;}
     .our-locations-row > *{flex-basis: 33.3333%;}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
+    .contact-banner-text{max-width: 380px;}
+    .contact-gradient{right: -441px; top: -320px;}
+    .contact-banner-globe{right: -400px;}
     .contact-wrap{padding: 3rem 1.5rem 4rem; margin-top: -70px;}
     .contact-main{display: block;}
     .contact-text{margin-bottom: 4rem;}
@@ -81,7 +84,7 @@ ul.location-address > li{margin-bottom: 18px;}
     .contact-text h2{font-size: 1.5rem; line-height: 1.2; margin-bottom: 16px; letter-spacing: normal;}
     .contact-form{margin-bottom: 40px;}
     .location-link{justify-content: space-between;}
-    ul.location-address{margin: 20px 0 21px 0;}
+    ul.location-address{margin: -5px 0 21px 0;}
     ul.inquiries{gap: 2rem;}
     ul.inquiries li{width: 100%;}
     .our-locations-main{padding: 20px 0; margin-top: 0;}
