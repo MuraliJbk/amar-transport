@@ -123,18 +123,24 @@ jQuery(document).ready(function ($) {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    prevArrow:
-      '<div class="slick-arrow slick-prev button btn-transparent"><span class="fa-sharp fa-solid fa-arrow-left"></span><span>Previous</span></div>',
-    nextArrow:
-      '<div class="slick-arrow slick-next button btn-transparent"><span>Next</span><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
+    prevArrow: '<div class="slick-arrow slick-prev button btn-transparent"><span class="fa-sharp fa-solid fa-arrow-left"></span><span>Previous</span></div>',
+    nextArrow: '<div class="slick-arrow slick-next button btn-transparent"><span>Next</span><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
     dots: false,
-    // variableWidth: true,
+    infinite: false,
     responsive: [
       {
         breakpoint: 1023,
         settings: {
           arrows: false,
           dots: true,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          arrows: false,
+          dots: true,
+          adaptiveHeight: true,
         },
       },
     ],
