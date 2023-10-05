@@ -12,11 +12,12 @@ import 'magnific-popup/dist/magnific-popup.css';
     fixedContentPos: false
   });
   $('.custom-popup-link').magnificPopup({
-    type:'inline',
+    type: 'inline',
     midClick: true,
     removalDelay: 160,
     preloader: false,
-    fixedContentPos: false
+    fixedContentPos: false,
   });
+  
 
 })(jQuery);
