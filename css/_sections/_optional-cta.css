@@ -44,10 +44,14 @@
     body.category-news .optional-cta-img{margin-bottom: 0;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    body.page-template-innovation .optional-cta-main {padding: 1rem 0 2rem;}
     .optional-cta-swoosh{display: none;}
     .optional-cta-list{display: block;}
-    .optional-cta-list:not(:last-child){margin-bottom: 4rem;}
-    .optional-cta-img{margin-bottom: 3rem;}
+    .optional-cta-list:not(:last-child){margin-bottom: 2rem;}
+    body.page-template-innovation .optional-cta-img{margin-bottom: 2.5rem;}
+    body.page-template-innovation .optional-cta-text span.optional-text{margin-bottom: 14px;}
+    .optional-cta-text h2{margin-bottom: 0.7rem;}
+    .optional-cta-img {margin-bottom: 3rem;}
     .optional-cta-swoosh{display: none;}
 
     body.category-news .optional-cta-main{padding: 0 0 20px;}
