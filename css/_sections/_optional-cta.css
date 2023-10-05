@@ -4,7 +4,7 @@
 .optional-cta-img{ box-shadow: 0px 24px 24px 0px rgba(110, 148, 206, 0.24); }
 .optional-cta-swoosh{position: absolute;}
 .optional-cta-swoosh0{left: -45px; bottom: -45px;}
-.optional-cta-swoosh1{top: -308px; right: -240px; opacity: 0.2; z-index: -1;}
+.optional-cta-swoosh1{top: -308px; right: -240px; opacity: 1; z-index: -1;}
 .optional-cta-swoosh2 { bottom: -60px; right: -40px; }
 .optional-cta-swoosh3 { top: -174px; left: -271px; z-index: -1; }
 .optional-cta-swoosh4{top: -42px; left: -47px;}
