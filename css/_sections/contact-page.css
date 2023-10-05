@@ -72,7 +72,7 @@ ul.location-address > li{margin-bottom: 18px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .contact-banner-section{overflow: hidden;}
-    .contact-gradient{right: -413px; top: 50px;}
+    .contact-gradient{right: -153px; top: 336px;}
     .contact-banner-main{padding: 200px 0 48px;}
     .contact-banner-text{font-size: 1rem; line-height: 1.5rem;}
     .contact-banner-text h1{margin-bottom: 16px;}
