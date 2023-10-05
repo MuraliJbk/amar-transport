@@ -264,11 +264,11 @@ button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close::after, bu
     .text-md-right{text-align: right;}
     h1 span{padding: 0 2.7rem 0 1.75rem;}
 }
-@media only screen and (min-width: 1400px){
+@media only screen and (min-width: 1480px){
     .container.lg{max-width: 1440px;}
     .container{max-width: 1354px;}
 }
-@media only screen and (max-width: 1379px) and (min-width: 1024px){
+@media only screen and (max-width: 1479px) and (min-width: 1024px){
     .container:not(.sm){padding: 0 2rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
