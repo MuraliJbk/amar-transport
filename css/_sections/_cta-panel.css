@@ -10,7 +10,8 @@
     .cta-panel-text{flex: 0 0 483px;}
     .cta-panel-image{flex: 1; gap: 20px;}
     picture.cta-thumb{flex: 1; height: auto;}
-    picture.cta-thumb-sm{flex: 0 0 260px; height: auto;}
+    picture.cta-thumb-sm{flex: 0 0 260px; height: auto;} 
+    .cta-panel-image img{min-height: 375px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .cta-panel-main{gap: 32px;}
