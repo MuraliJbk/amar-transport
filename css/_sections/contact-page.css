@@ -19,7 +19,7 @@ ul.inquiries li a:hover span:not(:first-child)::after{opacity: 0;}
 
 ul.location-address{margin: 48px 0 46px 0;}
 ul.location-address > li::before{display: none;}
-ul.location-address > li{margin-bottom: 22px;}
+ul.location-address > li{margin-bottom: 18px;}
 .link-left{color: var(--text-color); flex: 0 0 121px;}
 .link-left span{font-size: 22.5px; color: var(--amar-light-blue); margin-right: 15px;}
 .link-left img{width: 24px; height: 24px; margin-right: 12px;}
