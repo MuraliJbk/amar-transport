@@ -25,6 +25,8 @@
     .page-template-default .accordion-main{padding: 1.3rem 0 2.5rem;}
     .page-template-default .banner-btns{gap: 23px;}
     .page-template-default .banner-btns .button{min-width: 160px;}
+    .page-template-default .have-questions-head .h3{font-size: 1.5rem;}
+
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .default-long-content{padding: 40px;}
