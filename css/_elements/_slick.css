@@ -5,10 +5,12 @@ ul.slick-dots li{ width: 14px; height: 14px; padding: 0; margin: 0; cursor: poin
 ul.slick-dots li button{display: none;}
 ul.slick-dots li.slick-active{background-color: var(--amar-orange);}
 
-.other-services-slider .slick-arrow{top: -131px; position: absolute; right: 0; width: 180px; height: 56px; display: flex; justify-content: center; align-items: center; gap: 16px;}
+.other-services-slider .slick-arrow{top: -131px; position: absolute; right: 0; width: 180px; height: 56px;}
 .other-services-slider .slick-arrow.slick-prev{right: 190px;}
 
-
+.slick-arrow.btn-transparent{ display: flex; justify-content: center; align-items: center; gap: 16px;}
+.slick-arrow.btn-transparent span.fa-arrow-left{top: 1px; }
+.slick-arrow.btn-transparent span.fa-arrow-right{top: 1px;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
