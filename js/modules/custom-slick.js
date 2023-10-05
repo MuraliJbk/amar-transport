@@ -135,6 +135,14 @@ jQuery(document).ready(function ($) {
           dots: true,
         },
       },
+      {
+        breakpoint: 767,
+        settings: {
+          arrows: false,
+          dots: true,
+          adaptiveHeight: true,
+        },
+      },
     ],
   });
   $('.other-services-slider').on('setPosition', function (event, slick) {
