@@ -38,7 +38,7 @@
     .other-services-slider ul.slick-dots { top: 0; margin: 0; position: absolute; }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .other-services-main{padding: 26px 0 38px;}
+    .other-services-main{padding: 26px 0 23px;}
     .other-services-head{margin-bottom: 47px;}
     .other-services-slider{padding-top: 46px;}
     .services-slide{display: block;}
