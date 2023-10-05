@@ -11,23 +11,23 @@
     .cta-panel-image{flex: 1; gap: 20px;}
     .cta-panel-image img{min-height: 375px;}
     picture.cta-thumb{flex: 1; height: auto;}
-    .cta-thumb:nth-child(2){flex: 0 0 260px; height: auto;} 
+    picture.cta-thumb:nth-child(2){flex: 0 0 260px; height: auto;} 
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .cta-panel-main{gap: 32px;}
     .cta-panel-text{flex: 0 0 400px;}
-    picture.cta-thumb-sm{flex: 0 0 220px;}
+    picture.cta-thumb:nth-child(2){flex: 0 0 220px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .cta-panel-main{padding: 4rem 0; display: block;}
     .cta-panel-image{gap: 20px; margin-bottom: 3rem;}
     picture.cta-thumb{flex: 1; height: auto;}
-    picture.cta-thumb-sm{flex: 0 0 260px; height: auto;}
+    picture.cta-thumb:nth-child(2){flex: 0 0 260px; height: auto;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .cta-panel-main{padding: 1.5rem 0 1.25rem; display: block;}
     .cta-panel-image{display: block; margin-bottom: 1.5rem;}
-    picture.cta-thumb-sm{display: none;}
+    picture.cta-thumb:nth-child(2){display: none;}
     .cta-btns{gap: 20px; justify-content: space-between;}
     .cta-btns .button{width: calc(50% - 10px);}
 }
