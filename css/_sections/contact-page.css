@@ -89,7 +89,7 @@ ul.location-address > li{margin-bottom: 18px;}
     ul.location-address{margin: -5px 0 21px 0;}
     ul.inquiries{gap: 2rem;}
     ul.inquiries li{width: 100%;}
-    .our-locations-main{padding: 20px 0; margin-top: 0;}
+    .our-locations-main{padding: 20px 0 26px; margin-top: 0;}
     .our-locations-head{margin-bottom: 45px;}
     .our-locations-head h2{font-size: 1.5rem; line-height: 1.2;}
     .our-locations-list{margin-bottom: 28px;}
@@ -101,4 +101,5 @@ ul.location-address > li{margin-bottom: 18px;}
     .our-locations-title.open::before{transform: rotate(180deg);}
 
     .page-template-contact .banner-btns{margin-top: 24px;}
+    .our-locations-map{left: -282px;}
 }
