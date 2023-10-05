@@ -244,9 +244,9 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 
 .line-clamp{  display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
 .clamp-3{ -webkit-line-clamp: 3; }
-button.mfp-close, button.mfp-arrow, div.mfp-iframe-holder .mfp-close{width: 2rem; height: 2rem; padding: 0; opacity: 1; background-color: var(--amar-blue); display: flex; align-items: center; justify-content: center;}
-button.mfp-close:hover::after, button.mfp-arrow:hover::after, div.mfp-iframe-holder .mfp-close:hover::after{width: 0;}
-/* button.mfp-close:hover, button.mfp-arrow:hover, div.mfp-iframe-holder .mfp-close:hover{background-color: var(--amar-orange);} */
+button.mfp-close, .custom-popup-overlay button.mfp-close, button.mfp-arrow, div.mfp-iframe-holder .mfp-close{width: 2rem; height: 2rem; padding: 0; opacity: 1; background-color: var(--amar-blue); display: flex; align-items: center; justify-content: center;}
+button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close::after, button.mfp-arrow:hover::after, div.mfp-iframe-holder .mfp-close:hover::after{width: 0;}
+
 .w-100{width: 100%;}
 .dark-overlay{width: 100%; height: 100%; top: 0; left: 0; opacity: 0.5; background-color: var(--dark-gray); position: absolute; content: ""; display: block;}
 .dark-gradient{width: 100%; height: 100%; top: 0; left: 0; opacity: 0.5; background-image: linear-gradient(to right, #080e26 18%, rgba(8, 14, 38, 0) 61%), linear-gradient(to bottom, rgba(8, 14, 38, 0.6), rgba(8, 14, 38, 0.6)); position: absolute; content: ""; display: block;}
