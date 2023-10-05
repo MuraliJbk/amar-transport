@@ -93,6 +93,7 @@ ul.location-address > li{margin-bottom: 18px;}
     .our-locations-head{margin-bottom: 45px;}
     .our-locations-head h2{font-size: 1.5rem; line-height: 1.2;}
     .our-locations-list{margin-bottom: 28px;}
+    .our-locations-list:last-child{margin-bottom: 0;}
     .our-locations-title{gap: 16px; cursor: pointer;}
     .our-locations-title .h4{font-size: 1.25rem; margin-bottom: 0; letter-spacing: normal;}
     .our-locations-desc{display: none; margin-top: 15px;}
