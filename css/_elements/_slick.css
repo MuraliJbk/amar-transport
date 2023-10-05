@@ -12,15 +12,15 @@ ul.slick-dots li.slick-active{background-color: var(--amar-orange);}
 .slick-arrow.btn-transparent span.fa-arrow-left{top: 1px; }
 .slick-arrow.btn-transparent span.fa-arrow-right{top: 1px;}
 
-/*-- media css starts here --*/
-@media screen and (min-width: 1024px){
+.amar-orange ul.slick-dots li{background-color:var(--amar-orange);}
+.amar-orange ul.slick-dots li.slick-active{background-color: var(--amar-yellow);}
+.amar-green ul.slick-dots li{background-color: var(--green);}
+.amar-green ul.slick-dots li.slick-active{background-color: var(--white);}
 
-}
+/*-- media css starts here --*/
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     ul.slick-dots{justify-content: center; margin: 2rem 0;}
     ul.slick-dots li{width: 29px; height: 3px; border-radius: 8px;}
-    .amar-green ul.slick-dots li{background-color: var(--green);}
-    .amar-green ul.slick-dots li.slick-active{background-color: var(--white);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     ul.slick-dots{justify-content: center; margin: 23px 0;}
