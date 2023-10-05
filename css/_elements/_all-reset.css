@@ -85,6 +85,7 @@ hr.line{height: 1px; width: 100%; background: rgba(94, 103, 131, 0.25);}
 .button.btn-transparent::before{ width: calc(100% - 4px); height: calc(100% - 4px); top: 0; left: 0; z-index: 0; background: 0 0; border: 2px solid var(--amar-blue); border-radius: 0; border-width: 2px; border-image-source: linear-gradient(to bottom, #88d2f2 0%, #4895d0 100%); border-image-slice: 1;}
 .button.btn-transparent::after { width: 0%; z-index: 1; }
 .button.btn-transparent:hover::after{ width: 100%; }
+.button.btn-glow{background: linear-gradient(180deg, #EAECF2 0%, #88D2F2 91.96%);}
 .button.white{color: var(--white);}
 .btn-category{font-size: 0.75rem; line-height: 1; border-radius: 4px; padding: 4px 8px 5px; margin-left: 8px; background-color: rgba(239, 99, 47, 0.2); color: var(--amar-orange); top: -2px;}
 
