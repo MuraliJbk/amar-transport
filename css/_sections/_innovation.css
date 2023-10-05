@@ -5,3 +5,8 @@
 .innovation-text span.optional-text{margin-bottom: 1.688rem;}
 .innovation-text h2{margin-bottom: 1.75rem;}
 .innovation-btns{gap: 24px; padding-top: 7px;}
+
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .innovation-main{padding: 8.6rem 0 1.6rem; min-height: auto;}
+}
