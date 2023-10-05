@@ -7,10 +7,6 @@
     .default-long-frame img{min-height: 464px;}
     .default-long-content{margin-top: -212px; padding: 76px 5rem 59px;} 
 }
-
-
-
-
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .page-template-default .paths-wrap{padding: 1.3rem 0 4.313rem;}
     .page-template-default .paths-intro{margin-bottom: 2.5rem;}
@@ -18,23 +14,15 @@
     .page-template-default .paths-text span.optional-text{margin-bottom: 1rem;}
     .page-template-default .paths-list-svg{display: none;}
     .page-template-default .paths-list:not(:last-child){margin-bottom: 1.7rem;}
-
     .page-template-default .optional-cta-main{padding: 0 0 40px;}
-
     .default-long-frame img{min-height: 398px;}
     .default-long-content{margin: -300px 0 21px; padding: 20px;}
-
     .default-article{padding: 2rem 0 3.4rem;}
-
     .page-template-default .have-questions-desc span.optional-text{margin-bottom: 1rem;}
     .page-template-default .have-questions-desc .h4{font-size: 1.25rem; margin-bottom: 24px;}
-
     .page-template-default .accordion-main{padding: 1.3rem 0 2.5rem;}
-
 }
-
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-    .page-template-default .client-logos-wrap{padding: 24px 0 34px;}
     .default-long-content{padding: 40px;}
     .page-template-default .other-services-main{padding: 40px 1.5rem 0px;}
 }
