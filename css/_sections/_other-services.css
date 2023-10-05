@@ -24,12 +24,14 @@
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .other-services-head{max-width: 500px;}
     .other-services-main{padding: 80px 2rem 80px;}
+    .page-template-default .other-services-main{padding-left: 0; padding-right: 0;}
     .services-slide{gap: 1.5rem;}
     .other-srvc-pos{flex: 0 0 calc(25% - 18px);}
     .other-srvc-text{padding: 1rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .other-services-main{margin-top: -76px; padding: 40px 1.5rem 80px;}
+    .page-template-default .other-services-main{padding-bottom: 0;}
     .other-services-slider{padding-top: 60px;}
     .services-slide{gap: 1.5rem;}
     .other-srvc-pos{flex: 0 0 calc(50% - 12px);}
