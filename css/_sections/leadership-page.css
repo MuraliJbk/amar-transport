@@ -12,8 +12,6 @@
 /* media  css starts here */
 @media only screen and (min-width: 1024px){
     .page-template-leadership .banner-text{padding: 220px 0 171px;}
-    .page-template-leadership .sub-intro-main{padding-bottom: 3.5rem;}
-    .page-template-leadership .sub-head-main{padding-bottom: 6.5rem;}
     .leadership-head{gap: 20px;}
     .leadership-title{flex: 1;}
     .leadership-row{gap: 48px;}
@@ -41,8 +39,8 @@
     .leadership-lines{right: -448px; top: -248px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .leadership-lines{right: 0; top: -248px; z-index: 0;}
-    .leadership-main{padding: 40px 0 0;}
+    .leadership-lines{right: 0; top: -176px; z-index: 0;}
+    .leadership-main{padding: 20px 0 0;}
     .leadership-repeater-list{padding-bottom: 40px;}
     .leadership-row{display: block;}
     .leadership-head{margin-bottom: 27px; display: block;}
