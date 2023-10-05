@@ -35,7 +35,6 @@
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .page-template-default .client-logos-wrap{padding: 24px 0 34px;}
-    .page-template-default .short-intro-swoop{right: -140px;}
     .default-long-content{padding: 40px;}
     .page-template-default .other-services-main{padding: 40px 1.5rem 0px;}
 }
