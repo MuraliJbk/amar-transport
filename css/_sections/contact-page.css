@@ -36,7 +36,7 @@ ul.location-address > li{margin-bottom: 22px;}
 @media screen and (min-width: 1024px){
     .contact-banner-text{flex: 0 0 561px;}
     .contact-wrap{padding: 5rem 5rem 4.2rem; margin-top: -80px;}
-    .contact-main{gap: 160px 112px;}
+    .contact-main{gap: 126px 112px;}
     .contact-text{flex: 0 0 290px;}
     .contact-form{flex: 1;}
     .our-locations-title{flex-direction: column;}
