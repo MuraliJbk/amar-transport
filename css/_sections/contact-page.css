@@ -29,7 +29,7 @@ ul.location-address > li{margin-bottom: 18px;}
 .our-locations-head{margin-bottom: 46px;}
 .our-locations-list > span{margin-bottom: 1rem; color: var(--amar-light-blue);}
 .our-location-links{flex-direction: column;}
-.our-location-links .text-link{margin-bottom: 10px;}
+.our-location-links .text-link{margin-bottom: 15px;}
 .fa-location-dot{color: #1998d5; position: relative;}
 
 /*-- media css starts here --*/
@@ -43,12 +43,12 @@ ul.location-address > li{margin-bottom: 18px;}
     .our-locations-main{padding: 80px 5rem 40px; margin-top: -80px;}
     .our-locations-list{margin-bottom: 40px;}
     .fa-location-dot{margin-bottom: 22px;}
-    .our-locations-thumb img{min-height: 243px;}
+    .our-locations-thumb img{min-height: 243px; max-height: 243px;}
     .our-locations-desc{max-width: 200px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .contact-wrap{padding: 3rem 2rem;}
-    ul.inquiries{gap: 1rem 2rem;}
+    ul.inquiries{gap: 1rem;}
     .our-locations-main{padding: 40px 2rem 40px;}
     .our-locations-row > *{flex-basis: 33.3333%;}
 }
@@ -63,12 +63,13 @@ ul.location-address > li{margin-bottom: 18px;}
     .our-locations-title{cursor: auto; flex-direction: column;}
     .our-locations-title::before{display: none;}
     .our-locations-main { padding: 3rem 2rem 3rem; margin-top: -80px; }
-    .our-locations-thumb img{min-height: 243px;}
+    .our-locations-thumb img{min-height: 243px; max-height: 243px;}
     .our-locations-desc{display: block; max-width: 200px;}
     .our-locations-list{flex: 0 0 calc(50% - 15px);}
     .fa-location-dot{margin-bottom: 1rem;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
+    .contact-banner-section{overflow: hidden;}
     .contact-gradient{right: -413px; top: 50px;}
     .contact-banner-main{padding: 200px 0 48px;}
     .contact-banner-text{font-size: 1rem; line-height: 1.5rem;}
@@ -92,4 +93,6 @@ ul.location-address > li{margin-bottom: 18px;}
     .our-locations-desc{display: none; margin-top: 15px;}
     .our-locations-title::before{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; color: var(--amar-orange); font-size: 20px; font-weight: 600; right: 0; top: 4px; line-height: normal; transition: all .5s ease;}
     .our-locations-title.open::before{transform: rotate(180deg);}
+
+    .page-template-contact .banner-btns{margin-top: 24px;}
 }
