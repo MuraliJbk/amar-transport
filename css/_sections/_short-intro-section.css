@@ -37,6 +37,7 @@
     body.home .short-intro-main{ margin-top: -80px; }
     body.home .short-intro-section .container{width: calc(100% - 44px);}
     .counter{font-size: 80px;}
+    .page-template-default .container.md{padding: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .short-intro-main{padding: 60px 0;}
