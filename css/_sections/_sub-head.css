@@ -26,7 +26,7 @@
     .sub-intro-desc{flex: 1; max-width: 41.625rem;}
     .page-template-carrer .sub-intro-main{padding-bottom: 3rem;}
     .page-template-leadership .sub-intro-main{padding-bottom: 3.5rem;}
-    .page-template-leadership .sub-head-main{padding-bottom: 6.5rem;}
+    .page-template-leadership .sub-head-main{padding-bottom: 4.5rem;}
 }
 @media only screen and (min-width: 1300px){
     .page-template-services  .sub-head-main {padding: 5rem 5rem 10rem;}

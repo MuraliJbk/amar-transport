@@ -20,7 +20,7 @@
     .leadership-lines{right: 0; top: -248px;}
 }
 @media only screen and (min-width: 1300px){
-    .leadership-main{padding: 30px 5rem 80px;}
+    .leadership-main{padding: 62px 5rem 80px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .page-template-leadership .sub-head-main { padding-bottom: 3.5rem;}
@@ -43,11 +43,12 @@
     .leadership-main{padding: 20px 0 0;}
     .leadership-repeater-list{padding-bottom: 40px;}
     .leadership-row{display: block;}
-    .leadership-head{margin-bottom: 27px; display: block;}
+    .leadership-head{margin-bottom: 23px; display: block;}
     .leadership-head h2{margin-bottom: 0;}
     .leadership-btn {margin-top: 40px;}
     .leadership-list{margin-bottom: 1rem;}
-    .leadership-text{width: 100%; max-height: 112px; overflow: hidden; cursor: pointer;}
+    .leadership-text{width: 100%; max-height: 112px; overflow: hidden; cursor: pointer; padding: 24px 32px 18px 11px;}
     .leadership-text.expand{max-height: 320px; overflow-y: scroll; scrollbar-width: none; -ms-overflow-style: none; }
+    .leadership-pos span{font-size: 1rem; color: var(--text-color); opacity: 1;}
     .leadership-mobile{opacity: 0.3;}
 }
