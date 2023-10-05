@@ -3,23 +3,19 @@
 .confirmation-icon svg{width: auto; height: 64px;}
 .confirmation-text p{color: var(--white-80);}
 
-
-
-.c-frame{
-    animation: move 5s linear infinite;
-}
-@keyframes move1{
-    0%{
-        transform: translateX(0px);
-    }
-    50%{
-        transform: translateX(-10px);
-    }
+.c-frame{ animation: frameMove 5s linear infinite; }
+@keyframes frameMove{
+    0%{ transform: translateX(0px); }
+    50%{ transform: translateX(-15px); }
+    100%{ transform: translateX(0px); }
 }
 .c-frame-logo{right: 64px; top: 53px;}
 .c-frame-logo g path{opacity: 1 !important;}
 .circular-wave{right: -180px; top: -288px; z-index: -1;} 
 .amar-vector{bottom: 0; left: 0; right: 0; margin: 0 auto; opacity: 0.2; z-index: -1; width: 1920px; height: 522px; background-image: url("./images/vector.svg"); background-repeat: no-repeat; background-size: cover;}
+body.error404 .confirmation-text{max-width: 400px; margin: 0 auto;}
+body.error404 .confirmation-text h1{font-size: 5rem; line-height: 5rem;}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -27,6 +23,7 @@
     .confirmation-main{padding: 15.25rem 0 16.2rem; max-width: 30.25rem;}
     .confirmation-text h1{font-size: 3rem; line-height: 3.5rem;}
     .amar-frame{bottom: 71px; right: -98px; z-index: -1;}
+    body.error404 .confirmation-text{max-width: 500px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .amar-frame{bottom: 32px; right: 0;}
@@ -47,6 +44,7 @@
     .circular-wave{right: -35px; top: -118px; z-index: -1;}
     .circular-wave svg{width:auto; height: 228px;}
     .c-frame-logo{right: 32px; top: -28px; max-width: 100px;} 
+    
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .confirmation-icon-main{gap: 24px; align-items: center; margin-bottom: 15px;}
