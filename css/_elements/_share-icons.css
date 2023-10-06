@@ -1,5 +1,6 @@
 
 .social-share-icons{margin-bottom: 3.75rem; gap: 21px; position: relative;}
+.post-template-default .social-share-icons{margin-bottom: 2rem;}
 .share-text{flex: 0 0 77px; gap: 10px; text-transform: uppercase; color: var(--muted); }
 .share-text span{font-size: 1.1rem;}
 .social-share-icons #st-1.st-animated{width: 100%; flex: 1; gap: 0 34px; display: flex; flex-wrap: wrap; z-index: 1;}
