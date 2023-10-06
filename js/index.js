@@ -12,6 +12,6 @@ import './modules/custom-slick';
 
 
 /*-- init function --*/
-$(() => {
+jQuery(() => {
     Uifade.init()
 });

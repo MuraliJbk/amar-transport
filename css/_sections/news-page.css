@@ -12,7 +12,7 @@ span.loader{position: absolute;}
 button.browse-search-btn{background: none; padding: 0; right: 16px; top: 13px; font-size: 1.125rem; color: var(--amar-blue);}
 button.browse-search-btn::after{background: none;}
 button.browse-search-btn:hover{color: var(--amar-orange);}
-
+.browse-image figure img{min-height: 187px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

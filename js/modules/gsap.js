@@ -67,7 +67,7 @@ jQuery(window).on("scroll load", function() {
     _uiRotate.each(function() {
         var $self = jQuery(this);
         var elementTop = $self.offset().top;
-        var w_height = $(window).height();
+        var w_height = jQuery(window).height();
         if (_scroll > lastScrollTop && elementTop < (_scroll + w_height)) {
             $self[0].tlOn.play();
         } else {
