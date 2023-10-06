@@ -16,7 +16,7 @@ ul.inquiries li a span{flex: 0 0 20px;}
 ul.inquiries li a span:not(:first-child){flex: 0 0 auto; color: var(--text-100); display: inline-block; position: relative;}
 ul.inquiries li a span:not(:first-child)::after{width: 100%; height: 1px; left: 0; bottom: 1px; background-color: var(--text-100); content: ""; display: block; position: absolute; transition: all 0.45s ease-in-out;}
 ul.inquiries li a:hover span:not(:first-child)::after{opacity: 0;}
-ul.inquiries li a:hover span:last-child{color: var(--amar-orange); }
+ul.inquiries li a:hover span:last-child{color: var(--amar-orange); transition: all .45s ease-in-out;}
 
 ul.location-address{margin: 48px 0 46px 0;}
 ul.location-address > li::before{display: none;}
