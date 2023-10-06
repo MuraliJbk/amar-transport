@@ -15,7 +15,7 @@ scroller.each(function(){
     }).fromTo(_path[0], { y: -25, attr: { d: end }}, { y: 0, attr: { d: start }, duration: 2, ease: 'bounce.out'})
 });
 
-// data-animation
+// data-animation for left right fades
 var gsap_elements = jQuery('[data-animation]');
 gsap_elements.each(function () {
     const _gself = jQuery(this);
@@ -39,6 +39,7 @@ gsap_elements.each(function () {
     _gself[0].tl = tl;
 });
 
+// data-animation for paths
 var _ui = jQuery("[data-animation='ui-ele']");
 _ui.each(function(){
     var $self = jQuery(this);
@@ -52,3 +53,11 @@ _ui.each(function(){
     $self[0].tl = tl
 });
 
+// data-animation for rotate svgs
+var _uiRotate = jQuery("[data-animation='ui-rotate']");
+_uiRotate.each(function(){
+    var $self = jQuery(this);
+    var tl = gsap.timeline({ paused: true, delay: 1.5, })
+    tl.fromTo($self[0], { rotate: 0, opacity: 1, transition: 'none'}, { rotate: 360, opacity: 0.5, duration: 50, ease: 'power1.out' });
+    $self[0].tl = tl
+});

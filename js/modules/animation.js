@@ -26,7 +26,8 @@ function check_if_in_view() {
         }
     } else {
       if (timeline && timeline.progress() > 0) {
-        timeline.progress(0);
+        // timeline.progress(0);
+        timeline.pause(true);
       }
       if (counter) {
         counter.reset();
