@@ -62,8 +62,8 @@ _uiRotate.each(function() {
     tlOn.fromTo($self[0], { rotate: 0, opacity: 1, transition: 'none' }, { rotate: 360, opacity: 0.5, duration: 50, ease: 'power1.out' });
     $self[0].tlOn = tlOn;
 });
-$(window).on("scroll load", function() {
-    var _scroll = $(this).scrollTop();
+jQuery(window).on("scroll load", function() {
+    var _scroll = jQuery(this).scrollTop();
     _uiRotate.each(function() {
         var $self = jQuery(this);
         var elementTop = $self.offset().top;
