@@ -6,7 +6,7 @@
 .c-frame{ animation: frameMove 5s linear infinite; }
 @keyframes frameMove{
     0%{ transform: translateX(0px); }
-    50%{ transform: translateX(-15px); }
+    50%{ transform: translateX(-5px); }
     100%{ transform: translateX(0px); }
 }
 .c-frame-logo{right: 64px; top: 53px;}
