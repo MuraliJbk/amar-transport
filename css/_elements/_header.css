@@ -18,9 +18,13 @@
 .logo a{width: 100%; display: block;}
 .logo img{width: 100%; height: 100%; object-fit: contain;}
 
+.logo svg{ width: 166px; height: 39px;}
+.logo svg path{ transition: all 0.4s ease-in-out;}
+.scroll-nav-up .logo-path path{transform: translate(8px, 6px) scale(0.75);}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .logo{flex: 0 0 165px; padding: 24px 0 0 39px;}
+    .logo{flex: 0 0 165px; padding: 20px 0 0 39px;}
     nav.navigation{flex: 1; gap: 0 48px; flex-wrap: nowrap;}
     ul.nav-menu{margin: 0; gap: 0 48px; flex: 1; flex-wrap: nowrap; justify-content: flex-end;}
     ul.nav-menu > li{margin: 0;}
@@ -48,8 +52,8 @@
     ul.nav-menu > li > a{font-size: 1rem;}
 }   
 @media only screen and (max-width: 1023px) and (min-width: 200px){
-    .header-main{display: block; margin-top: 12px; padding: 18px 29px 14px; position: relative; } 
-    .logo{max-width: 115px; position: relative; z-index: 1850;}
+    .header-main{display: block; margin-top: 12px; padding: 18px 29px 14px 25px; position: relative; } 
+    .logo{max-width: 115px; top: 1px; position: relative; z-index: 1850;}
     .toggle-icon{width: 4rem; height: 4rem; right: 0; top: 0; z-index: 1850; position: absolute; cursor: pointer; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); background: linear-gradient(15deg, #1998D5 43.23%, #85F0FF 162.95%);}
     .toggle-icon.open{background: var(--amar-orange);}
     .toggle-icon span{width:100%; height:2px; left:0; right: 0; max-width: 20px; margin: 0 auto; opacity:1; transition: 0.45s ease-in-out; background-color: var(--white); display:block; position:absolute; }
@@ -79,6 +83,12 @@
     .nav-user-login{gap: 8px; flex: 1; padding: 10px 0 9px; align-items: center; justify-content: center;}
     .nav-user-svg{width: 16px; top: 1px; position: relative;}
     .nav-user-svg svg{height: 16px;}
+
+
+    .logo svg {
+        width: 120px;
+        height: 26px;
+    }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
 }
