@@ -16,6 +16,7 @@ ul.inquiries li a span{flex: 0 0 20px;}
 ul.inquiries li a span:not(:first-child){flex: 0 0 auto; color: var(--text-100); display: inline-block; position: relative;}
 ul.inquiries li a span:not(:first-child)::after{width: 100%; height: 1px; left: 0; bottom: 1px; background-color: var(--text-100); content: ""; display: block; position: absolute; transition: all 0.45s ease-in-out;}
 ul.inquiries li a:hover span:not(:first-child)::after{opacity: 0;}
+ul.inquiries li a:hover span:last-child{color: var(--amar-orange); }
 
 ul.location-address{margin: 48px 0 46px 0;}
 ul.location-address > li::before{display: none;}
@@ -46,9 +47,12 @@ ul.location-address > li{margin-bottom: 18px;}
     .our-locations-thumb img{min-height: 243px; max-height: 243px;}
     .our-locations-desc{max-width: 200px;}
 }
+@media screen and (max-width: 1480px) and (min-width: 1299px) {
+    ul.inquiries{gap: 1rem 3rem; justify-content: center;}
+}
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .contact-wrap{padding: 3rem 2rem;}
-    ul.inquiries{gap: 1rem;}
+    ul.inquiries{gap: 1rem; justify-content: center;}
     .our-locations-main{padding: 40px 2rem 40px;}
     .our-locations-row > *{flex-basis: 33.3333%;}
 }
