@@ -16,22 +16,16 @@ function check_if_in_view() {
     const animation = $self.data('animation')
     const timeline = $self[0].tl
     const counter = $self[0].counter
-      if (
-      (element_bottom_position >= window_top_position) &&
-      (element_top_position <= window_bottom_position)
-    ) {
+
+    if ( (element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position) ) {
         $self.addClass('visible ' + animation);
-        if (timeline) {
-          timeline.play();
-        }
+      if (timeline) { timeline.play(); }
     } else {
       if (timeline && timeline.progress() > 0) {
         // timeline.progress(0);
         timeline.pause(true);
       }
-      if (counter) {
-        counter.reset();
-      }
+      if (counter) { counter.reset(); }
     }
   });
 }

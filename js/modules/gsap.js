@@ -54,10 +54,25 @@ _ui.each(function(){
 });
 
 // data-animation for rotate svgs
+var lastScrollTop = 0;
 var _uiRotate = jQuery("[data-animation='ui-rotate']");
-_uiRotate.each(function(){
+_uiRotate.each(function() {
     var $self = jQuery(this);
-    var tl = gsap.timeline({ paused: true, delay: 1.5, })
-    tl.fromTo($self[0], { rotate: 0, opacity: 1, transition: 'none'}, { rotate: 360, opacity: 0.5, duration: 50, ease: 'power1.out' });
-    $self[0].tl = tl
+    var tlOn = gsap.timeline({ paused: true, delay: 0.75 });
+    tlOn.fromTo($self[0], { rotate: 0, opacity: 1, transition: 'none' }, { rotate: 360, opacity: 0.5, duration: 50, ease: 'power1.out' });
+    $self[0].tlOn = tlOn;
+});
+$(window).on("scroll load", function() {
+    var _scroll = $(this).scrollTop();
+    _uiRotate.each(function() {
+        var $self = jQuery(this);
+        var elementTop = $self.offset().top;
+        var w_height = $(window).height();
+        if (_scroll > lastScrollTop && elementTop < (_scroll + w_height)) {
+            $self[0].tlOn.play();
+        } else {
+            $self[0].tlOn.pause(true);
+        }
+    });
+    lastScrollTop = _scroll;
 });
