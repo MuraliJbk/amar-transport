@@ -185,21 +185,6 @@ jQuery(document).ready(function ($) {
   $('.timeline-slider-nav').on('setPosition', function (event, slick) {
     $('.timeline-nav-slide').removeAttr('style');
   });
-
-  $(".custom-popup-link").on("click", function(event){
-    event.preventDefault();
-    $('.custom-popup-slider').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      focusOnSelect: true,
-      arrows: true,
-      prevArrow:
-        '<div class="slick-arrow slick-prev button"><span class="fa-sharp fa-solid fa-arrow-left"></span></div>',
-      nextArrow:
-        '<div class="slick-arrow slick-next button"><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
-      dots: false,
-    });
-  });
-
-
 });
+
+
