@@ -11,7 +11,7 @@
 
 /* media css starts here */
 @media only screen and (min-width: 768px){
-    .other-srvc-desc{min-height: 56px; display: flex; flex-direction: column; justify-content: flex-end;}
+    .other-srvc-desc{min-height: 56px; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;}
     .other-services-head{max-width: 651px; margin-bottom: 73px;}
 }
 @media only screen and (min-width: 1024px){
@@ -20,6 +20,7 @@
     .services-slide{gap: 32px; flex-wrap: nowrap;}
     .other-srvc-pos{flex: 0 0 calc(25% - 24px);}
     .other-srvc-text svg{margin-bottom: 26px;}
+    .other-srvc-desc h2 { min-height: 56px; display: flex; flex-direction: column; justify-content: flex-end; }
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .other-services-head{max-width: 500px;}

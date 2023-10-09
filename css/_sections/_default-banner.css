@@ -10,7 +10,7 @@
 @media screen and (min-width: 1024px) {
     .default-banner-main{gap: 70px; flex-wrap: nowrap;}
     .default-banner-text{flex: 0 0 554px;}
-    .default-banner-text{margin-top: 15px;}
+    .default-banner-text{margin-top: 53px;}
     .default-banner-image{flex: 0 0 calc(100% - 625px); min-width: 975px;}
     .default-banner-thumb img{min-height: 720px;}
 }
