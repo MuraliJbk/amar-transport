@@ -24,14 +24,14 @@
     .sub-intro-main{gap: 20px 80px; padding-bottom: 5rem;}
     .sub-intro-head{flex: 0 0 400px;}
     .sub-intro-desc{flex: 1; max-width: 41.625rem;}
-    .page-template-carrer .sub-intro-main{padding-bottom: 3rem;}
+    .page-template-carrer .sub-intro-main{padding-bottom: 3.5rem;}
     .page-template-leadership .sub-intro-main{padding-bottom: 3.5rem;}
     .page-template-leadership .sub-head-main{padding-bottom: 4.5rem;}
 }
 @media only screen and (min-width: 1300px){
     .page-template-services  .sub-head-main {padding: 5rem 5rem 10rem;}
     .sub-head-main{padding: 7.5rem 5rem 5rem;}
-    .page-template-carrer .sub-head-main{padding: 5rem 5rem 5rem;}
+    .page-template-carrer .sub-head-main{padding: 5rem 5rem 3.3rem;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .sub-head-main{padding: 5rem 2rem 5rem;}
