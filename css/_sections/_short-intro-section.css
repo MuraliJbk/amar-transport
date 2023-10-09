@@ -26,7 +26,7 @@
     .short-intro-desc{flex: 1;}
     .short-intro-list:hover .short-intro-pos{border-color: transparent;}
     .short-intro-list:hover .short-intro-pos::after{opacity: 1; height: 7px;}
-    .scroller_icon{top: -25px; left: 0;}
+    .scroller_icon{top: -25px; left: 150px;}
     .short-intro-swoop{right: 71px; top: -68px;}
 }
 @media screen and (min-width: 1300px){
