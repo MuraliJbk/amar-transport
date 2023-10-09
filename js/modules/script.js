@@ -107,5 +107,11 @@ jQuery(document).ready(function($){
         $(".equipment-swoosh").remove();
         $(".leadership-desktop").remove();
     }
-   
+    $(".browse-news-btn#browse-all").addClass("active");
+    $(".browse-news-btn").on("click", function(e){
+        e.preventDefault();
+        $(this).addClass("active");
+    })
+
+
 });
