@@ -1,7 +1,7 @@
 
 .browse-news-form button{width: 100%; color: var(--text-100); font-size: 1rem; line-height: 1.5rem; font-weight: 500; border: 2px solid var(--Stroke, rgba(94, 103, 131, 0.25)); background: none; text-align: left; padding: 18px 20px 18px;}
 .browse-news-form button::after{display: none;}
-button.browse-news-btn::before { content: "\f14a"; position: absolute; font-family: "Font Awesome 6 Pro"; right: 20px; font-weight: bold; color: var(--amar-light-blue); }
+button.browse-news-btn.active::before { content: "\f14a"; position: absolute; font-family: "Font Awesome 6 Pro"; right: 20px; font-weight: bold; color: var(--amar-light-blue); }
 .browse-news-form input, .browse-news-form .selectBox{padding: 18px 40px 18px 19px; font-size: 1rem; line-height: 1.5rem; border: 2px solid rgba(94, 103, 131, 0.25);}
 .browse-text{color: var(--text-100); }
 .load-more-btn{gap: 8px;}
@@ -13,7 +13,7 @@ span.loader{position: absolute;}
 button.browse-search-btn{background: none; padding: 0; right: 16px; top: 13px; font-size: 1.125rem; color: var(--amar-blue);}
 button.browse-search-btn::after{background: none;}
 button.browse-search-btn:hover{color: var(--amar-orange);}
-.browse-image figure img{min-height: 187px;}
+.browse-image figure img{min-height: 188px; max-height: 188px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
