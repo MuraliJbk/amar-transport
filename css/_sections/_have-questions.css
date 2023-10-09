@@ -4,7 +4,7 @@
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
-    .have-questions-main{gap: 0 80px; padding: 0 0 89px;}
+    .have-questions-main{gap: 0 80px; padding: 0 0 80px;}
     .have-questions-text{flex: 0 0 300px;}
     .have-questions-faq{flex: 1;}
     .have-questions-desc .button{width: 100%;}
