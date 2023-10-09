@@ -110,6 +110,7 @@ jQuery(document).ready(function($){
     $(".browse-news-btn#browse-all").addClass("active");
     $(".browse-news-btn").on("click", function(e){
         e.preventDefault();
+        $(this).parent().siblings().find(".browse-news-btn").removeClass("active");
         $(this).addClass("active");
     })
 
