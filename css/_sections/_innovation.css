@@ -9,4 +9,6 @@
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .innovation-main{padding: 8.6rem 0 1.6rem; min-height: auto;}
+    .innovation-text span.optional-text{margin-bottom: 1.3rem;}
+    .page-template-default .innovation-btns{padding-top: 0;}
 }

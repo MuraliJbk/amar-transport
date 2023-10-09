@@ -40,6 +40,7 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .other-services-main{padding: 26px 0 23px;}
+    body .frm_ .other-services-main{padding: 45px 0 23px;}
     .other-services-head{margin-bottom: 47px;}
     .other-services-slider{padding-top: 46px;}
     .services-slide{display: block;}

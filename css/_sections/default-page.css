@@ -23,7 +23,7 @@
     .page-template-default .paths-list:not(:last-child){margin-bottom: 1.7rem;}
     .page-template-default .optional-cta-main{padding: 0 0 40px;}
     .default-long-frame img{min-height: 398px;}
-    .default-long-content{margin: -300px 0 21px; padding: 20px;}
+    .default-long-content{margin: -300px 0 0; padding: 26px 20px 20px;}
     .page-template-default .have-questions-desc span.optional-text{margin-bottom: 1rem;}
     .page-template-default .have-questions-desc .h4{font-size: 1.25rem; margin-bottom: 24px;}
     .page-template-default .accordion-main{padding: 1.3rem 0 2.5rem;}
