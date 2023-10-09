@@ -112,7 +112,5 @@ jQuery(document).ready(function($){
         e.preventDefault();
         $(this).parent().siblings().find(".browse-news-btn").removeClass("active");
         $(this).addClass("active");
-    })
-
-
+    });
 });
