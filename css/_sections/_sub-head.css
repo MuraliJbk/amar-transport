@@ -32,6 +32,7 @@
     .page-template-services  .sub-head-main {padding: 5rem 5rem 10rem;}
     .sub-head-main{padding: 7.5rem 5rem 5rem;}
     .page-template-carrer .sub-head-main{padding: 5rem 5rem 3.3rem;}
+    .page-template-default .sub-head-main{padding: 6.6rem 5rem 2.5rem;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .sub-head-main{padding: 5rem 2rem 5rem;}
