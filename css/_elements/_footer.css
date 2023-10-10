@@ -89,7 +89,7 @@ ul.footer-links > li::before{display: none;}
     .footer-wave { right: -210px; top: 60px; }
     .footer-wave svg{width: 813px;}
     .footer-main{display: block; margin-bottom: 20px;}
-    .footer-lt{margin-bottom: 20px;}
+    .footer-lt{margin-bottom: 16px;}
     .footer-logo{width: 117px; margin-bottom: 23px;}
     .footer-lt p{font-weight: normal; margin-bottom: 0;}
     .footer-rt{display: block;}
