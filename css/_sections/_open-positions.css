@@ -37,6 +37,7 @@ ul.tabs-category li{margin: 0; font-weight: 600;}
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .open-positions-wrap{padding: 5rem 2rem;}
     .open-positions-main{gap: 0 2rem;}
+    ul.positions-links li{margin-bottom: 8px;}
     .tabs-title{flex: 0 0 100%;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){

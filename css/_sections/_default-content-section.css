@@ -14,5 +14,5 @@
     .default-article{padding: 2rem 0 4rem;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
-    .default-article{padding: 0 0 3.4rem;}
+    .default-article{padding: 1rem 0 3.4rem;}
 }
