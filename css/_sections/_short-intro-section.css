@@ -2,6 +2,7 @@
 
 .short-intro-swoop svg{width: 672px;}
 .short-intro-head.no_desc{display: block;}
+.short-intro-main.no_head{display: block;}
 .short-intro-title h2{font-size: 3rem; line-height: 3rem; margin-bottom: 0;}
 
 .short-intro-pos{width: 100%; height: 100%; padding: 32px 17px 31px 31px; border: 1px solid rgba(94, 103, 131, 0.25); transition: all 0.45s ease;}
