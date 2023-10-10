@@ -4,9 +4,16 @@
 .innovation-main{padding: 11.125rem 0 11rem; max-width: 29rem; min-height: 636px;}
 .innovation-text span.optional-text{margin-bottom: 1.688rem;}
 .innovation-text h2{margin-bottom: 1.75rem;}
-.innovation-btns{gap: 24px; padding-top: 7px;}
 
-
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .innovation-btns{gap: 24px; padding-top: 7px;}
+}
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .innovation-main{padding: 8.6rem 0 1.6rem; min-height: auto;}
+    .innovation-text span.optional-text{margin-bottom: 1.3rem;}
+    .innovation-btns{gap: 22px;}
+    .innovation-btns .button {
+        width: calc(50% - 11px);
+    }
 }

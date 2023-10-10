@@ -1,8 +1,11 @@
 
 .default-long-frame::before{content: ""; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(5, 8, 22, 0.5);}
-.default-long-svg{left: -17px; bottom: -8px;}
+.default-long-svg{left: -9px; bottom: -8px;}
 
 .default-long-content ul{margin: 0 0 55px 24px;}
+
+.page-template-default .have-questions-desc span.optional-text{padding: 0;}
+.page-template-default .have-questions-desc span.optional-text::before{display: none;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
@@ -23,11 +26,12 @@
     .page-template-default .paths-list:not(:last-child){margin-bottom: 1.7rem;}
     .page-template-default .optional-cta-main{padding: 0 0 40px;}
     .default-long-frame img{min-height: 398px;}
-    .default-long-content{margin: -300px 0 21px; padding: 20px;}
+    .default-long-content{margin: -300px 0 0; padding: 26px 20px 20px;}
     .page-template-default .have-questions-desc span.optional-text{margin-bottom: 1rem;}
     .page-template-default .have-questions-desc .h4{font-size: 1.25rem; margin-bottom: 24px;}
     .page-template-default .accordion-main{padding: 1.3rem 0 2.5rem;}
     .page-template-default .have-questions-head .h3{font-size: 1.5rem;}
+    .page-template-default .short-intro-main{padding: 20px 0 18px;}
 
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
