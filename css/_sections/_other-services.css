@@ -40,12 +40,15 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .other-services-main{padding: 26px 0 23px;}
+    .page-template-default .other-services-main{padding: 45px 0 23px;}
+    .page-template-default .other-services-head h2{margin-bottom: 29px;}
     body .frm_ .other-services-main{padding: 45px 0 23px;}
     .other-services-head{margin-bottom: 47px;}
     .other-services-slider{padding-top: 46px;}
     .services-slide{display: block;}
     .other-srvc-pos{margin-bottom: 16px;}
-    .other-srvc-desc { gap: 24px; margin-bottom: 20px; align-items: center; }
+    .other-srvc-text{padding: 2rem 2.5rem 1.2rem; font-weight: normal;}
+    .other-srvc-desc{gap: 8px 17px; margin-bottom: 20px; align-items: center; }
     .other-srvc-desc svg{width: 32px;}
     .other-srvc-text h2 { flex: 1; margin: 0; font-size: 1.3125rem; }
     .other-services-slider ul.slick-dots { top: 0; margin: 0; position: absolute; }

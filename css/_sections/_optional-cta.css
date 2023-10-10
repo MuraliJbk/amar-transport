@@ -27,6 +27,7 @@
     .optional-cta-text{flex: 1;}
     .optional-cta-btns{gap: 20px;}
     .page-template-confirmation .optional-cta-swoosh0{bottom: -7px; left: -80px;}
+    .page-template-carrer .optional-cta-main.x-p{padding: 0 0 160px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .optional-cta-list{gap: 0 2rem;}
@@ -61,4 +62,8 @@
     body.category-news .optional-cta-list{flex-direction: column-reverse; display: flex;}
     body.category-news .optional-cta-text{margin-bottom: 20px;}
     body.category-news .optional-cta-img{margin-bottom: 0;}
+
+    .page-template-default .optional-cta-img{margin-bottom: 1.5rem;}
+    .page-template-default .optional-cta-text span.optional-text{margin-bottom: 20px;}
+    .page-template-default .optional-cta-text h2{margin-bottom: 1.25rem;}
 }
