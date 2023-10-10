@@ -2,7 +2,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .process-main{padding: 5rem 5rem; margin-top: -178px;}
+    .process-main{padding: 5rem 5rem 8.5rem; margin-top: -178px;}
     .process-head{max-width: 826px; margin-bottom: 3rem;}
     .process-head h2{font-size: 2.25rem; line-height: 2.5rem;}
 }

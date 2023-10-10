@@ -27,6 +27,7 @@
     .optional-cta-text{flex: 1;}
     .optional-cta-btns{gap: 20px;}
     .page-template-confirmation .optional-cta-swoosh0{bottom: -7px; left: -80px;}
+    .page-template-carrer .optional-cta-main.x-p{padding: 0 0 160px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .optional-cta-list{gap: 0 2rem;}
