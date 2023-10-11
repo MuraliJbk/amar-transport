@@ -2,7 +2,6 @@
 
 
 
-.view-position-head{margin-bottom: 40px; align-items: center;}
 .view-position-head h2{margin-bottom: 0;}
 .view-position-list{background: #EEF7FF; padding: 32px 32px 40px;}
 .view-position-list svg{margin-bottom: 8px;}
@@ -13,12 +12,14 @@
 .view-position-image{flex: 0 0 64px;}
 .view-position-desc{flex: 1;}
 
-
-
-
-
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
+    .view-position-head{margin-bottom: 40px; align-items: center;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .view-position-head{display: block; padding-bottom: 1rem;}
+    .view-position-head > *{margin-bottom: 2rem;}
+    .view-position-list{margin-bottom: 2rem;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .view-position-row > *{margin-bottom: 1rem;}
