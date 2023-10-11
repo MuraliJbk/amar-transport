@@ -13,7 +13,7 @@ ul.social-icons > li a:hover{background-color: var(--white); color: var(--amar-o
 ul.footer-links{margin: 0;}
 ul.footer-links > li{font-size: 1rem; font-weight: bold; line-height: 1.38;}
 ul.footer-links > li a{color: #f5f7fa;}
-ul.footer-links > li a:hover{color: var(--amar-orange);}
+ul.footer-links > li.current-menu-item a, ul.footer-links > li a:hover{color: var(--amar-orange);}
 ul.footer-links > li::before{display: none;}
 .call-user{font-size: 1.25rem; font-weight: bold;}
 .call-user a{gap: 16px; color: var(--white);}
