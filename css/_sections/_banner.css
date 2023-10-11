@@ -36,4 +36,5 @@
     .banner-text{padding: 12rem 0 3rem; font-size: 1rem; line-height: 1.5rem;}
     .banner-btns{gap: 22px; margin-top: 0;}
     .banner-btns .button{width: calc(50% - 11px);}
+    .page-template-carrer .banner-text{padding: 12.5rem 0 3rem;}
 }
