@@ -30,6 +30,7 @@
     .page-template-leadership .sub-intro-main{padding-bottom: 3.5rem;}
     .page-template-leadership .sub-head-main{padding-bottom: 4.5rem;}
     .page-template-carrer .sub-head-main{margin-top: 21px;}
+    .fit-icon svg, .fit-icon img{max-width: 64px;}
 }
 @media only screen and (min-width: 1300px){
     .page-template-services  .sub-head-main {padding: 5rem 5rem 10rem;}
