@@ -42,6 +42,7 @@
     .optional-cta-img{margin-bottom: 3rem;}
     .optional-cta-swoosh{display: none;}
 
+    body.page-template-carrer .optional-cta-main{padding: 0 0 40px;}
     body.category-news .optional-cta-main{padding: 0 0 40px;}
     body.category-news .optional-cta-list{flex-direction: column-reverse; display: flex;}
     body.category-news .optional-cta-text{margin-bottom: 40px;}

@@ -37,7 +37,7 @@
     ul.nav-menu > li > ul::before { content: ""; width: 0; height: 0; bottom: 100%; left: 50%; transform: translateX(-50%); border-color: transparent transparent #fff; border-style: solid; border-width: 0 6px 8px; position: absolute; }
     ul.nav-menu > li > ul > li{margin: 0 0 10px;}
     ul.nav-menu > li > ul > li.hide-nav-item{display: none;}
-    ul.nav-menu > li > ul > li::before{display: none;}
+    ul.nav-menu > li > {display: none;}
     ul.nav-menu > li > ul > li > a{color: var(--black); font-size: 1rem; line-height: 1.5rem; font-family: 'Instrument Sans', sans-serif; font-weight: 500;}
     ul.nav-menu > li > ul > li.current_page_item > a, ul.nav-menu > li > ul > li > a:hover{color: var(--amar-orange);}
     .toggle-icon{display: none;}
@@ -76,7 +76,7 @@
     ul.nav-menu > li > ul > li:first-child{margin-top: 22px;}
     ul.nav-menu > li > ul > li:last-child{margin-bottom: 14px;}
     ul.nav-menu > li > ul > li{margin: 0 0 22px;}
-    ul.nav-menu > li > ul > li::before{width: 0.5rem; height: 0.5rem; top: 8px; left: -25px; border-radius: 0; background-color: var(--amar-white-blue);}
+    ul.nav-menu > li > {width: 0.5rem; height: 0.5rem; top: 8px; left: -25px; border-radius: 0; background-color: var(--amar-white-blue);}
     ul.nav-menu > li > ul > li > a{color: var(--text-color); font-size: 1.125rem; line-height: 1.5rem; font-weight: 600; }
     ul.nav-menu > li > ul > li.current-menu-item > a, ul.nav-menu > li > ul > li > a:hover{color: var(--blue);}
 
