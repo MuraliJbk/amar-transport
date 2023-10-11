@@ -2,7 +2,7 @@ import jQuery from 'jquery';
 import 'slick-carousel';
 import 'slick-carousel/slick/slick.css';
 
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function($) {
   var _windowWidth = $(window).width();
   const clientsSlider = $('.client-logos-slider');
   const clientsLength = clientsSlider.find('.client-logo-list').length;
@@ -30,32 +30,32 @@ jQuery(document).ready(function ($) {
       ],
     });
   }
-
-  const xx = $(".short-intro-slider");
-  const yy = xx.children(".short-intro-list");
-  console.log(yy.length)
-  if(yy.length > 4){
-    $('.short-intro-slider').slick({
-      slidesToShow: 4,
+ 
+  const shortIntroSlider = $(".short-intro-slider");
+  const shortIntroSlide = shortIntroSlider.children(".short-intro-list");
+  if (jQuery(window).width() >= 1024) {
+    if(shortIntroSlide.length > 4){
+      shortIntroSlider.slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        variableWidth: true,
+      });
+    }
+  }
+  else{
+    shortIntroSlider.slick({
+      slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
       dots: true,
       autoplay: true,
       variableWidth: true,
-      responsive: [
-        {
-          breakpoint: 1023,
-          settings: {
-            dots: true,
-            variableWidth: true,
-          },
-        },
-      ],
     });
   }
-  
-
-  
+ 
   function introSlider() {
     if (_windowWidth <= 767) {
       $('.sub-head-row').slick({
