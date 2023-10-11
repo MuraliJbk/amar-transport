@@ -2,7 +2,7 @@ import jQuery from 'jquery';
 import 'slick-carousel';
 import 'slick-carousel/slick/slick.css';
 
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function($) {
   var _windowWidth = $(window).width();
   const clientsSlider = $('.client-logos-slider');
   const clientsLength = clientsSlider.find('.client-logo-list').length;
@@ -30,25 +30,32 @@ jQuery(document).ready(function ($) {
       ],
     });
   }
-
-  function toggleSlickSlider() {
-    if (_windowWidth <= 1023) {
-      $('.short-intro-slider').slick({
-        slidesToShow: 1,
+ 
+  const shortIntroSlider = $(".short-intro-slider");
+  const shortIntroSlide = shortIntroSlider.children(".short-intro-list");
+  if (jQuery(window).width() >= 1024) {
+    if(shortIntroSlide.length > 4){
+      shortIntroSlider.slick({
+        slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
         dots: true,
         autoplay: true,
         variableWidth: true,
       });
-    } else {
-      if ($('.short-intro-slider').hasClass('slick-initialized')) {
-        $('.short-intro-slider').slick('unslick');
-      }
     }
   }
-  toggleSlickSlider();
-
+  else{
+    shortIntroSlider.slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: true,
+      autoplay: true,
+      variableWidth: true,
+    });
+  }
+ 
   function introSlider() {
     if (_windowWidth <= 767) {
       $('.sub-head-row').slick({
@@ -88,7 +95,6 @@ jQuery(document).ready(function ($) {
     var newScreenWidth = $(window).width();
     if (newScreenWidth !== _windowWidth) {
       _windowWidth = newScreenWidth;
-      toggleSlickSlider();
       introSlider();
       processSlider();
     }
