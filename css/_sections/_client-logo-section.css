@@ -9,6 +9,7 @@
     body.home .client-logos-wrap{margin-top: -75px;}
     .page-template-default .client-logos-wrap{margin-top: -60px;}
     .client-logo-list{width: 120px; margin: 0 20px;}
+    .client-logos-row{gap: 32px 0;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .client-logos-wrap{padding: 3.5rem 2rem;}
