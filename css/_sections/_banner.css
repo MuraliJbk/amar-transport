@@ -38,3 +38,7 @@
     .banner-btns .button{width: calc(50% - 11px);}
     .page-template-carrer .banner-text{padding: 12.5rem 0 3rem;}
 }
+@media only screen and (max-width: 370px) and (min-width: 200px){
+    .banner-btns{gap: 22px; margin-top: 0; flex-direction: column;} 
+    .banner-btns .button{width: 100%;}
+}
