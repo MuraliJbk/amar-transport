@@ -15,6 +15,7 @@
 .amar-green .short-intro-pos{border-color: var(--green); background-color: rgba(0, 0, 0, 0.28);}
 .amar-green .short-intro-pos::after{background-color: var(--green); width: calc(100% + 2px); left: -1px;}
 .stats-bg-green::before{background-image: linear-gradient(0deg, rgba(19, 60, 8, 0.60) 0%, rgba(19, 60, 8, 0.60) 100%); width: 100%; height: 100%; top: 0; left: 0; position: absolute; content: ""; display: block;}
+.slick-current .short-intro-pos{border-color: rgba(94,103,131,.5);}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
@@ -29,6 +30,7 @@
     .short-intro-list:hover .short-intro-pos::after{opacity: 1; height: 7px;}
     .scroller_icon{top: -25px; left: 150px;}
     .short-intro-swoop{right: 71px; top: -68px;}
+    .short-intro-slider .slick-slide{width: 266px; margin-right: 1.5rem;}
 }
 @media screen and (min-width: 1300px){
     body.home .short-intro-main{margin-top: -160px; padding-left: 10rem; padding-right: 10rem;}
