@@ -21,7 +21,6 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .view-position-head{display: block; padding-bottom: 1rem;}
     .view-position-head > *{margin-bottom: 2rem;}
-    .view-position-list{margin-bottom: 2rem;}
     .view-position-head h2{margin-bottom: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
