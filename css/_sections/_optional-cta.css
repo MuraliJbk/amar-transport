@@ -14,6 +14,7 @@
 .optional-cta-icon.right{right: 0; top: 0;}
 
 .optional-cta-list.no-image .optional-cta-text{flex: 100%;}
+.optional-cta-list.no-image .optional-cta-img > div{display: none;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
