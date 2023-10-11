@@ -41,6 +41,7 @@ jQuery(document).ready(function($) {
         arrows: false,
         dots: true,
         infinite: false,
+        speed: 1000,
       });
     }
   }
@@ -62,7 +63,8 @@ jQuery(document).ready(function($) {
         slidesToScroll: 1,
         arrows: false,
         dots: true,
-        autoplay: true,
+        speed: 1000,
+        infinite: false,
         centerMode: true,
         centerPadding: '20px',
       });

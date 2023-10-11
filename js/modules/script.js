@@ -84,6 +84,7 @@ jQuery(document).ready(function($){
         $(".banner-svg").remove();
         $(".careers-svg").remove();
         $(".default-banner-svg").remove();
+        $(".fit-bg").remove();
     }
     if($(window).width() <= 767){
         $(".footer-list span").on("click", function(e){
