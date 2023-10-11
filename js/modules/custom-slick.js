@@ -65,8 +65,7 @@ jQuery(document).ready(function($) {
         dots: true,
         speed: 1000,
         infinite: false,
-        centerMode: true,
-        centerPadding: '20px',
+        autoplay: false,
       });
     } else {
       if ($('.sub-head-row').hasClass('slick-initialized')) {
@@ -83,9 +82,8 @@ jQuery(document).ready(function($) {
         slidesToScroll: 1,
         arrows: false,
         dots: true,
-        autoplay: true,
-        centerMode: true,
-        centerPadding: '0',
+        infinite: false,
+        speed: 1000,
       });
     } else {
     }
