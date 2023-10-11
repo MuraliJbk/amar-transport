@@ -32,7 +32,7 @@ ul.tabs-category li{margin: 0; font-weight: 600;}
     ul.tabs-category{gap: 0 28px; flex: 1;}
     span.tabs-date{flex: 0 0 83px;}
     .open-positions-thumb img{min-height: 372px;}
-    .page-template-carrer .open-positions-wrap{padding: 5rem 5rem 4rem;}
+    body.page-template-carrer .open-positions-wrap{padding: 5rem 5rem 4rem;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .open-positions-wrap{padding: 5rem 2rem;}

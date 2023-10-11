@@ -16,8 +16,9 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .process-main{padding: 40px 0;}
-    .process-head{margin-bottom: 2rem; font-size: 1rem; line-height: 1.5rem;}
+    .process-head{margin-bottom: 2.6rem; font-size: 1rem; line-height: 1.5rem;}
     .process-row{display: block; text-align: center;}
     .process-icon svg{width: 48px;}
-    .process-icon img{margin: 0 auto;}
+    .process-icon img{margin: 0 auto; padding-bottom: 20px;}
+    .process-text{margin-bottom: 6px;}
 }

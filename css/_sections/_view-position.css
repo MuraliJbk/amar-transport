@@ -23,4 +23,5 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .view-position-row > *{margin-bottom: 1rem;}
+    .view-position-head h2{text-align: center; font-size: 1.5rem; }
 }
