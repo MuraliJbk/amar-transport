@@ -2,7 +2,7 @@
 
 .innovation-thumb::before{width: 100%; height: 100%; top: 0; left: 0; background-image: linear-gradient(90deg, rgba(5, 8, 22, 0.70) 29.11%, rgba(5, 8, 22, 0.00) 70.1%); content: ""; display: block; position: absolute;}
 .innovation-main{padding: 11.125rem 0 11rem; max-width: 29rem; min-height: 636px;}
-.innovation-text span.optional-text{margin-bottom: 1.688rem;}
+.innovation-text span.optional-text{margin-bottom: 1.688rem; color: var(--amar-blue-2);}
 .innovation-text h2{margin-bottom: 1.75rem;}
 
 /*-- media css starts here --*/
@@ -13,7 +13,5 @@
     .innovation-main{padding: 8.6rem 0 1.6rem; min-height: auto;}
     .innovation-text span.optional-text{margin-bottom: 1.3rem;}
     .innovation-btns{gap: 22px;}
-    .innovation-btns .button {
-        width: calc(50% - 11px);
-    }
+    .innovation-btns .button {width: calc(50% - 11px);}
 }

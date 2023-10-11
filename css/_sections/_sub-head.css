@@ -29,7 +29,7 @@
     .page-template-carrer .sub-intro-main{padding-bottom: 3.5rem;}
     .page-template-leadership .sub-intro-main{padding-bottom: 3.5rem;}
     .page-template-leadership .sub-head-main{padding-bottom: 4.5rem;}
-    .page-template-carrer .sub-head-main.no-margin{margin-top: 21px;}
+    .page-template-carrer .sub-head-main{margin-top: 21px;}
 }
 @media only screen and (min-width: 1300px){
     .page-template-services  .sub-head-main {padding: 5rem 5rem 10rem;}
@@ -47,7 +47,7 @@
     .page-template-default .sub-head-main{margin-top: 0; padding: 2rem 1.5rem 2rem;}
     .sub-intro-head{margin-bottom: 2rem;}
     .sub-intro-main{display: block; padding-bottom: 2rem;}
-    .page-template-carrer .sub-head-main.no-margin{margin-top: 0;}
+    .page-template-carrer .sub-head-main{margin-top: 0;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .page-template-leadership .sub-intro-main{padding: 1.5rem 0 0;}
