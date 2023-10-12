@@ -5,7 +5,7 @@
 .view-position-desc .font-bold{margin-bottom: 6px; display: block; color: var(--text-100);}
 .view-colors{left: 0; bottom: 0;}
 .view-colors span{flex: 0 0 33.3333%; height: 0.125rem; display: block; background-color: var(--amar-blue);}
-.position-svg{right: 0;}
+.position-svg{right: -112px; top: -70px;}
 .view-colors span:nth-child(2){background-color: var(--amar-orange);}
 .view-colors span:nth-child(3){background-color: var(--amar-yellow);}
 
