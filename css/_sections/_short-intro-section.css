@@ -31,7 +31,10 @@
     .scroller_icon{top: -25px; left: 150px;}
     .short-intro-swoop{right: 71px; top: -68px;}
     .short-intro-slider{flex-wrap: nowrap;}
-    .short-intro-slider .slick-slide{width: 266px; margin-right: 1.5rem;}
+    .short-intro-slider .slick-track{display: flex;}
+    .short-intro-slider .slick-slide{width: 266px; height: auto; margin-right: 1.5rem;}
+    .short-intro-slider .slick-slide > div{height: 100%;}
+    .short-intro-slider .short-intro-list{height: 100%;}
     .short-intro-slider ul.slick-dots{justify-content: center; margin-top: 2rem;}
 }
 @media screen and (min-width: 1300px){
