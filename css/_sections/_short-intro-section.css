@@ -75,6 +75,6 @@
     
     .short-intro-slider .slick-list{overflow: inherit;}
     .short-intro-slider .slick-slide{width: 245px; margin-right: 32px;}
-    .scroller_icon{top: -60px; left: 0;}
-    .scroller_icon svg{width: 60px;}
+    .scroller_icon{top: -35px; left: 0;}
+    .scroller_icon svg{width: 50px;}
 }
