@@ -3,7 +3,12 @@
 .view-position-list{background: #EEF7FF; padding: 32px 32px 40px;}
 .view-position-list svg{margin-bottom: 8px;}
 .view-position-desc .font-bold{margin-bottom: 6px; display: block; color: var(--text-100);}
-.view-position-list::after{content: ""; display: block; position: absolute;}
+.view-colors{left: 0; bottom: 0;}
+.view-colors span{flex: 0 0 33.3333%; height: 0.125rem; display: block; background-color: var(--amar-blue);}
+.position-svg{right: 0;}
+.view-colors span:nth-child(2){background-color: var(--amar-orange);}
+.view-colors span:nth-child(3){background-color: var(--amar-yellow);}
+
 
 .view-position-avatar{gap: 1rem;}
 .view-position-image{flex: 0 0 64px;}
