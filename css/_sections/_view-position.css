@@ -3,7 +3,7 @@
 .view-position-list{background: #EEF7FF; padding: 32px 32px 40px;}
 .view-position-list svg{margin-bottom: 8px;}
 .view-position-desc .font-bold{margin-bottom: 6px; display: block; color: var(--text-100);}
-
+.view-position-list::after{content: ""; display: block; position: absolute;}
 
 .view-position-avatar{gap: 1rem;}
 .view-position-image{flex: 0 0 64px;}
