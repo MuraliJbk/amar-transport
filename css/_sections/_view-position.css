@@ -12,6 +12,7 @@
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .view-position-head{margin-bottom: 40px; align-items: center;}
+    .view-position-row{gap: 40px 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .view-position-head{display: block; padding-bottom: 1rem;}
