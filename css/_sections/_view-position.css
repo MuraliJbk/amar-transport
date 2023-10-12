@@ -26,5 +26,6 @@
     .view-position-row > *{margin-bottom: 1rem;}
     .view-position-head{display: block; text-align: center; margin-bottom: 40px;}
     .view-position-head h2{font-size: 1.5rem; line-height: 2rem; margin-bottom: 19px;}
+    .view-position-list {padding: 23px 29px 40px 25px;}
 
 }
