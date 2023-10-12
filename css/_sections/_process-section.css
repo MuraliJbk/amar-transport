@@ -5,6 +5,8 @@
     .process-main{padding: 5rem 5rem 8.5rem; margin-top: -178px;}
     .process-head{max-width: 826px; margin-bottom: 3rem;}
     .process-head h2{font-size: 2.25rem; line-height: 2.5rem;}
+    .process-row{gap: 40px 0;}
+    .process-icon{margin-bottom: 17px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 767px){
     .process-main{padding: 4rem 0 3.75rem;}
