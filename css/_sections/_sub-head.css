@@ -43,6 +43,7 @@
     .sub-head-main{padding: 5rem 2rem 5rem;}
     .sub-head-row{justify-content: center;}
     .sub-head-row > *{flex-basis: 33.3333%;}
+    .page-template-carrer .sub-intro-icon{right: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .sub-head-main{padding: 5rem 1.5rem 2rem; margin-top: -80px;}
