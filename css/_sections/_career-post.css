@@ -29,6 +29,7 @@ ul.post-banner-links li a:hover{color: var(--white);}
     .post-aside{flex: 0 0 335px;}
     .post-apply-desc{max-width: 200px;}
     .career-template-default hr{margin: 0 0 20px;}
+    .post-apply .button{width: 100%;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .post-banner-main{gap: 34px;}
