@@ -9,7 +9,7 @@ import './lib/jquery.selectBox';
 import './modules/selectBox';
 import './modules/magnific-popup';
 import './modules/custom-slick';
-
+import './modules/wavifys';
 
 /*-- init function --*/
 jQuery(() => {

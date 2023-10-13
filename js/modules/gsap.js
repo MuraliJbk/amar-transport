@@ -1,9 +1,7 @@
-import { gsap, TweenMax } from "gsap";
+import {gsap} from 'gsap';
 import {DrawSVGPlugin} from './DrawSVGPlugin.min.js'
 gsap.registerPlugin(DrawSVGPlugin)
 
-// import {TweenMax} from './TweenMax.min.js'
-// gsap.registerPlugin(TweenMax)
 
 // scroller polygon icon
 let scroller = jQuery(".scroller_icon");
@@ -98,18 +96,10 @@ _seaportUi.each(function(){
             opacity: '1',
             fill: '#00182B',
             scale: 1,
-            duration: 0.5,
+            duration: 0.25,
             ease: 'power1.easeOut' 
           })
     });
     $self[0].tl = tl
 });
 
-// For Vanilla JavaScript
-var myWave = wavify( document.querySelector('.wave'), {
-    // height: 0,
-    // bones: 1,
-    // amplitude: 0,
-    color: '#BFD6EA',
-    speed: .25
-  })

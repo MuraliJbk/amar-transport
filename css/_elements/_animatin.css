@@ -63,11 +63,14 @@
 .seaport-eye.two{ animation: seaportEye2 2s ease-in-out forwards; }
 @keyframes seaportEye2 { 0% { transform: translateY(-85px); fill: #FFFFFF; } 100% { transform: translateY(0px); } }
 
-.seaport-move { animation: scrollDown 2s ease-in-out infinite; animation-play-state: paused; animation-delay: 7s; }
+.seaport-move { animation: seaportMove 2s ease-in-out infinite; animation-play-state: paused; animation-delay: 4s; }
 .seaport-ui .seaport-move{ animation-play-state: running; }
-@keyframes scrollDown { 0% { transform: translateY(0px) translateX(4px); } 50% { transform: translateY(0px) translateX(0); } 100% { transform: translateY(0px) translateX(4px); } }
+@keyframes seaportMove { 0% { transform: translateY(0px) translateX(6px); } 50% { transform: translateY(0px) translateX(0); } 100% { transform: translateY(0px) translateX(6px); } }
 
-.seaport-move-up { animation: seaportUp 2s ease-in-out infinite; animation-play-state: paused; animation-delay: 8s; }
+.seaport-move-up { animation: seaportUp 2s ease-in-out infinite; animation-play-state: paused; animation-delay: 5s; }
 .seaport-ui .seaport-move-up{ animation-play-state: running; }
 @keyframes seaportUp { 0% { transform: translateY(-7px) translateX(7px); } 50% { transform: translateY(-7px) translateX(0); } 100% { transform: translateY(-7px) translateX(7px); } }
 
+.seaport-crane{animation: seaportCrane 2s ease-in-out infinite; animation-play-state: paused;}
+.seaport-ui .seaport-crane{ animation-play-state: running; }
+@keyframes seaportCrane { 0% { transform: translateY(-10px); } 50% { transform: translateY(0px); } 100% { transform: translateY(-10px); } }
