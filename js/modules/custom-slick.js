@@ -127,11 +127,11 @@ jQuery(document).ready(function($) {
   $('.other-services-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
+    dots: false,
+    infinite: false,
     arrows: true,
     prevArrow: '<div class="slick-arrow slick-prev button btn-transparent"><span class="fa-sharp fa-solid fa-arrow-left"></span><span>Previous</span></div>',
     nextArrow: '<div class="slick-arrow slick-next button btn-transparent"><span>Next</span><span class="fa-sharp fa-solid fa-arrow-right"></span></div>',
-    dots: false,
-    infinite: false,
     responsive: [
       {
         breakpoint: 1023,
