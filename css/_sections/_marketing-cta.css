@@ -10,7 +10,8 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .marketing-cta-main{flex-wrap: nowrap;}
+    .marketing-cta-main{flex-wrap: nowrap; padding: 0 0 80px;}
+    .page-template-innovation .marketing-cta-main{padding-bottom: 0;}
     .marketing-cta-img iframe, .marketing-cta-img video{min-width: 720px; min-height: 560px;}
 }
 @media only screen and (min-width: 1300px){
