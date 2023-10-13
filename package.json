@@ -25,8 +25,7 @@
     "lerp": "^1.0.3",
     "magnific-popup": "^1.1.0",
     "mouse-parallax": "^1.0.0",
-    "slick-carousel": "^1.8.1",
-    "wavify": "^1.0.0"
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.22.15",
