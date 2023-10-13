@@ -301,17 +301,20 @@
         <form action="" class="browse-news-form row">
             <div class="col-md-3">
                 <span class="browse-news-btn relative">
-                    <input type="submit" class="browse-news-input" id="browse-all" type="radio" value="Browse All">
+                    <input type="radio"  class="browse-news-input absolute" id="news" name="browse" value="" onclick="this.form.submit()">
+                    Browse All
                 </span>
             </div>
             <div class="col-md-3">
                 <span class="browse-news-btn relative">
-                    <input type="submit" class="browse-news-input" id="News" type="radio" value="News">
+                    <input type="radio"  class="browse-news-input absolute" id="news" name="browse" value="2" onclick="this.form.submit()">
+                    News
                 </span>
             </div>
             <div class="col-md-3">
                 <span class="browse-news-btn relative">
-                    <input type="submit" class="browse-news-input" id="press-release" type="radio" value="Press Releases">
+                    <input type="radio" class="browse-news-input absolute"  id="press-release" name="browse" value="7" onclick="this.form.submit()">
+                    Press Releases
                 </span>
             </div>
         </form>
