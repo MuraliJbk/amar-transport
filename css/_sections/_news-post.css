@@ -33,6 +33,10 @@ figcaption{padding: 1.5rem;}
 .q-avatar-img{width: 55px;}
 .q-avatar-text{flex: 1; color: var(--amar-blue-2);}
 
+.post-template-default span.optional-text::before{display: none;}
+.post-template-default span.optional-text{padding-left: 0;}
+
+
 /* media css starts here */
 @media only screen and (min-width: 1300px){
     .news-banner-text{max-width: 780px; padding: 3.12rem 5rem 1.85rem;}
@@ -42,7 +46,7 @@ figcaption{padding: 1.5rem;}
     .news-post-article{flex: 1; }
     .news-post-aside{flex: 0 0 300px;}
     .you-might-main{padding: 4rem 0;}
-    .you-might-head{margin-bottom: 2.5rem;}
+    .you-might-head{margin-bottom: 2rem;}
     .you-might-title{flex: 1;}
     .you-might-btn{flex: 0 0 200px;}
     .news-post-article blockquote{padding: 33px 32px 38px;}
@@ -58,7 +62,7 @@ figcaption{padding: 1.5rem;}
     .news-post-article > p:nth-child(2){font-size: 1.5rem; line-height: 2rem; margin-bottom: 2.9rem;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .news-banner-text { max-width: 750px; padding: 3.12rem 2rem 1.85rem; }
+    .news-banner-text { max-width: 750px; padding: 3.12rem 2rem 2rem; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .news-banner-bg img{min-height: 500px;}
