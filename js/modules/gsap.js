@@ -1,6 +1,9 @@
-import { gsap} from "gsap";
+import { gsap, TweenMax } from "gsap";
 import {DrawSVGPlugin} from './DrawSVGPlugin.min.js'
 gsap.registerPlugin(DrawSVGPlugin)
+
+// import {TweenMax} from './TweenMax.min.js'
+// gsap.registerPlugin(TweenMax)
 
 // scroller polygon icon
 let scroller = jQuery(".scroller_icon");
@@ -101,3 +104,12 @@ _seaportUi.each(function(){
     });
     $self[0].tl = tl
 });
+
+// For Vanilla JavaScript
+var myWave = wavify( document.querySelector('.wave'), {
+    height: 60,
+    bones: 3,
+    amplitude: 40,
+    color: 'rgba(150, 97, 255, .8)',
+    speed: .25
+  })
