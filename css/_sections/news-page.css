@@ -15,6 +15,8 @@ button.browse-search-btn{background: none; padding: 0; right: 16px; top: 13px; f
 button.browse-search-btn::after{background: none;}
 button.browse-search-btn:hover{color: var(--amar-orange);}
 .browse-image figure img{min-height: 188px; max-height: 188px;}
+ul.blog_list{margin: 0;}
+ul.blog_list::before{display: none;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
