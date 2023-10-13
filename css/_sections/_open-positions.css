@@ -57,6 +57,7 @@ ul.tabs-category li{margin: 0; font-weight: 600;}
     .tabs-categorys{margin-bottom: 16px;}
     .tabs-category{flex: 1; gap: 5px 29px;}
     .tabs-btn .button{padding: 10px 16px 10px;}
+    ul.positions-links li{margin-bottom: 10px;}
 }
 
 
