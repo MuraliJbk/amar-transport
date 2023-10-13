@@ -98,4 +98,5 @@ figcaption{padding: 1.5rem;}
     .you-might-list:not(:last-child){margin-bottom: 40px;}
     .you-might-text{padding: 1rem 0; font-size: 20px; line-height: 32px;}
     .news-banner-overlay{ background: var(--md-gray); opacity: 0.6; }
+    .short-cta .button{width: 100%;}
 }
