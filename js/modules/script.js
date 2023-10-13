@@ -108,7 +108,7 @@ jQuery(document).ready(function($){
         $(".equipment-swoosh").remove();
         $(".leadership-desktop").remove();
     }
-    $(".browse-news-btn#browse-all").addClass("active");
+    $(".browse-news-btn:first").addClass("active");
     $(".browse-news-btn").on("click", function(e){
         e.preventDefault();
         $(this).parent().siblings().find(".browse-news-btn").removeClass("active");
