@@ -84,7 +84,7 @@ _ui.each(function(){
     var _paths = $self.find("path");
     var isAsync = $self.attr('data-animation-async')
     var isLong = 0.25
-    var tl = gsap.timeline({ paused: true, delay: 0.25, })
+    var tl = gsap.timeline({ play: true, delay: 0.25, })
     _paths.each(function(i){
         tl.fromTo(jQuery(this)[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: isLong ? 2 : 1, ease: 'power1.out' }, i === 0 ? '<' : isAsync ? '>-0.5' : '>-0.75')
     })
