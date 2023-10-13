@@ -30,7 +30,7 @@
     .short-intro-list:hover .short-intro-pos::after{opacity: 1; height: 7px;}
     .scroller_icon{top: -25px; left: 150px;}
     .short-intro-swoop{right: 71px; top: -68px;}
-    .short-intro-slider{flex-wrap: nowrap;}
+    .short-intro-slider{flex-wrap: nowrap; justify-content: center;}
     .short-intro-slider .slick-track{display: flex;}
     .short-intro-slider .slick-slide{width: 266px; height: auto; margin-right: 1.5rem;}
     .short-intro-slider .slick-slide > div{height: 100%;}
