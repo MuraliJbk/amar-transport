@@ -67,8 +67,8 @@ figcaption{padding: 1.5rem;}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .news-banner-bg img{min-height: 500px;}
     .news-banner-text { max-width: 750px; padding: 3.12rem 2rem 1.85rem; }
-    .news-post-content{display: block; padding: 4rem 0 0;}
-    .news-post-article{margin-bottom: 4rem;}
+    .news-post-content{display: block; padding: 4rem 0 3rem;}
+    .news-post-article{margin-bottom: 3rem;}
     .you-might-head{justify-content: space-between;}
     .you-might-row{gap: 1.5rem; display: flex; flex-wrap: wrap;}
     .you-might-list{flex: 0 0 calc(50% - 12px);}
