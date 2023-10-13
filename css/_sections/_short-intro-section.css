@@ -36,6 +36,7 @@
     .short-intro-slider .slick-slide > div{height: 100%;}
     .short-intro-slider .short-intro-list{height: 100%;}
     .short-intro-slider ul.slick-dots{justify-content: center; margin-top: 2rem;}
+    .short-intro-row {gap: 40px 0;}
 }
 @media screen and (min-width: 1300px){
     body.home .short-intro-main{margin-top: -160px; padding-left: 10rem; padding-right: 10rem;}
