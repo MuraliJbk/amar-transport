@@ -27,6 +27,7 @@
     .stats-bg-dark .short-intro-title, .stats-bg-green .short-intro-title{flex: 0 0 609px;}
     .short-intro-text{flex: 1; gap: 32px;}
     .short-intro-desc{flex: 1;}
+    .short-intro-desc p{line-height: 1.6rem;}
     .short-intro-list:hover .short-intro-pos{border-color: transparent;}
     .short-intro-list:hover .short-intro-pos::after{opacity: 1; height: 7px;}
     .scroller_icon{top: -25px; left: 150px;}
