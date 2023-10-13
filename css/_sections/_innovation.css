@@ -9,6 +9,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .innovation-btns{gap: 24px; padding-top: 7px;}
+    .page-template-innovation .inverted a.text-link{margin-top: 5px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .innovation-main{padding: 8.6rem 0 1.6rem; min-height: auto;}

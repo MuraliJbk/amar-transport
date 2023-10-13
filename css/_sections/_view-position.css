@@ -9,7 +9,6 @@
 .view-colors span:nth-child(2){background-color: var(--amar-orange);}
 .view-colors span:nth-child(3){background-color: var(--amar-yellow);}
 
-
 .view-position-avatar{gap: 1rem;}
 .view-position-image{flex: 0 0 64px;}
 .view-position-desc{flex: 1;}

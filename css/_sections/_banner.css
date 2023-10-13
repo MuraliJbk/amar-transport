@@ -13,7 +13,7 @@
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
-    .home-banner{min-height: 1008px;}
+    .home-banner{min-height: 1045px;}
     .home-banner .banner-main{min-height: 1008px; align-items: flex-start;}
     .home-banner .banner-text{max-width: 575px; padding: 274px 0 243px;}
     .home-banner .banner-text h1{margin-bottom: 1.5rem;}
@@ -32,7 +32,7 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .home-banner .banner-main{min-height: 655px; align-items: flex-end;}
-    .home-banner .banner-text{padding: 274px 0 118px;}
+    .home-banner .banner-text{padding: 260px 0 118px;}
     .banner-text{padding: 12rem 0 3rem; font-size: 1rem; line-height: 1.5rem;}
     .banner-btns{gap: 22px; margin-top: 0;}
     .banner-btns .button{width: calc(50% - 11px); display: flex; align-items: center; justify-content: center;}
