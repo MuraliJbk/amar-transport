@@ -56,6 +56,7 @@ figcaption{padding: 1.5rem;}
     .short-cta .button{width: 100%;}
     .related-news-main .button{width: 100%;}
     .news-banner-overlay{width: 100%; min-height: 496px; height: auto;}
+
 }
 @media only screen and (min-width: 768px){
     .news-banner-text h1{font-size: 3rem; line-height: 3rem;}
@@ -78,12 +79,14 @@ figcaption{padding: 1.5rem;}
     .news-post-page{padding: 0;}
     .news-banner-section .container{padding: 0;}
     .news-banner-pos{align-items: center;}
-    .news-banner-text{padding: 0 16px;}
+    .news-banner-text{padding: 0 16px; margin-top: 100px;}
     .news-banner-text h1{line-height: 1.5;}
+    .news-banner-text ul.categorys{margin-bottom: 22px;}
     .news-post-content{padding: 20px 0 24px;}
     .figcaption-main{margin-bottom: 22px;}
-    .news-post-article{margin-bottom: 2rem;}
+    .news-post-article{margin-bottom: 0.5rem;}
     .news-post-article ul:not(ul.breadcrumbs){margin: -7px 0 20px 24px;}
+    .news-post-article ul.breadcrumbs{display: none;}
     .news-post-article ul > li{color: var(--text-color);}
     .news-post-article blockquote{font-size: 1.125rem; line-height: 1.89; margin: 1.5rem 0 1.4rem;}
     .news-post-article blockquote p span{margin-right: 7px;}   

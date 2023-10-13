@@ -107,9 +107,9 @@ _seaportUi.each(function(){
 
 // For Vanilla JavaScript
 var myWave = wavify( document.querySelector('.wave'), {
-    height: 60,
-    bones: 3,
-    amplitude: 40,
-    color: 'rgba(150, 97, 255, .8)',
+    // height: 0,
+    // bones: 1,
+    // amplitude: 0,
+    color: '#BFD6EA',
     speed: .25
   })
