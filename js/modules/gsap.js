@@ -77,16 +77,27 @@ jQuery(window).on("scroll load", function() {
     lastScrollTop = _scroll;
 });
 
-// data-animation for last
-var _ui = jQuery("[data-animation='ui-ele1']");
-_ui.each(function(){
+// data-animation for seaport
+var _seaportUi = jQuery("[data-animation='seaport-ui']");
+_seaportUi.each(function(){
     var $self = jQuery(this);
-    var _paths = $self.find("path");
-    var isAsync = $self.attr('data-animation-async')
-    var isLong = 0.25
-    var tl = gsap.timeline({ play: true, delay: 0.25, })
-    _paths.each(function(i){
-        tl.fromTo(jQuery(this)[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: isLong ? 2 : 1, ease: 'power1.out' }, i === 0 ? '<' : isAsync ? '>-0.5' : '>-0.75')
-    })
+    const _pathRrotate = $self.find("path.seaport-rotate");
+    var tl = gsap.timeline({ paused: true, delay: 1, })
+    _pathRrotate.each(function(i){
+        tl.fromTo(jQuery(this)[0], {
+            rotate: "90deg",
+            opacity: '0',
+            fill: '#FFFFFF',
+            scale: 0.15,
+          }, 
+          {
+            rotate: "360deg",
+            opacity: '1',
+            fill: '#00182B',
+            scale: 1,
+            duration: 0.5,
+            ease: 'power1.easeOut' 
+          })
+    });
     $self[0].tl = tl
 });
