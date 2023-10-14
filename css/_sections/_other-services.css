@@ -16,6 +16,7 @@
 @media only screen and (min-width: 1024px){
     .other-services-main{margin-top: -76px; padding: 80px 5rem 80px;}
     .page-template-default .other-services-main{margin-top: 0; padding-bottom: 160px}
+    .page-template-services .other-services-head h2{margin-bottom: 0.75rem;}
     .services-slide{gap: 32px; flex-wrap: nowrap;}
     .other-srvc-pos{flex: 0 0 calc(25% - 24px);}
     .other-srvc-text svg{margin-bottom: 26px;}
