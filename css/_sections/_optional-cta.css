@@ -10,7 +10,7 @@
 .optional-cta-swoosh4{top: -42px; left: -47px;}
 .optional-cta-swoosh5{top: -34px; right: -80px;}
 .optional-cta-swoosh6{top: -34px; right: -80px;}
-.optional-cta-icon{z-index: -1; opacity: 0.05;}
+.optional-cta-icon{z-index: -1; opacity: 0.05; max-width: 240px;}
 .optional-cta-icon.right{right: 0; top: 0;}
 
 .optional-cta-list.no-image .optional-cta-text{flex: 100%;}
