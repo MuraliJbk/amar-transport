@@ -22,7 +22,7 @@
     .client-logo-list{flex: 0 0 calc(25% - 24px);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .client-logos-wrap{padding: 24px 0;}
+    .client-logos-wrap{padding: 24px 0 20px;}
     .page-template-default .client-logos-wrap{padding: 18px 0 24px;}
     .client-logos-row{gap: 32px;}
     .client-logo-list{flex: 0 0 calc(33.333% - 22px);}
