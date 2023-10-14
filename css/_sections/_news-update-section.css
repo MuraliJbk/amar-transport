@@ -62,6 +62,7 @@ ul.categorys.white > li > a:hover{color: var(--amar-blue);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .news-update-slider{padding: 0 0 47px;}
+    body.page-template-home .news-update-slider{padding: 0 0 25px;}
     body.category-news .news-update-slider{padding-bottom: 22px;}
     .news-update-head { margin-bottom: 20px; }
     .news-update-title{margin-bottom: 22px;}
