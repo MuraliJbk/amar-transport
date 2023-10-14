@@ -26,6 +26,7 @@
     .paths-wrap{padding: 2.75rem 0 4.313rem;}
     .page-template-confirmation .paths-wrap{padding: 3.75rem 22px 4.313rem;}
     .paths-intro{margin-bottom: 3.125rem;}
+    .page-template-innovation .paths-intro{margin-bottom: 3rem;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .paths-wrap{padding: 3.75rem 0 4.313rem;}
@@ -42,4 +43,6 @@
     
     .paths-list .fit-img{margin-bottom: 1.6rem;}
     .paths-text ul{margin: 24px 0 1.9rem 22px;}
+    .page-template-innovation .paths-list .fit-img{margin-bottom: 1.9rem;}
+    .page-template-innovation .paths-text span.optional-text{margin-bottom: 1rem;}
 }
