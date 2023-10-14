@@ -21,6 +21,7 @@ ul.equipment-links li{margin: 0;}
 }
 @media only screen and (min-width: 1024px){
     .our-equipment-main{padding: 80px 5rem 81px;}
+    .page-template-services .our-equipment-main{padding: 80px 5rem 45px;}
     .our-equipment-head{margin-bottom: 94px;}
     .our-equipment-title{flex: 0 0 639px;}
     .our-equipment-btn{flex: 1;}

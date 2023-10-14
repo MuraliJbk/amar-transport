@@ -20,6 +20,7 @@
     .banner-main{min-height: 720px; align-items: center;}
     .banner-text{max-width: 550px; padding: 225px 0 171px;}
     .page-template-carrer .banner-text, .page-template-innovation .banner-text{padding: 220px 0 171px;}
+    .page-template-services  .banner-text{padding: 200px 0 171px;}
     .banner-svg{bottom: -90px; right: -250px;}
     .page-template-carrer .banner-main{position: relative;}
     .careers-svg{right: -400px; bottom: -512px; z-index: -1; width: 811px;}
