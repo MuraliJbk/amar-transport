@@ -41,6 +41,7 @@
     .service-text h2{font-size: 1.5rem; line-height: 2rem;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .home-service-main{padding: 1.5rem 0 2.5rem;}
     .home-service-head{display: block;}
     .home-service-title{margin-bottom: 1.5rem;}
     .home-service-desc{font-size: 1rem; line-height: 1.75rem; margin-bottom: 1.5rem;}
