@@ -14,6 +14,11 @@
     .application-form-quote{flex: 1;}
 }
 
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .application-form-text{flex: 0 0 100%; margin-bottom: 40px;}
+
+}
+
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .application-form-main{padding: 90px 40px 5rem;}
     .application-form-text{margin-bottom: 50px;}
