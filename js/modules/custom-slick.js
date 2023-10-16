@@ -6,30 +6,32 @@ jQuery(document).ready(function($) {
   var _windowWidth = $(window).width();
   const clientsSlider = $('.client-logos-slider');
   const clientsLength = clientsSlider.find('.client-logo-list').length;
-  if (clientsLength >= 9) {
-    clientsSlider.slick({
-      slidesToShow: 9,
-      slidesToScroll: 1,
-      arrows: false,
-      dots: false,
-      autoplay: true,
-      responsive: [
-        {
-          breakpoint: 1023,
-          settings: {
-            slidesToShow: 4,
-            dots: true,
+    if (clientsLength >= 9) {
+      clientsSlider.slick({
+        slidesToShow: 9,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        autoplay: true,
+        responsive: [
+          {
+            breakpoint: 1023,
+            settings: {
+              slidesToShow: 6,
+              slidesToScroll: 1,
+            },
           },
-        },
-        {
-          breakpoint: 767,
-          settings: {
-            dots: true,
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+            },
           },
-        },
-      ],
-    });
-  }
+        ],
+      });
+
+    }
  
   const shortIntroSlider = $(".short-intro-slider");
   const shortIntroSlide = shortIntroSlider.children(".short-intro-list");

@@ -39,6 +39,8 @@
     .home-service-title{margin-bottom: 2rem;}
     .service-text{padding: 1.5rem;}
     .service-text h2{font-size: 1.5rem; line-height: 2rem;}
+    .service-desc{flex-direction: column;}
+    .service-desc svg{margin-bottom: auto;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .home-service-main{padding: 1.5rem 0 2.5rem;}
