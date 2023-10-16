@@ -5,6 +5,7 @@
 .application-form-main{padding: 90px 80px 5rem;}
 .application-form-text span.optional-text{margin-bottom: 30px;}
 .application-form-text h1{margin-bottom: 31px;}
+.application-form-quote span{font-size: 20px; line-height: 1.2; color: #151c39; font-weight: bold;}
 
 
 /*-- media css starts here --*/
@@ -12,6 +13,7 @@
     .application-form-main{gap: 0 80px;}
     .application-form-text{flex: 0 0 352px;}
     .application-form-quote{flex: 1;}
+    .application-form-quote h2{margin-bottom: 44px;}
 }
 
 @media screen and (max-width: 1199px) and (min-width: 1024px) {
@@ -20,7 +22,7 @@
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-    .application-form-main{padding: 90px 40px 5rem;}
+    .application-form-main{padding: 60px 32px;}
     .application-form-text{margin-bottom: 50px;}
 }
 
@@ -30,6 +32,7 @@
     .application-form-main{padding: 40px 0 10px;}
     .application-form-text{padding: 0 16px 75px;}
     .application-form-quote{width: 100%;}
+    .application-form-quote span{font-size: 18px; line-height: 1.33;}
     .application-form-quote::before{content: ""; position: absolute; width: calc(100% + 40px); height: 100%; background-color: white; margin-left: -20px; z-index: -1;}
 }
 

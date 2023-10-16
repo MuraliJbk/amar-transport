@@ -9,23 +9,25 @@
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .team-our-main{gap: 0 183px; padding: 128px 0 0;}
-    .team-our-text{flex: 0 0 579px;}
+    .team-our-text{flex: 1;}
     .page-template-about .team-our-text{margin-top: 10px;}
     .page-template-about span.optional-text{margin-bottom: 1.5rem;}
-    .team-our-images{flex: 1; gap: 38px;}
+    .team-our-images{flex: 0 0 518px; gap: 38px;}
     .team-our-thumb{flex: 0 calc(50% - 19px);}
     .team-our-thumb:nth-child(even){margin-top: -88px;}
+    .team-our-thumb img{min-height: 320px;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .team-our-main{gap: 0 2rem;}
+    .team-our-images{flex: 0 0 478px; gap: 2rem;}
+}
+@media screen and (max-width: 1023px) and (min-width: 200px) {
+    .team-our-main{padding: 20px 0;}
+    .team-our-text{margin-bottom: 20px;}
+    .team-our-text span.optional-text{margin-bottom: 1rem;}
+    .team-our-text h2{font-size: 1.5rem; line-height: 1.2;}
+    .team-our-btns{gap: 21px;}
+    .team-our-gradient{display: none;}
+    .team-our-images{gap: 24px; margin-bottom: 20px;}
+    .team-our-thumb{flex: 0 0 calc(50% - 12px);}
+}
