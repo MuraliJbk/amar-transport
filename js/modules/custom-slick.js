@@ -53,8 +53,9 @@ jQuery(document).ready(function($) {
       slidesToScroll: 1,
       arrows: false,
       dots: true,
-      autoplay: true,
+      infinite: false,
       variableWidth: true,
+      speed: 1000,
     });
   }
  
@@ -159,6 +160,8 @@ jQuery(document).ready(function($) {
   $('.timeline-slider-for').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
+    speed: 1000,
+    infinite: false,
     arrows: true,
     prevArrow:
       '<div class="slick-arrow slick-prev button btn-transparent"><span class="fa-sharp fa-solid fa-arrow-left"></span><span>Previous</span></div>',
@@ -185,6 +188,8 @@ jQuery(document).ready(function($) {
     focusOnSelect: true,
     arrows: false,
     dots: false,
+    speed: 1000,
+    infinite: false,
   });
   $('.timeline-slider-for').on('setPosition', function (event, slick) {
     $('.timeline-for-slide').removeAttr('style');
@@ -193,5 +198,3 @@ jQuery(document).ready(function($) {
     $('.timeline-nav-slide').removeAttr('style');
   });
 });
-
-

@@ -1,4 +1,6 @@
 
+.view-position-head.no_title{display: block;}
+.view-position-head.no_btn{display: block;}
 .view-position-head h2{margin-bottom: 0;}
 .view-position-list{background: #EEF7FF; padding: 32px 32px 40px;}
 .view-position-list svg{margin-bottom: 8px;}

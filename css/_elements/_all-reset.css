@@ -46,10 +46,10 @@ dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: va
 blockquote dl dt::before{background-color: var(--white);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 20px 22px;}
-ul > li {counter-increment: li; position: relative; margin-bottom: 8px; font-size: 1rem; line-height: 1.5rem; color: var(--text-color);}
-ul > li:before { top: 11px; left: -13px; width: 3px; height: 3px; border-radius: 3px; opacity: 0.8; background-color: var(--text-color); content: ""; position: absolute;} 
+ul > li {counter-increment: li; position: relative; margin-bottom: 8px; font-size: 1rem; line-height: 1.5rem; color: var(--text-100);}
+ul > li:before { top: 11px; left: -13px; width: 3px; height: 3px; border-radius: 3px; opacity: 0.8; background-color: var(--text-100); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
-ol {counter-reset: section; list-style: none; margin: 0 0 28px 29px; font-size: 1rem; line-height: 1.5rem; color: var(--text-color);}
+ol {counter-reset: section; list-style: none; margin: 0 0 28px 29px; font-size: 1rem; line-height: 1.5rem; color: var(--text-100);}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
 ol > li:before{counter-increment: section; content: counter(section, decimal) "."; top: 4px; left: -20px; position: absolute; font-size: 0.875rem; line-height: 1rem;}
 li > ol {margin: 25px 0 26px 25px;}

@@ -11,7 +11,8 @@ ul.breadcrumbs li:last-child{font-weight: 700;}
 ul.breadcrumbs li:last-child::after{display: none;}
 ul.breadcrumbs li:first-child a{color: var(--amar-blue);}
 ul.breadcrumbs li a{color: var(--text-color);}
-.news-post-article > p:nth-child(2){color: var(--text-100);}
+ul.breadcrumbs li a:hover{color: var(--amar-orange);}
+.news-post-article > p:nth-child(2) span{color: var(--text-100); display: block;}
 .figcaption-main{margin-bottom: 46px; background-color: var(--amar-sm-blue);}
 figcaption{padding: 1.5rem;}
 .short-cta-wrap{padding-bottom: 43px; margin-bottom: 40px; border-bottom: 1px solid #DADBDC;}
@@ -60,7 +61,7 @@ figcaption{padding: 1.5rem;}
 }
 @media only screen and (min-width: 768px){
     .news-banner-text h1{font-size: 3rem; line-height: 3rem;}
-    .news-post-article > p:nth-child(2){font-size: 1.5rem; line-height: 2rem; margin-bottom: 2.9rem;}
+    .news-post-article > p:nth-child(2) span{font-size: 1.5rem; line-height: 2rem; margin-bottom: 2.9rem;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .news-banner-text { max-width: 750px; padding: 3.12rem 2rem 2rem; }
@@ -97,6 +98,9 @@ figcaption{padding: 1.5rem;}
     .you-might-title{margin-bottom: 22px;}
     .you-might-list:not(:last-child){margin-bottom: 40px;}
     .you-might-text{padding: 1rem 0; font-size: 20px; line-height: 32px;}
+    .you-might-pos{margin-bottom: 8px; gap: 0 32px; align-items: center;}
+    .you-might-pos ul.categorys{margin: 0; width: auto;}
+    .you-might-pos .dt-format{flex: 0 0 auto;}
     .news-banner-overlay{ background: var(--md-gray); opacity: 0.6; }
     .short-cta .button{width: 100%;}
 }

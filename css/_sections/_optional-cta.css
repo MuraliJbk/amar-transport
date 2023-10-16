@@ -16,6 +16,7 @@
 .optional-cta-list.no-image .optional-cta-text{flex: 100%;}
 .optional-cta-list.no-image .optional-cta-img > div{display: none;}
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .page-template-innovation .optional-cta-main{margin-top: -80px; padding: 5rem;}
@@ -30,7 +31,7 @@
     .optional-cta-text{flex: 1;}
     .optional-cta-btns{gap: 20px;}
     .page-template-confirmation .optional-cta-swoosh0{bottom: -7px; left: -80px;}
-    .page-template-carrer .optional-cta-main.x-p{padding: 0 0 160px;}
+    .page-template-carrer .optional-cta-main{padding: 0 0 160px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .optional-cta-list{gap: 0 2rem;}
