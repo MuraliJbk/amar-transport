@@ -36,6 +36,7 @@
     .optional-cta-list{gap: 0 2rem;}
     .optional-cta-img {flex: 0 0 50%;}
     .page-template-services .optional-cta-list:not(:last-child){margin-bottom: 80px;}
+   .page-template-about .optional-cta-list:not(:last-child) { margin-bottom: 60px;}
     body.page-template-innovation .optional-cta-main{padding: 5rem 2rem 4rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
@@ -68,6 +69,7 @@
     body.category-news .optional-cta-text{margin-bottom: 20px;}
     body.category-news .optional-cta-img{margin-bottom: 0;}
 
+    .page-template-about .optional-cta-main{padding: 0 0 20px;}
     .page-template-carrer .optional-cta-main{padding: 0 0 44px;}
     .page-template-carrer .optional-cta-img{margin-bottom: 1.5rem;}
     .page-template-default .optional-cta-img{margin-bottom: 1.5rem;}

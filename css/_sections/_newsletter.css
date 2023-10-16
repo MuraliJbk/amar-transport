@@ -20,11 +20,13 @@ body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input.hide-pla
 .newsletter-wave{z-index: -1;}
 .newsletter-wave svg{width: 100%; height: 100%;}
 
+.newsletter-form .frm_submit button{margin: 0 !important;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .newsletter-main{gap: 0 80px; padding: 62px 5rem 80px; }
+    .newsletter-main{gap: 0 80px; padding: 86px 5rem 53px; }
     .newsletter-text{flex: 0 0 456px;}
-    .newsletter-form{flex: 1; max-width: 491px; margin-left: auto; padding-top: 70px;}
+    .newsletter-form{flex: 1; max-width: 491px; margin-left: auto; padding-top: 45px;}
     .newsletter-wave{right: -360px; top: -440px; width: 1410px; height: 1410px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){

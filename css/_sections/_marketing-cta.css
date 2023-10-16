@@ -14,6 +14,7 @@
 @media only screen and (min-width: 1024px){
     .marketing-cta-main{flex-wrap: nowrap; padding: 0 0 80px;}
     .page-template-innovation .marketing-cta-main{padding-bottom: 0;}
+    .page-template-about .marketing-cta-main{padding: 60px 0 60px;}
     .marketing-cta-img iframe, .marketing-cta-img video{min-width: 720px; min-height: 560px;}
 }
 @media only screen and (min-width: 1300px){
