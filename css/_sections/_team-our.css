@@ -10,6 +10,8 @@
 @media screen and (min-width: 1024px){
     .team-our-main{gap: 0 183px; padding: 128px 0 0;}
     .team-our-text{flex: 0 0 579px;}
+    .page-template-about .team-our-text{margin-top: 10px;}
+    .page-template-about span.optional-text{margin-bottom: 1.5rem;}
     .team-our-images{flex: 1; gap: 38px;}
     .team-our-thumb{flex: 0 calc(50% - 19px);}
     .team-our-thumb:nth-child(even){margin-top: -88px;}
