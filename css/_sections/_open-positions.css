@@ -18,7 +18,9 @@ ul.positions-links li a.current::after, ul.positions-links li a:hover::after{wid
 ul.tabs-category{margin: 0;}
 ul.tabs-category > li::before{top: 11px; right: -16px; left: auto; background-color: var(--amar-orange);}
 ul.tabs-category li{margin: 0; font-weight: 600;}
-
+.open-positions-pos{position: relative;}
+.open-positions-svg{top: 0; left: 0; right: 0; margin: 0 auto; max-width: 868px;}
+.open-positions-svg svg{max-width: 868px;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
