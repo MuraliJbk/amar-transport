@@ -15,9 +15,10 @@
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
+    .application-form-wrap{padding: 147px 0 0;}
     .application-gradient{display: none;}
-    .application-form-main{padding: 40px 0 5rem;}
-    .application-form-text{padding: 0 16px 40px;}
+    .application-form-main{padding: 40px 0 10px;}
+    .application-form-text{padding: 0 16px 75px;}
     .application-form-quote::before{content: ""; position: absolute; width: calc(100% + 40px); height: 100%; background-color: white; margin-left: -20px; z-index: -1;}
 }
 
