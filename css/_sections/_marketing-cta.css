@@ -7,6 +7,8 @@
 .marketing-cta-img iframe, .marketing-cta-img video{width: 100%; height: 100%; margin: 0; object-fit: cover;}
 .marketing-cta-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(5, 8, 22, 0.5);}
 .marketing-cta-swoosh{top: -98px; left: -100px; width: 258px; height: 266px; position: absolute;}
+.stats-bg-dark .marketing-cta-text{background-color: var(--text-100);}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
