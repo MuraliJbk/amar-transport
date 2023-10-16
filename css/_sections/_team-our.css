@@ -15,6 +15,7 @@
     .team-our-images{flex: 1; gap: 38px;}
     .team-our-thumb{flex: 0 calc(50% - 19px);}
     .team-our-thumb:nth-child(even){margin-top: -88px;}
+    .team-our-thumb img{min-height: 320px;}
 }
 
 
