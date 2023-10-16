@@ -160,7 +160,6 @@ jQuery(document).ready(function($) {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
-    infinite: false,
     prevArrow:
       '<div class="slick-arrow slick-prev button btn-transparent"><span class="fa-sharp fa-solid fa-arrow-left"></span><span>Previous</span></div>',
     nextArrow:
@@ -186,7 +185,6 @@ jQuery(document).ready(function($) {
     focusOnSelect: true,
     arrows: false,
     dots: false,
-    infinite: false,
   });
   $('.timeline-slider-for').on('setPosition', function (event, slick) {
     $('.timeline-for-slide').removeAttr('style');
