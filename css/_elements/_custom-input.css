@@ -70,7 +70,7 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message::afte
 body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message .frm_icon_font, body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message .frm_upload_text{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_dropzone .dz-message .frm_small_text{display: block; text-align: left; font-size: 14px; color: #5e6783; line-height: 1.29;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_date{position: relative;}
-body .frm_forms .frm_form_fields .frm_form_field input.frm_date::after{right: 20px; content: "\f133"; font-family: "Font Awesome 6 Pro"; position: absolute; display: block; top: 50%; transform: translateY(-50%); font-weight: 900; color: var(--amar-light-blue);}
+body .frm_forms .frm_form_fields #frm_field_37_container::after{right: 20px; content: "\f133"; font-family: "Font Awesome 6 Pro"; position: absolute; display: block; font-weight: 900; color: var(--amar-light-blue); bottom: 13px; font-size: 18px;}
 
 
 /*-- media css starts here --*/
