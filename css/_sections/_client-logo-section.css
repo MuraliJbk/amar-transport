@@ -6,6 +6,7 @@
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px) {
     .client-logos-wrap{padding: 3.5rem 3rem;}
+    .page-template-about .client-logos-wrap { padding: 3.5rem 3rem 6rem; }
     body.home .client-logos-wrap{margin-top: -75px;}
     .page-template-default .client-logos-wrap{margin-top: -60px;}
     .client-logo-list{width: 120px; margin: 0 20px;}
