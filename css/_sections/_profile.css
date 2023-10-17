@@ -3,7 +3,7 @@
 .profile-banner-text h1{color: var(--white);}
 .profile-banner-text span{color: var(--amar-blue-2); font-size: 1.25rem; line-height: 1.5;}
 
-.profile-article > p:nth-child(1){color: var(--text-100);}
+.profile-article > p:nth-child(1) span{color: var(--text-100); display: block;}
 .profile-aside h4{font-size: 1.25rem; margin-bottom: 22px;}
 .profile-aside-btn{text-align: center;}
 .profile-aside-btn .button{width: 100%;}
@@ -16,7 +16,7 @@
 
 /*-- media css starts here --*/
 @media screen and (min-width: 768px) {
-    .profile-article > p:nth-child(1){font-size: 1.5rem; line-height: 2rem; margin-bottom: 2.9rem;}
+    .profile-article > p:nth-child(1) span{font-size: 1.5rem; line-height: 2rem; margin-bottom: 2.9rem;}
 }
 @media screen and (min-width: 1024px) {
     .profile-banner-main{gap: 64px; flex-wrap: nowrap;}
