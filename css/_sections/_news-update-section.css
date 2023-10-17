@@ -19,6 +19,8 @@ ul.categorys.white > li > a:hover{color: var(--amar-blue);}
 
 .news-update-slider::after{content: ""; display: block; clear: both;}
 .news-small-text p{display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;}
+.news-small-text p a{color: var(--text-color);}
+.news-small-text p a:hover{color: var(--amar-orange);}
 .news-slider-nav ul.slick-dots{margin-top: 21px;}
 
 .news-slider-nav .small-post-list{gap: 0 20px; margin-bottom: 37px; display: flex !important; align-items: flex-start; flex-wrap: wrap;}
