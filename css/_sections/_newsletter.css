@@ -30,7 +30,8 @@ body .newsletter-form .with_frm_style .frm_message p{color: var(--white); font-s
     .newsletter-wave{right: -360px; top: -440px; width: 1410px; height: 1410px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .newsletter-main {gap: 17px; padding: 60px 0 40px;}
+    .newsletter-main {gap: 17px; padding: 60px 2rem 40px;}
+    .newsletter-wave{right: -850px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .newsletter-main{padding: 62px 2rem 60px; }
