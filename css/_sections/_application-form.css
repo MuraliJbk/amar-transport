@@ -32,7 +32,11 @@
     .application-gradient{display: none;}
     .application-form-main{padding: 40px 0 10px;}
     .application-form-text{padding: 0 16px 75px;}
+    .application-form-text span.optional-text{margin-bottom: 18px;}
+    .application-form-text h1 {margin-bottom: 19px;}
+    .application-form-text .button{margin-top: -8px;}
     .application-form-quote{width: 100%;}
+    .application-form-quote h2{margin-bottom: 7px;}
     .application-form-quote span{font-size: 18px; line-height: 1.33;}
     .application-form-quote::before{content: ""; position: absolute; width: calc(100% + 40px); height: 100%; background-color: white; margin-left: -20px; z-index: -1;}
 }
