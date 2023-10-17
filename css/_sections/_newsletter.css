@@ -6,7 +6,7 @@
 .newsletter-form .frm_forms .frm_form_fields .frm_fields_container{position: relative;}
 .newsletter-form .frm_forms .frm_form_fields .frm_form_field{margin: 0;}
 .newsletter-form .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label {display: none;}
-body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input {padding: 1rem 110px 1rem; font-size: 0.875rem; line-height: 1.125rem; font-weight: 400; border: none; background-color: var(--white); border-radius: 0;}
+body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input {padding: 1rem 110px 1rem 1rem; font-size: 0.875rem; line-height: 1.125rem; font-weight: 400; border: none; background-color: var(--white); border-radius: 0;}
 body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input:focus{background-color: var(--white-90);}
 body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input.hide-placeholder::placeholder{opacity: 1; transition: all 0.45s ease-in-out;}
 .newsletter-form  .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder {color: var(--text-color); font-family: 'Instrument Sans', sans-serif;}
