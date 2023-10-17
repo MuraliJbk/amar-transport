@@ -37,7 +37,7 @@ ul.blog_list::before{display: none;}
     .browse-image{flex: 0 0 328px;}
     .browse-text{flex: 1;}
 }
-@media only screen and (max-width: 1299px) and (min-width: 1024px){
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
     .browse-main{display: block;}
     .browse-image{flex: 0 0 305px;}
     .browse-article{margin-bottom: 4rem;}
