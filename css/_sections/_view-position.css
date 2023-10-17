@@ -5,18 +5,13 @@
 .view-position-list{background: #EEF7FF; padding: 32px 32px 40px;}
 .view-position-list svg{margin-bottom: 8px;}
 .view-position-desc .font-bold{margin-bottom: 6px; display: block; color: var(--text-100);}
-.view-colors{left: 0; bottom: 0;}
-.view-colors span{flex: 0 0 33.3333%; height: 0.125rem; display: block; background-color: var(--amar-blue); animation: colors 0.5s ease infinite;}
-@keyframes colors1{
-    from{transform: translateX(0);}
-    to{transform: translateX(100%);}
-}
-.view-colors span:nth-child(1){}
-.view-colors span:nth-child(2){}
-.view-colors span:nth-child(3){}
 .position-svg{right: -112px; top: -70px;}
-.view-colors span:nth-child(2){background-color: var(--amar-orange);}
-.view-colors span:nth-child(3){background-color: var(--amar-yellow);}
+.view-colors{left: 0; bottom: 0; overflow: hidden;}
+.view-colors span{flex: 0 0 33.3333%; height: 0.125rem; display: block; background-color: var(--amar-blue); animation: colors 10s ease infinite;}
+.view-colors span:nth-child(2){background-color: var(--amar-orange);  animation: colors1 10s ease infinite;}
+.view-colors span:nth-child(3){animation: none; background-color: var(--amar-yellow); width: 1000%; position: absolute; bottom: 0; left: 0; z-index: -1;}
+@keyframes colors{ from{transform: translateX(0);} to{transform: translateX(200%);} }
+@keyframes colors1{ from{transform: translateX(100%);} to{transform: translateX(-100%);} }
 
 .view-position-avatar{gap: 1rem;}
 .view-position-image{flex: 0 0 64px;}

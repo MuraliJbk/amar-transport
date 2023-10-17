@@ -1,6 +1,8 @@
 
+import './lib/isInViewport';
 import './modules/animation';
 import './modules/gsap';
+import './lib/TweenMax.min';
 import Uifade from './modules/ui-fade'
 import './modules/counter';
 import './modules/effects';

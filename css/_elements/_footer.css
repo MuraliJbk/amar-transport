@@ -107,4 +107,5 @@ ul.footer-links > li::before{display: none;}
     ul.social-icons > li a{width: 48px; height: 48px; font-size: 23px;}
     .footer-copyright{text-align: center;}
     .footer-copyright ul{justify-content: center;}
+    ul.social-icons{gap: 12px;}
 }
