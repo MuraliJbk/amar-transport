@@ -17,7 +17,10 @@ ul.positions-links li a.current::after, ul.positions-links li a:hover::after{wid
 .tabs-categorys{color: var(--text-color);}
 ul.tabs-category{margin: 0;}
 ul.tabs-category > li::before{top: 10px; right: -16px; left: auto; background-color: var(--amar-orange);}
-ul.tabs-category li{margin: 0; font-weight: 600;}
+ul.tabs-category > li{margin: 0; font-weight: 600;}
+ul.tabs-category > li > a{color: var(--text-100);}
+ul.tabs-category > li > a:hover{color: var(--amar-orange);}
+
 .open-positions-pos{position: relative;}
 .open-positions-svg{top: 0; left: 0; right: 0; margin: 0 auto; max-width: 868px;}
 .open-positions-svg svg{max-width: 868px;}
