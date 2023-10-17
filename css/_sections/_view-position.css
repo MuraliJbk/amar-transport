@@ -6,7 +6,14 @@
 .view-position-list svg{margin-bottom: 8px;}
 .view-position-desc .font-bold{margin-bottom: 6px; display: block; color: var(--text-100);}
 .view-colors{left: 0; bottom: 0;}
-.view-colors span{flex: 0 0 33.3333%; height: 0.125rem; display: block; background-color: var(--amar-blue);}
+.view-colors span{flex: 0 0 33.3333%; height: 0.125rem; display: block; background-color: var(--amar-blue); animation: colors 0.5s ease infinite;}
+@keyframes colors1{
+    from{transform: translateX(0);}
+    to{transform: translateX(100%);}
+}
+.view-colors span:nth-child(1){}
+.view-colors span:nth-child(2){}
+.view-colors span:nth-child(3){}
 .position-svg{right: -112px; top: -70px;}
 .view-colors span:nth-child(2){background-color: var(--amar-orange);}
 .view-colors span:nth-child(3){background-color: var(--amar-yellow);}
