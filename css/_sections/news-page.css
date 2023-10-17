@@ -26,7 +26,7 @@ ul.blog_list::before{display: none;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .news-landing-page{padding: 200px 0 0;}
-    .browse-news-wrap{padding: 5.7rem 0 160px;}
+    .browse-news-wrap{padding: 5.7rem 0 100px;}
     .browse-news-head{margin-bottom: 1.5rem;}
     .browse-news-form{margin-bottom: 5rem;}
     .browse-main{gap: 0 80px;}
@@ -61,14 +61,18 @@ ul.blog_list::before{display: none;}
     .browse-news-wrap{padding: 20px 0 20px;}
     .browse-news-head{margin-bottom: 1.5rem;}
     .browse-news-title h2{margin-bottom: 8px;}
-    .browse-news-form{margin-bottom: 12px;}
+    .browse-news-form{margin-bottom: 20px;}
     .browse-news-form > *{margin-bottom: 8px;}
     .browse-main{display: block;}
     .browse-article{margin-bottom: 25px;}
+    .news-wrap{margin-bottom: 50px;}
     .browse-list{display: block; margin-bottom: 40px;}
     .browse-list:last-child{margin-bottom: 0;}
     .browse-image{margin-bottom: 1rem;}
     .browse-pos{margin-bottom: 16px;}
     .browse-pos ul.categorys{flex: 1; margin: 0;}
     .browse-text{font-size: 1.25rem; line-height: 2rem;}
+    .load-more-btn .button{font-size: 1rem; flex: 0 0 120px; padding: 10px 8px 10px;}
+    .browse-aside .button{margin-top: 10px;}
+
 }
