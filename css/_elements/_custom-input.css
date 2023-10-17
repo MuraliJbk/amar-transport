@@ -119,7 +119,8 @@ body .frm_forms .frm_form_fields #frm_field_37_container::after{right: 20px; con
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 24px;}
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{padding: 0 0 4px;}
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_primary_label{padding: 0 0 13px;}
-
+    
     body.page-template-application-form .frm_forms.frm_style_formidable-style.with_frm_style{padding-top: 31px;}
+    body.page-template-application-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 10px 20px;}
     
 }
