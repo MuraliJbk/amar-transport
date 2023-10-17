@@ -48,7 +48,7 @@ _ui.each(function(){
     var isLong = $self.attr('data-animation-long')
     var tl = gsap.timeline({ paused: true, delay: 0.5, })
     _paths.each(function(i){
-        tl.fromTo($(this)[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: isLong ? 2 : 1, ease: 'power1.out' }, i === 0 ? '<' : isAsync ? '>-0.5' : '>-0.75')
+        tl.fromTo(jQuery(this)[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: isLong ? 2 : 1, ease: 'power1.out' }, i === 0 ? '<' : isAsync ? '>-0.5' : '>-0.75')
     })
     $self[0].tl = tl
 });
