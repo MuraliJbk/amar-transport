@@ -93,6 +93,8 @@
         width: 120px;
         height: 26px;
     }
+
+    ul.sub-menu > li::before { top: 8px; left: -24px; width: 8px; height: 8px; border-radius: 0; opacity: 1; background-color: #c0deec; content: ""; position: absolute; }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
 }

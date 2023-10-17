@@ -2,7 +2,6 @@ import {gsap} from 'gsap';
 import {DrawSVGPlugin} from './DrawSVGPlugin.min.js'
 gsap.registerPlugin(DrawSVGPlugin)
 
-
 // scroller polygon icon
 let scroller = jQuery(".scroller_icon");
 scroller.each(function(){

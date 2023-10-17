@@ -10,8 +10,8 @@
 .team-members-main{padding-bottom: 4px;}
 .team-members{gap: 20px; margin-bottom: 20px;}
 .team-text{flex: 0 0 calc(100% - 124px); color: var(--text-color);}
-.team-text a{color: var(--text-color);}
-.team-text a:hover{color: var(--amar-orange);}
+.team-text p a{color: var(--text-color);}
+.team-text p a:hover{color: var(--amar-orange);}
 .team-text h5{margin-bottom: 6px; font-size: 1rem; line-height: 1.375rem;}
 .team-img{flex: 0 0 104px;}
 .team-thumb img{max-height: 104px;}
