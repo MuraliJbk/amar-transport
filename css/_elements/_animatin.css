@@ -74,3 +74,5 @@
 .seaport-crane{animation: seaportCrane 2s ease-in-out infinite; animation-play-state: paused;}
 .seaport-ui .seaport-crane{ animation-play-state: running; }
 @keyframes seaportCrane { 0% { transform: translateY(-10px); } 50% { transform: translateY(0px); } 100% { transform: translateY(-10px); } }
+.seaport-hide{opacity: 1;}
+.seaport-ui .seaport-hide{opacity: 0;}

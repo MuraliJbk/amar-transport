@@ -13,25 +13,20 @@ function check_if_in_view() {
     let element_top_position = $self.offset().top;
     let element_bottom_position = element_top_position + element_height;
     
-    const animation = $self.data('animation')
+    const animation = $self.data('animation');
     const timeline = $self[0].tl
     const counter = $self[0].counter
 
-    if ( (element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position) ) {
+    if((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position) ) {
         $self.addClass('visible ' + animation);
-      if (timeline) { timeline.play(); }
-    } else {
-      if (timeline && timeline.progress() > 0) {
-        // timeline.progress(0);
-        timeline.pause(true);
-      }
-      if (counter) { counter.reset(); }
+        if(timeline) { timeline.play(); }
+    } 
+    else{
+      if(timeline && timeline.progress() > 0) { timeline.pause(true); }
+      if(counter) { counter.reset(); }
     }
   });
 }
 $window.on("scroll", check_if_in_view);
 $window.trigger("scroll");
-$document.ready(function(){ 
-  check_if_in_view(); 
-  setTimeout(check_if_in_view, 100);
-});
+$document.ready(function(){ check_if_in_view(); setTimeout(check_if_in_view, 100); });
