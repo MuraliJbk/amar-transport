@@ -69,7 +69,6 @@ jQuery(document).ready(function($){
         let _thisattr = $(".open-positions-row[data-value="+ _this +"]");
        _thisattr.fadeIn('normal');
         if(_this === "all"){
-            console.log("am murali")
             $(".open-positions-row").fadeIn();
         }
     });
