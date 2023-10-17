@@ -37,6 +37,13 @@ ul.blog_list::before{display: none;}
     .browse-image{flex: 0 0 328px;}
     .browse-text{flex: 1;}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .browse-main{display: block;}
+    .browse-image{flex: 0 0 305px;}
+    .browse-article{margin-bottom: 4rem;}
+    .browse-aside{max-width: 50%; margin: 0 auto;}
+
+}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .news-landing-page{padding: 139px 0 0;}
     .browse-news-wrap{padding: 40px 0 40px;}
