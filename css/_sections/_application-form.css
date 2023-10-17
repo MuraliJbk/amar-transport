@@ -12,7 +12,8 @@
 @media only screen and (min-width: 1024px){
     .application-form-main{gap: 0 80px;}
     .application-form-text{flex: 0 0 352px;}
-    .application-form-quote{flex: 1;}
+    .application-form-text .button{margin-top: 8px;}
+    .application-form-quote{flex: 1; padding-top: 10px;}
     .application-form-quote h2{margin-bottom: 44px;}
 }
 
