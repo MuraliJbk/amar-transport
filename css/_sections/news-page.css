@@ -21,8 +21,8 @@ ul.blog_list::before{display: none;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .news-landing-page{padding: 200px 0 0;}
-    .browse-news-wrap{padding: 5rem 0 160px;}
-    .browse-news-head{margin-bottom: 2.5rem;}
+    .browse-news-wrap{padding: 5.7rem 0 160px;}
+    .browse-news-head{margin-bottom: 1.5rem;}
     .browse-news-form{margin-bottom: 2.5rem;}
     .browse-main{gap: 0 80px;}
     .browse-pos{margin-bottom: 37px;}
