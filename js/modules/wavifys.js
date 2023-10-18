@@ -1,7 +1,8 @@
+
 document.addEventListener("DOMContentLoaded", function() {
-  const myWave = document.querySelectorAll('.wave');
+  const myWave = document.querySelectorAll('.seaport-wave');
   myWave.forEach(function(wave, index) {
-    wavify(wave, {
+    wave.wavify({
       height: 40,
       bones: 40,
       amplitude: 20,
