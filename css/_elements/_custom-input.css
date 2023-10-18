@@ -80,6 +80,7 @@ body .frm_forms .frm_form_fields #frm_field_37_container::after{right: 20px; con
 
 body.page-template-application-form .frm_forms .frm_form_fields #frm_field_91_container{position: absolute; right: 0; font-size: 14px; line-height: 1.57; text-decoration: underline; color: #5e6783;}
 body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio span{display: block; font-size: 12px; line-height: 1.5;}
+body .frm_forms .frm_form_fields .frm_form_field .selectBox-dropdown{min-height: 50px;}
 body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field .selectBox-dropdown{min-height: 50px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
