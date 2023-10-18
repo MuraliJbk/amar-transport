@@ -79,10 +79,10 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_date{position: relative;}
 body .frm_forms .frm_form_fields #frm_field_37_container::after{right: 20px; content: "\f133"; font-family: "Font Awesome 6 Pro"; position: absolute; display: block; font-weight: 900; color: var(--amar-light-blue); bottom: 13px; font-size: 18px;}
 
 body.page-template-application-form .frm_forms .frm_form_fields #frm_field_91_container{position: absolute; right: 0; font-size: 14px; line-height: 1.57; text-decoration: underline; color: #5e6783;}
-body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio > span {display: block; font-size: 12px; line-height: 1.5;}
+body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio span{display: block; font-size: 12px; line-height: 1.5;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 12px); margin-left: 10px; margin-right: 10px; float: none; clear: none; display: inline-block; vertical-align: top;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 10px); margin-left: 8px; margin-right: 8.5px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(32.777% - 16px); margin-left: 16px; margin-right: 16px; float: left; clear: none;}
@@ -99,7 +99,7 @@ body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field.
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     /* body .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 16px); margin-left: 16px; margin-right: 16px; float: left; clear: none;} */
-    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 12px); margin-left: 10px; margin-right: 10px; float: none; clear: none; display: inline-block; vertical-align: top;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 10px); margin-left: 8px; margin-right: 8.5px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half .frm_half{width: 100%; margin: 0 0 24px; float: none;}
