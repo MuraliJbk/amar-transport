@@ -6,7 +6,7 @@ body .selectBox-dropdown span.selectBox-label a{color: inherit;}
 body .selectBox-dropdown.selectBox-menuShowing{border-radius: 0;}
 body .selectBox-dropdown .selectBox-arrow{right: 21px; top: 50%; transform: translateY(-50%); font-size: 1.05rem; color: var(--amar-light-blue); font-weight: bold; font-family: "Font Awesome 6 pro"; position: absolute;}
 body .selectBox-dropdown .selectBox-arrow::after{content: "\f0d7";}
-body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{content: "\f106";}
+body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{content: "\f0d8";}
 .page-template-about-testimonials ul.selectBox-dropdown-menu{border-radius: 5px;}
 ul.selectBox-dropdown-menu{margin: 0; padding: 10px 0; top: 100%; left: 0; max-height: 213px; min-height: 1em; min-width: 213px; overflow: auto; display: block; border-radius: 0 0 5px 5px; background-color: var(--white); position: absolute; z-index: 99999; border-top: none; border: solid 1px var(--white); box-shadow: 0 4px 120px 0 rgba(7,83,244, 0.25);}
 ul.selectBox-dropdown-menu li.selectBox-selected a{color: var(--blue);}
