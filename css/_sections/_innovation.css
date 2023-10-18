@@ -11,6 +11,9 @@
     .innovation-btns{gap: 24px; padding-top: 7px;}
     .page-template-innovation .inverted a.text-link{margin-top: 5px;}
 }
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .innovation-btns{gap: 22px;}
+}
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .innovation-main{padding: 8.6rem 0 1.6rem; min-height: auto;}
     .innovation-text span.optional-text{margin-bottom: 1.3rem;}
