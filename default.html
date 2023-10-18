@@ -222,12 +222,12 @@
 <div class="container lg">
     <div class="sub-head-main bg-white">
         <div class="sub-intro-main flex">
-            <div class="sub-intro-head"> 
+            <div class="sub-intro-head" data-animation="fade-in-left"> 
                 <span class="optional-text">Optional Preheader</span>
                 <h2>A short intro about this section appears in this spot here</h2>
                 <a href="#" class="button"><span>Optional CTA</span></a>
             </div>
-            <div class="sub-intro-desc fs-20 relative">
+            <div class="sub-intro-desc fs-20 relative" data-animation="fade-in-right">
                 <div class="sub-intro-icon absolute">
                     <figure class="object-fit">
                         <img src="images/default-icon.svg" alt="default-icon">
@@ -456,10 +456,18 @@
                     <img src="images/path-thumb2-mobile@2x.jpg" alt="path-thumb2-mobile">
                 </picture>
                 <div class="paths-list-svg absolute">
-                    <svg width="296" height="282" viewBox="0 0 296 282" fill="none">
-                        <path d="M52.5687 42.3998C111.948 6.60042 179.169 19.594 212.383 77.8222C245.999 136.755 233.588 222.405 186.251 281.858C252.491 229.085 281.208 133.124 250.367 64.4546C218.748 -5.94339 136.508 -20.9991 66.6769 30.8269C61.7804 34.4609 57.0749 38.3273 52.5687 42.3998Z" fill="url(#paint0_linear_468_21707)"/>
-                        <path d="M-0.000560366 92.7069C9.08442 84.8294 18.7862 77.6228 29.0492 71.2242C117.803 15.8898 214.927 41.9393 245.982 129.407C247.319 133.174 248.512 136.993 249.564 140.858C249.788 132.323 249.253 123.837 247.903 115.49C235.582 39.3069 160.041 3.47881 79.1759 35.4653C48.3077 47.6754 21.126 68.002 -0.000560366 92.7069Z" fill="url(#paint1_linear_468_21707)"/>
-                        <path d="M240.379 21.9685C258.941 37.7629 273.363 64.2627 279.005 97.2735C284.623 130.147 280.436 163.061 269.175 189.307C286.457 171.412 296.878 142.403 295.198 110.193C292.96 67.2593 269.922 32.0298 240.379 21.9685Z" fill="url(#paint2_linear_468_21707)"/>
+
+                    <svg width="296" height="282" viewBox="0 0 296 282" fill="none" data-animation="ui-ele" data-animation-async="true" data-animation-long="true">
+                        <mask id="swoosh_elm_2" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="296" height="282">
+                            <path d="M52.5687 42.3998C111.948 6.60042 179.169 19.594 212.383 77.8222C245.999 136.755 233.588 222.405 186.251 281.858C252.491 229.085 281.208 133.124 250.367 64.4546C218.748 -5.94339 136.508 -20.9991 66.6769 30.8269C61.7804 34.4609 57.0749 38.3273 52.5687 42.3998Z" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M-0.000560366 92.7069C9.08442 84.8294 18.7862 77.6228 29.0492 71.2242C117.803 15.8898 214.927 41.9393 245.982 129.407C247.319 133.174 248.512 136.993 249.564 140.858C249.788 132.323 249.253 123.837 247.903 115.49C235.582 39.3069 160.041 3.47881 79.1759 35.4653C48.3077 47.6754 21.126 68.002 -0.000560366 92.7069Z" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M240.379 21.9685C258.941 37.7629 273.363 64.2627 279.005 97.2735C284.623 130.147 280.436 163.061 269.175 189.307C286.457 171.412 296.878 142.403 295.198 110.193C292.96 67.2593 269.922 32.0298 240.379 21.9685Z" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" /> 
+                        </mask>
+                        <g mask="url(#swoosh_elm_2)">
+                            <path d="M52.5687 42.3998C111.948 6.60042 179.169 19.594 212.383 77.8222C245.999 136.755 233.588 222.405 186.251 281.858C252.491 229.085 281.208 133.124 250.367 64.4546C218.748 -5.94339 136.508 -20.9991 66.6769 30.8269C61.7804 34.4609 57.0749 38.3273 52.5687 42.3998Z" fill="url(#paint0_linear_468_21707)"/>
+                            <path d="M-0.000560366 92.7069C9.08442 84.8294 18.7862 77.6228 29.0492 71.2242C117.803 15.8898 214.927 41.9393 245.982 129.407C247.319 133.174 248.512 136.993 249.564 140.858C249.788 132.323 249.253 123.837 247.903 115.49C235.582 39.3069 160.041 3.47881 79.1759 35.4653C48.3077 47.6754 21.126 68.002 -0.000560366 92.7069Z" fill="url(#paint1_linear_468_21707)"/>
+                            <path d="M240.379 21.9685C258.941 37.7629 273.363 64.2627 279.005 97.2735C284.623 130.147 280.436 163.061 269.175 189.307C286.457 171.412 296.878 142.403 295.198 110.193C292.96 67.2593 269.922 32.0298 240.379 21.9685Z" fill="url(#paint2_linear_468_21707)"/>
+                        </g>
                         <defs>
                         <linearGradient id="paint0_linear_468_21707" x1="191.615" y1="-13.1421" x2="205.615" y2="297.858" gradientUnits="userSpaceOnUse">
                         <stop stop-color="#1998D5"/>
@@ -497,32 +505,37 @@
 </section>
 <section class="short-intro-section relative">
 <div class="short-intro-swoop absolute hide-mobile">
-    <svg width="672" height="491" viewBox="0 0 672 491" fill="none">
-    <g opacity="0.2">
-    <path d="M669.871 96.174C666.724 76.0839 658.48 58.3647 644.783 44.6663C605.998 5.87869 534.979 10.8082 469.184 51.4251C534.599 -2.4568 611.677 -16.572 649.647 21.4017C667.609 39.3655 673.915 66.0811 669.871 96.174Z" fill="url(#paint0_linear_465_21259)"/>
-    <path d="M557.854 133.352C505.018 79.7757 318.808 170.31 141.932 335.568C86.2594 387.591 38.1476 440.808 -7.77024e-05 491C40.9104 418.442 116.585 329.281 213.887 244.707C392.316 89.6261 575.894 8.7055 623.924 63.9741C659.244 104.61 611.426 207.578 512.693 320.903C568.186 234.897 588.016 163.95 557.854 133.36L557.854 133.352Z" fill="url(#paint1_linear_465_21259)"/>
-    <path d="M539.333 221.183C555.104 186.894 555.582 160.478 542.232 143.805C503.781 95.806 346.562 157.535 191.089 281.694C110.401 346.132 46.0489 414.711 8.17377 472.493C47.0541 422.331 104.106 367.686 173.191 317.484C330.518 203.137 514.057 120.079 539.343 221.174L539.333 221.183Z" fill="url(#paint2_linear_465_21259)"/>
-    <path d="M269.68 184.405C234.45 206.863 196.987 235.109 159.884 267.97C95.8337 324.698 45.3107 384.147 15.9043 433.811C16.6854 432.796 17.4707 431.779 18.2602 430.761C32.8621 410.37 50.6539 389.068 71.1614 367.626C108.612 325.966 151.92 283.316 199.861 241.647C223.138 221.417 246.492 202.3 269.68 184.405Z" fill="url(#paint3_linear_465_21259)"/>
-    </g>
-    <defs>
-    <linearGradient id="paint0_linear_465_21259" x1="754.091" y1="3.46464e-05" x2="488.846" y2="42.501" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FFC643"/>
-    <stop offset="1" stop-color="#FFC643" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="paint1_linear_465_21259" x1="459.375" y1="-60.4917" x2="115.211" y2="465.518" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#0C609D"/>
-    <stop offset="1" stop-color="#0C609D" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="paint2_linear_465_21259" x1="484.305" y1="65.8058" x2="21.7577" y2="417.571" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#1998D5"/>
-    <stop offset="1" stop-color="#1998D5" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="paint3_linear_465_21259" x1="244.809" y1="184.746" x2="99.3" y2="342.096" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#F26322"/>
-    <stop offset="1" stop-color="#F26322" stop-opacity="0"/>
-    </linearGradient>
-    </defs>
-    </svg>        
+    <svg width="672" height="491" viewBox="0 0 672 491" fill="none" data-animation="ui-ele" data-animation-async="true" data-animation-long="true">
+        <mask id="swoosh_elm_1" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="672" height="491">
+            <path d="M669.871 96.1739C666.724 76.0838 658.48 58.3647 644.783 44.6662C605.998 5.87867 534.979 10.8082 469.184 51.4251C534.599 -2.45681 611.677 -16.572 649.647 21.4017C667.609 39.3655 673.915 66.0811 669.871 96.1739Z" stroke="blue" stroke-width="30" stroke-linecap="round"/>
+            <path d="M539.333 221.183C555.104 186.894 555.582 160.478 542.232 143.805C503.781 95.8059 346.562 157.535 191.089 281.694C110.401 346.132 46.049 414.711 8.17383 472.493C47.0542 422.331 104.106 367.686 173.191 317.484C330.518 203.137 514.057 120.078 539.343 221.174L539.333 221.183Z" stroke="blue" stroke-width="55" stroke-linecap="round"/>
+            <path d="M269.68 184.405C234.45 206.863 196.987 235.109 159.884 267.97C95.8337 324.698 45.3107 384.147 15.9043 433.811C16.6854 432.796 17.4707 431.779 18.2602 430.761C32.8621 410.37 50.654 389.068 71.1615 367.626C108.612 325.966 151.92 283.315 199.861 241.647C223.138 221.417 246.492 202.3 269.68 184.405Z" stroke="blue" stroke-width="30" stroke-linecap="round"/>
+        </mask>
+        <g style="opacity: 0.2;" mask="url(#swoosh_elm_1)">
+            <path d="M669.871 96.1739C666.724 76.0838 658.48 58.3647 644.783 44.6662C605.998 5.87867 534.979 10.8082 469.184 51.4251C534.599 -2.45681 611.677 -16.572 649.647 21.4017C667.609 39.3655 673.915 66.0811 669.871 96.1739Z" fill="url(#paint0_linear_463_21168)"></path>
+            <path d="M539.333 221.183C555.104 186.894 555.582 160.478 542.232 143.805C503.781 95.8059 346.562 157.535 191.089 281.694C110.401 346.132 46.049 414.711 8.17383 472.493C47.0542 422.331 104.106 367.686 173.191 317.484C330.518 203.137 514.057 120.078 539.343 221.174L539.333 221.183Z" fill="url(#paint2_linear_463_21168)"></path>
+            <path d="M269.68 184.405C234.45 206.863 196.987 235.109 159.884 267.97C95.8337 324.698 45.3107 384.147 15.9043 433.811C16.6854 432.796 17.4707 431.779 18.2602 430.761C32.8621 410.37 50.654 389.068 71.1615 367.626C108.612 325.966 151.92 283.315 199.861 241.647C223.138 221.417 246.492 202.3 269.68 184.405Z" fill="url(#paint3_linear_463_21168)"></path>
+        </g>
+        <path style="opacity: 0.2;" d="M557.854 133.352C505.018 79.7755 318.808 170.309 141.932 335.568C86.2594 387.591 38.1477 440.808 0 491C40.9105 418.442 116.585 329.281 213.887 244.707C392.316 89.6259 575.894 8.70528 623.924 63.9739C659.244 104.61 611.426 207.578 512.693 320.902C568.186 234.897 588.016 163.95 557.854 133.36V133.352Z" fill="url(#paint1_linear_463_21168)"></path>
+        <defs>
+        <linearGradient id="paint0_linear_463_21168" x1="754.091" y1="-1.51685e-05" x2="488.846" y2="42.5009" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FFC643"></stop>
+        <stop offset="1" stop-color="#FFC643" stop-opacity="0"></stop>
+        </linearGradient>
+        <linearGradient id="paint1_linear_463_21168" x1="459.375" y1="-60.4919" x2="115.211" y2="465.518" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#0C609D"></stop>
+        <stop offset="1" stop-color="#0C609D" stop-opacity="0"></stop>
+        </linearGradient>
+        <linearGradient id="paint2_linear_463_21168" x1="484.305" y1="65.8058" x2="21.7577" y2="417.571" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#1998D5"></stop>
+        <stop offset="1" stop-color="#1998D5" stop-opacity="0"></stop>
+        </linearGradient>
+        <linearGradient id="paint3_linear_463_21168" x1="244.809" y1="184.746" x2="99.3001" y2="342.096" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#F26322"></stop>
+        <stop offset="1" stop-color="#F26322" stop-opacity="0"></stop>
+        </linearGradient>
+        </defs>
+    </svg>  
 </div>
 <div class="container bg-white">
 <div class="container md ipad-0 mobile-0">
@@ -580,48 +593,48 @@
         <source srcset="images/default-frame@2x.jpg" media="(min-width: 768px)">
         <img src="images/service-frame-mobile@2x.jpg" alt="our-innovation">
     </picture>
-<div class="default-long-svg absolute hide-mobile">
-<svg width="819" height="464" viewBox="0 0 819 464" fill="none">
-<rect x="71.832" y="483.905" width="563.929" height="40.1894" transform="rotate(-45 71.832 483.905)" fill="url(#paint0_linear_441_36007)"/>
-<rect x="43.6523" y="455.783" width="563.929" height="40.1894" transform="rotate(-45 43.6523 455.783)" fill="url(#paint1_linear_441_36007)"/>
-<rect x="-35.4648" y="561.97" width="460.723" height="40.1894" transform="rotate(-45 -35.4648 561.97)" fill="url(#paint2_linear_441_36007)"/>
-<rect x="697.68" y="27.0996" width="563.929" height="40.1894" transform="rotate(135 697.68 27.0996)" fill="url(#paint3_linear_441_36007)"/>
-<rect x="725.859" y="55.2209" width="563.929" height="40.1894" transform="rotate(135 725.859 55.2209)" fill="url(#paint4_linear_441_36007)"/>
-<rect x="804.977" y="-50.9663" width="460.723" height="40.1894" transform="rotate(135 804.977 -50.9663)" fill="url(#paint5_linear_441_36007)"/>
-<defs>
-<linearGradient id="paint0_linear_441_36007" x1="635.761" y1="524.094" x2="71.832" y2="524.094" gradientUnits="userSpaceOnUse">
-<stop stop-color="#1998D5" stop-opacity="0"/>
-<stop offset="0.494792" stop-color="#1998D5"/>
-<stop offset="1" stop-color="#1998D5" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint1_linear_441_36007" x1="607.581" y1="495.973" x2="43.6523" y2="495.973" gradientUnits="userSpaceOnUse">
-<stop stop-color="#EF632F" stop-opacity="0"/>
-<stop offset="0.494792" stop-color="#EF632F"/>
-<stop offset="1" stop-color="#EF632F" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint2_linear_441_36007" x1="425.259" y1="602.16" x2="-35.4648" y2="602.16" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FFE12D" stop-opacity="0"/>
-<stop offset="0.494792" stop-color="#FFE12D"/>
-<stop offset="1" stop-color="#FFE12D" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint3_linear_441_36007" x1="1261.61" y1="67.289" x2="697.68" y2="67.289" gradientUnits="userSpaceOnUse">
-<stop stop-color="#1998D5" stop-opacity="0"/>
-<stop offset="0.494792" stop-color="#1998D5"/>
-<stop offset="1" stop-color="#1998D5" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint4_linear_441_36007" x1="1289.79" y1="95.4104" x2="725.859" y2="95.4104" gradientUnits="userSpaceOnUse">
-<stop stop-color="#EF632F" stop-opacity="0"/>
-<stop offset="0.494792" stop-color="#EF632F"/>
-<stop offset="1" stop-color="#EF632F" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint5_linear_441_36007" x1="1265.7" y1="-10.7769" x2="804.977" y2="-10.7769" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FFE12D" stop-opacity="0"/>
-<stop offset="0.494792" stop-color="#FFE12D"/>
-<stop offset="1" stop-color="#FFE12D" stop-opacity="0"/>
-</linearGradient>
-</defs>
-</svg>
-</div>
+    <div class="default-long-svg absolute hide-mobile">
+        <svg width="819" height="464" viewBox="0 0 819 464" fill="none" data-animation="stats-pattern-fade">
+        <rect x="71.832" y="483.905" width="563.929" height="40.1894" transform="rotate(-45 71.832 483.905)" fill="url(#paint0_linear_441_36007)"/>
+        <rect x="43.6523" y="455.783" width="563.929" height="40.1894" transform="rotate(-45 43.6523 455.783)" fill="url(#paint1_linear_441_36007)"/>
+        <rect x="-35.4648" y="561.97" width="460.723" height="40.1894" transform="rotate(-45 -35.4648 561.97)" fill="url(#paint2_linear_441_36007)"/>
+        <rect x="697.68" y="27.0996" width="563.929" height="40.1894" transform="rotate(135 697.68 27.0996)" fill="url(#paint3_linear_441_36007)"/>
+        <rect x="725.859" y="55.2209" width="563.929" height="40.1894" transform="rotate(135 725.859 55.2209)" fill="url(#paint4_linear_441_36007)"/>
+        <rect x="804.977" y="-50.9663" width="460.723" height="40.1894" transform="rotate(135 804.977 -50.9663)" fill="url(#paint5_linear_441_36007)"/>
+        <defs>
+        <linearGradient id="paint0_linear_441_36007" x1="635.761" y1="524.094" x2="71.832" y2="524.094" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#1998D5" stop-opacity="0"/>
+        <stop offset="0.494792" stop-color="#1998D5"/>
+        <stop offset="1" stop-color="#1998D5" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="paint1_linear_441_36007" x1="607.581" y1="495.973" x2="43.6523" y2="495.973" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#EF632F" stop-opacity="0"/>
+        <stop offset="0.494792" stop-color="#EF632F"/>
+        <stop offset="1" stop-color="#EF632F" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="paint2_linear_441_36007" x1="425.259" y1="602.16" x2="-35.4648" y2="602.16" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FFE12D" stop-opacity="0"/>
+        <stop offset="0.494792" stop-color="#FFE12D"/>
+        <stop offset="1" stop-color="#FFE12D" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="paint3_linear_441_36007" x1="1261.61" y1="67.289" x2="697.68" y2="67.289" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#1998D5" stop-opacity="0"/>
+        <stop offset="0.494792" stop-color="#1998D5"/>
+        <stop offset="1" stop-color="#1998D5" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="paint4_linear_441_36007" x1="1289.79" y1="95.4104" x2="725.859" y2="95.4104" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#EF632F" stop-opacity="0"/>
+        <stop offset="0.494792" stop-color="#EF632F"/>
+        <stop offset="1" stop-color="#EF632F" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="paint5_linear_441_36007" x1="1265.7" y1="-10.7769" x2="804.977" y2="-10.7769" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FFE12D" stop-opacity="0"/>
+        <stop offset="0.494792" stop-color="#FFE12D"/>
+        <stop offset="1" stop-color="#FFE12D" stop-opacity="0"/>
+        </linearGradient>
+        </defs>
+        </svg>
+    </div>
 </div>
 <div class="container lg">
     <article class="default-long-content bg-white relative">
@@ -634,22 +647,27 @@
                 <img src="images/long-content@2x.jpg" alt="our-innovation">
             </picture>
             <div class="swoosh-small hide-mobile">
-                <svg width="263" height="196" viewBox="0 0 263 196" fill="none">
-                    <path d="M218.173 -1.49424e-06C223.955 16.4083 228.411 32.2769 231.379 47.3836C257.034 177.991 161.703 202.178 18.4512 101.407C12.2862 97.07 6.13298 92.5725 -0.000186949 87.9257C12.0245 99.7623 24.433 111.063 37.133 121.672C153.075 218.524 249.404 221.055 252.291 127.326C253.393 91.5437 240.718 46.9059 218.173 -1.49424e-06Z" fill="url(#paint0_linear_466_21529)"></path>
-                    <path d="M185.654 140.955C166.747 148.189 140.323 149.72 111.31 143.81C82.4176 137.924 56.5972 125.806 38.5176 111.117C47.8024 127.224 68.4263 142.174 95.524 150.368C131.643 161.29 167.996 156.803 185.654 140.955Z" fill="url(#paint1_linear_466_21529)"></path>
-                    <path d="M174.306 188.645C192.795 185.722 209.102 178.065 221.708 165.343C257.404 129.322 252.868 63.3627 215.488 2.25488C265.075 63.0098 278.066 134.596 243.119 169.861C226.587 186.544 202 192.4 174.306 188.645Z" fill="url(#paint2_linear_466_21529)"></path>
+                <svg width="263" height="196" viewBox="0 0 263 196" fill="none" data-animation="ui-ele" data-animation-async="true" data-animation-long="true">
+                    <mask id="swoosh_elm_3" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="263" height="196">
+                        <path d="M218.173 -1.49424e-06C223.955 16.4083 228.411 32.2769 231.379 47.3836C257.034 177.991 161.703 202.178 18.4512 101.407C12.2862 97.07 6.13298 92.5725 -0.000186949 87.9257C12.0245 99.7623 24.433 111.063 37.133 121.672C153.075 218.524 249.404 221.055 252.291 127.326C253.393 91.5437 240.718 46.9059 218.173 -1.49424e-06Z" stroke="#1998D5" stroke-width="100" stroke-linecap="round" stroke-linejoin="round"/>
+                    </mask>
+                    <g mask="url(#swoosh_elm_3)">
+                        <path d="M218.173 -1.49424e-06C223.955 16.4083 228.411 32.2769 231.379 47.3836C257.034 177.991 161.703 202.178 18.4512 101.407C12.2862 97.07 6.13298 92.5725 -0.000186949 87.9257C12.0245 99.7623 24.433 111.063 37.133 121.672C153.075 218.524 249.404 221.055 252.291 127.326C253.393 91.5437 240.718 46.9059 218.173 -1.49424e-06Z" fill="url(#paint0_linear_466_21529)"/>
+                        <path d="M185.654 140.955C166.747 148.189 140.323 149.72 111.31 143.81C82.4176 137.924 56.5972 125.806 38.5176 111.117C47.8024 127.224 68.4263 142.174 95.524 150.368C131.643 161.29 167.996 156.803 185.654 140.955Z" fill="url(#paint1_linear_466_21529)"/>
+                        <path d="M174.306 188.645C192.795 185.722 209.102 178.065 221.708 165.343C257.404 129.322 252.868 63.3627 215.488 2.25488C265.075 63.0098 278.066 134.596 243.119 169.861C226.587 186.544 202 192.4 174.306 188.645Z" fill="url(#paint2_linear_466_21529)"/>
+                    </g>
                     <defs>
                     <linearGradient id="paint0_linear_466_21529" x1="252.357" y1="98" x2="-0.000187389" y2="98" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#0C609D"></stop>
-                    <stop offset="1" stop-color="#0C609D" stop-opacity="0"></stop>
+                    <stop stop-color="#0C609D"/>
+                    <stop offset="1" stop-color="#0C609D" stop-opacity="0"/>
                     </linearGradient>
                     <linearGradient id="paint1_linear_466_21529" x1="185.654" y1="133.743" x2="38.5176" y2="133.743" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#1998D5"></stop>
-                    <stop offset="1" stop-color="#1998D5" stop-opacity="0"></stop>
+                    <stop stop-color="#1998D5"/>
+                    <stop offset="1" stop-color="#1998D5" stop-opacity="0"/>
                     </linearGradient>
                     <linearGradient id="paint2_linear_466_21529" x1="262.814" y1="266.865" x2="222.997" y2="20.6305" gradientUnits="userSpaceOnUse">
-                    <stop offset="0.015625" stop-color="#F26322"></stop>
-                    <stop offset="1" stop-color="#FFC643" stop-opacity="0"></stop>
+                    <stop offset="0.015625" stop-color="#F26322"/>
+                    <stop offset="1" stop-color="#FFC643" stop-opacity="0"/>
                     </linearGradient>
                     </defs>
                 </svg>
@@ -970,10 +988,17 @@
                 <img src="images/path-thumb1-mobile@2x.jpg" alt="optional-cta-thumb3">
             </picture>
             <div class="optional-cta-swoosh4 optional-cta-swoosh">
-                <svg width="263" height="196" viewBox="0 0 263 196" fill="none">
-                <path d="M44.6413 196C38.8591 179.592 34.4031 163.723 31.4357 148.616C5.78094 18.0092 101.112 -6.17781 244.363 94.5932C250.528 98.93 256.681 103.428 262.815 108.074C250.79 96.2377 238.381 84.9371 225.681 74.3282C109.74 -22.5242 13.4101 -25.0555 10.5234 68.6745C9.42138 104.456 22.0967 149.094 44.6413 196Z" fill="url(#paint0_linear_468_21741)"/>
-                <path d="M77.1602 55.045C96.0672 47.8107 122.492 46.2796 151.504 52.1902C180.397 58.0763 206.217 70.1938 224.297 84.8828C215.012 68.7756 194.388 53.8258 167.29 45.6317C131.172 34.7098 94.8181 39.197 77.1602 55.045Z" fill="url(#paint1_linear_468_21741)"/>
-                <path d="M88.5083 7.35538C70.0195 10.2778 53.7127 17.9347 41.1061 30.6565C5.41011 66.678 9.94672 132.637 47.3262 193.745C-2.26099 132.99 -15.2511 61.4039 19.6958 26.1386C36.2278 9.45642 60.8141 3.59963 88.5083 7.35538Z" fill="url(#paint2_linear_468_21741)"/>
+                <svg width="263" height="196" viewBox="0 0 263 196" fill="none" data-animation="ui-ele" data-animation-async="true" data-animation-long="true">
+                    <mask id="swoosh_elm_5" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="296" height="282">
+                        <path d="M44.6413 196C38.8591 179.592 34.4031 163.723 31.4357 148.616C5.78094 18.0092 101.112 -6.17781 244.363 94.5932C250.528 98.93 256.681 103.428 262.815 108.074C250.79 96.2377 238.381 84.9371 225.681 74.3282C109.74 -22.5242 13.4101 -25.0555 10.5234 68.6745C9.42138 104.456 22.0967 149.094 44.6413 196Z" stroke="blue" stroke-width="40" stroke-linecap="round"  stroke-linejoin="round"/>
+                        <path d="M77.1602 55.045C96.0672 47.8107 122.492 46.2796 151.504 52.1902C180.397 58.0763 206.217 70.1938 224.297 84.8828C215.012 68.7756 194.388 53.8258 167.29 45.6317C131.172 34.7098 94.8181 39.197 77.1602 55.045Z" stroke="blue" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M88.5083 7.35538C70.0195 10.2778 53.7127 17.9347 41.1061 30.6565C5.41011 66.678 9.94672 132.637 47.3262 193.745C-2.26099 132.99 -15.2511 61.4039 19.6958 26.1386C36.2278 9.45642 60.8141 3.59963 88.5083 7.35538Z" stroke="blue" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+                    </mask>
+                    <g mask="url(#swoosh_elm_5)">
+                        <path d="M44.6413 196C38.8591 179.592 34.4031 163.723 31.4357 148.616C5.78094 18.0092 101.112 -6.17781 244.363 94.5932C250.528 98.93 256.681 103.428 262.815 108.074C250.79 96.2377 238.381 84.9371 225.681 74.3282C109.74 -22.5242 13.4101 -25.0555 10.5234 68.6745C9.42138 104.456 22.0967 149.094 44.6413 196Z" fill="url(#paint0_linear_468_21741)"/>
+                        <path d="M77.1602 55.045C96.0672 47.8107 122.492 46.2796 151.504 52.1902C180.397 58.0763 206.217 70.1938 224.297 84.8828C215.012 68.7756 194.388 53.8258 167.29 45.6317C131.172 34.7098 94.8181 39.197 77.1602 55.045Z" fill="url(#paint1_linear_468_21741)"/>
+                        <path d="M88.5083 7.35538C70.0195 10.2778 53.7127 17.9347 41.1061 30.6565C5.41011 66.678 9.94672 132.637 47.3262 193.745C-2.26099 132.99 -15.2511 61.4039 19.6958 26.1386C36.2278 9.45642 60.8141 3.59963 88.5083 7.35538Z" fill="url(#paint2_linear_468_21741)"/>
+                    </g>
                 <defs>
                 <linearGradient id="paint0_linear_468_21741" x1="10.457" y1="98" x2="262.815" y2="98" gradientUnits="userSpaceOnUse">
                 <stop stop-color="#0C609D"/>
@@ -1012,25 +1037,32 @@
                 <img src="images/path-thumb2-mobile@2x.jpg" alt="optional-cta-thumb3">
             </picture>
             <div class="optional-cta-swoosh5 optional-cta-swoosh">
-                <svg width="296" height="282" viewBox="0 0 296 282" fill="none">
-                    <path d="M52.5687 42.3998C111.948 6.60042 179.169 19.594 212.383 77.8222C245.999 136.755 233.588 222.405 186.251 281.858C252.491 229.085 281.208 133.124 250.367 64.4546C218.748 -5.94339 136.508 -20.9991 66.6769 30.8269C61.7804 34.4609 57.0749 38.3273 52.5687 42.3998Z" fill="url(#paint0_linear_468_21707)"/>
-                    <path d="M-0.000560366 92.7069C9.08442 84.8294 18.7862 77.6228 29.0492 71.2242C117.803 15.8898 214.927 41.9393 245.982 129.407C247.319 133.174 248.512 136.993 249.564 140.858C249.788 132.323 249.253 123.837 247.903 115.49C235.582 39.3069 160.041 3.47881 79.1759 35.4653C48.3077 47.6754 21.126 68.002 -0.000560366 92.7069Z" fill="url(#paint1_linear_468_21707)"/>
-                    <path d="M240.379 21.9685C258.941 37.7629 273.363 64.2627 279.005 97.2735C284.623 130.147 280.436 163.061 269.175 189.307C286.457 171.412 296.878 142.403 295.198 110.193C292.96 67.2593 269.922 32.0298 240.379 21.9685Z" fill="url(#paint2_linear_468_21707)"/>
+                <svg width="296" height="282" viewBox="0 0 296 282" fill="none" data-animation="ui-ele" data-animation-async="true" data-animation-long="true">
+                    <mask id="swoosh_elm_4" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="296" height="282">
+                        <path d="M52.5696 42.3997C111.949 6.6003 179.17 19.5938 212.384 77.8221C246 136.755 233.589 222.405 186.252 281.858C252.492 229.085 281.209 133.124 250.368 64.4545C218.749 -5.94352 136.509 -20.9992 66.6779 30.8268C61.7814 34.4608 57.0759 38.3271 52.5696 42.3997Z" stroke="blue" stroke-width="30" stroke-linecap="round"/>
+                        <path d="M0.000416197 92.7067C9.08539 84.8293 18.7871 77.6227 29.0502 71.2241C117.804 15.8897 214.928 41.9392 245.983 129.407C247.32 133.174 248.513 136.993 249.565 140.858C249.789 132.322 249.254 123.837 247.904 115.489C235.583 39.3068 160.042 3.47869 79.1768 35.4652C48.3087 47.6752 21.1269 68.0018 0.000416197 92.7067Z" stroke="blue" stroke-width="30" stroke-linecap="round" />
+                        <path d="M240.38 21.9684C258.942 37.7628 273.364 64.2625 279.006 97.2733C284.624 130.147 280.437 163.061 269.176 189.307C286.458 171.412 296.879 142.403 295.199 110.193C292.961 67.2591 269.923 32.0297 240.38 21.9684Z" stroke="orange" stroke-width="30" stroke-linecap="round" />
+                    </mask>
+                    <g mask="url(#swoosh_elm_4)">
+                        <path d="M52.5696 42.3997C111.949 6.6003 179.17 19.5938 212.384 77.8221C246 136.755 233.589 222.405 186.252 281.858C252.492 229.085 281.209 133.124 250.368 64.4545C218.749 -5.94352 136.509 -20.9992 66.6779 30.8268C61.7814 34.4608 57.0759 38.3271 52.5696 42.3997Z" fill="url(#paint0_linear_468_21703)"/>
+                        <path d="M0.000416197 92.7067C9.08539 84.8293 18.7871 77.6227 29.0502 71.2241C117.804 15.8897 214.928 41.9392 245.983 129.407C247.32 133.174 248.513 136.993 249.565 140.858C249.789 132.322 249.254 123.837 247.904 115.489C235.583 39.3068 160.042 3.47869 79.1768 35.4652C48.3087 47.6752 21.1269 68.0018 0.000416197 92.7067Z" fill="url(#paint1_linear_468_21703)"/>
+                        <path d="M240.38 21.9684C258.942 37.7628 273.364 64.2625 279.006 97.2733C284.624 130.147 280.437 163.061 269.176 189.307C286.458 171.412 296.879 142.403 295.199 110.193C292.961 67.2591 269.923 32.0297 240.38 21.9684Z" fill="url(#paint2_linear_468_21703)"/>
+                    </g>
                     <defs>
-                    <linearGradient id="paint0_linear_468_21707" x1="191.615" y1="-13.1421" x2="205.615" y2="297.858" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint0_linear_468_21703" x1="191.616" y1="-13.1422" x2="205.616" y2="297.858" gradientUnits="userSpaceOnUse">
                     <stop stop-color="#1998D5"/>
                     <stop offset="1" stop-color="#1998D5" stop-opacity="0"/>
                     </linearGradient>
-                    <linearGradient id="paint1_linear_468_21707" x1="148.613" y1="103.358" x2="93.1133" y2="23.8579" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint1_linear_468_21703" x1="148.614" y1="103.358" x2="93.1143" y2="23.8578" gradientUnits="userSpaceOnUse">
                     <stop stop-color="#0C609D"/>
                     <stop offset="1" stop-color="#0C609D" stop-opacity="0"/>
                     </linearGradient>
-                    <linearGradient id="paint2_linear_468_21707" x1="286.614" y1="203.858" x2="246.319" y2="20.2426" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="paint2_linear_468_21703" x1="286.615" y1="203.858" x2="246.32" y2="20.2425" gradientUnits="userSpaceOnUse">
                     <stop stop-color="#EF632F"/>
                     <stop offset="1" stop-color="#EF632F" stop-opacity="0"/>
                     </linearGradient>
                     </defs>
-                </svg>      
+                </svg>    
             </div>
         </div>
         <div class="optional-cta-text fs-16">
