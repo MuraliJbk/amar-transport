@@ -47,8 +47,9 @@
     .leadership-head h2{margin-bottom: 0;}
     .leadership-btn {margin-top: 40px;}
     .leadership-list{margin-bottom: 1rem;}
-    .leadership-text{width: 100%; max-height: 112px; overflow: hidden; cursor: pointer; padding: 24px 32px 18px 11px;}
+    .leadership-text{width: 100%; max-height: inherit; position: static; overflow: hidden; cursor: pointer; padding: 24px 32px 18px 11px;}
     .leadership-text.expand{max-height: 320px; overflow-y: scroll; scrollbar-width: none; -ms-overflow-style: none; }
     .leadership-pos span{font-size: 1rem; color: var(--text-color); opacity: 1;}
     .leadership-mobile{opacity: 0.3;}
+    .leadership-thumb img{min-height: 192px; max-height: 192px;}
 }
