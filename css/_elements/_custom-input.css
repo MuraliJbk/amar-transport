@@ -83,7 +83,7 @@ body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field.
 body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field .selectBox-dropdown{min-height: 50px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 10px); margin-left: 8px; margin-right: 8.5px; float: none; clear: none; display: inline-block; vertical-align: top;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 10px); margin-left: 8px; margin-right: 8px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(32.777% - 9px); margin-left: 10px; margin-right: 10px; float: left; clear: none;}
