@@ -43,7 +43,7 @@ gsap_elements.each(function () {
 var _ui = jQuery("[data-animation='ui-ele']");
 _ui.each(function(){
     var $self = jQuery(this);
-    var _paths = $self.find("mask path");
+    var _paths = $self.find("path");
     var isAsync = $self.attr('data-animation-async')
     var isLong = $self.attr('data-animation-long')
     var tl = gsap.timeline({ paused: true, delay: 0.5, })
