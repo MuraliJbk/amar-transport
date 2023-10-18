@@ -1,6 +1,5 @@
 
 .post-banner-section{background-image: linear-gradient(to bottom, #1998d5 0%, #0c609d 100%);}
-.post-banner-main.no_image{display: block;}
 .post-banner-text h1 a:hover{color: var(--amar-blue-2);}
 ul.post-banner-links{margin: 0; gap: 0 36px;}
 ul.post-banner-links li:first-child:before{display: none;}
@@ -13,6 +12,7 @@ ul.post-banner-links li a:hover{color: var(--white);}
 .post-article > p:nth-child(1) span{color: var(--text-100); display: block;}
 .post-aside-icon{transform: rotate(-70deg); right: -52px; top: -24px;}
 .post-apply{padding: 1.5rem; margin-bottom: 2rem;}
+.no_image .post-banner-text{flex: 0 0 100%;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 768px) {

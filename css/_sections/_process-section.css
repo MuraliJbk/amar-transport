@@ -7,6 +7,8 @@
     .process-head h2{font-size: 2.25rem; line-height: 2.5rem;}
     .process-row{gap: 40px 0;}
     .process-icon{margin-bottom: 17px;}
+    .process-left-svg{left: -240px; top: -312px; z-index: -1;}
+    .process-right-svg{right: -182px; top: -140px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 767px){
     .process-main{padding: 4rem 0 3.75rem;}
