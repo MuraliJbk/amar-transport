@@ -6,7 +6,7 @@
 .application-form-text span.optional-text{margin-bottom: 30px;}
 .application-form-text h1{margin-bottom: 31px;}
 .application-form-quote span{font-size: 20px; line-height: 1.2; color: #151c39; font-weight: bold;}
-
+.application-form-text .button span.fa-arrow-left{margin-right: 16px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
