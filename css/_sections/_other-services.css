@@ -12,6 +12,8 @@
 @media only screen and (min-width: 768px){
     .other-srvc-desc{min-height: 56px; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;}
     .other-services-head{max-width: 651px; margin-bottom: 73px;}
+    .page-template-default .other-services-head{margin-bottom: 80px; font-weight: bold;}
+    .page-template-default .other-services-head h2{margin-bottom: 7px;}
 }
 @media only screen and (min-width: 1024px){
     .other-services-main{margin-top: -76px; padding: 80px 5rem 80px;}
