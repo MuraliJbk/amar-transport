@@ -6,4 +6,5 @@
     body.category-news .seaport-section{margin-top: -180px;}
     .page-template-about .seaport-section{margin: -334px 0 72px;}
     .page-template-carrer .seaport-section{margin-top: -100px;}
+    body.error404 .seaport-section{margin: 0; bottom: -1px;}
 }
