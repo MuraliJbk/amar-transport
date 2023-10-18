@@ -65,6 +65,7 @@ figcaption{padding: 1.5rem;}
     .news-banner-section{z-index: 2;}
     .news-banner-svg{right: 32px; bottom: -80px; max-width: 355px;}
     .news-banner-svg svg{max-width: 355px;}
+    .news-banner-thumb img{max-height: 501px; min-height: 501px;}
 }
 @media only screen and (min-width: 768px){
     .news-banner-text h1{font-size: 3rem; line-height: 3rem;}
