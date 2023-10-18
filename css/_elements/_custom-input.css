@@ -79,7 +79,7 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_date{position: relative;}
 body .frm_forms .frm_form_fields #frm_field_37_container::after{right: 20px; content: "\f133"; font-family: "Font Awesome 6 Pro"; position: absolute; display: block; font-weight: 900; color: var(--amar-light-blue); bottom: 13px; font-size: 18px;}
 
 body.page-template-application-form .frm_forms .frm_form_fields #frm_field_91_container{position: absolute; right: 0; font-size: 14px; line-height: 1.57; text-decoration: underline; color: #5e6783;}
-
+body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio > span {display: block; font-size: 12px; line-height: 1.5;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 12px); margin-left: 10px; margin-right: 10px; float: none; clear: none; display: inline-block; vertical-align: top;}
