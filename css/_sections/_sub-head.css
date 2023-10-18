@@ -64,6 +64,7 @@
     .page-template-carrer .sub-intro-head{margin-bottom: 1.4rem;}
     .sub-intro-desc{font-size: 1rem; line-height: 1.75rem;}
     .sub-head-row{padding-bottom: 20px;}
+    .page-template-leadership .sub-head-row{padding-bottom: 0;}
     .fit-bg{display: none;}
     .fit-icon{margin-bottom: 2px;}
     .fit-icon svg, .fit-icon img{max-width: 48px;}
