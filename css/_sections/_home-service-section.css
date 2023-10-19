@@ -16,7 +16,7 @@
 
 .service-pos{height: 100%;}
 .no_image .service-text{position: relative; min-height: 430px;}
-
+.service-img figure img{min-height: 430px; max-height: 430px; overflow: hidden;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
