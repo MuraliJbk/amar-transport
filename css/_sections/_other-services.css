@@ -37,11 +37,11 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .other-services-main{margin-top: -76px; padding: 40px 1.5rem 40px;}
-    .page-template-default .other-services-main{padding-bottom: 50px;}
     .other-services-slider{padding-top: 60px;}
     .services-slide{gap: 1.5rem;}
     .other-srvc-pos{flex: 0 0 calc(50% - 12px);}
     .other-services-slider ul.slick-dots { top: 0; margin: 0; position: absolute; }
+    .other-srvc-desc svg{margin-bottom: 12px;}
     .page-template-default .other-services-head{margin-bottom: 10px; font-weight: bold;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
