@@ -5,6 +5,7 @@
 .innovation-text span.optional-text{margin-bottom: 1.688rem; color: var(--amar-blue-2);}
 .innovation-text span.optional-text::before{background-color: var(--amar-blue-2);}
 .innovation-text h2{margin-bottom: 1.75rem;}
+.innovation-section.no_image{ background-image: linear-gradient(90deg, rgba(5, 8, 22, 0.70) 29.11%, rgba(5, 8, 22, 0.00) 70.1%);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
