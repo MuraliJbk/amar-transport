@@ -88,6 +88,7 @@ hr.line{height: 1px; width: 100%; background: rgba(94, 103, 131, 0.25);}
 .button.btn-glow{background: linear-gradient(180deg, #EAECF2 0%, #88D2F2 91.96%);}
 .button.white{color: var(--white);}
 .btn-category{font-size: 0.75rem; line-height: 1; border-radius: 4px; padding: 4px 8px 5px; margin-left: 8px; background-color: rgba(239, 99, 47, 0.2); color: var(--amar-orange); top: -2px;}
+.button.btn-transparent span.fa-arrow-left{margin-right: 12px;}
 
 .text-link{padding-left: 57px; color: var(--text-100); display: inline-block; vertical-align: middle; font-size: 1rem; line-height: 1.5rem; font-weight: 700; position: relative; overflow: hidden; transition: padding-left 0.3s ease;}
 .text-link::before{width: 41px; height: 6px; left: 0; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; content: ""; background-image: url("./images/left-arrow.svg"); background-repeat: no-repeat; background-size: contain; background-position: center left; transition: all 0.45s ease;}
