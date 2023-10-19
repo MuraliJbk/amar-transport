@@ -41,7 +41,7 @@
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .profile-banner .container{padding: 0;}
     .profile-banner-main{position: relative;}
-    .profile-banner-text{max-width: 279px; position: absolute; bottom: 0; left: 0; z-index: 2; padding: 48px 16px;}
+    .profile-banner-text{max-width: 350px; position: absolute; bottom: 0; left: 0; z-index: 2; padding: 48px 1.5rem;}
     .profile-banner-text h1{font-size: 2rem; line-height: 1.2; letter-spacing: normal;}
     .profile-banner-text span{font-size: 1.125rem;}
     .profile-banner-image{width: 100%;}
