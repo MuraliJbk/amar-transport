@@ -110,6 +110,7 @@ jQuery(document).ready(function($) {
     focusOnSelect: true,
     dots: true,
     arrows: true,
+    infinite: false,
     prevArrow:
       '<div class="slick-arrow slick-prev button flex flex-center"><span class="fa-sharp fa-solid fa-arrow-left"></span></div>',
     nextArrow:
