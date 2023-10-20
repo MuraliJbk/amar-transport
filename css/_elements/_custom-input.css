@@ -89,6 +89,10 @@ body .frm_forms .frm_form_fields .frm_form_field .selectBox-dropdown{min-height:
 #frm_field_51_container h3, #frm_field_95_container h3{font-size: 20px; margin-bottom: 4px; line-height: 1.2;}
 
 body.page-template-rate-request .frm_forms .frm_form_fields .frm_form_field label span{position: absolute; right: 0; font-size: 14px; line-height: 1.57; text-decoration: underline; color: #5e6783; font-weight: normal;}
+body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field label small{font-size: 0.75rem;}
+
+body .frm_forms .frm_form_fields .frm_submit button span{font-size: 1rem;}
+body .selectBox-dropdown span.selectBox-label{font-size: 0.875rem; font-weight: normal; color: #5e6783; line-height: 1.29; margin-top: 3px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -111,8 +115,8 @@ body.page-template-rate-request .frm_forms .frm_form_fields .frm_form_field labe
     body .frm_forms .frm_form_fields .frm_form_field.frm_last.frm5{margin-right: 0;}
 
     body .frm_forms .frm_form_fields .frm_new_flex{gap: 26px; margin-bottom: 5px; display: flex; flex-wrap: wrap; width: 100%; }
-    body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field:first-child{flex: 0 0 410px;}
-    body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field { flex: 0 0 calc(62.4444% - 410px); width: auto; margin: 0; float: none; }
+    body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field:first-child{flex: 0 0 calc(100% - 435px);}
+    body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field { flex: 0 0 119px; width: auto; margin: 0; float: none; }
     body .frm_forms .frm_form_fields .hide-label .frm_form_field .frm_primary_label{display: none;}
     body .frm_forms .frm_form_fields .frm_form_field.top_space{width: 100%; clear: both; margin-top: 20px;}
 }
@@ -122,6 +126,7 @@ body.page-template-rate-request .frm_forms .frm_form_fields .frm_form_field labe
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     /* body .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 16px); margin-left: 16px; margin-right: 16px; float: left; clear: none;} */
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 10px); margin-left: 8px; margin-right: 8.5px; float: none; clear: none; display: inline-block; vertical-align: top;}
+    body.page-template-contact .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8.5px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half .frm_half{width: 100%; margin: 0 0 24px; float: none;}
@@ -155,4 +160,5 @@ body.page-template-rate-request .frm_forms .frm_form_fields .frm_form_field labe
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third{width: calc(34% - 8px); float: left; clear: none; margin-left: 8px;}
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third:nth-child(2){margin-left: 0;}
     
+    #frm_field_51_container {padding: 12px 0 39px; margin: 0 0 31px;}
 }
