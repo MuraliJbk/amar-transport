@@ -8,6 +8,7 @@
 .application-form-quote span{font-size: 20px; line-height: 1.2; color: #151c39; font-weight: bold;}
 .application-form-text .button span.fa-arrow-left{margin-right: 16px;}
 .application-form-text .button span.fa-arrow-right{margin-left: 16px;}
+.application-btm-gradient{right: -213px; bottom: -310px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
