@@ -94,12 +94,14 @@ body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field label small{font-
 body .frm_forms .frm_form_fields .frm_submit button span{font-size: 1rem;}
 body .selectBox-dropdown span.selectBox-label{font-size: 0.875rem; font-weight: normal; color: #5e6783; line-height: 1.29; margin-top: 3px;}
 
+#frm_field_17_container .frm_primary_label span{display: none;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 10px); margin-left: 8px; margin-right: 8px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
-    body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(32.777% - 9px); margin-left: 10px; margin-right: 10px; float: left; clear: none;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(33.39% - 14px); margin-left: 10px; margin-right: 10px; float: left; clear: none;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_last{margin-right: 0;}
 
