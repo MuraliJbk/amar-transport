@@ -23,7 +23,7 @@
     .optional-cta-list{gap: 0 80px;}
     .optional-cta-list:not(:last-child){margin-bottom: 98px;}
     .page-template-carrer  .optional-cta-list:not(:last-child) {margin-bottom: 136px;}
-    .page-template-services .optional-cta-list:not(:last-child){margin-bottom: 160px;}
+    .page-template-services .optional-cta-list:not(:last-child){margin-bottom: 140px;}
     .page-template-innovation  .optional-cta-list:not(:last-child){margin-bottom: 160px;}
     .optional-cta-list:nth-child(even){flex-direction: row-reverse;}
     .optional-cta-list.reverse{flex-direction: row-reverse;}
