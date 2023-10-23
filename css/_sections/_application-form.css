@@ -8,6 +8,7 @@
 .application-form-quote span{font-size: 20px; line-height: 1.2; color: #151c39; font-weight: bold;}
 .application-form-text .button span.fa-arrow-left{margin-right: 16px;}
 .application-form-text .button span.fa-arrow-right{margin-left: 16px;}
+.application-btm-gradient{right: -213px; bottom: -310px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -20,7 +21,7 @@
     .page-template-rate-request .application-form-quote h2{margin-bottom: 21px;}
 }
 
-@media screen and (max-width: 1199px) and (min-width: 1024px) {
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
     .application-form-text{flex: 0 0 100%; margin-bottom: 40px;}
 
 }
@@ -38,6 +39,8 @@
     .application-form-text span.optional-text{margin-bottom: 18px;}
     .application-form-text h1 {margin-bottom: 19px;}
     .application-form-text .button{margin-top: -8px;}
+    .page-template-rate-request .application-form-text{padding-bottom: 60px;}
+    .page-template-rate-request .application-form-text .button{width: 100%;}
     .application-form-quote{width: 100%;}
     .application-form-quote h2{margin-bottom: 7px;}
     .application-form-quote span{font-size: 18px; line-height: 1.33;}

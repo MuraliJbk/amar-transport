@@ -25,7 +25,7 @@ ul.categorys.white > li > a:hover{color: var(--amar-blue);}
 .news-small-text.inverted p a:hover{color: var(--amar-orange);}
 .news-slider-nav ul.slick-dots{margin-top: 21px;}
 
-.news-slider-nav .small-post-list{gap: 0 20px; margin-bottom: 37px; display: flex !important; align-items: flex-start; flex-wrap: wrap;}
+.news-slider-nav .small-post-list{gap: 0 20px; margin-bottom: 37px; display: flex !important; align-items: center; flex-wrap: wrap;}
 .news-small-thumb{flex: 0 0 104px;}
 .news-small-thumb img{min-height: 104px;}
 .news-small-text{flex: 1;}

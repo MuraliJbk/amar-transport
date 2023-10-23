@@ -42,7 +42,7 @@
     .other-srvc-pos{flex: 0 0 calc(50% - 12px);}
     .other-services-slider ul.slick-dots { top: 0; margin: 0; position: absolute; }
     .other-srvc-desc svg{margin-bottom: 12px;}
-    .page-template-default .other-services-head{margin-bottom: 10px; font-weight: bold;}
+    .page-template-default .other-services-head{margin-bottom: 40px; font-weight: bold;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .other-services-main{padding: 26px 0 23px;}

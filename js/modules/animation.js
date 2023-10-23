@@ -6,7 +6,7 @@ function check_if_in_view() {
   let window_height = $window.height();
   let window_top_position = $window.scrollTop();
   let window_bottom_position = window_top_position + window_height;
-  let viewport_threshold = 0.20; // Adjust this to change the threshold
+  let viewport_threshold = 0.15; // Adjust this to change the threshold
 
   $animation_elements.each(function() {
     const $self = jQuery(this);

@@ -32,3 +32,8 @@
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .timeline-main{padding: 60px 0 20px;}
 }
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .timeline-section{display: flex; flex-direction: column-reverse;}
+    .timeline-frame{margin-top: 22px;}
+    .timeline-frame img{min-height: 200px;}
+}

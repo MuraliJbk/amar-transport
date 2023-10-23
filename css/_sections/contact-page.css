@@ -21,10 +21,11 @@ ul.inquiries li a:hover span:last-child{color: var(--amar-orange); transition: a
 ul.location-address{margin: 48px 0 46px 0;}
 ul.location-address > li::before{display: none;}
 ul.location-address > li{margin-bottom: 18px;}
-.link-left{color: var(--text-color); flex: 0 0 121px;}
+.link-left{color: var(--text-color); flex: 0 0 120px;}
 .link-left span{font-size: 22.5px; color: var(--amar-light-blue); margin-right: 15px;}
 .link-left img{width: 24px; height: 24px; margin-right: 12px;}
-
+.link-right{color: var(--coal);}
+.location-link:hover .link-right{color: var(--amar-orange);}
 
 .our-locations-map{width: 906px; height: 906px; top: 70px; right: 0; margin: 0 auto;}
 .our-locations-head{margin-bottom: 46px;}
