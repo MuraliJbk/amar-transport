@@ -9,7 +9,7 @@ body.page-template-innovation .paths-section{position: relative; z-index: 1;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .paths-wrap{padding: 5.875rem 0 6.55rem;}
-    .page-template-default .paths-wrap{padding: 5.875rem 0 5rem;}
+    .page-template-default .paths-wrap{padding: 5rem 0 5rem;}
     .page-template-innovation .paths-wrap{padding: 4.875rem 0 88px;}
     .page-template-confirmation .paths-list{padding-bottom: 3rem;}
     .page-template-confirmation .paths-wrap{margin-top: -78px; padding: 79px 5rem 3.55rem;}

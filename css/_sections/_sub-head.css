@@ -15,6 +15,7 @@
 @media only screen and (min-width: 1024px){
     .sub-head-main{ margin-top: -80px;}
     .sub-intro-main{gap: 20px 80px; padding-bottom: 5rem;}
+    .page-template-default .sub-intro-main{padding-bottom: 3.5rem;}
     .sub-intro-head{flex: 0 0 400px;}
     .sub-intro-desc{flex: 1; max-width: 41.625rem;}
     .page-template-carrer .sub-intro-main{padding-bottom: 3.5rem;}
