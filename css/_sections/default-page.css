@@ -12,6 +12,7 @@
     .default-long-frame img{min-height: 464px;}
     .default-long-content{margin-top: -212px; padding: 76px 5rem 160px;} 
     .page-template-default span.optional-text{margin-bottom: 1.7rem;}
+    .page-template-default .have-questions-desc span.optional-text{margin-bottom: 1rem;}
     .page-template-default .short-intro-main{padding: 80px 0 116px;}
     .page-template-default .have-questions-desc h2{margin-bottom: 31px;}
     .page-template-default .have-questions-desc .button{margin-top: 6px;}
