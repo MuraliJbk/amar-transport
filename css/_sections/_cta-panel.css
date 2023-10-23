@@ -31,4 +31,5 @@
     .cta-panel-image picture:nth-child(2){display: none;}
     .cta-btns{gap: 20px; justify-content: space-between; margin: 31px 0 4px;}
     .cta-btns .button{width: calc(50% - 10px);}
+    .page-template-default .cta-panel-text h2{margin-bottom: 1.2rem;}
 }
