@@ -20,6 +20,7 @@
     .page-template-carrer .sub-intro-main{padding-bottom: 3.5rem;}
     .page-template-leadership .sub-intro-main{padding-bottom: 3.5rem;}
     .page-template-leadership .sub-head-main{padding-bottom: 4.5rem;}
+    
     .fit-icon svg, .fit-icon img{max-width: 64px;}
     .fit-bg{opacity: 0; transition: opacity 0.3s ease;}
     .fit-bg::before{bottom: 0; left: 0; width: 100%; height: 100%; content: ""; background-image: linear-gradient(0deg, #000 -5%, rgba(0, 0, 0, 0.00) 65%); position: absolute;}
@@ -56,6 +57,7 @@
     .sub-head-row > *{margin-bottom: 2rem;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .page-template-services .sub-intro-head{margin-bottom: 1.5rem;}
     .page-template-leadership .sub-intro-main{padding: 1.5rem 0 0;}
     .sub-intro-main{display: block; padding: 1.5rem 0;}
     .sub-head-row {text-align: center;}
