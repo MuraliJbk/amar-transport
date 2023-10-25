@@ -64,6 +64,7 @@
     body.page-template-innovation .optional-cta-text span.optional-text{margin-bottom: 14px;}
     .optional-cta-text h2{margin-bottom: 0.7rem;}
     .optional-cta-img {margin-bottom: 3rem;}
+    .page-template-services   .optional-cta-img{margin-bottom: 1.5rem;}
     .optional-cta-swoosh{display: none;}
 
     body.category-news .optional-cta-main{padding: 0 0 20px;}
@@ -79,4 +80,5 @@
     .page-template-default .optional-cta-text h2{margin-bottom: 1.25rem;}
     .page-template-default .optional-cta-swoosh4{display: none;}
     .category-news .optional-cta-text span.optional-text {margin-bottom: 12px;}
+    .page-template-services .optional-cta-text span.optional-text{margin-bottom: 15px;}
 }
