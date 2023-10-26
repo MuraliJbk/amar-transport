@@ -21,6 +21,7 @@
 @media only screen and (min-width: 1300px){
     .marketing-cta-img{flex: 1; min-width: 720px;}
     .marketing-cta-text{flex: 0 0 792px; transform: translateX(-120px); padding: 3.9rem 5rem;}
+    .page-template-innovation .marketing-cta-text{padding: 3.2rem 5rem;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .marketing-cta-img{flex: 0 0 calc(100% - 492px); min-width: 552px;}
