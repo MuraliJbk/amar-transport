@@ -58,4 +58,5 @@
     .other-srvc-desc svg{width: 32px;}
     .other-srvc-text h2 { flex: 1; margin: 0; font-size: 1.3125rem; }
     .other-services-slider ul.slick-dots { top: 0; margin: 0; position: absolute; }
+    .page-template-services .other-services-head h2{margin-bottom: 1.75rem;}
 }

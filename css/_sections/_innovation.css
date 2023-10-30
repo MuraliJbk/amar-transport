@@ -20,4 +20,6 @@
     .innovation-text span.optional-text{margin-bottom: 1.3rem;}
     .innovation-btns{gap: 22px;}
     .innovation-btns .button {width: calc(50% - 11px);}
+    .page-template-default .innovation-text h2{margin-bottom: 1.4rem;}
+    .page-template-services .innovation-text h2{margin-bottom: 1.4rem;}
 }
