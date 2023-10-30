@@ -63,7 +63,7 @@ figcaption{padding: 1.5rem;}
     .related-news-main .button{width: 100%;}
     .news-banner-overlay{width: 100%; min-height: 496px; height: auto;}
     .news-banner-section{z-index: 2;}
-    .news-banner-svg{right: 32px; bottom: -80px; max-width: 355px;}
+    .news-banner-svg{right: -45px; bottom: -80px; max-width: 355px;}
     .news-banner-svg svg{max-width: 355px;}
     .news-banner-thumb img{max-height: 501px; min-height: 501px;}
 }
