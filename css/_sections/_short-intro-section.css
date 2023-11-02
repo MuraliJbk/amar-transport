@@ -8,7 +8,7 @@
 .short-intro-pos{width: 100%; height: 100%; padding: 32px 17px 31px 31px; border: 1px solid rgba(94, 103, 131, 0.25); transition: all 0.45s ease;}
 .short-intro-pos::after{width: 100%; height: 0; bottom: 0; left: 0; opacity: 0; transition: all 0.45s ease; background-color: var(--amar-light-blue); content: ""; position: absolute;}
 .counter{font-size: 96px; font-weight: bold; line-height: 1; letter-spacing: normal; color: var(--amar-light-blue); display: block; margin-bottom: 15px;}
-.short-intro-list h3{font-size: 1.5rem; line-height: 1.17; margin-bottom: 1rem; font-weight: bold; letter-spacing: normal;}
+.short-intro-list h2{font-size: 1.5rem; line-height: 1.17; margin-bottom: 1rem; font-weight: bold; letter-spacing: normal;}
 .amar-orange .counter{color: var(--amar-orange);}
 .amar-orange .short-intro-pos::after{background-color: var(--amar-orange);}
 .amar-green .counter{color: var(--green);}
@@ -70,7 +70,7 @@
     .short-intro-desc{flex: 1;}
     .short-intro-pos{padding: 19px 15px 15px;}
     .counter{font-size: 40px; margin-bottom: 21px;}
-    .short-intro-list h3{font-size: 1.25rem; line-height: 1.4;}
+    .short-intro-list h2{font-size: 1.25rem; line-height: 1.4;}
     .short-intro-slider .slick-list{width: 100vw;}
     .short-intro-slider .slick-slide{width: 262px; margin-right: 32px;}
     .scroller_icon{top: -25px; left: 0;}
@@ -89,7 +89,7 @@
     .short-intro-desc{margin-bottom: 16px;}
     .short-intro-pos{padding: 19px 15px 15px;}
     .counter{font-size: 40px; margin-bottom: 21px;}
-    .short-intro-list h3{font-size: 1.25rem; line-height: 1.4;}
+    .short-intro-list h2{font-size: 1.25rem; line-height: 1.4;}
     
     .short-intro-slider .slick-list{overflow: inherit;}
     .short-intro-slider .slick-slide{width: 245px; margin-right: 32px;}
