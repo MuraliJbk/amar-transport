@@ -30,7 +30,6 @@
     nav.navigation{flex: 1; gap: 0 48px; flex-wrap: nowrap;}
     ul.nav-menu{margin: 0; gap: 0 48px; flex: 1; flex-wrap: nowrap; justify-content: flex-end;}
     ul.nav-menu > li{margin: 0;}
-    ul.nav-menu > li:first-child::before{display: none;}
     ul.nav-menu > li::before{display: none;}
     ul.nav-menu > li > a{padding: 28px 0; color: var(--black-90); display: block; font-size: 1.125rem; font-family: 'Instrument Sans', sans-serif; font-weight: 600;}
     ul.nav-menu > li.current-menu-parent > a, ul.nav-menu > li.current_page_item > a, ul.nav-menu > li.current_page_ancestor > a, ul.nav-menu > li > a:hover{color: var(--amar-orange);}
@@ -40,7 +39,6 @@
     ul.nav-menu > li > ul > li{margin: 0 0 10px;}
     ul.nav-menu > li > ul > li::before{display: none;}
     ul.nav-menu > li > ul > li.hide-nav-item{display: none;}
-    ul.nav-menu > li > {display: none;}
     ul.nav-menu > li > ul > li > a{color: var(--black); font-size: 1rem; line-height: 1.5rem; font-family: 'Instrument Sans', sans-serif; font-weight: 500;}
     ul.nav-menu > li > ul > li.current-menu-parent > a, ul.nav-menu > li > ul > li.current-menu-item > a, ul.nav-menu > li > ul > li.current_page_item > a, ul.nav-menu > li > ul > li > a:hover{color: var(--amar-orange);}
     .toggle-icon{display: none;}
@@ -80,21 +78,12 @@
     ul.nav-menu > li > ul > li:first-child{margin-top: 22px;}
     ul.nav-menu > li > ul > li:last-child{margin-bottom: 14px;}
     ul.nav-menu > li > ul > li{margin: 0 0 22px;}
-    ul.nav-menu > li > {width: 0.5rem; height: 0.5rem; top: 8px; left: -25px; border-radius: 0; background-color: var(--amar-white-blue);}
     ul.nav-menu > li > ul > li > a{color: var(--text-color); font-size: 1.125rem; line-height: 1.5rem; font-weight: 600; }
     ul.nav-menu > li > ul > li.current-menu-item > a, ul.nav-menu > li > ul > li > a:hover{color: var(--blue);}
 
     .nav-user-login{gap: 8px; flex: 1; padding: 10px 0 9px; align-items: center; justify-content: center;}
     .nav-user-svg{width: 16px; top: 1px; position: relative;}
     .nav-user-svg svg{height: 16px;}
-
-
-    .logo svg {
-        width: 120px;
-        height: 26px;
-    }
-
+    .logo svg { width: 120px; height: 26px; }
     ul.sub-menu > li::before { top: 8px; left: -24px; width: 8px; height: 8px; border-radius: 0; opacity: 1; background-color: #c0deec; content: ""; position: absolute; }
-}
-@media only screen and (max-width: 767px) and (min-width: 200px){
 }
