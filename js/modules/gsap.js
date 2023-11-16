@@ -2,19 +2,6 @@ import {gsap} from 'gsap';
 import {DrawSVGPlugin} from './DrawSVGPlugin.min.js'
 gsap.registerPlugin(DrawSVGPlugin)
 
-// scroller polygon icon
-let scroller = jQuery(".scroller_icon");
-scroller.each(function(){
-    const _self = jQuery(this);
-    const _path = _self.find('svg path');
-    const start = "M41 52.5L10 2.5L72 2.5L41 52.5Z";
-    const end = "M41 53.5L10 3.5L72 4.5L41 53.5Z";
-    gsap.timeline({ 
-        repeat: -1,
-        repeatDelay: 0.5,
-    }).fromTo(_path[0], { y: -25, attr: { d: end }}, { y: 0, attr: { d: start }, duration: 2, ease: 'bounce.out'})
-});
-
 // data-animation for left right fades
 var gsap_elements = jQuery('[data-animation]');
 gsap_elements.each(function () {
@@ -75,30 +62,5 @@ jQuery(window).on("scroll load", function() {
         }
     });
     lastScrollTop = _scroll;
-});
-
-// data-animation for seaport
-var _seaportUi = jQuery("[data-animation='seaport-ui']");
-_seaportUi.each(function(){
-    var $self = jQuery(this);
-    const _pathRrotate = $self.find("path.seaport-rotate");
-    var tl = gsap.timeline({ paused: true, delay: 1, })
-    _pathRrotate.each(function(i){
-        tl.fromTo(jQuery(this)[0], {
-            rotate: "90deg",
-            opacity: '0',
-            fill: '#FFFFFF',
-            scale: 0.15,
-          }, 
-          {
-            rotate: "360deg",
-            opacity: '1',
-            fill: '#00182B',
-            scale: 1,
-            duration: 0.25,
-            ease: 'power1.easeOut' 
-          })
-    });
-    $self[0].tl = tl
 });
 

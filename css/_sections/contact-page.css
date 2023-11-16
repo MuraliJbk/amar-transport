@@ -33,6 +33,8 @@ ul.location-address > li{margin-bottom: 18px;}
 .our-location-links{flex-direction: column;}
 .our-location-links .text-link{margin-bottom: 15px;}
 .fa-location-dot{color: #1998d5; position: relative;}
+.our-locations-thumb{position: relative; z-index: -1;}
+
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
@@ -47,6 +49,7 @@ ul.location-address > li{margin-bottom: 18px;}
     .fa-location-dot{margin-bottom: 22px;}
     .our-locations-thumb img{min-height: 243px; max-height: 243px;}
     .our-locations-desc{max-width: 200px;}
+    .open-locations-svg { top: 0; left: auto; right: 0; margin: 0 auto; max-width: 868px; }
 }
 @media screen and (max-width: 1480px) and (min-width: 1299px) {
     ul.inquiries{gap: 1rem 3rem; justify-content: center;}

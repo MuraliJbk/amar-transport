@@ -16,11 +16,12 @@
 .amar-green .short-intro-pos::after{background-color: var(--green); width: calc(100% + 2px); left: -1px;}
 .stats-bg-green::before{background-image: linear-gradient(0deg, rgba(19, 60, 8, 0.60) 0%, rgba(19, 60, 8, 0.60) 100%); width: 100%; height: 100%; top: 0; left: 0; position: absolute; content: ""; display: block;}
 .slick-current .short-intro-pos{border-color: rgba(94,103,131,.5);}
-.stats-pattern-svg{bottom: -356px; right: 112px;}
+.stats-pattern-svg{bottom: -356px; right: 0;}
 .stats-pattern-fade{ animation: statsrectAnim 5s ease infinite; animation-play-state: paused;}
 .stats-pattern-fade.visible{animation-play-state: running;}
 @keyframes statsrectAnim{ 0%{ transform: translate(0, 0); } 50%{ transform: translate(5%, -5%); } 100%{ transform: translate(0%, 0%); } }
-
+.scroller_icon { animation: bounceInUp 2s ease-in-out infinite; }
+@keyframes bounceInUp { 0% { transform: translateY(-20px); } 50% { transform: translateY(0px); } 100% { transform: translateY(-20px); } }
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){

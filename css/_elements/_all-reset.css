@@ -258,6 +258,8 @@ button.mfp-close:hover::after, .custom-popup-overlay button.mfp-close:hover::aft
 .page-template-carrer .dark-gradient{opacity: 0.4;}
 .profile-banner-section .dark-overlay{opacity: 0.3;}
 
+.search-article{padding: 6rem 0 6rem;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container{width: 100%; margin: 0 auto;}

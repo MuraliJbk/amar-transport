@@ -48,7 +48,7 @@ ul.blog_list::before{display: none;}
     .browse-news-wrap{padding: 40px 0 40px;}
     .browse-news-head{margin-bottom: 1.5rem;}
     .browse-news-form{margin-bottom: 22px;}
-    .browse-news-form > *{margin-bottom: 12px;}
+    .browse-news-form .row > *{margin-bottom: 12px;}
     .browse-main{display: block;}
     .browse-article{margin-bottom: 40px;}
     .browse-list{gap: 20px; margin-bottom: 2rem;}
@@ -61,7 +61,7 @@ ul.blog_list::before{display: none;}
     .browse-news-head{margin-bottom: 1.5rem;}
     .browse-news-title h2{margin-bottom: 8px;}
     .browse-news-form{margin-bottom: 20px;}
-    .browse-news-form > *{margin-bottom: 8px;}
+    .browse-news-form .row > *{margin-bottom: 8px;}
     .browse-main{display: block;}
     .browse-article{margin-bottom: 25px;}
     .news-wrap{margin-bottom: 50px;}
